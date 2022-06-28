@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <atom:link href="https://adempiere.io/rss.xml" rel="self" type="application/rss+xml"/>
+    <title>Página Oficial de ADempiere</title>
+    <link>https://adempiere.io/es/</link>
+    <description>Página oficial de la comunidad de ADempiere</description>
+    <language>es-ES</language>
+    <pubDate>Tue, 28 Jun 2022 21:37:41 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jun 2022 21:37:41 GMT</lastBuildDate>
+    <generator>vuepress-plugin-feed2</generator>
+    <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+  </channel>
+</rss>

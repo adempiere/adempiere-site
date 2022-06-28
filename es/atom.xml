@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-ES">
+  <id>https://adempiere.io/es/</id>
+  <title>Página Oficial de ADempiere</title>
+  <subtitle>Página oficial de la comunidad de ADempiere</subtitle>
+  <updated>2022-06-28T21:37:41.756Z</updated>
+  <generator>vuepress-plugin-feed2</generator>
+  <link rel="self" href="https://adempiere.io/atom.xml"/>
+  <link rel="alternate" href="https://adempiere.io/es/"/>
+</feed>
