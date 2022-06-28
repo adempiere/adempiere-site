@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-US">
-  <id>https://erpcya.github.io/adempiere-site/</id>
+  <id>https://adempiere-site.erpya.com/</id>
   <title>ADempiere Official Page</title>
   <subtitle>A official page of ADempiere community.</subtitle>
-  <updated>2022-06-28T22:19:15.349Z</updated>
+  <updated>2022-06-28T22:31:32.452Z</updated>
   <generator>vuepress-plugin-feed2</generator>
-  <link rel="self" href="https://erpcya.github.io/adempiere-site/atom.xml"/>
-  <link rel="alternate" href="https://erpcya.github.io/adempiere-site/"/>
+  <link rel="self" href="https://adempiere-site.erpya.com/atom.xml"/>
+  <link rel="alternate" href="https://adempiere-site.erpya.com/"/>
   <category term="Branding"/>
   <category term="History"/>
   <category term="Title"/>
@@ -15,8 +15,8 @@
   <category term="Documentation"/>
   <entry>
     <title type="html">The Brand</title>
-    <id>https://erpcya.github.io/adempiere-site/about/branding.html</id>
-    <link href="https://erpcya.github.io/adempiere-site/about/branding.html"/>
+    <id>https://adempiere-site.erpya.com/about/branding.html</id>
+    <link href="https://adempiere-site.erpya.com/about/branding.html"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<h2 id="adempiere-brand" tabindex="-1"> ADempiere Brand</h2>
 <p>The name &quot;ADempiere&quot; is an Italian word related to &quot;Compiere&quot; (meaning &quot;achieve or attain&quot;) which reflects the basic ideal of this community.</p>
@@ -37,8 +37,8 @@
   </entry>
   <entry>
     <title type="html">The Beginning</title>
-    <id>https://erpcya.github.io/adempiere-site/about/the-beginning.html</id>
-    <link href="https://erpcya.github.io/adempiere-site/about/the-beginning.html"/>
+    <id>https://adempiere-site.erpya.com/about/the-beginning.html</id>
+    <link href="https://adempiere-site.erpya.com/about/the-beginning.html"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<h2 id="jorg-janke-the-master-mind" tabindex="-1"> Jorg Janke - The Master Mind</h2>
 <p>By the late 1980's, the German multinational enterprise software company SAP was looking for ways to migrate its ERP R/2 product to a client-server architecture, but in addition it wanted to build a multidimensional ERP, which meant deploying a multi-company, multi-language and multi-currency enterprise software among other things. In order to achieve this, they hired external advice from a German company called ADV/Orga, where Jorg Janke worked as software architect.</p>
@@ -51,8 +51,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/downloads/</id>
-    <link href="https://erpcya.github.io/adempiere-site/downloads/"/>
+    <id>https://adempiere-site.erpya.com/downloads/</id>
+    <link href="https://adempiere-site.erpya.com/downloads/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -76,8 +76,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/foundation/</id>
-    <link href="https://erpcya.github.io/adempiere-site/foundation/"/>
+    <id>https://adempiere-site.erpya.com/foundation/</id>
+    <link href="https://adempiere-site.erpya.com/foundation/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -101,8 +101,8 @@
   </entry>
   <entry>
     <title type="html">Statute</title>
-    <id>https://erpcya.github.io/adempiere-site/foundation/statutes.html</id>
-    <link href="https://erpcya.github.io/adempiere-site/foundation/statutes.html"/>
+    <id>https://adempiere-site.erpya.com/foundation/statutes.html</id>
+    <link href="https://adempiere-site.erpya.com/foundation/statutes.html"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<h1 id="statute" tabindex="-1"> Statute</h1>
 <h2 id="charter-of-adempiere-e-v" tabindex="-1"> <strong>Charter of ADempiere e.V.</strong></h2>
@@ -247,8 +247,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/product/</id>
-    <link href="https://erpcya.github.io/adempiere-site/product/"/>
+    <id>https://adempiere-site.erpya.com/product/</id>
+    <link href="https://adempiere-site.erpya.com/product/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -272,8 +272,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/support/</id>
-    <link href="https://erpcya.github.io/adempiere-site/support/"/>
+    <id>https://adempiere-site.erpya.com/support/</id>
+    <link href="https://adempiere-site.erpya.com/support/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -297,8 +297,8 @@
   </entry>
   <entry>
     <title type="html">Berlin Conference 2009</title>
-    <id>https://erpcya.github.io/adempiere-site/about/meeting/berlin-2009.html</id>
-    <link href="https://erpcya.github.io/adempiere-site/about/meeting/berlin-2009.html"/>
+    <id>https://adempiere-site.erpya.com/about/meeting/berlin-2009.html</id>
+    <link href="https://adempiere-site.erpya.com/about/meeting/berlin-2009.html"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<h2 id="_2nd-european-adempiere-conference-in-berlin" tabindex="-1"> 2nd. European ADempiere conference in Berlin</h2>
 <p><strong>June 21st – 23rd 2009</strong></p>
@@ -314,8 +314,8 @@
   </entry>
   <entry>
     <title type="html">Berlin Conference 2014</title>
-    <id>https://erpcya.github.io/adempiere-site/about/meeting/berlin-2014.html</id>
-    <link href="https://erpcya.github.io/adempiere-site/about/meeting/berlin-2014.html"/>
+    <id>https://adempiere-site.erpya.com/about/meeting/berlin-2014.html</id>
+    <link href="https://adempiere-site.erpya.com/about/meeting/berlin-2014.html"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<h1 id="adempiere-world-conference-in-berlin" tabindex="-1"> ADempiere World Conference in Berlin</h1>
 <p><strong>September 2nd till 4th of 2014</strong></p>
@@ -335,8 +335,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/community/code-of-conduct/</id>
-    <link href="https://erpcya.github.io/adempiere-site/community/code-of-conduct/"/>
+    <id>https://adempiere-site.erpya.com/community/code-of-conduct/</id>
+    <link href="https://adempiere-site.erpya.com/community/code-of-conduct/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -360,8 +360,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/community/duties-and-rigths/</id>
-    <link href="https://erpcya.github.io/adempiere-site/community/duties-and-rigths/"/>
+    <id>https://adempiere-site.erpya.com/community/duties-and-rigths/</id>
+    <link href="https://adempiere-site.erpya.com/community/duties-and-rigths/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -385,8 +385,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/community/join/</id>
-    <link href="https://erpcya.github.io/adempiere-site/community/join/"/>
+    <id>https://adempiere-site.erpya.com/community/join/</id>
+    <link href="https://adempiere-site.erpya.com/community/join/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -410,8 +410,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/articles/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/articles/"/>
+    <id>https://adempiere-site.erpya.com/docs/articles/</id>
+    <link href="https://adempiere-site.erpya.com/docs/articles/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -435,8 +435,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/intro/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/intro/"/>
+    <id>https://adempiere-site.erpya.com/docs/intro/</id>
+    <link href="https://adempiere-site.erpya.com/docs/intro/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -460,8 +460,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/links/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/links/"/>
+    <id>https://adempiere-site.erpya.com/docs/links/</id>
+    <link href="https://adempiere-site.erpya.com/docs/links/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -485,8 +485,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/locations/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/locations/"/>
+    <id>https://adempiere-site.erpya.com/docs/locations/</id>
+    <link href="https://adempiere-site.erpya.com/docs/locations/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -510,8 +510,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/retail/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/retail/"/>
+    <id>https://adempiere-site.erpya.com/docs/retail/</id>
+    <link href="https://adempiere-site.erpya.com/docs/retail/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -535,8 +535,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/standard-procedures/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/standard-procedures/"/>
+    <id>https://adempiere-site.erpya.com/docs/standard-procedures/</id>
+    <link href="https://adempiere-site.erpya.com/docs/standard-procedures/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -560,8 +560,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/verticals/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/verticals/"/>
+    <id>https://adempiere-site.erpya.com/docs/verticals/</id>
+    <link href="https://adempiere-site.erpya.com/docs/verticals/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -585,8 +585,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/videos/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/videos/"/>
+    <id>https://adempiere-site.erpya.com/docs/videos/</id>
+    <link href="https://adempiere-site.erpya.com/docs/videos/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -610,8 +610,8 @@
   </entry>
   <entry>
     <title type="html">Binary Download</title>
-    <id>https://erpcya.github.io/adempiere-site/downloads/binary/</id>
-    <link href="https://erpcya.github.io/adempiere-site/downloads/binary/"/>
+    <id>https://adempiere-site.erpya.com/downloads/binary/</id>
+    <link href="https://adempiere-site.erpya.com/downloads/binary/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -635,8 +635,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/downloads/docker/</id>
-    <link href="https://erpcya.github.io/adempiere-site/downloads/docker/"/>
+    <id>https://adempiere-site.erpya.com/downloads/docker/</id>
+    <link href="https://adempiere-site.erpya.com/downloads/docker/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -660,8 +660,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/downloads/github/</id>
-    <link href="https://erpcya.github.io/adempiere-site/downloads/github/"/>
+    <id>https://adempiere-site.erpya.com/downloads/github/</id>
+    <link href="https://adempiere-site.erpya.com/downloads/github/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -685,8 +685,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/downloads/helm/</id>
-    <link href="https://erpcya.github.io/adempiere-site/downloads/helm/"/>
+    <id>https://adempiere-site.erpya.com/downloads/helm/</id>
+    <link href="https://adempiere-site.erpya.com/downloads/helm/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -710,8 +710,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/downloads/operator/</id>
-    <link href="https://erpcya.github.io/adempiere-site/downloads/operator/"/>
+    <id>https://adempiere-site.erpya.com/downloads/operator/</id>
+    <link href="https://adempiere-site.erpya.com/downloads/operator/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -735,8 +735,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/foundation/board/</id>
-    <link href="https://erpcya.github.io/adempiere-site/foundation/board/"/>
+    <id>https://adempiere-site.erpya.com/foundation/board/</id>
+    <link href="https://adempiere-site.erpya.com/foundation/board/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -760,8 +760,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/foundation/how-to-contribute/</id>
-    <link href="https://erpcya.github.io/adempiere-site/foundation/how-to-contribute/"/>
+    <id>https://adempiere-site.erpya.com/foundation/how-to-contribute/</id>
+    <link href="https://adempiere-site.erpya.com/foundation/how-to-contribute/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -785,8 +785,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/foundation/membership/</id>
-    <link href="https://erpcya.github.io/adempiere-site/foundation/membership/"/>
+    <id>https://adempiere-site.erpya.com/foundation/membership/</id>
+    <link href="https://adempiere-site.erpya.com/foundation/membership/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -810,8 +810,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/foundation/sponsors/</id>
-    <link href="https://erpcya.github.io/adempiere-site/foundation/sponsors/"/>
+    <id>https://adempiere-site.erpya.com/foundation/sponsors/</id>
+    <link href="https://adempiere-site.erpya.com/foundation/sponsors/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -835,8 +835,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/foundation/statutes/</id>
-    <link href="https://erpcya.github.io/adempiere-site/foundation/statutes/"/>
+    <id>https://adempiere-site.erpya.com/foundation/statutes/</id>
+    <link href="https://adempiere-site.erpya.com/foundation/statutes/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -860,8 +860,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/product/business-process/</id>
-    <link href="https://erpcya.github.io/adempiere-site/product/business-process/"/>
+    <id>https://adempiere-site.erpya.com/product/business-process/</id>
+    <link href="https://adempiere-site.erpya.com/product/business-process/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -885,8 +885,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/product/demo/</id>
-    <link href="https://erpcya.github.io/adempiere-site/product/demo/"/>
+    <id>https://adempiere-site.erpya.com/product/demo/</id>
+    <link href="https://adempiere-site.erpya.com/product/demo/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -910,8 +910,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/product/features/</id>
-    <link href="https://erpcya.github.io/adempiere-site/product/features/"/>
+    <id>https://adempiere-site.erpya.com/product/features/</id>
+    <link href="https://adempiere-site.erpya.com/product/features/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -935,8 +935,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/product/technology/</id>
-    <link href="https://erpcya.github.io/adempiere-site/product/technology/"/>
+    <id>https://adempiere-site.erpya.com/product/technology/</id>
+    <link href="https://adempiere-site.erpya.com/product/technology/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -960,8 +960,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/support/community-ask/</id>
-    <link href="https://erpcya.github.io/adempiere-site/support/community-ask/"/>
+    <id>https://adempiere-site.erpya.com/support/community-ask/</id>
+    <link href="https://adempiere-site.erpya.com/support/community-ask/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -985,8 +985,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/support/professional-services/</id>
-    <link href="https://erpcya.github.io/adempiere-site/support/professional-services/"/>
+    <id>https://adempiere-site.erpya.com/support/professional-services/</id>
+    <link href="https://adempiere-site.erpya.com/support/professional-services/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1010,8 +1010,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/human-resource/human-resource/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/human-resource/human-resource/"/>
+    <id>https://adempiere-site.erpya.com/docs/human-resource/human-resource/</id>
+    <link href="https://adempiere-site.erpya.com/docs/human-resource/human-resource/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1035,8 +1035,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/human-resource/payroll/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/human-resource/payroll/"/>
+    <id>https://adempiere-site.erpya.com/docs/human-resource/payroll/</id>
+    <link href="https://adempiere-site.erpya.com/docs/human-resource/payroll/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1060,8 +1060,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/human-resource/time-and-attendance/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/human-resource/time-and-attendance/"/>
+    <id>https://adempiere-site.erpya.com/docs/human-resource/time-and-attendance/</id>
+    <link href="https://adempiere-site.erpya.com/docs/human-resource/time-and-attendance/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1085,8 +1085,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/intro/auto-generated/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/intro/auto-generated/"/>
+    <id>https://adempiere-site.erpya.com/docs/intro/auto-generated/</id>
+    <link href="https://adempiere-site.erpya.com/docs/intro/auto-generated/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1110,8 +1110,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/intro/basic-steps/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/intro/basic-steps/"/>
+    <id>https://adempiere-site.erpya.com/docs/intro/basic-steps/</id>
+    <link href="https://adempiere-site.erpya.com/docs/intro/basic-steps/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1135,8 +1135,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/intro/how-to-contribute/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/intro/how-to-contribute/"/>
+    <id>https://adempiere-site.erpya.com/docs/intro/how-to-contribute/</id>
+    <link href="https://adempiere-site.erpya.com/docs/intro/how-to-contribute/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1160,8 +1160,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/locations/lmx/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/locations/lmx/"/>
+    <id>https://adempiere-site.erpya.com/docs/locations/lmx/</id>
+    <link href="https://adempiere-site.erpya.com/docs/locations/lmx/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1185,8 +1185,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/locations/lsv/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/locations/lsv/"/>
+    <id>https://adempiere-site.erpya.com/docs/locations/lsv/</id>
+    <link href="https://adempiere-site.erpya.com/docs/locations/lsv/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1210,8 +1210,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/locations/luy/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/locations/luy/"/>
+    <id>https://adempiere-site.erpya.com/docs/locations/luy/</id>
+    <link href="https://adempiere-site.erpya.com/docs/locations/luy/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1235,8 +1235,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/locations/lve/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/locations/lve/"/>
+    <id>https://adempiere-site.erpya.com/docs/locations/lve/</id>
+    <link href="https://adempiere-site.erpya.com/docs/locations/lve/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1260,8 +1260,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/manufacturing/manufacturing/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/manufacturing/manufacturing/"/>
+    <id>https://adempiere-site.erpya.com/docs/manufacturing/manufacturing/</id>
+    <link href="https://adempiere-site.erpya.com/docs/manufacturing/manufacturing/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1285,8 +1285,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/manufacturing/production-light/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/manufacturing/production-light/"/>
+    <id>https://adempiere-site.erpya.com/docs/manufacturing/production-light/</id>
+    <link href="https://adempiere-site.erpya.com/docs/manufacturing/production-light/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1310,8 +1310,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/material-management/product/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/material-management/product/"/>
+    <id>https://adempiere-site.erpya.com/docs/material-management/product/</id>
+    <link href="https://adempiere-site.erpya.com/docs/material-management/product/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1335,8 +1335,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/material-management/warehouse/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/material-management/warehouse/"/>
+    <id>https://adempiere-site.erpya.com/docs/material-management/warehouse/</id>
+    <link href="https://adempiere-site.erpya.com/docs/material-management/warehouse/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1360,8 +1360,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/retail/distribution/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/retail/distribution/"/>
+    <id>https://adempiere-site.erpya.com/docs/retail/distribution/</id>
+    <link href="https://adempiere-site.erpya.com/docs/retail/distribution/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1385,8 +1385,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/retail/point-of-sales/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/retail/point-of-sales/"/>
+    <id>https://adempiere-site.erpya.com/docs/retail/point-of-sales/</id>
+    <link href="https://adempiere-site.erpya.com/docs/retail/point-of-sales/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1410,8 +1410,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/standard-procedures/open-items/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/standard-procedures/open-items/"/>
+    <id>https://adempiere-site.erpya.com/docs/standard-procedures/open-items/</id>
+    <link href="https://adempiere-site.erpya.com/docs/standard-procedures/open-items/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1435,8 +1435,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/standard-procedures/performance-analysis/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/standard-procedures/performance-analysis/"/>
+    <id>https://adempiere-site.erpya.com/docs/standard-procedures/performance-analysis/</id>
+    <link href="https://adempiere-site.erpya.com/docs/standard-procedures/performance-analysis/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1460,8 +1460,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/standard-procedures/quote-to-invoice/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/standard-procedures/quote-to-invoice/"/>
+    <id>https://adempiere-site.erpya.com/docs/standard-procedures/quote-to-invoice/</id>
+    <link href="https://adempiere-site.erpya.com/docs/standard-procedures/quote-to-invoice/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1485,8 +1485,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/standard-procedures/requisition-to-invoice/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/standard-procedures/requisition-to-invoice/"/>
+    <id>https://adempiere-site.erpya.com/docs/standard-procedures/requisition-to-invoice/</id>
+    <link href="https://adempiere-site.erpya.com/docs/standard-procedures/requisition-to-invoice/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1510,8 +1510,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/standard-procedures/scm/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/standard-procedures/scm/"/>
+    <id>https://adempiere-site.erpya.com/docs/standard-procedures/scm/</id>
+    <link href="https://adempiere-site.erpya.com/docs/standard-procedures/scm/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1535,8 +1535,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/verticals/farmer-assistance-program/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/verticals/farmer-assistance-program/"/>
+    <id>https://adempiere-site.erpya.com/docs/verticals/farmer-assistance-program/</id>
+    <link href="https://adempiere-site.erpya.com/docs/verticals/farmer-assistance-program/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1560,8 +1560,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/verticals/how-to-contribute/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/verticals/how-to-contribute/"/>
+    <id>https://adempiere-site.erpya.com/docs/verticals/how-to-contribute/</id>
+    <link href="https://adempiere-site.erpya.com/docs/verticals/how-to-contribute/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1585,8 +1585,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/verticals/investment-and-loan/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/verticals/investment-and-loan/"/>
+    <id>https://adempiere-site.erpya.com/docs/verticals/investment-and-loan/</id>
+    <link href="https://adempiere-site.erpya.com/docs/verticals/investment-and-loan/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1610,8 +1610,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/intro/auto-generated/forms/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/intro/auto-generated/forms/"/>
+    <id>https://adempiere-site.erpya.com/docs/intro/auto-generated/forms/</id>
+    <link href="https://adempiere-site.erpya.com/docs/intro/auto-generated/forms/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1635,8 +1635,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/intro/auto-generated/menu/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/intro/auto-generated/menu/"/>
+    <id>https://adempiere-site.erpya.com/docs/intro/auto-generated/menu/</id>
+    <link href="https://adempiere-site.erpya.com/docs/intro/auto-generated/menu/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1660,8 +1660,8 @@
   </entry>
   <entry>
     <title type="html">Documentation</title>
-    <id>https://erpcya.github.io/adempiere-site/community/</id>
-    <link href="https://erpcya.github.io/adempiere-site/community/"/>
+    <id>https://adempiere-site.erpya.com/community/</id>
+    <link href="https://adempiere-site.erpya.com/community/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Most of the companies acquired different software to cover the different needs of their organizations, but later they realize how complicated it is to share and unify the information that each module and organization obtained.</p>
 <p>ADempiere, due to its ERP status, offers everything a company needs in a single software, <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> wants to offer its readers a wide range of structured documents for users with high and low experience in handling ERP Software, in which each process of this powerful system will be explained efficiently and in detail, defining step by step the management of each one, its accounting, administrative and fiscal implications and finally the issuance of results that will allow optimum control of its operations..</p>
@@ -1690,8 +1690,8 @@
   </entry>
   <entry>
     <title type="html">Documentation</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/"/>
+    <id>https://adempiere-site.erpya.com/docs/</id>
+    <link href="https://adempiere-site.erpya.com/docs/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Most of the companies acquired different software to cover the different needs of their organizations, but later they realize how complicated it is to share and unify the information that each module and organization obtained.</p>
 <p>ADempiere, due to its ERP status, offers everything a company needs in a single software, <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> wants to offer its readers a wide range of structured documents for users with high and low experience in handling ERP Software, in which each process of this powerful system will be explained efficiently and in detail, defining step by step the management of each one, its accounting, administrative and fiscal implications and finally the issuance of results that will allow optimum control of its operations..</p>
@@ -1720,8 +1720,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/human-resource/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/human-resource/"/>
+    <id>https://adempiere-site.erpya.com/docs/human-resource/</id>
+    <link href="https://adempiere-site.erpya.com/docs/human-resource/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1745,8 +1745,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/manufacturing/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/manufacturing/"/>
+    <id>https://adempiere-site.erpya.com/docs/manufacturing/</id>
+    <link href="https://adempiere-site.erpya.com/docs/manufacturing/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1770,8 +1770,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://erpcya.github.io/adempiere-site/docs/material-management/</id>
-    <link href="https://erpcya.github.io/adempiere-site/docs/material-management/"/>
+    <id>https://adempiere-site.erpya.com/docs/material-management/</id>
+    <link href="https://adempiere-site.erpya.com/docs/material-management/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -1795,8 +1795,8 @@
   </entry>
   <entry>
     <title type="html">ADempiere History</title>
-    <id>https://erpcya.github.io/adempiere-site/about/</id>
-    <link href="https://erpcya.github.io/adempiere-site/about/"/>
+    <id>https://adempiere-site.erpya.com/about/</id>
+    <link href="https://adempiere-site.erpya.com/about/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<div><p>ADempiere License</p>
 <p><a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> is own GNU/GPL v2 License</p>

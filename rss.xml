@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <atom:link href="https://erpcya.github.io/adempiere-site/rss.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://adempiere-site.erpya.com/rss.xml" rel="self" type="application/rss+xml"/>
     <title>ADempiere Official Page</title>
-    <link>https://erpcya.github.io/adempiere-site/</link>
+    <link>https://adempiere-site.erpya.com/</link>
     <description>A official page of ADempiere community.</description>
     <language>en-US</language>
-    <pubDate>Tue, 28 Jun 2022 22:19:15 GMT</pubDate>
-    <lastBuildDate>Tue, 28 Jun 2022 22:19:15 GMT</lastBuildDate>
+    <pubDate>Tue, 28 Jun 2022 22:31:32 GMT</pubDate>
+    <lastBuildDate>Tue, 28 Jun 2022 22:31:32 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Branding</category>
@@ -18,9 +18,9 @@
     <category>Documentation</category>
     <item>
       <title>The Brand</title>
-      <link>https://erpcya.github.io/adempiere-site/about/branding.html</link>
-      <guid>https://erpcya.github.io/adempiere-site/about/branding.html</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">The Brand</source>
+      <link>https://adempiere-site.erpya.com/about/branding.html</link>
+      <guid>https://adempiere-site.erpya.com/about/branding.html</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">The Brand</source>
       <category>Branding</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="adempiere-brand" tabindex="-1"> ADempiere Brand</h2>
@@ -40,9 +40,9 @@
     </item>
     <item>
       <title>The Beginning</title>
-      <link>https://erpcya.github.io/adempiere-site/about/the-beginning.html</link>
-      <guid>https://erpcya.github.io/adempiere-site/about/the-beginning.html</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">The Beginning</source>
+      <link>https://adempiere-site.erpya.com/about/the-beginning.html</link>
+      <guid>https://adempiere-site.erpya.com/about/the-beginning.html</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">The Beginning</source>
       <category>History</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="jorg-janke-the-master-mind" tabindex="-1"> Jorg Janke - The Master Mind</h2>
@@ -54,9 +54,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/downloads/</link>
-      <guid>https://erpcya.github.io/adempiere-site/downloads/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/downloads/</link>
+      <guid>https://adempiere-site.erpya.com/downloads/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -79,9 +79,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/foundation/</link>
-      <guid>https://erpcya.github.io/adempiere-site/foundation/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/foundation/</link>
+      <guid>https://adempiere-site.erpya.com/foundation/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -104,9 +104,9 @@
     </item>
     <item>
       <title>Statute</title>
-      <link>https://erpcya.github.io/adempiere-site/foundation/statutes.html</link>
-      <guid>https://erpcya.github.io/adempiere-site/foundation/statutes.html</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Statute</source>
+      <link>https://adempiere-site.erpya.com/foundation/statutes.html</link>
+      <guid>https://adempiere-site.erpya.com/foundation/statutes.html</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Statute</source>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="statute" tabindex="-1"> Statute</h1>
 <h2 id="charter-of-adempiere-e-v" tabindex="-1"> <strong>Charter of ADempiere e.V.</strong></h2>
@@ -250,9 +250,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/product/</link>
-      <guid>https://erpcya.github.io/adempiere-site/product/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/product/</link>
+      <guid>https://adempiere-site.erpya.com/product/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -275,9 +275,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/support/</link>
-      <guid>https://erpcya.github.io/adempiere-site/support/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/support/</link>
+      <guid>https://adempiere-site.erpya.com/support/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -300,9 +300,9 @@
     </item>
     <item>
       <title>Berlin Conference 2009</title>
-      <link>https://erpcya.github.io/adempiere-site/about/meeting/berlin-2009.html</link>
-      <guid>https://erpcya.github.io/adempiere-site/about/meeting/berlin-2009.html</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Berlin Conference 2009</source>
+      <link>https://adempiere-site.erpya.com/about/meeting/berlin-2009.html</link>
+      <guid>https://adempiere-site.erpya.com/about/meeting/berlin-2009.html</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Berlin Conference 2009</source>
       <category>Foundation</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="_2nd-european-adempiere-conference-in-berlin" tabindex="-1"> 2nd. European ADempiere conference in Berlin</h2>
@@ -317,9 +317,9 @@
     </item>
     <item>
       <title>Berlin Conference 2014</title>
-      <link>https://erpcya.github.io/adempiere-site/about/meeting/berlin-2014.html</link>
-      <guid>https://erpcya.github.io/adempiere-site/about/meeting/berlin-2014.html</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Berlin Conference 2014</source>
+      <link>https://adempiere-site.erpya.com/about/meeting/berlin-2014.html</link>
+      <guid>https://adempiere-site.erpya.com/about/meeting/berlin-2014.html</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Berlin Conference 2014</source>
       <category>Foundation</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="adempiere-world-conference-in-berlin" tabindex="-1"> ADempiere World Conference in Berlin</h1>
@@ -338,9 +338,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/community/code-of-conduct/</link>
-      <guid>https://erpcya.github.io/adempiere-site/community/code-of-conduct/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/community/code-of-conduct/</link>
+      <guid>https://adempiere-site.erpya.com/community/code-of-conduct/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -363,9 +363,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/community/duties-and-rigths/</link>
-      <guid>https://erpcya.github.io/adempiere-site/community/duties-and-rigths/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/community/duties-and-rigths/</link>
+      <guid>https://adempiere-site.erpya.com/community/duties-and-rigths/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -388,9 +388,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/community/join/</link>
-      <guid>https://erpcya.github.io/adempiere-site/community/join/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/community/join/</link>
+      <guid>https://adempiere-site.erpya.com/community/join/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -413,9 +413,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/articles/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/articles/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/articles/</link>
+      <guid>https://adempiere-site.erpya.com/docs/articles/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -438,9 +438,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/intro/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/intro/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/intro/</link>
+      <guid>https://adempiere-site.erpya.com/docs/intro/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -463,9 +463,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/links/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/links/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/links/</link>
+      <guid>https://adempiere-site.erpya.com/docs/links/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -488,9 +488,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/locations/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/locations/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/locations/</link>
+      <guid>https://adempiere-site.erpya.com/docs/locations/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -513,9 +513,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/retail/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/retail/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/retail/</link>
+      <guid>https://adempiere-site.erpya.com/docs/retail/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -538,9 +538,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/standard-procedures/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/standard-procedures/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/standard-procedures/</link>
+      <guid>https://adempiere-site.erpya.com/docs/standard-procedures/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -563,9 +563,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/verticals/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/verticals/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/verticals/</link>
+      <guid>https://adempiere-site.erpya.com/docs/verticals/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -588,9 +588,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/videos/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/videos/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/videos/</link>
+      <guid>https://adempiere-site.erpya.com/docs/videos/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -613,9 +613,9 @@
     </item>
     <item>
       <title>Binary Download</title>
-      <link>https://erpcya.github.io/adempiere-site/downloads/binary/</link>
-      <guid>https://erpcya.github.io/adempiere-site/downloads/binary/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Binary Download</source>
+      <link>https://adempiere-site.erpya.com/downloads/binary/</link>
+      <guid>https://adempiere-site.erpya.com/downloads/binary/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Binary Download</source>
       <category>Assets</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -638,9 +638,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/downloads/docker/</link>
-      <guid>https://erpcya.github.io/adempiere-site/downloads/docker/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/downloads/docker/</link>
+      <guid>https://adempiere-site.erpya.com/downloads/docker/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -663,9 +663,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/downloads/github/</link>
-      <guid>https://erpcya.github.io/adempiere-site/downloads/github/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/downloads/github/</link>
+      <guid>https://adempiere-site.erpya.com/downloads/github/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -688,9 +688,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/downloads/helm/</link>
-      <guid>https://erpcya.github.io/adempiere-site/downloads/helm/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/downloads/helm/</link>
+      <guid>https://adempiere-site.erpya.com/downloads/helm/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -713,9 +713,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/downloads/operator/</link>
-      <guid>https://erpcya.github.io/adempiere-site/downloads/operator/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/downloads/operator/</link>
+      <guid>https://adempiere-site.erpya.com/downloads/operator/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -738,9 +738,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/foundation/board/</link>
-      <guid>https://erpcya.github.io/adempiere-site/foundation/board/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/foundation/board/</link>
+      <guid>https://adempiere-site.erpya.com/foundation/board/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -763,9 +763,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/foundation/how-to-contribute/</link>
-      <guid>https://erpcya.github.io/adempiere-site/foundation/how-to-contribute/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/foundation/how-to-contribute/</link>
+      <guid>https://adempiere-site.erpya.com/foundation/how-to-contribute/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -788,9 +788,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/foundation/membership/</link>
-      <guid>https://erpcya.github.io/adempiere-site/foundation/membership/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/foundation/membership/</link>
+      <guid>https://adempiere-site.erpya.com/foundation/membership/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -813,9 +813,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/foundation/sponsors/</link>
-      <guid>https://erpcya.github.io/adempiere-site/foundation/sponsors/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/foundation/sponsors/</link>
+      <guid>https://adempiere-site.erpya.com/foundation/sponsors/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -838,9 +838,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/foundation/statutes/</link>
-      <guid>https://erpcya.github.io/adempiere-site/foundation/statutes/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/foundation/statutes/</link>
+      <guid>https://adempiere-site.erpya.com/foundation/statutes/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -863,9 +863,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/product/business-process/</link>
-      <guid>https://erpcya.github.io/adempiere-site/product/business-process/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/product/business-process/</link>
+      <guid>https://adempiere-site.erpya.com/product/business-process/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -888,9 +888,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/product/demo/</link>
-      <guid>https://erpcya.github.io/adempiere-site/product/demo/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/product/demo/</link>
+      <guid>https://adempiere-site.erpya.com/product/demo/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -913,9 +913,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/product/features/</link>
-      <guid>https://erpcya.github.io/adempiere-site/product/features/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/product/features/</link>
+      <guid>https://adempiere-site.erpya.com/product/features/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -938,9 +938,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/product/technology/</link>
-      <guid>https://erpcya.github.io/adempiere-site/product/technology/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/product/technology/</link>
+      <guid>https://adempiere-site.erpya.com/product/technology/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -963,9 +963,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/support/community-ask/</link>
-      <guid>https://erpcya.github.io/adempiere-site/support/community-ask/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/support/community-ask/</link>
+      <guid>https://adempiere-site.erpya.com/support/community-ask/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -988,9 +988,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/support/professional-services/</link>
-      <guid>https://erpcya.github.io/adempiere-site/support/professional-services/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/support/professional-services/</link>
+      <guid>https://adempiere-site.erpya.com/support/professional-services/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1013,9 +1013,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/human-resource/human-resource/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/human-resource/human-resource/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/human-resource/human-resource/</link>
+      <guid>https://adempiere-site.erpya.com/docs/human-resource/human-resource/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1038,9 +1038,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/human-resource/payroll/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/human-resource/payroll/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/human-resource/payroll/</link>
+      <guid>https://adempiere-site.erpya.com/docs/human-resource/payroll/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1063,9 +1063,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/human-resource/time-and-attendance/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/human-resource/time-and-attendance/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/human-resource/time-and-attendance/</link>
+      <guid>https://adempiere-site.erpya.com/docs/human-resource/time-and-attendance/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1088,9 +1088,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/intro/auto-generated/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/intro/auto-generated/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/intro/auto-generated/</link>
+      <guid>https://adempiere-site.erpya.com/docs/intro/auto-generated/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1113,9 +1113,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/intro/basic-steps/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/intro/basic-steps/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/intro/basic-steps/</link>
+      <guid>https://adempiere-site.erpya.com/docs/intro/basic-steps/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1138,9 +1138,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/intro/how-to-contribute/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/intro/how-to-contribute/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/intro/how-to-contribute/</link>
+      <guid>https://adempiere-site.erpya.com/docs/intro/how-to-contribute/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1163,9 +1163,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/locations/lmx/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/locations/lmx/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/locations/lmx/</link>
+      <guid>https://adempiere-site.erpya.com/docs/locations/lmx/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1188,9 +1188,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/locations/lsv/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/locations/lsv/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/locations/lsv/</link>
+      <guid>https://adempiere-site.erpya.com/docs/locations/lsv/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1213,9 +1213,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/locations/luy/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/locations/luy/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/locations/luy/</link>
+      <guid>https://adempiere-site.erpya.com/docs/locations/luy/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1238,9 +1238,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/locations/lve/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/locations/lve/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/locations/lve/</link>
+      <guid>https://adempiere-site.erpya.com/docs/locations/lve/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1263,9 +1263,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/manufacturing/manufacturing/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/manufacturing/manufacturing/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/manufacturing/manufacturing/</link>
+      <guid>https://adempiere-site.erpya.com/docs/manufacturing/manufacturing/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1288,9 +1288,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/manufacturing/production-light/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/manufacturing/production-light/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/manufacturing/production-light/</link>
+      <guid>https://adempiere-site.erpya.com/docs/manufacturing/production-light/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1313,9 +1313,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/material-management/product/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/material-management/product/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/material-management/product/</link>
+      <guid>https://adempiere-site.erpya.com/docs/material-management/product/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1338,9 +1338,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/material-management/warehouse/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/material-management/warehouse/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/material-management/warehouse/</link>
+      <guid>https://adempiere-site.erpya.com/docs/material-management/warehouse/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1363,9 +1363,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/retail/distribution/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/retail/distribution/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/retail/distribution/</link>
+      <guid>https://adempiere-site.erpya.com/docs/retail/distribution/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1388,9 +1388,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/retail/point-of-sales/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/retail/point-of-sales/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/retail/point-of-sales/</link>
+      <guid>https://adempiere-site.erpya.com/docs/retail/point-of-sales/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1413,9 +1413,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/standard-procedures/open-items/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/standard-procedures/open-items/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/standard-procedures/open-items/</link>
+      <guid>https://adempiere-site.erpya.com/docs/standard-procedures/open-items/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1438,9 +1438,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/standard-procedures/performance-analysis/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/standard-procedures/performance-analysis/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/standard-procedures/performance-analysis/</link>
+      <guid>https://adempiere-site.erpya.com/docs/standard-procedures/performance-analysis/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1463,9 +1463,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/standard-procedures/quote-to-invoice/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/standard-procedures/quote-to-invoice/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/standard-procedures/quote-to-invoice/</link>
+      <guid>https://adempiere-site.erpya.com/docs/standard-procedures/quote-to-invoice/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1488,9 +1488,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/standard-procedures/requisition-to-invoice/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/standard-procedures/requisition-to-invoice/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/standard-procedures/requisition-to-invoice/</link>
+      <guid>https://adempiere-site.erpya.com/docs/standard-procedures/requisition-to-invoice/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1513,9 +1513,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/standard-procedures/scm/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/standard-procedures/scm/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/standard-procedures/scm/</link>
+      <guid>https://adempiere-site.erpya.com/docs/standard-procedures/scm/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1538,9 +1538,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/verticals/farmer-assistance-program/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/verticals/farmer-assistance-program/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/verticals/farmer-assistance-program/</link>
+      <guid>https://adempiere-site.erpya.com/docs/verticals/farmer-assistance-program/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1563,9 +1563,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/verticals/how-to-contribute/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/verticals/how-to-contribute/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/verticals/how-to-contribute/</link>
+      <guid>https://adempiere-site.erpya.com/docs/verticals/how-to-contribute/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1588,9 +1588,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/verticals/investment-and-loan/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/verticals/investment-and-loan/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/verticals/investment-and-loan/</link>
+      <guid>https://adempiere-site.erpya.com/docs/verticals/investment-and-loan/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1613,9 +1613,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/intro/auto-generated/forms/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/intro/auto-generated/forms/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/intro/auto-generated/forms/</link>
+      <guid>https://adempiere-site.erpya.com/docs/intro/auto-generated/forms/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1638,9 +1638,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/intro/auto-generated/menu/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/intro/auto-generated/menu/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/intro/auto-generated/menu/</link>
+      <guid>https://adempiere-site.erpya.com/docs/intro/auto-generated/menu/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1663,9 +1663,9 @@
     </item>
     <item>
       <title>Documentation</title>
-      <link>https://erpcya.github.io/adempiere-site/community/</link>
-      <guid>https://erpcya.github.io/adempiere-site/community/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Documentation</source>
+      <link>https://adempiere-site.erpya.com/community/</link>
+      <guid>https://adempiere-site.erpya.com/community/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Documentation</source>
       <category>Documentation</category>
       <pubDate>Sat, 25 Jun 2022 22:12:09 GMT</pubDate>
       <content:encoded><![CDATA[<p>Most of the companies acquired different software to cover the different needs of their organizations, but later they realize how complicated it is to share and unify the information that each module and organization obtained.</p>
@@ -1693,9 +1693,9 @@
     </item>
     <item>
       <title>Documentation</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Documentation</source>
+      <link>https://adempiere-site.erpya.com/docs/</link>
+      <guid>https://adempiere-site.erpya.com/docs/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Documentation</source>
       <category>Documentation</category>
       <pubDate>Sat, 25 Jun 2022 22:12:09 GMT</pubDate>
       <content:encoded><![CDATA[<p>Most of the companies acquired different software to cover the different needs of their organizations, but later they realize how complicated it is to share and unify the information that each module and organization obtained.</p>
@@ -1723,9 +1723,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/human-resource/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/human-resource/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/human-resource/</link>
+      <guid>https://adempiere-site.erpya.com/docs/human-resource/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Sat, 25 Jun 2022 22:12:09 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1748,9 +1748,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/manufacturing/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/manufacturing/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/manufacturing/</link>
+      <guid>https://adempiere-site.erpya.com/docs/manufacturing/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Sat, 25 Jun 2022 22:12:09 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1773,9 +1773,9 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://erpcya.github.io/adempiere-site/docs/material-management/</link>
-      <guid>https://erpcya.github.io/adempiere-site/docs/material-management/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">Title</source>
+      <link>https://adempiere-site.erpya.com/docs/material-management/</link>
+      <guid>https://adempiere-site.erpya.com/docs/material-management/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Sat, 25 Jun 2022 22:12:09 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
@@ -1798,9 +1798,9 @@
     </item>
     <item>
       <title>ADempiere History</title>
-      <link>https://erpcya.github.io/adempiere-site/about/</link>
-      <guid>https://erpcya.github.io/adempiere-site/about/</guid>
-      <source url="https://erpcya.github.io/adempiere-site/rss.xml">ADempiere History</source>
+      <link>https://adempiere-site.erpya.com/about/</link>
+      <guid>https://adempiere-site.erpya.com/about/</guid>
+      <source url="https://adempiere-site.erpya.com/rss.xml">ADempiere History</source>
       <category>History</category>
       <pubDate>Sun, 06 Feb 2022 16:01:38 GMT</pubDate>
       <content:encoded><![CDATA[<div><p>ADempiere License</p>

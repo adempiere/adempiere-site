@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-ES">
-  <id>https://erpcya.github.io/adempiere-site/es/</id>
+  <id>https://adempiere-site.erpya.com/es/</id>
   <title>Página Oficial de ADempiere</title>
   <subtitle>Página oficial de la comunidad de ADempiere</subtitle>
-  <updated>2022-06-28T22:19:15.349Z</updated>
+  <updated>2022-06-28T22:31:32.452Z</updated>
   <generator>vuepress-plugin-feed2</generator>
-  <link rel="self" href="https://erpcya.github.io/adempiere-site/atom.xml"/>
-  <link rel="alternate" href="https://erpcya.github.io/adempiere-site/es/"/>
+  <link rel="self" href="https://adempiere-site.erpya.com/atom.xml"/>
+  <link rel="alternate" href="https://adempiere-site.erpya.com/es/"/>
 </feed>
