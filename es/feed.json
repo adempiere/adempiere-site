@@ -1,8 +1,8 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
   "title": "Página Oficial de ADempiere",
-  "home_page_url": "https://adempiere.io/es/",
-  "feed_url": "https://adempiere.io/feed.json",
+  "home_page_url": "https://erpcya.github.io/adempiere-site/es/",
+  "feed_url": "https://erpcya.github.io/adempiere-site/feed.json",
   "description": "Página oficial de la comunidad de ADempiere",
   "items": []
 }
