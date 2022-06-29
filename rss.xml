@@ -6,8 +6,8 @@
     <link>https://github.com/adempiere/adempiere-site.github.io/</link>
     <description>A official page of ADempiere community.</description>
     <language>en-US</language>
-    <pubDate>Wed, 29 Jun 2022 15:57:32 GMT</pubDate>
-    <lastBuildDate>Wed, 29 Jun 2022 15:57:32 GMT</lastBuildDate>
+    <pubDate>Wed, 29 Jun 2022 15:58:02 GMT</pubDate>
+    <lastBuildDate>Wed, 29 Jun 2022 15:58:02 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Community</category>
@@ -1718,10 +1718,10 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>Community</title>
+      <title>Who Are We?</title>
       <link>https://github.com/adempiere/adempiere-site.github.io/community/</link>
       <guid>https://github.com/adempiere/adempiere-site.github.io/community/</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Community</source>
+      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Who Are We?</source>
       <category>Community</category>
       <pubDate>Sat, 25 Jun 2022 22:12:09 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="who-are-we" tabindex="-1"> Who Are We?</h2>
@@ -1838,10 +1838,10 @@ Learn how to improve the current documentation and make it better for you and ev
 ]]></content:encoded>
     </item>
     <item>
-      <title>ADempiere History</title>
+      <title>Some History</title>
       <link>https://github.com/adempiere/adempiere-site.github.io/about/</link>
       <guid>https://github.com/adempiere/adempiere-site.github.io/about/</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">ADempiere History</source>
+      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Some History</source>
       <category>History</category>
       <pubDate>Sun, 06 Feb 2022 16:01:38 GMT</pubDate>
       <content:encoded><![CDATA[<div><p>ADempiere License</p>
