@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://adempiere-site.erpya.com/sitemap.xml
+Sitemap: https://github.com/adempiere/adempiere-site.github.io/sitemap.xml
