@@ -726,12 +726,12 @@
       ]
     },
     {
-      "title": "Who Are We?",
+      "title": "Community",
       "url": "https://github.com/adempiere/adempiere-site.github.io/community/",
       "id": "https://github.com/adempiere/adempiere-site.github.io/community/",
       "content_html": "<h2 id=\"who-are-we\" tabindex=\"-1\"> Who Are We?</h2>\n<p>The ADempiere community is made up of various categories of people, and we are sure you must fit into at least one of them. There are contributors, developers, testers, writers, users, as well as businesses, authorities, experts, newbies and students. There is also a Council of trustees to be responsible for this community and the project's well-being.</p>\n<p>Each community has its own history and culture. This particular community has its roots within the <a href=\"http://sf.net/projects/compiere\" target=\"_blank\" rel=\"noopener noreferrer\">Compiere SourceForge project</a> over the last 3 years. We started as users and implementors of this great software project, and began to progress in leaps and bounds in our own capability to master it and even extend it for various end-users.</p>\n<p>The community was generally grateful to Compiere's creator, Jorg Janke, and tolerated his business model of charging users for priority support, training and the user manual. Many of us contributed code, bug reports, fixes and recommendations on how this premiere Open Source ERP/CRM solution could continue to expand. And though Jorg Janke hardly responded to the forums' messages (even those that were directly aimed at him) the Compiere community enjoyed ample support and encouragement from other community seniors on a voluntary and vigilant basis.</p>\n<p>Trouble set in soon after ComPiere Inc, USA, the commercial entity behind this project, purportedly obtained some USD6 million funding from an &quot;angel&quot; investor who soon joined its Board of Directors. Many among the paying partners of Compiere began to question new policy directions, this led to the <a href=\"http://www.compiere.com/about/board.html\" target=\"_blank\" rel=\"noopener noreferrer\">Forking Debate</a>, and eventually sparked off the Adempiere community. The name &quot;Adempiere&quot; is an Italian word related to &quot;Compiere&quot; (which means &quot;to deliver or fulfill&quot;), but also semantically reflects the core ideal of this community: &quot;to fulfill towards completion, with respect and honour&quot;.\nLearn how to improve the current documentation and make it better for you and everybody!.</p>\n",
       "date_published": "2022-06-25T22:12:09.000Z",
-      "date_modified": "2022-06-29T15:45:22.000Z",
+      "date_modified": "2022-06-29T15:17:57.000Z",
       "authors": [],
       "tags": [
         "Community"
