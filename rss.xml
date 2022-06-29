@@ -6,17 +6,273 @@
     <link>https://github.com/adempiere/adempiere-site.github.io/</link>
     <description>A official page of ADempiere community.</description>
     <language>en-US</language>
-    <pubDate>Wed, 29 Jun 2022 12:37:39 GMT</pubDate>
-    <lastBuildDate>Wed, 29 Jun 2022 12:37:39 GMT</lastBuildDate>
+    <pubDate>Wed, 29 Jun 2022 15:31:44 GMT</pubDate>
+    <lastBuildDate>Wed, 29 Jun 2022 15:31:44 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Community</category>
+    <category>Foundation</category>
+    <category>Sponsors</category>
     <category>Branding</category>
     <category>History</category>
     <category>Title</category>
-    <category>Foundation</category>
     <category>Assets</category>
-    <category>Community</category>
     <category>Documentation</category>
+    <item>
+      <title>Code of Conduct</title>
+      <link>https://github.com/adempiere/adempiere-site.github.io/community/code-of-conduct.html</link>
+      <guid>https://github.com/adempiere/adempiere-site.github.io/community/code-of-conduct.html</guid>
+      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Code of Conduct</source>
+      <category>Community</category>
+      <pubDate>Wed, 29 Jun 2022 15:17:57 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="code-of-conduct" tabindex="-1"> Code of Conduct</h2>
+<p>Code of Conduct ADempiere Since its inception, the ADempiere project has attracted many people to join your community. The vision of our project is &quot;to inspire people to share&quot;. This theme is central to the way the ADempiere community collaborates. ADempiere members of the community need to work together effectively, and a code of conduct lays down the &quot;ground rules&quot; for our cooperation.</p>
+<p>Our motto perfectly captures the spirit of sharing and cooperation that is at the core of the open source movement. In the Free Software world, we collaborate freely on a volunteer basis to build software for everyone's benefit. We improve the work of others, which we have received for free, andthen share our improvements on the same basis.</p>
+<p>This collaboration depends on good relationships between developers. To this end, we have agreed on the following code of conduct to help define the waysthat we think collaboration and cooperation should be made.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Basic Rules</title>
+      <link>https://github.com/adempiere/adempiere-site.github.io/community/duties-and-rigths.html</link>
+      <guid>https://github.com/adempiere/adempiere-site.github.io/community/duties-and-rigths.html</guid>
+      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Basic Rules</source>
+      <category>Community</category>
+      <pubDate>Wed, 29 Jun 2022 15:17:57 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="basic-rules-of-the-community" tabindex="-1"> Basic Rules of the Community</h2>
+<p>This Code of Conduct covers your behavior as a member of the ADempiere Community, in any forum, mailing list, wiki, web site, IRC channel, public meeting or private correspondence. The ADempiere Association arbitrate in any dispute over the conduct of a member of the community.</p>
+<p><strong>Be considerate</strong>. Your work will be used by other people, and you depend on the work of others. Any decision you take will affect users and colleagues, andwe hope you will take into account the consequences when making decisions.</p>
+<p><strong>Be respectful</strong>. The ADempiere community and its members treat each other with respect. Everyone can make a valuable contribution to the ADempiere project. You may not always agree, but disagreement is no excuse for poor behavior and poor manners. We can all experience some frustration now and then, but we can not allow frustration to turn into a personal attack. It is important to remember that a community where people feel uncomfortable or threatened is not productive. We expect members of the ADempiere community to be respectful when dealing with other contributors as well as with people outside the Adempiere Project</p>
+<p><strong>Be collaborative</strong>. The ADempiere project and Free Software are all about collaboration and teamwork. Collaboration reduces redundancy of work done in the Free Software world, and improves the quality of the software produced. You should try to work with other ADempiere implementers, as well as others in the communitymay be interested in the work you do. Your work should be done transparently and patches of Adempiere, when performed, should be given to the community. If you want to work on new code for new projects, at least keep those projects informed of your ideas and progress. It may not be possible to obtain the consensus of the project or even from your colleagues about the correct implementation of an idea, so do not feel obliged to have that agreement before you begin, but at least keep informedthe outside world of your work, and publishyour work in a way that allowsothers to test, discuss and contribute to your efforts.</p>
+<p><strong>When you disagree, check</strong>. Disagreements, both political and technical, happen all the time and the ADempiere community is no exception. The important thing is not to avoid disagreements or differences of opinion but to resolve them constructively. Go to the community and the community process to seek advice and to resolve disagreements.The ADempierecommunity will help you decide the right course for the project. There are also several Project Teams and Team. Leaders, who may be able to help you figure out which direction would be moreacceptable. If you really want to go a different way, then we encourage you to make a derivative distribution or alternative set of packages available using the framework of ADempiere package management, so that the community can try these changes and ideas for themselves and contribute to the discussion.</p>
+<p><strong>When you are unsure, ask for help</strong>. Nobody knows everything, and nobody is expected to be perfect in the ADempiere community. Asking questions avoids many problems down the road, so we encourage questions. Theperson you ask would most probable be responsive and helpful. However, when asking a question, you must be careful to do so in an appropriate forum.</p>
+<p><strong>Leave with consideration</strong>. Developers on every project come and go and the ADempiere project is no different. When youleave the project, in whole or in part, we ask that you do so in a way that minimizes disruption to the project. This means you should tell people you're working with you, you are leaving and take appropriate measures to ensure that others can pick up where you leave.</p>
+<h2 id="shearing" tabindex="-1"> Shearing</h2>
+<p>The Code of Conduct ADempiere is based on Ubuntu Code of Conduct. You can re-use it for your own project, and modify it as you wish, and when you allow others to use your modifications,please give credit to the ADempiere project.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Board</title>
+      <link>https://github.com/adempiere/adempiere-site.github.io/foundation/board.html</link>
+      <guid>https://github.com/adempiere/adempiere-site.github.io/foundation/board.html</guid>
+      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Board</source>
+      <category>Foundation</category>
+      <pubDate>Wed, 29 Jun 2022 15:17:57 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="board-members-2016" tabindex="-1"> Board Members 2016</h2>
+<ul>
+<li>Michael McKay Chairman and Public Relations, <a href="http://www.mckayerp.com/" target="_blank" rel="noopener noreferrer">mckayERP, Canadian</a></li>
+<li>Michael Judd, Deputy Chairman, <a href="http://www.kimberly-clark.com/" target="_blank" rel="noopener noreferrer">Kimberly-Clark, British</a></li>
+<li>Susanne Calderon, Deputy Chairman and Treasurer, <a href="http://www.westfalia-it.com/" target="_blank" rel="noopener noreferrer">Systemhaus Westfalia, Germany</a></li>
+<li>Mario Calderon, Deputy Chairman, <a href="http://www.westfalia-it.com/" target="_blank" rel="noopener noreferrer">Systemhaus Westfalia, Salvadoran</a></li>
+<li>Victor Pérez, Deputy Chairman, <a href="http://www.e-evolution.com/" target="_blank" rel="noopener noreferrer">e-Evolution, Mexican</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>How To Contribute</title>
+      <link>https://github.com/adempiere/adempiere-site.github.io/foundation/how-to-contribute.html</link>
+      <guid>https://github.com/adempiere/adempiere-site.github.io/foundation/how-to-contribute.html</guid>
+      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">How To Contribute</source>
+      <category>Foundation</category>
+      <pubDate>Wed, 29 Jun 2022 15:17:57 GMT</pubDate>
+      <content:encoded><![CDATA[<div><p>Tips</p>
+<p>There are a number of ways you can contribute to the ADempiere project and the ADempiere Foundation.</p>
+</div>
+<h2 id="purchase-a-membership-in-the-foundation" tabindex="-1"> Purchase a Membership in the Foundation</h2>
+<p>Become a Member of the Foundation.  Membership enables you to sit on the Foundation Board, vote at the Foundation meetings and actively serve the community.  Your membership funds will be used in support of the community by the Foundation to fund the servers and administration of the community.  Memberships are purchased as a subscription for <strong>$200.00 USD</strong> per year or <strong>$20.00 USD</strong> per month.  You can purchase your membership on the Membership page.</p>
+<h2 id="become-a-sponsor-of-the-community" tabindex="-1"> Become a Sponsor of the Community</h2>
+<p>Companies that benefit from ADempiere can contribute by sponsoring the community and the Foundation.  Sponsorships.  Funds raised through sponsorships will be used to support the Foundation and community activities.  Sponsorships are available at three levels: Platinum, Gold and Silver.  You can purchase a sponsorhip for your company on the Sponsorship page.</p>
+<h2 id="make-a-donation" tabindex="-1"> Make a Donation</h2>
+<p>You can make a one-time donation to the Foundation and target your donation to general support of the community or to a special project, such as the new User Interface development.  If you want to contribute in this way, please contact us at official@admpiere.net.</p>
+<h2 id="contribute-to-the-software-development-and-advancement-of-adempiere" tabindex="-1"> Contribute to the Software Development and Advancement of ADempiere</h2>
+<p>If you are involved in this community as a contributor or advocate, there is no obligation to become a Member of the Foundation or Sponsor but we would really appreciate it if you did. The more funding we receive, the more power we can put behind the community servers that support our website, wiki and, most importantly, the demo server.  At the same time, contributions of your intelligence and effort are the priceless - contributions from developers around the world have made this software project so valuable and powerful.  If you can write code, you can start to contribute today by making a pull request that fixes a but or adds a feature.  If you can write technical documents, please contribute to the documentation.  If you sell services related to ADempiere or use it in your business, advocate for the project on your websites.  Spread the word.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Members</title>
+      <link>https://github.com/adempiere/adempiere-site.github.io/foundation/membership.html</link>
+      <guid>https://github.com/adempiere/adempiere-site.github.io/foundation/membership.html</guid>
+      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Members</source>
+      <category>Foundation</category>
+      <pubDate>Wed, 29 Jun 2022 15:17:57 GMT</pubDate>
+      <content:encoded><![CDATA[<p>As a non-for-profit association, the ADempiere Foundation is controlled by its members.  Members can take part in assemblies of the Foundation, vote on Foundation business, select the Board of Directors and server on the Board.</p>
+<h2 id="who-can-become-a-member-and-what-kinds-of-memberships-are-available" tabindex="-1"> Who can become a member and what kinds of memberships are available?</h2>
+<p>People and companies who seek to further develop and support ADempiere can become a member of the association.  There are three types of members:</p>
+<ul>
+<li>
+<p><strong>Active members</strong> are people who activly support the association and help developing while being fully responsible in terms of the association. We expect these kinds of members to collaborate, to take part in assemblies of the association and to activly make use of voting right.</p>
+</li>
+<li>
+<p><strong>Passive members</strong> may be people who seek to support the association through their membership but who would like to relenquish the rights of an active member. Passive membership is granted to sponsoring companies who can delegate a contact person.</p>
+</li>
+<li>
+<p><strong>Promoting members</strong> may be people and companies who support the aim of the aossication especially through monetary- or donations of goods. These members are represented on the website, if they wish, and have the right to take part in the general assemblies of the association without the power to vote.</p>
+</li>
+</ul>
+<h2 id="become-a-member" tabindex="-1"> Become a Member</h2>
+<p>Join us and help out!  Membership is purchased as a subscription for <strong>$200</strong> <strong>USD</strong> per year or <strong>$20</strong> <strong>USD</strong> per month.  The subscriptions are managed by Paypal and you will need to have a Paypal account or create one during the subscription process.  You can cancel the subscription and your memebership at any time through your Paypal account or by clicking the Unsubscirbe button below.</p>
+<p>If you purchase a Membership, we will assume it is Active.  If you do not want to be considered Active, please contact us at official@admpiere.net.</p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Sponsors</title>
+      <link>https://github.com/adempiere/adempiere-site.github.io/foundation/sponsors.html</link>
+      <guid>https://github.com/adempiere/adempiere-site.github.io/foundation/sponsors.html</guid>
+      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Sponsors</source>
+      <category>Sponsors</category>
+      <pubDate>Wed, 29 Jun 2022 15:17:57 GMT</pubDate>
+      <content:encoded><![CDATA[<h2 id="platinum-sponsors" tabindex="-1"> Platinum Sponsors</h2>
+<p>The following companies are currently sponsoring ADempiere.</p>
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="http://www.e-evolution.com/">
+          <img
+            src="https://e-evolution.com/wp-content/uploads/2021/05/EE-logo.png"
+            alt="e-Evolution"
+            width="1200"
+          >
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <h3><a href="http://www.e-evolution.com/">e-Evolution</a></h3><br/>
+        <p align="left">
+        e‑Evolution is an international consulting company based in Mexico with more than 20 years of experience and implementations throughout Latin America. With a multinational team of professionals, e‑Evolution supports clients in the adoption of new technologies such as ADempiere ERP, CRM & SCM, as well as the adoption of best business practices in the administration, finance, distribution, logistics, manufacturing, and supply chain processes.
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="http://erpya.com/">
+          <img
+            src="https://user-images.githubusercontent.com/2333092/176467773-fcc7a336-1023-43dd-9df8-f79e4a18ff05.png"
+            alt="ERP Consultores y Asociados"
+            width="1000"
+          >
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <h3><a href="http://erpya.com/">ERP Consultores y Asociados</a></h3><br/>
+        <p align="left">
+        ERP Consultores y Asociados is a consulting and software development company in Venezuela with hundreds of implementations of ADempiere in Latin America.  They are the prime developers of the new ADempiere user interface.
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="http://www.ofbconsulting.com/">
+          <img
+            src="http://www.ofbconsulting.com/images/logo_principal.png?crc=125178761"
+            alt="OFB Consulting"
+            width="1000"
+          >
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <h3><a href="http://www.ofbconsulting.com/">OFB Consulting</a></h3><br/>
+        <p align="left">
+        OFB Consulting, located in Chile, is an official world class implementer of the ADempiere ERP  software with the largest number of successful implementations in both private and public sectors.
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="http://www.openupsolutions.com/">
+          <img
+            src="http://www.adempiere.net/documents/10184/85500/Openup+solutions+2017+320x200.jpg/266c1a8c-be41-4ca4-be3c-0c14e4127cce?t=1580417323903"
+            alt="Openup Solutions"
+            width="1000"
+          >
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <h3><a href="http://www.openupsolutions.com/">Openup Solutions</a></h3><br/>
+        <p align="left">
+        Openup Solutions is a consulting and software development company based in Uruguay with successful implementations in the service, retail, consumer credit, transportation and industry sectors.
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="http://westfalia-it.com/">
+          <img
+            src="http://www.adempiere.net/documents/10184/85500/Systemhaus+Westfalia.jpg/6018f1b9-33ac-48cb-b6ba-8e1f12045e11?t=1580508026819"
+            alt="Systemhaus Westfalia"
+            width="1000"
+          >
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <h3><a href="http://westfalia-it.com/">Systemhaus Westfalia</a></h3><br/>
+        <p align="left">
+        ERP Consultores y Asociados is a consulting and software development company in Venezuela with hundreds of implementations of ADempiere in Latin America.  They are the prime developers of the new ADempiere user interface.
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h2 id="silver-sponsors" tabindex="-1"> Silver Sponsors</h2>
+<table>
+  <tbody>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="www.vdevsoft.com">
+          <img
+            src="https://user-images.githubusercontent.com/2333092/110265373-c2cafb00-7f91-11eb-84de-2aba7f2c2024.jpg"
+            alt="vDevSoft"
+            width="400"
+          >
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <h3><a href="www.vdevsoft.com">VDevSoft</a></h3><br/>
+        <p align="left">
+        Based in Thailand, founded in 2009 by software developers and accountants. With over 25 years of experience in commercial and community ERP systems.
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="https://www.catura.de/">
+          <img
+            src="http://www.adempiere.net/documents/10184/85500/Catura_logo_300.png/d341983f-1892-43be-ae40-de43ae6cae88?t=1581425938105"
+            alt="Catura AG"
+            width="400"
+          >
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <h3><a href="https://www.catura.de/">Catura AG</a></h3><br/>
+        <p align="left">
+        Based in Passau, Germany, Catura offers its customers tailor-made ERP solutions with a focus on online trading as well as a profound data analysis & Business Intelligence (BI) based on Pentaho BI.
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="middle">
+        <a href="http://www.efact.cl/">
+          <img
+            src="http://www.adempiere.net/documents/10184/85500/efact_log.jpg/88868b02-6931-4ff7-80c3-c7553d4e05d1?t=1584030433952"
+            alt="EFact"
+            width="400"
+          >
+        </a>
+      </td>
+      <td align="center" valign="middle">
+        <h3><a href="http://www.efact.cl/">EFact</a></h3><br/>
+        <p align="left">
+        EFact provides IT support for customers in Chile. They have two main service areas: infrastructure (Internet networks, antenna, power systems, data centers, UPS and ATS systems) and computer services providing transaction systems, Linux, Amazon Web Services, Disaster operations, databases and web design. With more than 25 years of experience with Linux systems and database administration, EFact can provide performance and stability to its customers.
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<h2 id="become-a-sponsor" tabindex="-1"> Become a Sponsor</h2>
+<p>Companies that wish to sponsor the ADempiere community and the activities of the Foundation can purchase a sponsorship subscription. There are three levels: platinum, gold and silver with monthly subscription amounts of <strong>$200</strong>, <strong>$100</strong> and <strong>$50</strong> USD respectively.  The Subscriptions can also be purchased with a single yearly amount of <strong>$2000</strong>, <strong>$1000</strong> and <strong>$500</strong> <strong>USD</strong> respectively.  All funds provided will be controlled by the ADempiere Foundation and used to support the community.</p>
+<p>Platinum sponsors are listed first on the page with a larger logo and can have a short descritpion included with the listing.</p>
+<p>Subscriptions can be purchsed through Paypal by selecting one of the options and clicking the &quot;Subscribe&quot; button below.  You will need a Paypal account or you can create one during the process.  If you need to cancel the subscription, you can do so through your Paypal account or by clicking the Unsubscribe button below.  After you submit your subscription, we will contact you to gather your company info.</p>
+]]></content:encoded>
+    </item>
     <item>
       <title>The Brand</title>
       <link>https://github.com/adempiere/adempiere-site.github.io/about/branding.html</link>
@@ -79,47 +335,46 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>Title</title>
+      <title>Foundation</title>
       <link>https://github.com/adempiere/adempiere-site.github.io/foundation/</link>
       <guid>https://github.com/adempiere/adempiere-site.github.io/foundation/</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Title</source>
-      <category>Title</category>
+      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Foundation</source>
+      <category>Foundation</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
+      <content:encoded><![CDATA[<h2 id="about-the-association" tabindex="-1"> About the Association</h2>
+<div><p>Who is ADempiere Deutschland e.V.?</p>
+<p>The ADempiere association (ADempiere Deutschland e.V.) represents the open-source software project &quot;ADempiere&quot; in germany. We understand ourselves as developing partner consisting of people who work with ADempiere.</p>
 </div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
+<h3 id="whats-the-aim-of-this-association" tabindex="-1"> Whats the aim of this association?</h3>
+<p>Our main goal in terms of this association is to help to further distribute the software in germany.</p>
+<h3 id="what-we-do-to-fulfil-these-goals" tabindex="-1"> What we do to fulfil these goals:</h3>
 <ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
+<li>Fostering the relationship and collaboration of users, developers and scientists</li>
+<li>Development and further studies of free and open ERP software</li>
+<li>Providing documentation and supporting media to accomplish free ERP software and to secure availability of all kinds of information around the software</li>
+<li>Promoting the software on tradefares and congresses to gain to access to broad audience possibly interested in ADempiere</li>
+<li>Organization of congresses and workshops in general with talks by users and developers</li>
+<li>Protection of the free licensing of the software against commercially interested parties</li>
 </ul>
 ]]></content:encoded>
     </item>
     <item>
-      <title>Statute</title>
+      <title>Statutes</title>
       <link>https://github.com/adempiere/adempiere-site.github.io/foundation/statutes.html</link>
       <guid>https://github.com/adempiere/adempiere-site.github.io/foundation/statutes.html</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Statute</source>
+      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Statutes</source>
+      <category>Foundation</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="statute" tabindex="-1"> Statute</h1>
-<h2 id="charter-of-adempiere-e-v" tabindex="-1"> <strong>Charter of ADempiere e.V.</strong></h2>
-<h3 id="preamble" tabindex="-1"> <strong>Preamble:</strong></h3>
+      <content:encoded><![CDATA[<h2 id="charter-of-adempiere-e-v" tabindex="-1"> Charter of ADempiere e.V.</h2>
+<h3 id="preamble" tabindex="-1"> Preamble:</h3>
 <p>ADempiere e.V. (ADeV) is the representative of the free and open ERP system Adempiere. The association is understood to be the active partner of companies and persons which implement and develope ADempiere.</p>
-<h3 id="_1-name-headquarters-and-fiscal-year" tabindex="-1"> <strong>1. Name, headquarters and fiscal year</strong></h3>
+<h3 id="_1-name-headquarters-and-fiscal-year" tabindex="-1"> 1. Name, headquarters and fiscal year</h3>
 <ul>
 <li>The name of the association is ADempiere e.V.</li>
 <li>The association has its headquarters in Berlin. If no fixed office has been set up, the administration shall be carried out at the residence of the respective management board member who carries out executive management duties.</li>
 <li>The fiscal year shall be the calendar year.</li>
 </ul>
-<h3 id="_2-association-s-purpose" tabindex="-1"> <strong>2. Association's purpose</strong></h3>
+<h3 id="_2-association-s-purpose" tabindex="-1"> 2. Association's purpose</h3>
 <ul>
 <li>The purpose of the association is the promotion and dissemination of free ERP software in the sense of free software while taking the Adempiere programme package into special consideration. Free software, also referred to as &quot;open source software&quot;, in accordance with this charter is considered to be computer programmes which are provided free of charge to the general public by the author in a non-retrievable manner. The author thus grants to third parties the freedom to use the programme for any purpose, to examine how the programme functions and to modify it for one's own needs, to make copies for other persons and to improve the programme and to make these improvements available to the general public.</li>
 <li>The association's purpose is particularly realised through
@@ -133,13 +388,13 @@
 </li>
 <li>The association shall pursue no commercial purposes of its own. It shall not endeavour to earn a profit. It is not permitted to have political and ideological goals.</li>
 </ul>
-<h3 id="_3-non-profit-status" tabindex="-1"> **3. Non-profit status **</h3>
+<h3 id="_3-non-profit-status" tabindex="-1"> 3. Non-profit status</h3>
 <ul>
 <li>In accordance with its duties that are specified in § 2 of the charter, the association is pursuing, exclusively and directly, charitable purposes in accordance with the section of the tax code regarding tax advantages (§§ 51ff. AO). It is non-profit and does not primarily pursue its own commercial goals.</li>
 <li>The funds of the association are to be used exclusively for the purposes specified in the charter. The members receive exclusively reimbursements of their costs incurred, but no direct appropriations from the association's funds.</li>
 <li>No one may benefit for expenditures of the association which are not related to the association's purpose or through disproportionately high compensation. The Federal Travel Cost Act shall be prevailing for the reimbursement of expenditures provided that no other statutory provisions are applicable.</li>
 </ul>
-<h3 id="_4-types-of-membership-and-members-of-the-association" tabindex="-1"> **4. Types of membership and members of the association **</h3>
+<h3 id="_4-types-of-membership-and-members-of-the-association" tabindex="-1"> 4. Types of membership and members of the association</h3>
 <ul>
 <li>Members of the association may be natural and juridical persons who wish to support and help to pursue the goals of the association. In order to give members the option of withdrawing from the active support of the continuing development of Adempiere without giving up their membership, the following types of memberships are available:
 <ul>
@@ -162,14 +417,14 @@
 <li>Before the adopting of a resolution, the member must be given the opportunity to provide a legal justification or take a statement of position. An objection to the exclusion may be submitted to the management board within four weeks upon which the next members' meeting shall rule. Until a decision is made by the members' meeting, the rights and obligations of the member shall be suspended.</li>
 <li>If a member leaves the association or the association is dissolved, no claim to the reimbursement of financial assets that have been contributed shall apply.</li>
 </ul>
-<h3 id="_5-bodies-of-the-association" tabindex="-1"> <strong>5. Bodies of the association</strong></h3>
+<h3 id="_5-bodies-of-the-association" tabindex="-1"> 5. Bodies of the association</h3>
 <p>Bodies of the association are:</p>
 <ul>
 <li>The members' meeting</li>
 <li>The management board</li>
 <li>The advisory council</li>
 </ul>
-<h3 id="_6-members-meeting" tabindex="-1"> **6. Members' meeting **</h3>
+<h3 id="_6-members-meeting" tabindex="-1"> 6. Members' meeting</h3>
 <ul>
 <li>All of the association's members belong to the members' meeting. Only active members shall receive one voting right to cast one vote.</li>
 <li>The members' meeting shall take place at least upon an annual basis. It shall be convened by the management board in writing via post or e-mail while stating the provisional agenda of the meeting. The convening timeframe shall amount to two weeks. The timeframe shall begin upon the date following the sending of the convening notice. The date of the postal stamp or the sending of the e-mail shall be prevailing. The convening letter shall be considered to have been received when it has been sent to the last address that the member has submitted in writing. Up to two weeks before the meeting, the members may send further recommendations for agenda points in writing or electronically to the management board. The date of the receipt of the postal letter or e -mail shall be prevailing. The management board shall publish the final agenda on the Internet and the address shall be stated in the written convening notice.</li>
@@ -178,7 +433,7 @@
 <li>Deviating from (4), in order to adopt amendments to the charter and resolutions regarding the dissolution of the association, 3/4 of the votes cast in the members' meeting, but nonetheless half of the votes of all active members of the association, are required.</li>
 <li>An active member who does not personally appear at the members' meeting may be represented by another member who personally appears at the members' meeting. In addition to his own vote, the representative shall cast the vote of the member being represented. The representative shall legitimise himself at the beginning of the members' meeting by presenting a written power of attorney in its original form to the management board. A representative may represent a maximum of two members.</li>
 </ul>
-<h3 id="_7-responsibilities-of-the-members-meeting" tabindex="-1"> <strong>7. Responsibilities of the members' meeting</strong></h3>
+<h3 id="_7-responsibilities-of-the-members-meeting" tabindex="-1"> 7. Responsibilities of the members' meeting</h3>
 <ul>
 <li>As the highest resolution-adopting body of the association, the members' meeting is fundamentally competent to fulfil all duties provided that certain duties have not been assigned to another body of the association in accordance with this charter.</li>
 <li>The members' meeting shall select the management board from the ranks of active members. The persons shall be elected who receive the most votes.</li>
@@ -197,7 +452,7 @@
 </li>
 <li>It may adopt resolutions regarding other maters which are submitted to it by the management board or the membership.</li>
 </ul>
-<h3 id="_8-management-board" tabindex="-1"> <strong>8. Management board</strong></h3>
+<h3 id="_8-management-board" tabindex="-1"> 8. Management board</h3>
 <ul>
 <li>The management board shall consist of three active members. Only natural persons may be members of the management board. Their terms on the management board shall be three years. It is possible to be re-elected. The respectively serving members of the management board shall remain in office after their terms expire until successors are elected.</li>
 <li>The management board shall be composed of a chairman and two representatives. One of the representatives shall be the treasurer.</li>
@@ -210,19 +465,19 @@
 <li>Amendments of the charter that are requested by the supervisory, court or financial governmental authorities owing to formal reasons may be undertaken by the management board without further ado. The amendments to the charter must be announced at the next members' meeting.</li>
 <li>The management board is expressly forbidden from taking out loans for the association. The members' meeting shall be obliged to make such a decision.</li>
 </ul>
-<h3 id="_9-advisory-council" tabindex="-1"> <strong>9. Advisory council</strong></h3>
+<h3 id="_9-advisory-council" tabindex="-1"> 9. Advisory council</h3>
 <ul>
 <li>The association may have an advisory council. The advisory council shall have the responsibility of advising and supporting the management board.</li>
 <li>The advisory council shall be created and abolished by the management board. A member of the advisory council does not have to be an association member. The management board is not obliged to create an advisory council.</li>
 <li>If an advisory council is created, an advisory council meeting shall take place at least once per year which is convened by the management board.</li>
 </ul>
-<h3 id="_10-by-laws" tabindex="-1"> <strong>10. By-Laws</strong></h3>
+<h3 id="_10-by-laws" tabindex="-1"> 10. By-Laws</h3>
 <p>The by-laws shall regulate the details of the association's work beyond the parameters of the charter. The management board shall make the by-laws effective after their approval by the members. The approval of the members shall be made by an Internet vote with a simple majority of the active members being required for such approval.</p>
-<h3 id="_11-written-minutes-of-the-meeting" tabindex="-1"> <strong>11. Written minutes of the meeting</strong></h3>
+<h3 id="_11-written-minutes-of-the-meeting" tabindex="-1"> 11. Written minutes of the meeting</h3>
 <p>The resolutions of the management board and the members' meetings shall be fixed in writing and shall be provided to the members for their review.</p>
-<h3 id="_12-collective-bargaining-agreements" tabindex="-1"> <strong>12. Collective bargaining agreements</strong></h3>
+<h3 id="_12-collective-bargaining-agreements" tabindex="-1"> 12. Collective bargaining agreements</h3>
 <p>Before full-time employees are hired, the management board shall regulate their wages in the by-laws.</p>
-<h3 id="_13-financing-of-the-association" tabindex="-1"> <strong>13. Financing of the association</strong></h3>
+<h3 id="_13-financing-of-the-association" tabindex="-1"> 13. Financing of the association</h3>
 <ul>
 <li>The required financial funds of the association shall be obtained through
 <ul>
@@ -235,12 +490,12 @@
 </li>
 <li>The members shall pay dues in accordance with a resolution of the members' meeting or the active members through an Internet vote with a simple majority being required for approval. The regulation of the amount of the membership dues shall be a component of the by-laws.</li>
 </ul>
-<h3 id="_14-dissolution-of-the-association-use-of-the-association-s-assets" tabindex="-1"> **14. Dissolution of the association, use of the association's assets **</h3>
+<h3 id="_14-dissolution-of-the-association-use-of-the-association-s-assets" tabindex="-1"> 14. Dissolution of the association, use of the association's assets</h3>
 <ul>
 <li>The dissolution of the association may be adopted by resolution only by a members' meeting specifically convened for this purpose. The dissolution resolution shall require a majority of two-thirds of the active members who are present. If less than half of the members entitled to vote are present, then the resolution shall require a majority of three-fourths of the active members who are present.</li>
 <li>If the association is dissolved, after the settlement of all liabilities, the remaining assets of the association shall be bestowed upon FSF Europe - Chapter Germany e.V. which is entitled to use it for tax deducted purposes.</li>
 </ul>
-<h3 id="_15-other-provisions" tabindex="-1"> <strong>15. Other provisions</strong></h3>
+<h3 id="_15-other-provisions" tabindex="-1"> 15. Other provisions</h3>
 <ul>
 <li>Communication among members and between the association and its members shall be carried out preferentially by electronic means. For this purpose, an &quot;Information exchange system&quot; (bulletin board or mailing list) has been set up. Members who are not linked to this system have no claim to receiving this information by other means (e.g. via the postal service). Within the parameters of this communication system, each member has been provided with only one access right.</li>
 <li>The name of the association may be used only in conjunction with the association's activities.</li>
@@ -335,81 +590,6 @@
 <p>&quot;The interest and feedback we get for the world conference is just more proof for the global collaboration of community members and the growing network around ADempiere. I'm looking forward to another great experience with this positive and progressive spirit surrounding the community.&quot; – Kai Schaeffer, chairman of the ADempiere association.</p>
 <p>Another item on the World Conference agenda is the general assembly of the association and the election of a new chairman.</p>
 <p>Of course the weekend will also be used to incorporate social events to get to know each other further and to exchange know how and experiences.</p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>https://github.com/adempiere/adempiere-site.github.io/community/code-of-conduct/</link>
-      <guid>https://github.com/adempiere/adempiere-site.github.io/community/code-of-conduct/</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Title</source>
-      <category>Title</category>
-      <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
-</div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>https://github.com/adempiere/adempiere-site.github.io/community/duties-and-rigths/</link>
-      <guid>https://github.com/adempiere/adempiere-site.github.io/community/duties-and-rigths/</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Title</source>
-      <category>Title</category>
-      <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
-</div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>https://github.com/adempiere/adempiere-site.github.io/community/join/</link>
-      <guid>https://github.com/adempiere/adempiere-site.github.io/community/join/</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Title</source>
-      <category>Title</category>
-      <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
-</div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
 ]]></content:encoded>
     </item>
     <item>
@@ -716,131 +896,6 @@
       <title>Title</title>
       <link>https://github.com/adempiere/adempiere-site.github.io/downloads/operator/</link>
       <guid>https://github.com/adempiere/adempiere-site.github.io/downloads/operator/</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Title</source>
-      <category>Title</category>
-      <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
-</div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>https://github.com/adempiere/adempiere-site.github.io/foundation/board/</link>
-      <guid>https://github.com/adempiere/adempiere-site.github.io/foundation/board/</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Title</source>
-      <category>Title</category>
-      <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
-</div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>https://github.com/adempiere/adempiere-site.github.io/foundation/how-to-contribute/</link>
-      <guid>https://github.com/adempiere/adempiere-site.github.io/foundation/how-to-contribute/</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Title</source>
-      <category>Title</category>
-      <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
-</div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>https://github.com/adempiere/adempiere-site.github.io/foundation/membership/</link>
-      <guid>https://github.com/adempiere/adempiere-site.github.io/foundation/membership/</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Title</source>
-      <category>Title</category>
-      <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
-</div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>https://github.com/adempiere/adempiere-site.github.io/foundation/sponsors/</link>
-      <guid>https://github.com/adempiere/adempiere-site.github.io/foundation/sponsors/</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Title</source>
-      <category>Title</category>
-      <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
-</div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>https://github.com/adempiere/adempiere-site.github.io/foundation/statutes/</link>
-      <guid>https://github.com/adempiere/adempiere-site.github.io/foundation/statutes/</guid>
       <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
@@ -1673,7 +1728,7 @@
 <p>The ADempiere community is made up of various categories of people, and we are sure you must fit into at least one of them. There are contributors, developers, testers, writers, users, as well as businesses, authorities, experts, newbies and students. There is also a Council of trustees to be responsible for this community and the project's well-being.</p>
 <p>Each community has its own history and culture. This particular community has its roots within the <a href="http://sf.net/projects/compiere" target="_blank" rel="noopener noreferrer">Compiere SourceForge project</a> over the last 3 years. We started as users and implementors of this great software project, and began to progress in leaps and bounds in our own capability to master it and even extend it for various end-users.</p>
 <p>The community was generally grateful to Compiere's creator, Jorg Janke, and tolerated his business model of charging users for priority support, training and the user manual. Many of us contributed code, bug reports, fixes and recommendations on how this premiere Open Source ERP/CRM solution could continue to expand. And though Jorg Janke hardly responded to the forums' messages (even those that were directly aimed at him) the Compiere community enjoyed ample support and encouragement from other community seniors on a voluntary and vigilant basis.</p>
-<p>Trouble set in soon after ComPiere Inc, USA, the commercial entity behind this project, purportedly obtained some USD6 million funding from an &quot;angel&quot; investor who soon joined its Board of Directors. Many among the paying partners of Compiere began to question new policy directions, this led to the Forking Debate, and eventually sparked off the Adempiere community. The name &quot;Adempiere&quot; is an Italian word related to &quot;Compiere&quot; (which means &quot;to deliver or fulfill&quot;), but also semantically reflects the core ideal of this community: &quot;to fulfill towards completion, with respect and honour&quot;.
+<p>Trouble set in soon after ComPiere Inc, USA, the commercial entity behind this project, purportedly obtained some USD6 million funding from an &quot;angel&quot; investor who soon joined its Board of Directors. Many among the paying partners of Compiere began to question new policy directions, this led to the <a href="http://www.compiere.com/about/board.html" target="_blank" rel="noopener noreferrer">Forking Debate</a>, and eventually sparked off the Adempiere community. The name &quot;Adempiere&quot; is an Italian word related to &quot;Compiere&quot; (which means &quot;to deliver or fulfill&quot;), but also semantically reflects the core ideal of this community: &quot;to fulfill towards completion, with respect and honour&quot;.
 Learn how to improve the current documentation and make it better for you and everybody!.</p>
 ]]></content:encoded>
     </item>
