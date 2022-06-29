@@ -6,8 +6,8 @@
     <link>https://github.com/adempiere/adempiere-site.github.io/</link>
     <description>A official page of ADempiere community.</description>
     <language>en-US</language>
-    <pubDate>Wed, 29 Jun 2022 15:43:48 GMT</pubDate>
-    <lastBuildDate>Wed, 29 Jun 2022 15:43:48 GMT</lastBuildDate>
+    <pubDate>Wed, 29 Jun 2022 15:50:11 GMT</pubDate>
+    <lastBuildDate>Wed, 29 Jun 2022 15:50:11 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Community</category>
@@ -335,10 +335,10 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>Foundation</title>
+      <title>About the Association</title>
       <link>https://github.com/adempiere/adempiere-site.github.io/foundation/</link>
       <guid>https://github.com/adempiere/adempiere-site.github.io/foundation/</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Foundation</source>
+      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">About the Association</source>
       <category>Foundation</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="about-the-association" tabindex="-1"> About the Association</h2>
@@ -1718,10 +1718,10 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>Community</title>
+      <title>Who Are We?</title>
       <link>https://github.com/adempiere/adempiere-site.github.io/community/</link>
       <guid>https://github.com/adempiere/adempiere-site.github.io/community/</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Community</source>
+      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Who Are We?</source>
       <category>Community</category>
       <pubDate>Sat, 25 Jun 2022 22:12:09 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="who-are-we" tabindex="-1"> Who Are We?</h2>
