@@ -6,8 +6,8 @@
     <link>https://github.com/adempiere/adempiere-site.github.io/</link>
     <description>A official page of ADempiere community.</description>
     <language>en-US</language>
-    <pubDate>Wed, 29 Jun 2022 06:02:32 GMT</pubDate>
-    <lastBuildDate>Wed, 29 Jun 2022 06:02:32 GMT</lastBuildDate>
+    <pubDate>Wed, 29 Jun 2022 12:37:39 GMT</pubDate>
+    <lastBuildDate>Wed, 29 Jun 2022 12:37:39 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Branding</category>
@@ -15,6 +15,7 @@
     <category>Title</category>
     <category>Foundation</category>
     <category>Assets</category>
+    <category>Community</category>
     <category>Documentation</category>
     <item>
       <title>The Brand</title>
@@ -1662,33 +1663,18 @@
 ]]></content:encoded>
     </item>
     <item>
-      <title>Documentation</title>
+      <title>Community</title>
       <link>https://github.com/adempiere/adempiere-site.github.io/community/</link>
       <guid>https://github.com/adempiere/adempiere-site.github.io/community/</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Documentation</source>
-      <category>Documentation</category>
+      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Community</source>
+      <category>Community</category>
       <pubDate>Sat, 25 Jun 2022 22:12:09 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Most of the companies acquired different software to cover the different needs of their organizations, but later they realize how complicated it is to share and unify the information that each module and organization obtained.</p>
-<p>ADempiere, due to its ERP status, offers everything a company needs in a single software, <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> wants to offer its readers a wide range of structured documents for users with high and low experience in handling ERP Software, in which each process of this powerful system will be explained efficiently and in detail, defining step by step the management of each one, its accounting, administrative and fiscal implications and finally the issuance of results that will allow optimum control of its operations..</p>
-<div><p>Intro</p>
-<p>Note that all <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> ecosystem was created to be used on any organization with minimal changes. This documentation was created for end used, tech and implementor</p>
-</div>
-<h2 id="getting-started" tabindex="-1"> Getting Started</h2>
-<p>Learn how to improve the current documentation and make it better for you and everybody!.</p>
-<ul>
-<li>
-<p><a href="basic-steps">Basic Steps</a></p>
-</li>
-<li>
-<p><a href="how-to-contribute">How to Contribute</a></p>
-</li>
-</ul>
-<h2 id="dictionary-elements" tabindex="-1"> Dictionary Elements</h2>
-<p>An auto-generated guide from the ADempiere dictionary with all the documentation found within the dictionary.</p>
-<ul>
-<li><a href="auto-generated/menu">Menu</a></li>
-<li><a href="auto-generated/forms">Forms</a></li>
-</ul>
+      <content:encoded><![CDATA[<h2 id="who-are-we" tabindex="-1"> Who Are We?</h2>
+<p>The ADempiere community is made up of various categories of people, and we are sure you must fit into at least one of them. There are contributors, developers, testers, writers, users, as well as businesses, authorities, experts, newbies and students. There is also a Council of trustees to be responsible for this community and the project's well-being.</p>
+<p>Each community has its own history and culture. This particular community has its roots within the <a href="http://sf.net/projects/compiere" target="_blank" rel="noopener noreferrer">Compiere SourceForge project</a> over the last 3 years. We started as users and implementors of this great software project, and began to progress in leaps and bounds in our own capability to master it and even extend it for various end-users.</p>
+<p>The community was generally grateful to Compiere's creator, Jorg Janke, and tolerated his business model of charging users for priority support, training and the user manual. Many of us contributed code, bug reports, fixes and recommendations on how this premiere Open Source ERP/CRM solution could continue to expand. And though Jorg Janke hardly responded to the forums' messages (even those that were directly aimed at him) the Compiere community enjoyed ample support and encouragement from other community seniors on a voluntary and vigilant basis.</p>
+<p>Trouble set in soon after ComPiere Inc, USA, the commercial entity behind this project, purportedly obtained some USD6 million funding from an &quot;angel&quot; investor who soon joined its Board of Directors. Many among the paying partners of Compiere began to question new policy directions, this led to the Forking Debate, and eventually sparked off the Adempiere community. The name &quot;Adempiere&quot; is an Italian word related to &quot;Compiere&quot; (which means &quot;to deliver or fulfill&quot;), but also semantically reflects the core ideal of this community: &quot;to fulfill towards completion, with respect and honour&quot;.
+Learn how to improve the current documentation and make it better for you and everybody!.</p>
 ]]></content:encoded>
     </item>
     <item>
