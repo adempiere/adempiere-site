@@ -45,9 +45,9 @@
       "title": "Binary Download",
       "url": "https://github.com/adempiere/adempiere-site.github.io/downloads/binary.html",
       "id": "https://github.com/adempiere/adempiere-site.github.io/downloads/binary.html",
-      "content_html": "<div><p>We are on Github</p>\n<p>All community of <a href=\"http://adempiere.net/\" target=\"_blank\" rel=\"noopener noreferrer\">ADempiere ERP</a> is over <a href=\"http://github.com/adempiere\" target=\"_blank\" rel=\"noopener noreferrer\">Gihub</a>. We have many projects for you with daily contributions.</p>\n</div>\n<h2 id=\"github-releases\" tabindex=\"-1\"> Github Releases</h2>\n<p>All releases of <a href=\"http://adempiere.net/\" target=\"_blank\" rel=\"noopener noreferrer\">ADempiere ERP</a> are <a href=\"https://github.com/adempiere/adempiere/releases\" target=\"_blank\" rel=\"noopener noreferrer\">here</a></p>\n<Releases/>\n",
+      "content_html": "<div><p>We are on Github</p>\n<p>All community of <a href=\"http://adempiere.net/\" target=\"_blank\" rel=\"noopener noreferrer\">ADempiere ERP</a> is over <a href=\"http://github.com/adempiere\" target=\"_blank\" rel=\"noopener noreferrer\">Gihub</a>. We have many projects for you with daily contributions.</p>\n</div>\n<h2 id=\"github-releases\" tabindex=\"-1\"> Github Releases</h2>\n<p>All releases of <a href=\"http://adempiere.net/\" target=\"_blank\" rel=\"noopener noreferrer\">ADempiere ERP</a> are <a href=\"https://github.com/adempiere/adempiere/releases/latest\" target=\"_blank\" rel=\"noopener noreferrer\">here</a></p>\n<Releases/>\n",
       "date_published": "2022-07-01T15:51:14.000Z",
-      "date_modified": "2022-07-01T23:01:20.000Z",
+      "date_modified": "2022-07-01T22:52:06.000Z",
       "authors": [],
       "tags": [
         "Download"
