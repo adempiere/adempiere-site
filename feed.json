@@ -6,6 +6,54 @@
   "description": "A official page of ADempiere community.",
   "items": [
     {
+      "title": "Binary Download",
+      "url": "https://github.com/adempiere/adempiere-site.github.io/downloads/binary.html",
+      "id": "https://github.com/adempiere/adempiere-site.github.io/downloads/binary.html",
+      "content_html": "<p>Replace this text by summary of index</p>\n<div><p>Intro</p>\n<p>Replace this text by <a href=\"http://adempiere.net/\" target=\"_blank\" rel=\"noopener noreferrer\">ADempiere ERP</a> tip</p>\n</div>\n<h2 id=\"replace-this-by-new-section\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n<h2 id=\"replace-this-by-new-section-1\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n",
+      "date_published": "2022-07-01T15:51:14.000Z",
+      "date_modified": "2022-07-01T15:51:14.000Z",
+      "authors": [],
+      "tags": [
+        "Download"
+      ]
+    },
+    {
+      "title": "Docker",
+      "url": "https://github.com/adempiere/adempiere-site.github.io/downloads/docker.html",
+      "id": "https://github.com/adempiere/adempiere-site.github.io/downloads/docker.html",
+      "content_html": "<p>Replace this text by summary of index</p>\n<div><p>Intro</p>\n<p>Replace this text by <a href=\"http://adempiere.net/\" target=\"_blank\" rel=\"noopener noreferrer\">ADempiere ERP</a> tip</p>\n</div>\n<h2 id=\"replace-this-by-new-section\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n<h2 id=\"replace-this-by-new-section-1\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n",
+      "date_published": "2022-07-01T15:51:14.000Z",
+      "date_modified": "2022-07-01T15:51:14.000Z",
+      "authors": [],
+      "tags": [
+        "Download"
+      ]
+    },
+    {
+      "title": "Helm",
+      "url": "https://github.com/adempiere/adempiere-site.github.io/downloads/helm.html",
+      "id": "https://github.com/adempiere/adempiere-site.github.io/downloads/helm.html",
+      "content_html": "<p>Replace this text by summary of index</p>\n<div><p>Intro</p>\n<p>Replace this text by <a href=\"http://adempiere.net/\" target=\"_blank\" rel=\"noopener noreferrer\">ADempiere ERP</a> tip</p>\n</div>\n<h2 id=\"replace-this-by-new-section\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n<h2 id=\"replace-this-by-new-section-1\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n",
+      "date_published": "2022-07-01T15:51:14.000Z",
+      "date_modified": "2022-07-01T15:51:14.000Z",
+      "authors": [],
+      "tags": [
+        "Download"
+      ]
+    },
+    {
+      "title": "Operator",
+      "url": "https://github.com/adempiere/adempiere-site.github.io/downloads/operator.html",
+      "id": "https://github.com/adempiere/adempiere-site.github.io/downloads/operator.html",
+      "content_html": "<p>Replace this text by summary of index</p>\n<div><p>Intro</p>\n<p>Replace this text by <a href=\"http://adempiere.net/\" target=\"_blank\" rel=\"noopener noreferrer\">ADempiere ERP</a> tip</p>\n</div>\n<h2 id=\"replace-this-by-new-section\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n<h2 id=\"replace-this-by-new-section-1\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n",
+      "date_published": "2022-07-01T15:51:14.000Z",
+      "date_modified": "2022-07-01T15:51:14.000Z",
+      "authors": [],
+      "tags": [
+        "Download"
+      ]
+    },
+    {
       "title": "Code of Conduct",
       "url": "https://github.com/adempiere/adempiere-site.github.io/community/code-of-conduct.html",
       "id": "https://github.com/adempiere/adempiere-site.github.io/community/code-of-conduct.html",
@@ -102,15 +150,15 @@
       ]
     },
     {
-      "title": "Title",
+      "title": "Downloads",
       "url": "https://github.com/adempiere/adempiere-site.github.io/downloads/",
       "id": "https://github.com/adempiere/adempiere-site.github.io/downloads/",
-      "content_html": "<p>Replace this text by summary of index</p>\n<div><p>Intro</p>\n<p>Replace this text by <a href=\"http://adempiere.net/\" target=\"_blank\" rel=\"noopener noreferrer\">ADempiere ERP</a> tip</p>\n</div>\n<h2 id=\"replace-this-by-new-section\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n<h2 id=\"replace-this-by-new-section-1\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n",
+      "content_html": "<h2 id=\"download-adempiere\" tabindex=\"-1\"> Download ADempiere</h2>\n<p>The open-source ERP, CRM &amp; SCM that powers millions of enterprises around the world. Get all features from this great ERP for you organization or business.</p>\n<div><p>Tips</p>\n<p>Learn more about ADempiere ERP <a href=\"../docs\">here</a></p>\n</div>\n<h2 id=\"where-is-available-adempiere-erp\" tabindex=\"-1\"> Where is available ADempiere ERP?</h2>\n<p>We are many ways for download ADempiere, you can use the way that suits you best or suits your needs for test cycles, quality assurance or production environments</p>\n<p><a href=\"https://www.docker.com/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Docker</strong></a> is a platform where you can have separate applications through containers. Packaged in such a way that it is very easy to deploy in development, test and production environments. Docker is responsible for generating a package with the minimum libraries necessary to start the application. See more about it <a href=\"/downloads/docker.html\">here</a>.</p>\n<p><a href=\"https://helm.sh/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Helm</strong></a> is a package manager for <a href=\"https://kubernetes.io/\" target=\"_blank\" rel=\"noopener noreferrer\">kubernetes</a> that basically help to define all realted with the hard work of install and upgrade the kubernetes applications. See more about it <a href=\"/downloads/helm.html\">here</a>.</p>\n<p><a href=\"https://operatorhub.io/\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Operator</strong></a> is a alternative way to helm that allows deploy application over <a href=\"https://kubernetes.io/\" target=\"_blank\" rel=\"noopener noreferrer\">kubernetes</a>. See more about it <a href=\"/downloads/operator.html\">here</a>.</p>\n<p><a href=\"https://github.com/adempiere\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Github Releases</strong></a> is the hub of many open source applications and allows share source code, releases; Make actions for build projects automatically. We have all repo of ADempiere community over it. See more about it <a href=\"/downloads/binary.html\">here</a>.</p>\n",
       "date_published": "2022-06-28T21:35:29.000Z",
-      "date_modified": "2022-06-28T21:35:29.000Z",
+      "date_modified": "2022-07-01T15:51:14.000Z",
       "authors": [],
       "tags": [
-        "Title"
+        "Download"
       ]
     },
     {
@@ -273,66 +321,6 @@
       "title": "Title",
       "url": "https://github.com/adempiere/adempiere-site.github.io/docs/videos/",
       "id": "https://github.com/adempiere/adempiere-site.github.io/docs/videos/",
-      "content_html": "<p>Replace this text by summary of index</p>\n<div><p>Intro</p>\n<p>Replace this text by <a href=\"http://adempiere.net/\" target=\"_blank\" rel=\"noopener noreferrer\">ADempiere ERP</a> tip</p>\n</div>\n<h2 id=\"replace-this-by-new-section\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n<h2 id=\"replace-this-by-new-section-1\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n",
-      "date_published": "2022-06-28T21:35:29.000Z",
-      "date_modified": "2022-06-28T21:35:29.000Z",
-      "authors": [],
-      "tags": [
-        "Title"
-      ]
-    },
-    {
-      "title": "Binary Download",
-      "url": "https://github.com/adempiere/adempiere-site.github.io/downloads/binary/",
-      "id": "https://github.com/adempiere/adempiere-site.github.io/downloads/binary/",
-      "content_html": "<p>Replace this text by summary of index</p>\n<div><p>Intro</p>\n<p>Replace this text by <a href=\"http://adempiere.net/\" target=\"_blank\" rel=\"noopener noreferrer\">ADempiere ERP</a> tip</p>\n</div>\n<h2 id=\"replace-this-by-new-section\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n<h2 id=\"replace-this-by-new-section-1\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n",
-      "date_published": "2022-06-28T21:35:29.000Z",
-      "date_modified": "2022-06-28T21:35:29.000Z",
-      "authors": [],
-      "tags": [
-        "Assets"
-      ]
-    },
-    {
-      "title": "Title",
-      "url": "https://github.com/adempiere/adempiere-site.github.io/downloads/docker/",
-      "id": "https://github.com/adempiere/adempiere-site.github.io/downloads/docker/",
-      "content_html": "<p>Replace this text by summary of index</p>\n<div><p>Intro</p>\n<p>Replace this text by <a href=\"http://adempiere.net/\" target=\"_blank\" rel=\"noopener noreferrer\">ADempiere ERP</a> tip</p>\n</div>\n<h2 id=\"replace-this-by-new-section\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n<h2 id=\"replace-this-by-new-section-1\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n",
-      "date_published": "2022-06-28T21:35:29.000Z",
-      "date_modified": "2022-06-28T21:35:29.000Z",
-      "authors": [],
-      "tags": [
-        "Title"
-      ]
-    },
-    {
-      "title": "Title",
-      "url": "https://github.com/adempiere/adempiere-site.github.io/downloads/github/",
-      "id": "https://github.com/adempiere/adempiere-site.github.io/downloads/github/",
-      "content_html": "<p>Replace this text by summary of index</p>\n<div><p>Intro</p>\n<p>Replace this text by <a href=\"http://adempiere.net/\" target=\"_blank\" rel=\"noopener noreferrer\">ADempiere ERP</a> tip</p>\n</div>\n<h2 id=\"replace-this-by-new-section\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n<h2 id=\"replace-this-by-new-section-1\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n",
-      "date_published": "2022-06-28T21:35:29.000Z",
-      "date_modified": "2022-06-28T21:35:29.000Z",
-      "authors": [],
-      "tags": [
-        "Title"
-      ]
-    },
-    {
-      "title": "Title",
-      "url": "https://github.com/adempiere/adempiere-site.github.io/downloads/helm/",
-      "id": "https://github.com/adempiere/adempiere-site.github.io/downloads/helm/",
-      "content_html": "<p>Replace this text by summary of index</p>\n<div><p>Intro</p>\n<p>Replace this text by <a href=\"http://adempiere.net/\" target=\"_blank\" rel=\"noopener noreferrer\">ADempiere ERP</a> tip</p>\n</div>\n<h2 id=\"replace-this-by-new-section\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n<h2 id=\"replace-this-by-new-section-1\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n",
-      "date_published": "2022-06-28T21:35:29.000Z",
-      "date_modified": "2022-06-28T21:35:29.000Z",
-      "authors": [],
-      "tags": [
-        "Title"
-      ]
-    },
-    {
-      "title": "Title",
-      "url": "https://github.com/adempiere/adempiere-site.github.io/downloads/operator/",
-      "id": "https://github.com/adempiere/adempiere-site.github.io/downloads/operator/",
       "content_html": "<p>Replace this text by summary of index</p>\n<div><p>Intro</p>\n<p>Replace this text by <a href=\"http://adempiere.net/\" target=\"_blank\" rel=\"noopener noreferrer\">ADempiere ERP</a> tip</p>\n</div>\n<h2 id=\"replace-this-by-new-section\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n<h2 id=\"replace-this-by-new-section-1\" tabindex=\"-1\"> Replace this by new section</h2>\n<p>Replace this by section summary text.</p>\n<ul>\n<li><a href=\"replace-by-folder-name\">Replace by functionality Name</a></li>\n<li><a href=\"replace-by-oter-folder-name\">Replace by other functionality Name</a></li>\n</ul>\n",
       "date_published": "2022-06-28T21:35:29.000Z",
       "date_modified": "2022-06-28T21:35:29.000Z",

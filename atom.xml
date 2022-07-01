@@ -3,18 +3,118 @@
   <id>https://github.com/adempiere/adempiere-site.github.io/</id>
   <title>ADempiere Official Page</title>
   <subtitle>A official page of ADempiere community.</subtitle>
-  <updated>2022-06-30T20:46:29.382Z</updated>
+  <updated>2022-07-01T15:52:54.073Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://github.com/adempiere/adempiere-site.github.io/atom.xml"/>
   <link rel="alternate" href="https://github.com/adempiere/adempiere-site.github.io/"/>
+  <category term="Download"/>
   <category term="Community"/>
   <category term="Foundation"/>
   <category term="Sponsors"/>
   <category term="Branding"/>
   <category term="History"/>
   <category term="Title"/>
-  <category term="Assets"/>
   <category term="Documentation"/>
+  <entry>
+    <title type="html">Binary Download</title>
+    <id>https://github.com/adempiere/adempiere-site.github.io/downloads/binary.html</id>
+    <link href="https://github.com/adempiere/adempiere-site.github.io/downloads/binary.html"/>
+    <updated>2022-07-01T15:51:14.000Z</updated>
+    <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
+<div><p>Intro</p>
+<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
+</div>
+<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
+<p>Replace this by section summary text.</p>
+<ul>
+<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
+<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
+</ul>
+<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
+<p>Replace this by section summary text.</p>
+<ul>
+<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
+<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
+</ul>
+]]></content>
+    <category term="Download" scheme=""/>
+    <published>2022-07-01T15:51:14.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">Docker</title>
+    <id>https://github.com/adempiere/adempiere-site.github.io/downloads/docker.html</id>
+    <link href="https://github.com/adempiere/adempiere-site.github.io/downloads/docker.html"/>
+    <updated>2022-07-01T15:51:14.000Z</updated>
+    <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
+<div><p>Intro</p>
+<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
+</div>
+<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
+<p>Replace this by section summary text.</p>
+<ul>
+<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
+<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
+</ul>
+<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
+<p>Replace this by section summary text.</p>
+<ul>
+<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
+<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
+</ul>
+]]></content>
+    <category term="Download" scheme=""/>
+    <published>2022-07-01T15:51:14.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">Helm</title>
+    <id>https://github.com/adempiere/adempiere-site.github.io/downloads/helm.html</id>
+    <link href="https://github.com/adempiere/adempiere-site.github.io/downloads/helm.html"/>
+    <updated>2022-07-01T15:51:14.000Z</updated>
+    <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
+<div><p>Intro</p>
+<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
+</div>
+<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
+<p>Replace this by section summary text.</p>
+<ul>
+<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
+<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
+</ul>
+<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
+<p>Replace this by section summary text.</p>
+<ul>
+<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
+<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
+</ul>
+]]></content>
+    <category term="Download" scheme=""/>
+    <published>2022-07-01T15:51:14.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">Operator</title>
+    <id>https://github.com/adempiere/adempiere-site.github.io/downloads/operator.html</id>
+    <link href="https://github.com/adempiere/adempiere-site.github.io/downloads/operator.html"/>
+    <updated>2022-07-01T15:51:14.000Z</updated>
+    <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
+<div><p>Intro</p>
+<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
+</div>
+<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
+<p>Replace this by section summary text.</p>
+<ul>
+<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
+<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
+</ul>
+<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
+<p>Replace this by section summary text.</p>
+<ul>
+<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
+<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
+</ul>
+]]></content>
+    <category term="Download" scheme=""/>
+    <published>2022-07-01T15:51:14.000Z</published>
+  </entry>
   <entry>
     <title type="html">Code of Conduct</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/community/code-of-conduct.html</id>
@@ -307,28 +407,23 @@
     <published>2022-06-28T21:35:29.000Z</published>
   </entry>
   <entry>
-    <title type="html">Title</title>
+    <title type="html">Downloads</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/downloads/</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/downloads/"/>
-    <updated>2022-06-28T21:35:29.000Z</updated>
-    <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
+    <updated>2022-07-01T15:51:14.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="download-adempiere" tabindex="-1"> Download ADempiere</h2>
+<p>The open-source ERP, CRM &amp; SCM that powers millions of enterprises around the world. Get all features from this great ERP for you organization or business.</p>
+<div><p>Tips</p>
+<p>Learn more about ADempiere ERP <a href="../docs">here</a></p>
 </div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
+<h2 id="where-is-available-adempiere-erp" tabindex="-1"> Where is available ADempiere ERP?</h2>
+<p>We are many ways for download ADempiere, you can use the way that suits you best or suits your needs for test cycles, quality assurance or production environments</p>
+<p><a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer"><strong>Docker</strong></a> is a platform where you can have separate applications through containers. Packaged in such a way that it is very easy to deploy in development, test and production environments. Docker is responsible for generating a package with the minimum libraries necessary to start the application. See more about it <a href="/downloads/docker.html">here</a>.</p>
+<p><a href="https://helm.sh/" target="_blank" rel="noopener noreferrer"><strong>Helm</strong></a> is a package manager for <a href="https://kubernetes.io/" target="_blank" rel="noopener noreferrer">kubernetes</a> that basically help to define all realted with the hard work of install and upgrade the kubernetes applications. See more about it <a href="/downloads/helm.html">here</a>.</p>
+<p><a href="https://operatorhub.io/" target="_blank" rel="noopener noreferrer"><strong>Operator</strong></a> is a alternative way to helm that allows deploy application over <a href="https://kubernetes.io/" target="_blank" rel="noopener noreferrer">kubernetes</a>. See more about it <a href="/downloads/operator.html">here</a>.</p>
+<p><a href="https://github.com/adempiere" target="_blank" rel="noopener noreferrer"><strong>Github Releases</strong></a> is the hub of many open source applications and allows share source code, releases; Make actions for build projects automatically. We have all repo of ADempiere community over it. See more about it <a href="/downloads/binary.html">here</a>.</p>
 ]]></content>
-    <category term="Title" scheme=""/>
+    <category term="Download" scheme=""/>
     <published>2022-06-28T21:35:29.000Z</published>
   </entry>
   <entry>
@@ -768,131 +863,6 @@
     <title type="html">Title</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/docs/videos/</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/docs/videos/"/>
-    <updated>2022-06-28T21:35:29.000Z</updated>
-    <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
-</div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-]]></content>
-    <category term="Title" scheme=""/>
-    <published>2022-06-28T21:35:29.000Z</published>
-  </entry>
-  <entry>
-    <title type="html">Binary Download</title>
-    <id>https://github.com/adempiere/adempiere-site.github.io/downloads/binary/</id>
-    <link href="https://github.com/adempiere/adempiere-site.github.io/downloads/binary/"/>
-    <updated>2022-06-28T21:35:29.000Z</updated>
-    <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
-</div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-]]></content>
-    <category term="Assets" scheme=""/>
-    <published>2022-06-28T21:35:29.000Z</published>
-  </entry>
-  <entry>
-    <title type="html">Title</title>
-    <id>https://github.com/adempiere/adempiere-site.github.io/downloads/docker/</id>
-    <link href="https://github.com/adempiere/adempiere-site.github.io/downloads/docker/"/>
-    <updated>2022-06-28T21:35:29.000Z</updated>
-    <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
-</div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-]]></content>
-    <category term="Title" scheme=""/>
-    <published>2022-06-28T21:35:29.000Z</published>
-  </entry>
-  <entry>
-    <title type="html">Title</title>
-    <id>https://github.com/adempiere/adempiere-site.github.io/downloads/github/</id>
-    <link href="https://github.com/adempiere/adempiere-site.github.io/downloads/github/"/>
-    <updated>2022-06-28T21:35:29.000Z</updated>
-    <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
-</div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-]]></content>
-    <category term="Title" scheme=""/>
-    <published>2022-06-28T21:35:29.000Z</published>
-  </entry>
-  <entry>
-    <title type="html">Title</title>
-    <id>https://github.com/adempiere/adempiere-site.github.io/downloads/helm/</id>
-    <link href="https://github.com/adempiere/adempiere-site.github.io/downloads/helm/"/>
-    <updated>2022-06-28T21:35:29.000Z</updated>
-    <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
-</div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-]]></content>
-    <category term="Title" scheme=""/>
-    <published>2022-06-28T21:35:29.000Z</published>
-  </entry>
-  <entry>
-    <title type="html">Title</title>
-    <id>https://github.com/adempiere/adempiere-site.github.io/downloads/operator/</id>
-    <link href="https://github.com/adempiere/adempiere-site.github.io/downloads/operator/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
