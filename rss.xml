@@ -6,25 +6,25 @@
     <link>https://github.com/adempiere/adempiere-site.github.io/</link>
     <description>A official page of ADempiere community.</description>
     <language>en-US</language>
-    <pubDate>Fri, 01 Jul 2022 15:52:54 GMT</pubDate>
-    <lastBuildDate>Fri, 01 Jul 2022 15:52:54 GMT</lastBuildDate>
+    <pubDate>Fri, 01 Jul 2022 20:42:34 GMT</pubDate>
+    <lastBuildDate>Fri, 01 Jul 2022 20:42:34 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>Title</category>
     <category>Download</category>
     <category>Community</category>
     <category>Foundation</category>
     <category>Sponsors</category>
     <category>Branding</category>
     <category>History</category>
-    <category>Title</category>
     <category>Documentation</category>
     <item>
-      <title>Binary Download</title>
-      <link>https://github.com/adempiere/adempiere-site.github.io/downloads/binary.html</link>
-      <guid>https://github.com/adempiere/adempiere-site.github.io/downloads/binary.html</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Binary Download</source>
-      <category>Download</category>
-      <pubDate>Fri, 01 Jul 2022 15:51:14 GMT</pubDate>
+      <title>Title</title>
+      <link>https://github.com/adempiere/adempiere-site.github.io/docs/articles.html</link>
+      <guid>https://github.com/adempiere/adempiere-site.github.io/docs/articles.html</guid>
+      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Title</source>
+      <category>Title</category>
+      <pubDate>Fri, 01 Jul 2022 20:40:33 GMT</pubDate>
       <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
 <p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
@@ -40,6 +40,80 @@
 <ul>
 <li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
 <li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Title</title>
+      <link>https://github.com/adempiere/adempiere-site.github.io/docs/links.html</link>
+      <guid>https://github.com/adempiere/adempiere-site.github.io/docs/links.html</guid>
+      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Title</source>
+      <category>Title</category>
+      <pubDate>Fri, 01 Jul 2022 20:40:33 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
+<div><p>Intro</p>
+<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
+</div>
+<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
+<p>Replace this by section summary text.</p>
+<ul>
+<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
+<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
+</ul>
+<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
+<p>Replace this by section summary text.</p>
+<ul>
+<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
+<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Title</title>
+      <link>https://github.com/adempiere/adempiere-site.github.io/docs/videos.html</link>
+      <guid>https://github.com/adempiere/adempiere-site.github.io/docs/videos.html</guid>
+      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Title</source>
+      <category>Title</category>
+      <pubDate>Fri, 01 Jul 2022 20:40:33 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
+<div><p>Intro</p>
+<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
+</div>
+<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
+<p>Replace this by section summary text.</p>
+<ul>
+<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
+<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
+</ul>
+<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
+<p>Replace this by section summary text.</p>
+<ul>
+<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
+<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Binary Download</title>
+      <link>https://github.com/adempiere/adempiere-site.github.io/downloads/binary.html</link>
+      <guid>https://github.com/adempiere/adempiere-site.github.io/downloads/binary.html</guid>
+      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Binary Download</source>
+      <category>Download</category>
+      <pubDate>Fri, 01 Jul 2022 15:51:14 GMT</pubDate>
+      <content:encoded><![CDATA[<div><p>We are on Github</p>
+<p>All community of <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> is over <a href="http://github.com/adempiere" target="_blank" rel="noopener noreferrer">Gihub</a>. We have many projects for you with daily contributions.</p>
+</div>
+<h2 id="github-releases" tabindex="-1"> Github Releases</h2>
+<p>All releases of <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> are <a href="https://github.com/adempiere/adempiere/releases/latest" target="_blank" rel="noopener noreferrer">here</a></p>
+<MyComponent/>
+<h3 id="adempiere-3-9-3" tabindex="-1"> <a href="https://github.com/adempiere/adempiere/releases/tag/3.9.3" target="_blank" rel="noopener noreferrer">ADempiere 3.9.3</a></h3>
+<ul>
+<li><a href="https://github.com/adempiere/adempiere/releases/download/3.9.3/Adempiere_393LTS.tar.gz" target="_blank" rel="noopener noreferrer">Adempiere_393LTS.tar.gz</a></li>
+<li><a href="https://github.com/adempiere/adempiere/releases/download/3.9.3/Adempiere_393LTS.tar.gz.MD5" target="_blank" rel="noopener noreferrer">Adempiere_393LTS.tar.gz.MD5</a></li>
+<li><a href="https://github.com/adempiere/adempiere/releases/download/3.9.3/Adempiere_393LTS.zip" target="_blank" rel="noopener noreferrer">Adempiere_393LTS.zip</a></li>
+<li><a href="https://github.com/adempiere/adempiere/releases/download/3.9.3/Adempiere_393LTS.zip.MD5" target="_blank" rel="noopener noreferrer">Adempiere_393LTS.zip.MD5</a></li>
+<li><a href="https://github.com/adempiere/adempiere/archive/refs/tags/3.9.3.zip" target="_blank" rel="noopener noreferrer">Source code (zip)</a></li>
+<li><a href="https://github.com/adempiere/adempiere/archive/refs/tags/3.9.3.tar.gz" target="_blank" rel="noopener noreferrer">Source code (tar.gz)</a></li>
 </ul>
 ]]></content:encoded>
     </item>
@@ -689,58 +763,8 @@
     </item>
     <item>
       <title>Title</title>
-      <link>https://github.com/adempiere/adempiere-site.github.io/docs/articles/</link>
-      <guid>https://github.com/adempiere/adempiere-site.github.io/docs/articles/</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Title</source>
-      <category>Title</category>
-      <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
-</div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Title</title>
       <link>https://github.com/adempiere/adempiere-site.github.io/docs/intro/</link>
       <guid>https://github.com/adempiere/adempiere-site.github.io/docs/intro/</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Title</source>
-      <category>Title</category>
-      <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
-</div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>https://github.com/adempiere/adempiere-site.github.io/docs/links/</link>
-      <guid>https://github.com/adempiere/adempiere-site.github.io/docs/links/</guid>
       <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
@@ -841,31 +865,6 @@
       <title>Title</title>
       <link>https://github.com/adempiere/adempiere-site.github.io/docs/verticals/</link>
       <guid>https://github.com/adempiere/adempiere-site.github.io/docs/verticals/</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Title</source>
-      <category>Title</category>
-      <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
-      <content:encoded><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
-</div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Title</title>
-      <link>https://github.com/adempiere/adempiere-site.github.io/docs/videos/</link>
-      <guid>https://github.com/adempiere/adempiere-site.github.io/docs/videos/</guid>
       <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Title</source>
       <category>Title</category>
       <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>

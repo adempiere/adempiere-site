@@ -3,23 +3,23 @@
   <id>https://github.com/adempiere/adempiere-site.github.io/</id>
   <title>ADempiere Official Page</title>
   <subtitle>A official page of ADempiere community.</subtitle>
-  <updated>2022-07-01T15:52:54.073Z</updated>
+  <updated>2022-07-01T20:42:34.684Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://github.com/adempiere/adempiere-site.github.io/atom.xml"/>
   <link rel="alternate" href="https://github.com/adempiere/adempiere-site.github.io/"/>
+  <category term="Title"/>
   <category term="Download"/>
   <category term="Community"/>
   <category term="Foundation"/>
   <category term="Sponsors"/>
   <category term="Branding"/>
   <category term="History"/>
-  <category term="Title"/>
   <category term="Documentation"/>
   <entry>
-    <title type="html">Binary Download</title>
-    <id>https://github.com/adempiere/adempiere-site.github.io/downloads/binary.html</id>
-    <link href="https://github.com/adempiere/adempiere-site.github.io/downloads/binary.html"/>
-    <updated>2022-07-01T15:51:14.000Z</updated>
+    <title type="html">Title</title>
+    <id>https://github.com/adempiere/adempiere-site.github.io/docs/articles.html</id>
+    <link href="https://github.com/adempiere/adempiere-site.github.io/docs/articles.html"/>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
 <p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
@@ -35,6 +35,80 @@
 <ul>
 <li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
 <li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
+</ul>
+]]></content>
+    <category term="Title" scheme=""/>
+    <published>2022-07-01T20:40:33.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">Title</title>
+    <id>https://github.com/adempiere/adempiere-site.github.io/docs/links.html</id>
+    <link href="https://github.com/adempiere/adempiere-site.github.io/docs/links.html"/>
+    <updated>2022-07-01T20:40:33.000Z</updated>
+    <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
+<div><p>Intro</p>
+<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
+</div>
+<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
+<p>Replace this by section summary text.</p>
+<ul>
+<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
+<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
+</ul>
+<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
+<p>Replace this by section summary text.</p>
+<ul>
+<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
+<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
+</ul>
+]]></content>
+    <category term="Title" scheme=""/>
+    <published>2022-07-01T20:40:33.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">Title</title>
+    <id>https://github.com/adempiere/adempiere-site.github.io/docs/videos.html</id>
+    <link href="https://github.com/adempiere/adempiere-site.github.io/docs/videos.html"/>
+    <updated>2022-07-01T20:40:33.000Z</updated>
+    <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
+<div><p>Intro</p>
+<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
+</div>
+<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
+<p>Replace this by section summary text.</p>
+<ul>
+<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
+<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
+</ul>
+<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
+<p>Replace this by section summary text.</p>
+<ul>
+<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
+<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
+</ul>
+]]></content>
+    <category term="Title" scheme=""/>
+    <published>2022-07-01T20:40:33.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">Binary Download</title>
+    <id>https://github.com/adempiere/adempiere-site.github.io/downloads/binary.html</id>
+    <link href="https://github.com/adempiere/adempiere-site.github.io/downloads/binary.html"/>
+    <updated>2022-07-01T20:40:33.000Z</updated>
+    <content type="html"><![CDATA[<div><p>We are on Github</p>
+<p>All community of <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> is over <a href="http://github.com/adempiere" target="_blank" rel="noopener noreferrer">Gihub</a>. We have many projects for you with daily contributions.</p>
+</div>
+<h2 id="github-releases" tabindex="-1"> Github Releases</h2>
+<p>All releases of <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> are <a href="https://github.com/adempiere/adempiere/releases/latest" target="_blank" rel="noopener noreferrer">here</a></p>
+<MyComponent/>
+<h3 id="adempiere-3-9-3" tabindex="-1"> <a href="https://github.com/adempiere/adempiere/releases/tag/3.9.3" target="_blank" rel="noopener noreferrer">ADempiere 3.9.3</a></h3>
+<ul>
+<li><a href="https://github.com/adempiere/adempiere/releases/download/3.9.3/Adempiere_393LTS.tar.gz" target="_blank" rel="noopener noreferrer">Adempiere_393LTS.tar.gz</a></li>
+<li><a href="https://github.com/adempiere/adempiere/releases/download/3.9.3/Adempiere_393LTS.tar.gz.MD5" target="_blank" rel="noopener noreferrer">Adempiere_393LTS.tar.gz.MD5</a></li>
+<li><a href="https://github.com/adempiere/adempiere/releases/download/3.9.3/Adempiere_393LTS.zip" target="_blank" rel="noopener noreferrer">Adempiere_393LTS.zip</a></li>
+<li><a href="https://github.com/adempiere/adempiere/releases/download/3.9.3/Adempiere_393LTS.zip.MD5" target="_blank" rel="noopener noreferrer">Adempiere_393LTS.zip.MD5</a></li>
+<li><a href="https://github.com/adempiere/adempiere/archive/refs/tags/3.9.3.zip" target="_blank" rel="noopener noreferrer">Source code (zip)</a></li>
+<li><a href="https://github.com/adempiere/adempiere/archive/refs/tags/3.9.3.tar.gz" target="_blank" rel="noopener noreferrer">Source code (tar.gz)</a></li>
 </ul>
 ]]></content>
     <category term="Download" scheme=""/>
@@ -119,7 +193,7 @@
     <title type="html">Code of Conduct</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/community/code-of-conduct.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/community/code-of-conduct.html"/>
-    <updated>2022-06-29T15:17:57.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<h2 id="code-of-conduct" tabindex="-1"> Code of Conduct</h2>
 <p>Code of Conduct ADempiere Since its inception, the ADempiere project has attracted many people to join your community. The vision of our project is &quot;to inspire people to share&quot;. This theme is central to the way the ADempiere community collaborates. ADempiere members of the community need to work together effectively, and a code of conduct lays down the &quot;ground rules&quot; for our cooperation.</p>
 <p>Our motto perfectly captures the spirit of sharing and cooperation that is at the core of the open source movement. In the Free Software world, we collaborate freely on a volunteer basis to build software for everyone's benefit. We improve the work of others, which we have received for free, andthen share our improvements on the same basis.</p>
@@ -132,7 +206,7 @@
     <title type="html">Basic Rules</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/community/duties-and-rigths.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/community/duties-and-rigths.html"/>
-    <updated>2022-06-29T15:17:57.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<h2 id="basic-rules-of-the-community" tabindex="-1"> Basic Rules of the Community</h2>
 <p>This Code of Conduct covers your behavior as a member of the ADempiere Community, in any forum, mailing list, wiki, web site, IRC channel, public meeting or private correspondence. The ADempiere Association arbitrate in any dispute over the conduct of a member of the community.</p>
 <p><strong>Be considerate</strong>. Your work will be used by other people, and you depend on the work of others. Any decision you take will affect users and colleagues, andwe hope you will take into account the consequences when making decisions.</p>
@@ -151,7 +225,7 @@
     <title type="html">Board</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/foundation/board.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/foundation/board.html"/>
-    <updated>2022-06-29T15:17:57.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<h2 id="board-members-2016" tabindex="-1"> Board Members 2016</h2>
 <ul>
 <li>Michael McKay Chairman and Public Relations, <a href="http://www.mckayerp.com/" target="_blank" rel="noopener noreferrer">mckayERP, Canadian</a></li>
@@ -168,7 +242,7 @@
     <title type="html">How To Contribute</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/foundation/how-to-contribute.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/foundation/how-to-contribute.html"/>
-    <updated>2022-06-29T15:17:57.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<div><p>Tips</p>
 <p>There are a number of ways you can contribute to the ADempiere project and the ADempiere Foundation.</p>
 </div>
@@ -188,7 +262,7 @@
     <title type="html">Members</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/foundation/membership.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/foundation/membership.html"/>
-    <updated>2022-06-29T15:17:57.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<p>As a non-for-profit association, the ADempiere Foundation is controlled by its members.  Members can take part in assemblies of the Foundation, vote on Foundation business, select the Board of Directors and server on the Board.</p>
 <h2 id="who-can-become-a-member-and-what-kinds-of-memberships-are-available" tabindex="-1"> Who can become a member and what kinds of memberships are available?</h2>
 <p>People and companies who seek to further develop and support ADempiere can become a member of the association.  There are three types of members:</p>
@@ -214,7 +288,7 @@
     <title type="html">Sponsors</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/foundation/sponsors.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/foundation/sponsors.html"/>
-    <updated>2022-06-30T20:44:31.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<h2 id="platinum-sponsors" tabindex="-1"> Platinum Sponsors</h2>
 <p>The following companies are currently sponsoring ADempiere.</p>
 <table>
@@ -374,7 +448,7 @@
     <title type="html">The Brand</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/about/branding.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/about/branding.html"/>
-    <updated>2022-06-28T21:35:29.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<h2 id="adempiere-brand" tabindex="-1"> ADempiere Brand</h2>
 <p>The name &quot;ADempiere&quot; is an Italian word related to &quot;Compiere&quot; (meaning &quot;achieve or attain&quot;) which reflects the basic ideal of this community.</p>
 <p>The administration and management of the ADempiere brand was delivered by our community to the ADEV foundation located in Germany and to which which any Adempiere Community Member can also be a part of.</p>
@@ -396,7 +470,7 @@
     <title type="html">The Beginning</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/about/the-beginning.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/about/the-beginning.html"/>
-    <updated>2022-06-28T21:35:29.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<h2 id="jorg-janke-the-master-mind" tabindex="-1"> Jorg Janke - The Master Mind</h2>
 <p>By the late 1980's, the German multinational enterprise software company SAP was looking for ways to migrate its ERP R/2 product to a client-server architecture, but in addition it wanted to build a multidimensional ERP, which meant deploying a multi-company, multi-language and multi-currency enterprise software among other things. In order to achieve this, they hired external advice from a German company called ADV/Orga, where Jorg Janke worked as software architect.</p>
 <p>Jorg's recommendation was to rewrite R/2 which would have put in place the required multidimensional features and as such conquered the world of ERP solutions. However SAP's decision at the end involved adding more layers to the core ERP programming structures, which in turn created inefficiencies and complexities that even today subsist on most SAP implementations and other ERP software as well.</p>
@@ -430,7 +504,7 @@
     <title type="html">About the Association</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/foundation/</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/foundation/"/>
-    <updated>2022-06-29T15:44:58.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<h2 id="about-the-association" tabindex="-1"> About the Association</h2>
 <div><p>Who is ADempiere Deutschland e.V.?</p>
 <p>The ADempiere association (ADempiere Deutschland e.V.) represents the open-source software project &quot;ADempiere&quot; in germany. We understand ourselves as developing partner consisting of people who work with ADempiere.</p>
@@ -454,7 +528,7 @@
     <title type="html">Statutes</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/foundation/statutes.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/foundation/statutes.html"/>
-    <updated>2022-06-29T15:17:57.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<h2 id="charter-of-adempiere-e-v" tabindex="-1"> Charter of ADempiere e.V.</h2>
 <h3 id="preamble" tabindex="-1"> Preamble:</h3>
 <p>ADempiere e.V. (ADeV) is the representative of the free and open ERP system Adempiere. The association is understood to be the active partner of companies and persons which implement and develope ADempiere.</p>
@@ -600,7 +674,7 @@
     <title type="html">Title</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/product/</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/product/"/>
-    <updated>2022-06-28T21:35:29.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
 <p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
@@ -650,7 +724,7 @@
     <title type="html">Berlin Conference 2009</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/about/meeting/berlin-2009.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/about/meeting/berlin-2009.html"/>
-    <updated>2022-06-28T21:35:29.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<h2 id="_2nd-european-adempiere-conference-in-berlin" tabindex="-1"> 2nd. European ADempiere conference in Berlin</h2>
 <p><strong>June 21st – 23rd 2009</strong></p>
 <p>For the first time in May 2007, developers from all over the world, involved in the open-source project ADempiere, met up for the first European ADempiere conference at the FHTW in Berlin.</p>
@@ -667,7 +741,7 @@
     <title type="html">Berlin Conference 2014</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/about/meeting/berlin-2014.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/about/meeting/berlin-2014.html"/>
-    <updated>2022-06-28T21:35:29.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<h1 id="adempiere-world-conference-in-berlin" tabindex="-1"> ADempiere World Conference in Berlin</h1>
 <p><strong>September 2nd till 4th of 2014</strong></p>
 <p>In May 2007 the 1st European ADempiere conference in Berlin – organized by the German ADempiere association – brought together developers from all over the world.</p>
@@ -686,58 +760,8 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://github.com/adempiere/adempiere-site.github.io/docs/articles/</id>
-    <link href="https://github.com/adempiere/adempiere-site.github.io/docs/articles/"/>
-    <updated>2022-06-28T21:35:29.000Z</updated>
-    <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
-</div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-]]></content>
-    <category term="Title" scheme=""/>
-    <published>2022-06-28T21:35:29.000Z</published>
-  </entry>
-  <entry>
-    <title type="html">Title</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/docs/intro/</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/docs/intro/"/>
-    <updated>2022-06-28T21:35:29.000Z</updated>
-    <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
-</div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-]]></content>
-    <category term="Title" scheme=""/>
-    <published>2022-06-28T21:35:29.000Z</published>
-  </entry>
-  <entry>
-    <title type="html">Title</title>
-    <id>https://github.com/adempiere/adempiere-site.github.io/docs/links/</id>
-    <link href="https://github.com/adempiere/adempiere-site.github.io/docs/links/"/>
     <updated>2022-06-28T21:35:29.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
@@ -861,34 +885,9 @@
   </entry>
   <entry>
     <title type="html">Title</title>
-    <id>https://github.com/adempiere/adempiere-site.github.io/docs/videos/</id>
-    <link href="https://github.com/adempiere/adempiere-site.github.io/docs/videos/"/>
-    <updated>2022-06-28T21:35:29.000Z</updated>
-    <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
-<div><p>Intro</p>
-<p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
-</div>
-<h2 id="replace-this-by-new-section" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-<h2 id="replace-this-by-new-section-1" tabindex="-1"> Replace this by new section</h2>
-<p>Replace this by section summary text.</p>
-<ul>
-<li><a href="replace-by-folder-name">Replace by functionality Name</a></li>
-<li><a href="replace-by-oter-folder-name">Replace by other functionality Name</a></li>
-</ul>
-]]></content>
-    <category term="Title" scheme=""/>
-    <published>2022-06-28T21:35:29.000Z</published>
-  </entry>
-  <entry>
-    <title type="html">Title</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/product/business-process/</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/product/business-process/"/>
-    <updated>2022-06-28T21:35:29.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
 <p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
@@ -913,7 +912,7 @@
     <title type="html">Title</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/product/demo/</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/product/demo/"/>
-    <updated>2022-06-28T21:35:29.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
 <p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
@@ -938,7 +937,7 @@
     <title type="html">Title</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/product/features/</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/product/features/"/>
-    <updated>2022-06-28T21:35:29.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
 <p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
@@ -963,7 +962,7 @@
     <title type="html">Title</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/product/technology/</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/product/technology/"/>
-    <updated>2022-06-28T21:35:29.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<p>Replace this text by summary of index</p>
 <div><p>Intro</p>
 <p>Replace this text by <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> tip</p>
@@ -1688,7 +1687,7 @@
     <title type="html">Who Are We?</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/community/</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/community/"/>
-    <updated>2022-06-29T15:45:22.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<h2 id="who-are-we" tabindex="-1"> Who Are We?</h2>
 <p>The ADempiere community is made up of various categories of people, and we are sure you must fit into at least one of them. There are contributors, developers, testers, writers, users, as well as businesses, authorities, experts, newbies and students. There is also a Council of trustees to be responsible for this community and the project's well-being.</p>
 <p>Each community has its own history and culture. This particular community has its roots within the <a href="http://sf.net/projects/compiere" target="_blank" rel="noopener noreferrer">Compiere SourceForge project</a> over the last 3 years. We started as users and implementors of this great software project, and began to progress in leaps and bounds in our own capability to master it and even extend it for various end-users.</p>
@@ -1703,7 +1702,7 @@ Learn how to improve the current documentation and make it better for you and ev
     <title type="html">Documentation</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/docs/</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/docs/"/>
-    <updated>2022-06-28T21:35:29.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<p>Most of the companies acquired different software to cover the different needs of their organizations, but later they realize how complicated it is to share and unify the information that each module and organization obtained.</p>
 <p>ADempiere, due to its ERP status, offers everything a company needs in a single software, <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> wants to offer its readers a wide range of structured documents for users with high and low experience in handling ERP Software, in which each process of this powerful system will be explained efficiently and in detail, defining step by step the management of each one, its accounting, administrative and fiscal implications and finally the issuance of results that will allow optimum control of its operations..</p>
 <div><p>Intro</p>
@@ -1808,7 +1807,7 @@ Learn how to improve the current documentation and make it better for you and ev
     <title type="html">Some History</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/about/</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/about/"/>
-    <updated>2022-06-29T15:46:36.000Z</updated>
+    <updated>2022-07-01T20:40:33.000Z</updated>
     <content type="html"><![CDATA[<div><p>ADempiere License</p>
 <p><a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> is own GNU/GPL v2 License</p>
 </div>
