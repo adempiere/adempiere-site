@@ -3,7 +3,7 @@
   <id>https://github.com/adempiere/adempiere-site.github.io/</id>
   <title>ADempiere Official Page</title>
   <subtitle>A official page of ADempiere community.</subtitle>
-  <updated>2022-07-01T20:42:34.684Z</updated>
+  <updated>2022-07-01T22:28:58.455Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://github.com/adempiere/adempiere-site.github.io/atom.xml"/>
   <link rel="alternate" href="https://github.com/adempiere/adempiere-site.github.io/"/>
@@ -94,22 +94,13 @@
     <title type="html">Binary Download</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/downloads/binary.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/downloads/binary.html"/>
-    <updated>2022-07-01T20:40:33.000Z</updated>
+    <updated>2022-07-01T22:15:16.000Z</updated>
     <content type="html"><![CDATA[<div><p>We are on Github</p>
 <p>All community of <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> is over <a href="http://github.com/adempiere" target="_blank" rel="noopener noreferrer">Gihub</a>. We have many projects for you with daily contributions.</p>
 </div>
 <h2 id="github-releases" tabindex="-1"> Github Releases</h2>
 <p>All releases of <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> are <a href="https://github.com/adempiere/adempiere/releases/latest" target="_blank" rel="noopener noreferrer">here</a></p>
-<MyComponent/>
-<h3 id="adempiere-3-9-3" tabindex="-1"> <a href="https://github.com/adempiere/adempiere/releases/tag/3.9.3" target="_blank" rel="noopener noreferrer">ADempiere 3.9.3</a></h3>
-<ul>
-<li><a href="https://github.com/adempiere/adempiere/releases/download/3.9.3/Adempiere_393LTS.tar.gz" target="_blank" rel="noopener noreferrer">Adempiere_393LTS.tar.gz</a></li>
-<li><a href="https://github.com/adempiere/adempiere/releases/download/3.9.3/Adempiere_393LTS.tar.gz.MD5" target="_blank" rel="noopener noreferrer">Adempiere_393LTS.tar.gz.MD5</a></li>
-<li><a href="https://github.com/adempiere/adempiere/releases/download/3.9.3/Adempiere_393LTS.zip" target="_blank" rel="noopener noreferrer">Adempiere_393LTS.zip</a></li>
-<li><a href="https://github.com/adempiere/adempiere/releases/download/3.9.3/Adempiere_393LTS.zip.MD5" target="_blank" rel="noopener noreferrer">Adempiere_393LTS.zip.MD5</a></li>
-<li><a href="https://github.com/adempiere/adempiere/archive/refs/tags/3.9.3.zip" target="_blank" rel="noopener noreferrer">Source code (zip)</a></li>
-<li><a href="https://github.com/adempiere/adempiere/archive/refs/tags/3.9.3.tar.gz" target="_blank" rel="noopener noreferrer">Source code (tar.gz)</a></li>
-</ul>
+<Releases/>
 ]]></content>
     <category term="Download" scheme=""/>
     <published>2022-07-01T15:51:14.000Z</published>
