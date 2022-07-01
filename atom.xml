@@ -3,7 +3,7 @@
   <id>https://github.com/adempiere/adempiere-site.github.io/</id>
   <title>ADempiere Official Page</title>
   <subtitle>A official page of ADempiere community.</subtitle>
-  <updated>2022-07-01T22:53:46.959Z</updated>
+  <updated>2022-07-01T23:02:56.691Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://github.com/adempiere/adempiere-site.github.io/atom.xml"/>
   <link rel="alternate" href="https://github.com/adempiere/adempiere-site.github.io/"/>
@@ -94,12 +94,12 @@
     <title type="html">Binary Download</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/downloads/binary.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/downloads/binary.html"/>
-    <updated>2022-07-01T22:52:06.000Z</updated>
+    <updated>2022-07-01T23:01:20.000Z</updated>
     <content type="html"><![CDATA[<div><p>We are on Github</p>
 <p>All community of <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> is over <a href="http://github.com/adempiere" target="_blank" rel="noopener noreferrer">Gihub</a>. We have many projects for you with daily contributions.</p>
 </div>
 <h2 id="github-releases" tabindex="-1"> Github Releases</h2>
-<p>All releases of <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> are <a href="https://github.com/adempiere/adempiere/releases/latest" target="_blank" rel="noopener noreferrer">here</a></p>
+<p>All releases of <a href="http://adempiere.net/" target="_blank" rel="noopener noreferrer">ADempiere ERP</a> are <a href="https://github.com/adempiere/adempiere/releases" target="_blank" rel="noopener noreferrer">here</a></p>
 <Releases/>
 ]]></content>
     <category term="Download" scheme=""/>
