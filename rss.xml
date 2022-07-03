@@ -6,8 +6,8 @@
     <link>https://github.com/adempiere/adempiere-site.github.io/</link>
     <description>A official page of ADempiere community.</description>
     <language>en-US</language>
-    <pubDate>Sun, 03 Jul 2022 23:10:17 GMT</pubDate>
-    <lastBuildDate>Sun, 03 Jul 2022 23:10:17 GMT</lastBuildDate>
+    <pubDate>Sun, 03 Jul 2022 23:11:02 GMT</pubDate>
+    <lastBuildDate>Sun, 03 Jul 2022 23:11:02 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Articles</category>
@@ -148,7 +148,7 @@ victor.perez@e-evolution.com</p>
       <guid>https://github.com/adempiere/adempiere-site.github.io/about/meeting/berlin-2014.html</guid>
       <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Berlin Conference 2014</source>
       <category>Foundation</category>
-      <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
+      <pubDate>Thu, 04 Sep 2014 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h1 id="adempiere-world-conference-in-berlin" tabindex="-1"> ADempiere World Conference in Berlin</h1>
 <p><strong>September 2nd till 4th of 2014</strong></p>
 <p>In May 2007 the 1st European ADempiere conference in Berlin – organized by the German ADempiere association – brought together developers from all over the world.</p>

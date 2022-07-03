@@ -3,7 +3,7 @@
   <id>https://github.com/adempiere/adempiere-site.github.io/</id>
   <title>ADempiere Official Page</title>
   <subtitle>A official page of ADempiere community.</subtitle>
-  <updated>2022-07-03T23:10:17.756Z</updated>
+  <updated>2022-07-03T23:11:02.834Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://github.com/adempiere/adempiere-site.github.io/atom.xml"/>
   <link rel="alternate" href="https://github.com/adempiere/adempiere-site.github.io/"/>
@@ -160,7 +160,7 @@ victor.perez@e-evolution.com</p>
     <title type="html">Berlin Conference 2014</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/about/meeting/berlin-2014.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/about/meeting/berlin-2014.html"/>
-    <updated>2022-07-01T22:52:06.000Z</updated>
+    <updated>2022-07-03T23:09:03.000Z</updated>
     <content type="html"><![CDATA[<h1 id="adempiere-world-conference-in-berlin" tabindex="-1"> ADempiere World Conference in Berlin</h1>
 <p><strong>September 2nd till 4th of 2014</strong></p>
 <p>In May 2007 the 1st European ADempiere conference in Berlin – organized by the German ADempiere association – brought together developers from all over the world.</p>
@@ -175,6 +175,6 @@ victor.perez@e-evolution.com</p>
 <p>Of course the weekend will also be used to incorporate social events to get to know each other further and to exchange know how and experiences.</p>
 ]]></content>
     <category term="Foundation" scheme=""/>
-    <published>2022-06-28T21:35:29.000Z</published>
+    <published>2014-09-04T00:00:00.000Z</published>
   </entry>
 </feed>
