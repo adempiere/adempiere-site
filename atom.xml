@@ -3,7 +3,7 @@
   <id>https://github.com/adempiere/adempiere-site.github.io/</id>
   <title>ADempiere Official Page</title>
   <subtitle>A official page of ADempiere community.</subtitle>
-  <updated>2022-07-02T18:10:30.662Z</updated>
+  <updated>2022-07-03T22:41:24.088Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://github.com/adempiere/adempiere-site.github.io/atom.xml"/>
   <link rel="alternate" href="https://github.com/adempiere/adempiere-site.github.io/"/>
@@ -16,7 +16,7 @@
     <title type="html">The Future Of ADempiere as a DDD reactive system</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/about/articles/2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/about/articles/2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system.html"/>
-    <updated>2022-07-02T17:35:45.000Z</updated>
+    <updated>2022-07-03T22:39:44.000Z</updated>
     <content type="html"><![CDATA[<p>Before I start talking about modularity, I’d like to describe the path to define the most suitable architecture for a software like ADempiere.</p>
 <p>During the last years I’ve been reading and analyzing the different approaches and architectures for software development and at the same time figure out which would be the best for ADempiere.</p>
 <p>As we all know too well, the design of our program is based on a two-layer combination <a href="http://en.wikipedia.org/wiki/Client" target="_blank" rel="noopener noreferrer">Client/serve</a> (1) Swing, which in the nineties of the last century was one of the best adopted because it used the network and the PCs in a way that the main server was freed from heavy load by leaving certain tasks on the client. The main focus was to have the core of the software being executed on a central server while clients connect to it to access data and do the business logic locally.</p>
@@ -102,7 +102,7 @@ victor.perez@e-evolution.com</p>
     <contributor>
       <name>Victor Pérez</name>
     </contributor>
-    <published>2022-07-02T17:35:45.000Z</published>
+    <published>2015-06-22T00:00:00.000Z</published>
     <rights>Copyright by Victor Pérez</rights>
   </entry>
   <entry>
