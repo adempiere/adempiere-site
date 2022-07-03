@@ -6,8 +6,8 @@
     <link>https://github.com/adempiere/adempiere-site.github.io/</link>
     <description>A official page of ADempiere community.</description>
     <language>en-US</language>
-    <pubDate>Sun, 03 Jul 2022 22:42:16 GMT</pubDate>
-    <lastBuildDate>Sun, 03 Jul 2022 22:42:16 GMT</lastBuildDate>
+    <pubDate>Sun, 03 Jul 2022 23:10:17 GMT</pubDate>
+    <lastBuildDate>Sun, 03 Jul 2022 23:10:17 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Articles</category>
@@ -131,7 +131,7 @@ victor.perez@e-evolution.com</p>
       <guid>https://github.com/adempiere/adempiere-site.github.io/about/meeting/berlin-2009.html</guid>
       <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Berlin Conference 2009</source>
       <category>Foundation</category>
-      <pubDate>Tue, 28 Jun 2022 21:35:29 GMT</pubDate>
+      <pubDate>Sun, 21 Jun 2009 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<h2 id="_2nd-european-adempiere-conference-in-berlin" tabindex="-1"> 2nd. European ADempiere conference in Berlin</h2>
 <p><strong>June 21st – 23rd 2009</strong></p>
 <p>For the first time in May 2007, developers from all over the world, involved in the open-source project ADempiere, met up for the first European ADempiere conference at the FHTW in Berlin.</p>
