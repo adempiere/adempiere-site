@@ -6,8 +6,8 @@
     <link>https://github.com/adempiere/adempiere-site.github.io/</link>
     <description>A official page of ADempiere community.</description>
     <language>en-US</language>
-    <pubDate>Sun, 03 Jul 2022 22:41:24 GMT</pubDate>
-    <lastBuildDate>Sun, 03 Jul 2022 22:41:24 GMT</lastBuildDate>
+    <pubDate>Sun, 03 Jul 2022 22:42:16 GMT</pubDate>
+    <lastBuildDate>Sun, 03 Jul 2022 22:42:16 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Articles</category>
@@ -104,7 +104,7 @@ victor.perez@e-evolution.com</p>
       <guid>https://github.com/adempiere/adempiere-site.github.io/about/articles/2015-08-06-world-announcement-for-adempiere.html</guid>
       <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">World Announcement for ADempiere new and improved content portal</source>
       <category>Articles</category>
-      <pubDate>Sat, 02 Jul 2022 17:35:45 GMT</pubDate>
+      <pubDate>Thu, 06 Aug 2015 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>We are pleased to announce the launch of a new and improved content portal for ADempiere thus reaching another milestone following the release of version 380, which confirms the traction and commitment from our community and all those behind this great Bazaar project.</p>
 <p>A group of committed people worked hard for several months to build a professional and informative site for our business solution, a place where people will find all the required information to evaluate our process management tools, breaking dependence from a particular software provider and avoiding high license costs and more important not requiring long term commitments from third parties to install, extend and/or customize it.</p>
 <p>The portal offers an overview of the history, functionality, features, benefits and success stories on ADempiere, but also allows to quickly download an installer, swift access to source code, bug tracking and browsing the forums to learn from other organizations using Adempiere worldwide.</p>

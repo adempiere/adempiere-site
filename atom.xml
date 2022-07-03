@@ -3,7 +3,7 @@
   <id>https://github.com/adempiere/adempiere-site.github.io/</id>
   <title>ADempiere Official Page</title>
   <subtitle>A official page of ADempiere community.</subtitle>
-  <updated>2022-07-03T22:41:24.088Z</updated>
+  <updated>2022-07-03T22:42:16.712Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://github.com/adempiere/adempiere-site.github.io/atom.xml"/>
   <link rel="alternate" href="https://github.com/adempiere/adempiere-site.github.io/"/>
@@ -109,7 +109,7 @@ victor.perez@e-evolution.com</p>
     <title type="html">World Announcement for ADempiere new and improved content portal</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/about/articles/2015-08-06-world-announcement-for-adempiere.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/about/articles/2015-08-06-world-announcement-for-adempiere.html"/>
-    <updated>2022-07-02T17:35:45.000Z</updated>
+    <updated>2022-07-03T22:40:14.000Z</updated>
     <content type="html"><![CDATA[<p>We are pleased to announce the launch of a new and improved content portal for ADempiere thus reaching another milestone following the release of version 380, which confirms the traction and commitment from our community and all those behind this great Bazaar project.</p>
 <p>A group of committed people worked hard for several months to build a professional and informative site for our business solution, a place where people will find all the required information to evaluate our process management tools, breaking dependence from a particular software provider and avoiding high license costs and more important not requiring long term commitments from third parties to install, extend and/or customize it.</p>
 <p>The portal offers an overview of the history, functionality, features, benefits and success stories on ADempiere, but also allows to quickly download an installer, swift access to source code, bug tracking and browsing the forums to learn from other organizations using Adempiere worldwide.</p>
@@ -136,7 +136,7 @@ victor.perez@e-evolution.com</p>
     <contributor>
       <name>Victor Pérez</name>
     </contributor>
-    <published>2022-07-02T17:35:45.000Z</published>
+    <published>2015-08-06T00:00:00.000Z</published>
     <rights>Copyright by Victor Pérez</rights>
   </entry>
   <entry>
