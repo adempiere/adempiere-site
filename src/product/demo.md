@@ -9,7 +9,7 @@ tag:
 article: false
 ---
 
-You can know many adempiere demo of many implementors around of world
+You can know many adempiere demo of many implementors around of world.
 
 ::: tip User and Password for taste it
 
