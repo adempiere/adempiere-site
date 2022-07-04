@@ -1,6 +1,5 @@
 ---
 title: Helm
-icon: download
 category: Download
 star: 9
 sticky: 9
