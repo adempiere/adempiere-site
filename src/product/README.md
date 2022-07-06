@@ -12,6 +12,9 @@ article: false
 ---
 
 ## Business Processes
+- Product Cost
+- Product Manufacture
+- Product Account
 
 ### Sales Processes
 
