@@ -22,7 +22,9 @@ Manage your business branches, customer groups, sales channels and regions, slic
 
 ### Pricing
 
-Price lists and and price liste versioning enable traceability. Accurate Tax
+Control one or many price lists and quickly swifting between them getting an accurate price for the product. Also includes tax prices between these actions and traceability at all times.
+![image](https://user-images.githubusercontent.com/89487449/178361166-44400083-e42e-4276-a0b7-99384c20dd6b.png)
+
 
 ### Orders & Quotes
 
@@ -34,7 +36,7 @@ Enable automatic Customer Credit Check and Credit Status based on predefined bus
 
 ### Approvals
 
-Enable Approvals using ADempiere Workflows for your customer orders and shipments.
+Enable unlimited approvals using ADempiere workflows depending on how long you'd want your workflow to be. Complete traceability at all times in all your type of documents.
 
 ### Business Rules
 
@@ -78,11 +80,11 @@ The system creates a detailed transaction log from every record being created or
 
 ### Document Traceability
 
-ADempiere allows to keep track of due dates for either collection and/or payables. Both own and third-party checks are entered into the system where they followed through with full traceablitiy. Each document is linkedto other documents within the system making this information more reliable and accurate.
+ADempiere allows to keep track of due dates for either collection and/or payables. Both own and third-party checks are entered into the system where they followed through with full traceablitiy. Each document is linked to other documents within the system making this information more reliable and accurate.
 
 ### Reports
 
-It features an extensive reporting system, with daily, weekly and monthly reports and statements produced in real-time.
+It features an extensive reporting system, with daily, weekly and monthly reports and statements produced in real-time. Depending on what your customer needs it can be adapted on their needs.
 
 ### Cash Management
 
