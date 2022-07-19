@@ -3,8 +3,178 @@
   <id>https://github.com/adempiere/adempiere-site.github.io/es/</id>
   <title>Página Oficial de ADempiere</title>
   <subtitle>Página oficial de la comunidad de ADempiere</subtitle>
-  <updated>2022-07-13T20:02:28.374Z</updated>
+  <updated>2022-07-19T23:09:00.602Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://github.com/adempiere/adempiere-site.github.io/atom.xml"/>
   <link rel="alternate" href="https://github.com/adempiere/adempiere-site.github.io/es/"/>
+  <category term="Articles"/>
+  <category term="Foundation"/>
+  <contributor>
+    <name>Victor Pérez</name>
+  </contributor>
+  <entry>
+    <title type="html">The Future Of ADempiere as a DDD reactive system</title>
+    <id>https://github.com/adempiere/adempiere-site.github.io/es/about/articles/2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system.html</id>
+    <link href="https://github.com/adempiere/adempiere-site.github.io/es/about/articles/2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system.html"/>
+    <updated>2022-07-19T23:06:56.000Z</updated>
+    <content type="html"><![CDATA[<p>Before I start talking about modularity, I’d like to describe the path to define the most suitable architecture for a software like ADempiere.</p>
+<p>During the last years I’ve been reading and analyzing the different approaches and architectures for software development and at the same time figure out which would be the best for ADempiere.</p>
+<p>As we all know too well, the design of our program is based on a two-layer combination <a href="http://en.wikipedia.org/wiki/Client" target="_blank" rel="noopener noreferrer">Client/serve</a> (1) Swing, which in the nineties of the last century was one of the best adopted because it used the network and the PCs in a way that the main server was freed from heavy load by leaving certain tasks on the client. The main focus was to have the core of the software being executed on a central server while clients connect to it to access data and do the business logic locally.</p>
+<p>Ironically think have swung back to where they originally started, as there was a mainframe with dumb terminals which only displayed data to users without any kind of complex data processing.</p>
+<p>I was not present at the age where it was needed a white coat to access to big data centers consisting of several IBM 390s or Systems 36 with hundreds of terminals (ATMs). But today, the context is in a way similar to these former times: there are big data centers -which by the way have helped to reduce costs- with rented servers accessed on a virtual way for a couple of hundreds dollars a month (Amazon, Google Cloud, Heroku to name a few). The main difference now is that applications have to service thousands or even millions of users, the capability of being able to scale up horizontally is an usual requirement nowadays; these new context demands that applications are designed differently as the requirements are totally different.</p>
+<p>The access to these servers is made by gadgets which though not totally dumb, they execute client applications run on a web browser whose only task is to interpret java script or HTML code, where the highest value is standardization and integration of multiple operating systems and platforms.</p>
+<p>In the next decade the main focus was in developing applications based on the model view controller paradigm <a href="http://en.wikipedia.org/wiki/Model" target="_blank" rel="noopener noreferrer">MVC</a> (2), which allowed code separation.</p>
+<p>The model layer allows the access and updating of data, mostly saved in a relational database. On the other side it allows to work with Object-relational mapping (ORM) which consist of an abstraction on the database and persistency, replacing the usage of SQL sentences depending on the implementation of a motor implemented on every database.</p>
+<p>The view layer separates the code for displaying and for user interaction via an user interface, which is implemented according to the access gadget.</p>
+<p>The controller layer is in charge of linking the view layer with the data model, and implements the code that responds to the actions needed.</p>
+<p>When we analyze the code of ADempiere in retrospective, we can see the course of time and evolution of underwent. It went from the original client/server based on Java swing with direct database access via pure SQL sentences to the current own ORM combined with SQL to access the data and the MVC application based on te AJAX web client.</p>
+<p>Even though technology has moved on, our domain model has persisted; that is why we can infer that the most important asset of ADempiere is the Application Dictionary which preserves the domain model and the business logic.</p>
+<p>Thanks to the fact that ADempiere was drafted and developed on a Model Driven Architecture <a href="http://en.wikipedia.org/wiki/Model-driven_architecture" target="_blank" rel="noopener noreferrer">MDA</a> (3), the domain model is protected of obsolescence by the Application Dictionary</p>
+<p>As a voluntary person, responsible for the future architecture of beloved ADempiere, we will adopt the DDD approach as the main line of development.</p>
+<p><strong>Now: what is a software development guided by the <a href="http://en.wikipedia.org/wiki/Domain-driven_design" target="_blank" rel="noopener noreferrer">Domain Driven Design DDD</a>(4)?</strong></p>
+<p><strong>DDD</strong> is an approach for developing software with complex requirements and having a deep linkage to a model that defines the core of the business logic being developed.
+The most important commandments to develop and maintain a domain model are:</p>
+<ul>
+<li>Place the main focus of the project in the core and the business logic of the domain.</li>
+<li>All complex designs are based on a domain model.</li>
+<li>Initiate a creative collaboration between technicians and domain model experts to define iteratively a model that addresses the particular problems of the domain.</li>
+</ul>
+<p>The <a href="http://domainlanguage.com/ddd/patterns/DDD_Reference_2011-01-31.pdf" target="_blank" rel="noopener noreferrer">Domain Driven Design</a> (5) is not a technology nor a methodology. It is a set of patterns towards the building of business applications starting from the domain model, which provides an useful, practical structure with consistent terminology for decision-making in the course of designing software.</p>
+<p><strong>Domain:</strong> a knowledge sphere (ontology), influence or activity. The area where an user applies a program is the software domain.
+<strong>Model:</strong> a set of abstractions describing sections of a selected domain than can be used to solve problems or tasks related to that domain.
+<strong>Ubiquitous language:</strong> a structured language in the context of a domain model and used by all team members to interconnect all team activities.
+<strong>Context:</strong> the scenario in which a word or statement defines her meaning.
+A purely technical vision for the software development could be the migration to a multiple layer application (persistency layer, access data layer, service layer and presentation layer).
+<strong>DDD</strong> is not quarrel with any technology or design pattern for example <a href="http://en.wikipedia.org/wiki/Dependency_injection" target="_blank" rel="noopener noreferrer">Dependency Injection DI</a> (6),</p>
+<p>but without change there is a very important premise The domain model should remain isolated from the outer layers! since any technological change should not affect my core business.</p>
+<p><strong>Important Premise:</strong></p>
+<ul>
+<li>The model must be kept isolated from the external layers! The reason: no technological change should affect the core of the business.</li>
+<li>Each layer is a concentric circle which defines a software area; while moving from the center to the outer levels the software evolves. The outer circles are mechanisms, while the inner circles are the conditions.</li>
+<li>The most important rule for this architecture is the dependency rule.</li>
+<li>As a rule, dependencies within the source code can point only towards the center. Nothing in an inner circle can know about anything in an outer circle. Moreover, any declared name in an outer circle cannot be mentioned by the code of an inner circle. This includes function calls, classes, variables or any other software entity.</li>
+<li>Due to the same reason, the data formats used in an outer circle cannot be used by an inner circle, especially if these formats are generated in a ORM from an outer circle. It is our intention that nothing from an outer circle affects the inner circles.</li>
+<li>This way, for interacting between circles or layers is paramount to establish an API which allows the communication between inner and outer layers by means of adapters or messages</li>
+</ul>
+<p>There are some architectures based on this view; they are similar and differ in some points, but coincide in the importance of a domain model <a href="http://alistair.cockburn.us/Hexagonal+architecture" target="_blank" rel="noopener noreferrer">Hexagonal architecture</a> (7), <a href="http://www.infoq.com/news/2014/10/ddd-onion-architecture" target="_blank" rel="noopener noreferrer">Onion Architecture</a> (8), <a href="http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html" target="_blank" rel="noopener noreferrer">The Clean Architecture</a> (9).</p>
+<p>As the way of defining how we will build the software around ADempiere is crucial, we will adopt the clean/Onion architecture, where the main focus is to keep clean the domain model interacting with the outer layers by means of contracts (APIs or interfaces) which allow to conveniently separate the domain model of the implementations (API or contract). This will provide for an ordered evolution avoiding technological obsolescence.</p>
+<p>On the other hand, we will define a <a href="http://en.wikipedia.org/wiki/Domain-specific_language" target="_blank" rel="noopener noreferrer">Domain Specific Language DSL</a> (10) for ADempiere focussed on the business, allowing the building of our ubiquitous language and clearly delimiting the contexts. This helps a more natural development of the business logic.
+As stated before, every decision has to be authorized by the benefits to be gained; moving towards DDD will allow us to obtain the following benefits:</p>
+<p><strong>The Benefits:</strong></p>
+<ul>
+<li>Decoupled code</li>
+<li>Reduce spaghetti code</li>
+<li>Traversal Services independent of the domain model (Log , Transactions , Security ).</li>
+<li>Code easy to maintain</li>
+<li>Software adaptable to changes</li>
+<li>Design based on components</li>
+<li>Contexts delimited by the business process</li>
+<li>Build our own testing sets (functional, integration, regression test)</li>
+<li>Better handling of dependencies and modularity.</li>
+<li>Create a DSL (Domain-specific language) (9) for the business</li>
+<li>Build to Adempiere as a Reactive System (11) (Responsive , Resilient , Elastic , Message Driver)</li>
+<li>An application designed for the demands of today</li>
+</ul>
+<p>It is important that developers interested in participating in this big project become familiar with concepts and terminology.</p>
+<p>In the next months and weeks, I will continue writing more articles with concrete examples permitting discussion.</p>
+<p>Victor Perez
+An ADempiere founder
+victor.perez@e-evolution.com</p>
+<p>References:</p>
+<ul>
+<li>(1) <a href="http://en.wikipedia.org/wiki/Client%E2%80%93server_model" target="_blank" rel="noopener noreferrer">http://en.wikipedia.org/wiki/Client–server_model</a></li>
+<li>(2) <a href="http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller" target="_blank" rel="noopener noreferrer">http://en.wikipedia.org/wiki/Model–view–controller</a></li>
+<li>(3) <a href="http://en.wikipedia.org/wiki/Model-driven_architecture" target="_blank" rel="noopener noreferrer">http://en.wikipedia.org/wiki/Model-driven_architecture</a></li>
+<li>(4) <a href="http://en.wikipedia.org/wiki/Domain-driven_design" target="_blank" rel="noopener noreferrer">http://en.wikipedia.org/wiki/Domain-driven_design</a></li>
+<li>(5) <a href="http://domainlanguage.com/ddd/patterns/DDD_Reference_2011-01-31.pdf" target="_blank" rel="noopener noreferrer">http://domainlanguage.com/ddd/patterns/DDD_Reference_2011-01-31.pdf</a></li>
+<li>(6) <a href="http://en.wikipedia.org/wiki/Dependency_injection" target="_blank" rel="noopener noreferrer">http://en.wikipedia.org/wiki/Dependency_injection</a></li>
+<li>(7) <a href="http://alistair.cockburn.us/Hexagonal+architecture" target="_blank" rel="noopener noreferrer">http://alistair.cockburn.us/Hexagonal+architecture</a></li>
+<li>(8) <a href="http://www.infoq.com/news/2014/10/ddd-onion-architecture" target="_blank" rel="noopener noreferrer">http://www.infoq.com/news/2014/10/ddd-onion-architecture</a></li>
+<li>(9) <a href="http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html" target="_blank" rel="noopener noreferrer">http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html</a></li>
+<li>(10) <a href="http://en.wikipedia.org/wiki/Domain-specific_language" target="_blank" rel="noopener noreferrer">http://en.wikipedia.org/wiki/Domain-specific_language</a></li>
+<li>(11) <a href="http://www.reactivemanifesto.org" target="_blank" rel="noopener noreferrer">http://www.reactivemanifesto.org</a></li>
+</ul>
+]]></content>
+    <author>
+      <name>Victor Pérez</name>
+    </author>
+    <category term="Articles" scheme=""/>
+    <contributor>
+      <name>Victor Pérez</name>
+    </contributor>
+    <published>2015-06-22T00:00:00.000Z</published>
+    <rights>Copyright by Victor Pérez</rights>
+  </entry>
+  <entry>
+    <title type="html">World Announcement for ADempiere new and improved content portal</title>
+    <id>https://github.com/adempiere/adempiere-site.github.io/es/about/articles/2015-08-06-world-announcement-for-adempiere.html</id>
+    <link href="https://github.com/adempiere/adempiere-site.github.io/es/about/articles/2015-08-06-world-announcement-for-adempiere.html"/>
+    <updated>2022-07-19T23:06:56.000Z</updated>
+    <content type="html"><![CDATA[<p>We are pleased to announce the launch of a new and improved content portal for ADempiere thus reaching another milestone following the release of version 380, which confirms the traction and commitment from our community and all those behind this great Bazaar project.</p>
+<p>A group of committed people worked hard for several months to build a professional and informative site for our business solution, a place where people will find all the required information to evaluate our process management tools, breaking dependence from a particular software provider and avoiding high license costs and more important not requiring long term commitments from third parties to install, extend and/or customize it.</p>
+<p>The portal offers an overview of the history, functionality, features, benefits and success stories on ADempiere, but also allows to quickly download an installer, swift access to source code, bug tracking and browsing the forums to learn from other organizations using Adempiere worldwide.</p>
+<p>A new publishing platform has been adopted that will allow a more effective maintenance and keeping up with the project’s documentation for current and future enhancements on a regular basis.</p>
+<p>We also have moved away from the historic SourceForge repository to a more professional and secure version control system thus all code and collaboration platform ADempiere moved to Git: www.github.com/Adempiere, which hosts hundreds of open source projects with thousands of developers working actively and collaboratively for the success of their own projects. We also moved the binaries distribution to http://www.bintray.com/adempiere which also serves many other professional software open source projects and malware free.</p>
+<p>We started with a new tool to manage and control the discussion forums where information and knowledge will be managed by the community allowing you to create a knowledge base for the benefit of all those involved.</p>
+<p>On the other hand we are in the process of migrating information from the old sourceforge forums to our platform to protect the knowledge generated by the 10-year project.</p>
+<p>We have created a chat room for developers to collaborate on the development of future versions within http://gitter.im/adempiere the channel is public and anyone with github account can access it and free to participate.</p>
+<p>An important additional point worth mentioning is that the portal is a place where the interested parties can find business consulting services from professional experts, certified and experienced partners that have successfully deployed Adempiere throughout the years.</p>
+<p>We have created a certification program that enables our associates qualify by successfully documented cases of guaranteeing the quality and knowledge of the solution.</p>
+<p>Incorporate a training plan to train experts in ADempiere consultants that implement best business practices in the sales process, distribution management, supply chain, manufacturing, production control, financial management and human capital.</p>
+<p>We established a very successful contribution process by integrating the best features of business and validated in successful implementations, allowing customers the benefits are not obtained proprietary software manufacturers since this project to be led by the community, customers dictate improvements and functionality for future versions.</p>
+<p>For version 4 we will focus on the technological renovation to compete with the demands of today, creating a new UI for mobile devices and the development of a new web interface with support for HTML5 responsive, in the next release ADempiere will support Java 8 consciously decided to wait for the release of Java 9 in particular the Jigsaw project that will become the standard for Java modularization.</p>
+<p>We want to thank all contributors who made this great company, I invite anyone who wants to collaborate with this great project.</p>
+<p>Sincerely</p>
+<p>Victor Perez Juarez</p>
+<p>Founder of ADempiere</p>
+<p>On behalf of the Community of ADempiere</p>
+]]></content>
+    <author>
+      <name>Victor Pérez</name>
+    </author>
+    <category term="Articles" scheme=""/>
+    <contributor>
+      <name>Victor Pérez</name>
+    </contributor>
+    <published>2015-08-06T00:00:00.000Z</published>
+    <rights>Copyright by Victor Pérez</rights>
+  </entry>
+  <entry>
+    <title type="html">Berlin Conference 2009</title>
+    <id>https://github.com/adempiere/adempiere-site.github.io/es/about/meeting/berlin-2009.html</id>
+    <link href="https://github.com/adempiere/adempiere-site.github.io/es/about/meeting/berlin-2009.html"/>
+    <updated>2022-07-19T23:06:56.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="_2nd-european-adempiere-conference-in-berlin" tabindex="-1"> 2nd. European ADempiere conference in Berlin</h2>
+<p><strong>June 21st – 23rd 2009</strong></p>
+<p>For the first time in May 2007, developers from all over the world, involved in the open-source project ADempiere, met up for the first European ADempiere conference at the FHTW in Berlin.</p>
+<p>Though the project leader Red1 is of the opinion that the possibilities one has with the internet today are sufficient to connect team members and be successful on projectslike ADempiere, the internet still a virtual place with a virtual community.</p>
+<p>With this first conference every member of the &quot;ADempiere Bazaar&quot; community turned from a virtual to a real person for everyone else; nicknames became real names and real faces. This personal exchange between community members lead to a good speed-up in the project development.</p>
+<p>To engage everyone in another personal meeting, the 2nd European ADempiere conference will take place in Berlin from June 21st till 23rd.</p>
+<p>The conference will focus on technical improvements in ADempiere and on optimizing the social structure of the ADempiere community to be even more successful in terms of development and distribution.</p>
+<p>Altogether we'll use the weekend to exchange personal experiences with the software as well as to improve documentation, code and localization – and of course to have a bunch of fun!</p>
+]]></content>
+    <category term="Foundation" scheme=""/>
+    <published>2009-06-21T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="html">Berlin Conference 2014</title>
+    <id>https://github.com/adempiere/adempiere-site.github.io/es/about/meeting/berlin-2014.html</id>
+    <link href="https://github.com/adempiere/adempiere-site.github.io/es/about/meeting/berlin-2014.html"/>
+    <updated>2022-07-19T23:06:56.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="adempiere-world-conference-in-berlin" tabindex="-1"> ADempiere World Conference in Berlin</h1>
+<p><strong>September 2nd till 4th of 2014</strong></p>
+<p>In May 2007 the 1st European ADempiere conference in Berlin – organized by the German ADempiere association – brought together developers from all over the world.</p>
+<p>Gaining from this successful first conference, the &quot;ADempiere Bazaar&quot; community met again for the 2nd European conference in 2009; step by step transforming from a virtual community into a real community.</p>
+<p>Starting as only the German ADempiere association, these compelling conferences brought progress, and new members into the community, so that the association got the opportunity to open up and rename to be the &quot;ADempiere association&quot; with international orientation. The next step in bringing together developers from all over the world is not the European Conference, but the World Conference.</p>
+<p>Now for the first time in September 2011 the ADempiere World Conference takes place at the Beuth Technical University in Berlin.</p>
+<p>The conference tries to bring together every party interested in ADempiere: Community members, service providers, users or people solely interested in ADempiere.</p>
+<p>Notable ADempiere developers will be sharing their ADempiere know how in talks or workshops with valuable best practice advice and real world use cases.</p>
+<p>We can tell from the quickly increasing number of international participants at the conference that the community was desperately waiting for an event like this.</p>
+<p>&quot;The interest and feedback we get for the world conference is just more proof for the global collaboration of community members and the growing network around ADempiere. I'm looking forward to another great experience with this positive and progressive spirit surrounding the community.&quot; – Kai Schaeffer, chairman of the ADempiere association.</p>
+<p>Another item on the World Conference agenda is the general assembly of the association and the election of a new chairman.</p>
+<p>Of course the weekend will also be used to incorporate social events to get to know each other further and to exchange know how and experiences.</p>
+]]></content>
+    <category term="Foundation" scheme=""/>
+    <published>2014-09-04T00:00:00.000Z</published>
+  </entry>
 </feed>
