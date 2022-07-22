@@ -14,7 +14,7 @@ author: Victor Pérez
 date: 2015-06-22
 ---
 
-Before I start talking about modularity, I’d like to describe the path to define the most suitable architecture for a software like ADempiere.
+Antes de empezar a hablar de modularidad, me gustaría describir el camino para definir la arquitectura más adecuada para un software como ADempiere.
 
 During the last years I’ve been reading and analyzing the different approaches and architectures for software development and at the same time figure out which would be the best for ADempiere.
 
