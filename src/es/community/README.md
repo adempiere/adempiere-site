@@ -1,5 +1,5 @@
 ---
-title: Who Are We?
+title: Quiénes Somos?
 icon: group
 category: Community
 star: 9
@@ -9,13 +9,10 @@ tag:
 article: false
 ---
 
-## Who Are We?
+## Quiénes Somos?
 
-The ADempiere community is made up of various categories of people, and we are sure you must fit into at least one of them. There are contributors, developers, testers, writers, users, as well as businesses, authorities, experts, newbies and students. There is also a Council of trustees to be responsible for this community and the project's well-being.
+La comunidad de ADempiere está formada por varias categorías de personas, y estamos seguros de que debe encajar en al menos una de ellas. Hay colaboradores, desarrolladores, evaluadores, escritores, usuarios, así como empresas, autoridades, expertos, novatos y estudiantes. También hay un Consejo de fideicomisarios para ser responsables de esta comunidad y el bienestar del proyecto. Cada comunidad tiene su propia historia y cultura. Esta comunidad en particular tiene sus raíces dentro del [proyecto Compiere SourceForge] (http://sf.net/projects/compiere) en los últimos 3 años. Comenzamos como usuarios e implementadores de este gran proyecto de software, y comenzamos a progresar a pasos agigantados en nuestra propia capacidad para dominarlo e incluso extenderlo para varios usuarios finales.
 
-Each community has its own history and culture. This particular community has its roots within the [Compiere SourceForge project](http://sf.net/projects/compiere) over the last 3 years. We started as users and implementors of this great software project, and began to progress in leaps and bounds in our own capability to master it and even extend it for various end-users.
+La comunidad estaba generalmente agradecida con el creador de Compiere, Jorg Janke, y toleró su modelo de negocio de cobrar a los usuarios por el soporte prioritario, la capacitación y el manual del usuario. Muchos de nosotros contribuimos con código, informes de errores, correcciones y recomendaciones sobre cómo esta solución ERP / CRM de código abierto de estreno podría continuar expandiéndose. Y aunque Jorg Janke apenas respondió a los mensajes de los foros (incluso aquellos que estaban directamente dirigidos a él), la comunidad de Compiere disfrutó de un amplio apoyo y aliento de otras personas mayores de la comunidad de forma voluntaria y vigilante.
 
-The community was generally grateful to Compiere's creator, Jorg Janke, and tolerated his business model of charging users for priority support, training and the user manual. Many of us contributed code, bug reports, fixes and recommendations on how this premiere Open Source ERP/CRM solution could continue to expand. And though Jorg Janke hardly responded to the forums' messages (even those that were directly aimed at him) the Compiere community enjoyed ample support and encouragement from other community seniors on a voluntary and vigilant basis.
-
-Trouble set in soon after ComPiere Inc, USA, the commercial entity behind this project, purportedly obtained some USD6 million funding from an "angel" investor who soon joined its Board of Directors. Many among the paying partners of Compiere began to question new policy directions, this led to the [Forking Debate](http://www.compiere.com/about/board.html), and eventually sparked off the Adempiere community. The name "Adempiere" is an Italian word related to "Compiere" (which means "to deliver or fulfill"), but also semantically reflects the core ideal of this community: "to fulfill towards completion, with respect and honour".
-Learn how to improve the current documentation and make it better for you and everybody!.
+Los problemas se instalaron poco después de que ComPiere Inc, EE.UU., la entidad comercial detrás de este proyecto, supuestamente obtuviera unos USD 6 millones de fondos de un inversor "ángel" que pronto se unió a su Junta Directiva. Muchos de los socios pagadores de Compiere comenzaron a cuestionar nuevas direcciones de políticas, esto llevó al [Debate de bifurcación] (http://www.compiere.com/about/board.html), y finalmente provocó la comunidad de Adempiere. El nombre "Adempiere" es una palabra italiana relacionada con "Compiere" (que significa "entregar o cumplir"), pero también refleja semánticamente el ideal central de esta comunidad: "cumplir hacia la finalización, con respeto y honor". ¡Aprenda cómo mejorar la documentación actual y mejorarla para usted y para todos!
