@@ -22,7 +22,7 @@ Tenga en cuenta que todo el ecosistema [ADempiere ERP](http://adempiere.net/) se
 
 Una guía autogenerada del diccionario ADempiere con toda la documentación que se encuentra dentro del diccionario. Aprenda cómo mejorar la documentación actual y mejorarla para usted y para todos [¡aquí!] (autogenerado).
 
-- [Menu](autogenrado/menu)
+- [Menu](autogenerado/menu)
 
 - [Formas](auto-generado/formas)
 
@@ -42,7 +42,7 @@ Más información sobre [Cotizar a facturar](procedimientos estándar/cotizació
 
 **[Open Items](procedimientos estándar/elementos abiertos)**
 
-La gestión de saldos pendientes en ADempiere te da la posibilidad de gestionar órdenes de pago, selección de pagos, pagos, cobros, conciliaciones automáticas, cartera morosa y deudas pendientes de la empresa, [ADempiere ERP](http://adempeire.net/) quiere enseñarte a gestionar tus saldos pendientes en ADempiere.
+La gestión de saldos pendientes en ADempiere te da la posibilidad de gestionar órdenes de pago, selección de pagos, pagos, cobros, conciliaciones automáticas, cartera morosa y deudas pendientes de la empresa, [ADempiere ERP](http://adempiere.net/) quiere enseñarte a gestionar tus saldos pendientes en ADempiere.
 
 Más información sobre [Elementos abiertos](procedimientos estándar/elementos abiertos)
 
