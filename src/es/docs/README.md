@@ -20,7 +20,7 @@ Tenga en cuenta que todo el ecosistema [ADempiere ERP](http://adempiere.net/) se
 
 ### Guía Funcional (Autogenerada)
 
-Una guía autogenerada del diccionario ADempiere con toda la documentación que se encuentra dentro del diccionario. Aprenda cómo mejorar la documentación actual y mejorarla para usted y para todos [¡aquí!] (autogenerado).
+Una guía autogenerada del diccionario ADempiere con toda la documentación que se encuentra dentro del diccionario. Aprenda cómo mejorar la documentación actual y mejorarla para usted y para todos [¡aquí!](autogenerado).
 
 - [Menu](autogenerado/menu)
 
