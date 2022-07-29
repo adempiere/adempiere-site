@@ -17,7 +17,7 @@ projects:
     desc: Completamente creada en Javascript con Vue
     link: https://github.com/adempiere/adempiere-vue
     icon: /assets/img/vue-logo.png
-  - name: Chat de Discord
+  - name: Chat de Discord.
     desc: Estamos en Discord!
     link: https://discord.gg/G8nWdaB2
     icon: /assets/img/discord-logo.png
