@@ -52,5 +52,6 @@ Learn about [Open Items](standard-procedures/open-items)
 **[Product](material-management/product)**
 
 Master data includes records that give rise to transactions, therefore they are not modifiable on a regular basis, in this sense ADempiere ERP explains how to create your teachers in an ideal way, thus avoiding duplication and inconsistency in the data.
+Within ADempiere's capability, it's designed to withstand multiples warehouses, keeping track of all transactions and receiving many other possibilities of getting these warehouses with their corresponding material in it such as an request from a product receipt or a delivery for a customer. 
 
 Learn about [Data Management](material-management/product)
