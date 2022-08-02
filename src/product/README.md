@@ -63,7 +63,7 @@ article: false
 - Calendars are established for reporting and period access control purposes only.
 - Historical information is maintained for as long as is desired and is able to be reported on using the calendar function.
 
-## Reporting
+## Reporting.
 
 ::: tip
 
