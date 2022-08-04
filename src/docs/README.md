@@ -10,6 +10,9 @@ Most of the companies acquired different software to cover the different needs o
 
 ADempiere, due to its ERP status, offers everything a company needs in a single software, [ADempiere ERP](http://adempiere.net/) wants to offer its readers a wide range of structured documents for users with high and low experience in handling ERP Software, in which each process of this powerful system will be explained efficiently and in detail, defining step by step the management of each one, its accounting, administrative and fiscal implications and finally the issuance of results that will allow optimum control of its operations.
 
+![image](https://user-images.githubusercontent.com/89487449/179278950-ec376474-8e27-44e6-9196-8e0984766905.png)
+
+
 ::: info Intro
 
 Note that all [ADempiere ERP](http://adempiere.net/) ecosystem was created to be used on any organization with minimal changes. This documentation was created for end used, tech and implementor

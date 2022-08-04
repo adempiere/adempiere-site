@@ -16,7 +16,7 @@ article: false
 - Product Manufacture
 - Product Account
 
-### Sales Processes
+### Sales Processes.
 
 - Raising a quotation or proposal
 - Recording orders
