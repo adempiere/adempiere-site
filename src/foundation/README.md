@@ -9,7 +9,7 @@ tag:
 article: false
 ---
 
-## About the Association.
+## About the Association
 
 ::: tip Who is ADempiere Deutschland e.V.?
 

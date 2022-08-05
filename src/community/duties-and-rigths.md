@@ -4,7 +4,7 @@ category: Community
 star: 9
 sticky: 9
 tag:
-  - Duties and Rigths
+  - Duties and Rights
 article: false
 ---
 
