@@ -1,58 +1,58 @@
 ---
-title: Some History
-category: History
+title: Algo de Historia
+category: Historia
 star: 9
 sticky: 9
 tag:
-  - History
+  - Historia
   - Compiere
 article: false
 ---
 
-::: tip ADempiere License
+::: tip ADempiere Licencia
 
-[ADempiere ERP](http://adempiere.net/) is own GNU/GPL v2 License
+[ADempiere ERP](http://adempiere.net/) es propia licencia GNU/GPL v2
 
 :::
 
-## ADempiere History
+## ADempiere Historia
 
-Our History is divided into three important milestones:
+Nuestra Historia se divide en tres importantes hitos:
 
-### Our Predecessor
+### Nuestro predecesor
 
-Jorg Janke, who was at the time an enterprise architect for ADV / ORGA advised SAP, while working on a consulting project for them, which architecture should be utilized for their then to be R/3 version, and how it should become a multidimensional ERP (multi company, multi-currency multi language, etc.), highly extensible and easy to configure. SAP decided to go down a different path by simply adding layers of functionality to their current product R/2.
+Jorg Janke, que en ese momento era un arquitecto empresarial para ADV / ORGA, asesoró a SAP, mientras trabajaba en un proyecto de consultoría para ellos, qué arquitectura debería utilizarse para que su versión R/3 sea entonces y cómo debería convertirse en un ERP multidimensional. (multiempresa, multidivisa multiidioma, etc.), altamente extensible y fácil de configurar. SAP decidió tomar un camino diferente simplemente agregando capas de funcionalidad a su producto R/2 actual.
 
-Later, as a senior architect at Oracle Jorg Janke wrote the first prototype for the application with the vision of how to implement the new paradigm of management programs. In 2000 he received financing from the tire manufacturer Goodyear in Germany and writes the first version of his product.
+Posteriormente, como arquitecto senior en Oracle, Jorg Janke escribió el primer prototipo de la aplicación con la visión de cómo implementar el nuevo paradigma de programas de gestión. En 2000 recibe financiación del fabricante de neumáticos Goodyear en Alemania y escribe la primera versión de su producto.
 
 ### Compiere
 
-In 2000, Jorg founded a small company named Compiere Inc. to develop and provide support to his new product named also Compiere, an Italian word meaning "complete".
+En 2000, Jorg fundó una pequeña empresa llamada Compiere Inc. para desarrollar y dar soporte a su nuevo producto llamado también Compiere, una palabra italiana que significa "completo".
 
-In a twist that became a milestone in the history of ERP solutions, Jorg decided to release his product under the licencing type: free GPL licensing mode, thus allowing it to be rapidly adopted around the world. Compiere Inc. business model then focused on supporting integrators named as "Compiere Partners" through first level support and value added services.
+En un giro que se convirtió en un hito en la historia de las soluciones ERP, Jorg decidió lanzar su producto bajo el tipo de licencia: modo de licencia libre GPL, lo que permitió que se adoptara rápidamente en todo el mundo. El modelo de negocios de Compiere Inc. luego se centró en apoyar a los integradores denominados "Socios de Compiere" a través de soporte de primer nivel y servicios de valor agregado.
 
-At that time it was possible to offer Compiere on any platform since it was developed in 100% Java and Oracle as the database.
+En ese momento era posible ofrecer Compiere en cualquier plataforma ya que estaba desarrollado en 100% Java y Oracle como base de datos.
 
-### ADempiere is Born
+### Nace ADempiere
 
-In 2006 triggered by its product success Compiere, Inc. raises financing from a group of venture capitalists moving offices from Portrland Ore., to Silicon Valley, and at the same time, it signed a new development roadmap which included the release of new add-ons that no longer will be licensed under the previously free GPL, but rather their own Commercial License.
+En 2006, impulsado por el éxito de su producto, Compiere, Inc. recauda financiamiento de un grupo de capitalistas de riesgo que trasladan sus oficinas de Portrland Oregón a Silicon Valley y, al mismo tiempo, firmó una nueva hoja de ruta de desarrollo que incluía el lanzamiento de nuevos complementos. ons que ya no estarán bajo la licencia GPL anteriormente libre, sino en su propia licencia comercial.
 
-By makinthis decision alone will eventually convert Compiere into another commercial product like most available in the market, some of his partners asked Mr. Janke to reconsider his decision but it was actually out of his reach since he had already signed an agreement with this group of investors.
+Al tomar esta decisión por sí sola eventualmente convertirá a Compiere en otro producto comercial como la mayoría disponible en el mercado, algunos de sus socios le pidieron al Sr. Janke que reconsiderara su decisión pero en realidad estaba fuera de su alcance ya que él ya había firmado un acuerdo con este grupo de inversores
 
-**The Call**
+**La llamada**
 
-Friday August 11, 2006 "We are like dwarfs on the shoulders of giants. We can see more, and beyond them, not because the sharpness of our sight but or the height of our body, but because we are raised by their height. "
+Viernes 11 de agosto de 2006 “Somos como enanos a hombros de gigantes. Podemos ver más, y más allá de ellos, no por la agudeza de nuestra vista sino por la altura de nuestro cuerpo, sino porque somos elevados por su altura.”
 
-In an email sent by Víctor Pérez quoting Bernardo de Chartres became the beginning of our ADempiere Community.
+En un correo electrónico enviado por Víctor Pérez citando a Bernardo de Chartres se convirtió en el inicio de nuestra Comunidad ADempiere.
 
-"My name is Victor Perez, I'm CEO of e-Evolution, The reason for this email and attachment is to share my dream with you and invite you to be part of it. My dream is to create an ERP, CRM, SCM solely owned by our community, a system that improves daily.
+"Mi nombre es Víctor Pérez, soy CEO de e-Evolution. El motivo de este correo electrónico y archivo adjunto es compartir mi sueño contigo e invitarte a ser parte de él. Mi sueño es crear un ERP, CRM, SCM propiedad exclusiva de nuestra comunidad, un sistema que mejora día a día.
 
-In my experience, I have been working with Compiere for 5 years. I have received many satisfactions, and I took advantage of the great work done by Jorg Janke creator of Compiere.
+En mi experiencia, trabajo con Compiere desde hace 5 años. He recibido muchas satisfacciones, y aproveché el gran trabajo realizado por Jorg Janke creador de Compiere.
 
-With the experience I acquired my personal dream to create a project that develops from Compiere, as a project with technology, where everyone can share their ideas, GPL, where problems of end users are heard, where I can integrate my work with the work of others, and should consider the needs of my clients, where my clients feel real support, in short something to improve.
+Con la experiencia adquirí mi sueño personal de crear un proyecto que se desarrolle desde Compiere, como un proyecto con tecnología, donde todos puedan compartir sus ideas, GPL, donde se escuchen los problemas de los usuarios finales, donde pueda integrar mi trabajo con el trabajo de otros, y debo considerar las necesidades de mis clientes, donde mis clientes sientan un apoyo real, en definitiva algo a mejorar.
 
-That is why I dare to invite all interested in this proposal, with a great desire to work and support this dream together full story see detail."
+Es por eso que me atrevo a invitar a todos los interesados ​​en esta propuesta, con muchas ganas de trabajar y apoyar juntos este sueño historia completa ver detalle.”
 
-Thus in September 2006, the group of integrators announced the decision to fork to a new product, totally free distributed under the GPL license, which ensures that it would never become a proprietary product and always remain free. The new product will be baptized with the name of ADempiere, an Italian word meaning "Achieve" and "Reach" which is defined by the tradition of other free software projects. The leadership and administration of ADempiere remained in the hands of the community and their representatives in the ADEV foundation in Germany.
+Así, en septiembre de 2006, el grupo de integradores anunció la decisión de bifurcarse a un nuevo producto, de distribución totalmente gratuita bajo licencia GPL, lo que asegura que nunca se convertiría en un producto propietario y permanecería siempre libre. El nuevo producto será bautizado con el nombre de ADempiere, palabra italiana que significa "Lograr" y "Alcance" y que se define por la tradición de otros proyectos de software libre. La dirección y administración de ADempiere quedó en manos de la comunidad y sus representantes en la fundación ADEV en Alemania.
 
-Since 2006, ADempiere has become the leader of the free world ERP implementations reported in nearly 120 countries and implementers covering all geographical areas of the world while its continuous development has enriched the functionlity permanently .
+Desde 2006, ADempiere se ha convertido en el líder del mundo libre en implementaciones de ERP reportadas en casi 120 países e implementadores que cubren todas las áreas geográficas del mundo mientras que su continuo desarrollo ha enriquecido la funcionalidad de manera permanente.
