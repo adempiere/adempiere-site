@@ -3,11 +3,12 @@
   <id>https://github.com/adempiere/adempiere-site.github.io/es/</id>
   <title>Página Oficial de ADempiere</title>
   <subtitle>Página oficial de la comunidad de ADempiere</subtitle>
-  <updated>2022-08-26T17:57:18.103Z</updated>
+  <updated>2022-08-26T18:01:06.757Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://github.com/adempiere/adempiere-site.github.io/atom.xml"/>
   <link rel="alternate" href="https://github.com/adempiere/adempiere-site.github.io/es/"/>
   <category term="Articulos"/>
+  <category term="Base"/>
   <category term="Foundation"/>
   <contributor>
     <name>Victor Pérez</name>
@@ -140,21 +141,21 @@ On the other hand we are in the process of migrating information from the old so
     <rights>Copyright by Victor Pérez</rights>
   </entry>
   <entry>
-    <title type="html">Berlin Conference 2009</title>
+    <title type="html">Conferencia Berlin 2009</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/es/about/meeting/berlin-2009.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/es/about/meeting/berlin-2009.html"/>
-    <updated>2022-07-19T23:06:56.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="_2nd-european-adempiere-conference-in-berlin" tabindex="-1"> 2nd. European ADempiere conference in Berlin</h2>
-<p><strong>June 21st – 23rd 2009</strong></p>
-<p>For the first time in May 2007, developers from all over the world, involved in the open-source project ADempiere, met up for the first European ADempiere conference at the FHTW in Berlin.</p>
-<p>Though the project leader Red1 is of the opinion that the possibilities one has with the internet today are sufficient to connect team members and be successful on projectslike ADempiere, the internet still a virtual place with a virtual community.</p>
-<p>With this first conference every member of the &quot;ADempiere Bazaar&quot; community turned from a virtual to a real person for everyone else; nicknames became real names and real faces. This personal exchange between community members lead to a good speed-up in the project development.</p>
-<p>To engage everyone in another personal meeting, the 2nd European ADempiere conference will take place in Berlin from June 21st till 23rd.</p>
-<p>The conference will focus on technical improvements in ADempiere and on optimizing the social structure of the ADempiere community to be even more successful in terms of development and distribution.</p>
-<p>Altogether we'll use the weekend to exchange personal experiences with the software as well as to improve documentation, code and localization – and of course to have a bunch of fun!</p>
+    <updated>2022-08-26T17:59:34.000Z</updated>
+    <content type="html"><![CDATA[<h2 id="_2do-conferencia-europea-adempiere-en-berlin" tabindex="-1"> 2do. Conferencia europea ADempiere en Berlín</h2>
+<p><strong>21 al 23 de junio de 2009</strong></p>
+<p>Por primera vez en mayo de 2007, desarrolladores de todo el mundo, involucrados en el proyecto de código abierto ADempiere, se reunieron para la primera conferencia europea ADempiere en el FHTW de Berlín.</p>
+<p>Aunque el líder del proyecto Red1 es de la opinión de que las posibilidades que uno tiene con Internet hoy en día son suficientes para conectar a los miembros del equipo y tener éxito en proyectos como ADempiere, Internet sigue siendo un lugar virtual con una comunidad virtual.</p>
+<p>Con esta primera conferencia, cada miembro de la comunidad &quot;ADempiere Bazaar&quot; pasó de ser una persona virtual a una persona real para todos los demás; los apodos se convirtieron en nombres reales y rostros reales. Este intercambio personal entre los miembros de la comunidad conduce a una buena aceleración en el desarrollo del proyecto.</p>
+<p>Para involucrar a todos en otro encuentro personal, la 2ª conferencia europea ADempiere tendrá lugar en Berlín del 21 al 23 de junio.</p>
+<p>La conferencia se centrará en las mejoras técnicas de ADempiere y en la optimización de la estructura social de la comunidad de ADempiere para tener aún más éxito en términos de desarrollo y distribución.</p>
+<p>En total, utilizaremos el fin de semana para intercambiar experiencias personales con el software, así como para mejorar la documentación, el código y la localización, ¡y por supuesto para divertirnos mucho!</p>
 ]]></content>
-    <category term="Foundation" scheme=""/>
-    <published>2009-06-21T00:00:00.000Z</published>
+    <category term="Base" scheme=""/>
+    <published>2022-07-19T23:06:56.000Z</published>
   </entry>
   <entry>
     <title type="html">Berlin Conference 2014</title>
