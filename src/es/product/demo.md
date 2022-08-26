@@ -1,21 +1,21 @@
 ---
 title: Demo
-category: Product
+category: Producto
 star: 9
 sticky: 9
 tag:
   - Demo
-  - Product
+  - Producto
 article: false
 ---
 
-You can know many adempiere demo of many implementers around of world
+Puede conocer muchas demostraciones de Adempiere de muchos implementadores de todo el mundo.
 
-::: tip User and Password for taste it
+::: tip Usuario y Contraseña para degustarlo
 
-- **User:** GardenAdmin
-- **Password:** GardenAdmin
+- **Usuario:** GardenAdmin
+- **Contraseña:** GardenAdmin
 
 :::
 
-If you want to download it just go to [download.](../downloads)
+Si quieres descargarlo solo ve a [descarga.](../downloads)
