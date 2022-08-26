@@ -1,107 +1,107 @@
 ---
-title: ADempiere Business Process
-category: Product
+title: Proceso de negocio de ADempiere
+category: Producto
 star: 9
 sticky: 9
 tag:
-  - Product
+  - Producto
   - ADempiere
   - Software
 article: false
 ---
 
-![Business Process](/assets/img/product/business-process.jpg)
+![Proceso de negocio](/assets/img/product/business-process.jpg)
 
-## Trade Management
+## Gestión comercial
 
-ADempiere can quickly process sales orders and produce customer shipments and invoices based on availability and business rules, down through invoice collections and bank receipts, at the same time it provides a great customer experience through the a friendly user interfaces and reporting tools, allowing business partners to better collaborate with each other. This in turn reduces the cost of the sales and allows a quicker and greater turaround. In itself, using ADempiere is possible circumstantial improvements at each point of sale and payment process making dramatic improvements in the overall results in both time savings and direct cost savings.
+ADempiere puede procesar rápidamente pedidos de venta y producir envíos y facturas de clientes en función de la disponibilidad y las reglas comerciales, pasando por cobros de facturas y recibos bancarios, al mismo tiempo que brinda una excelente experiencia al cliente a través de interfaces de usuario amigables y herramientas de informes, lo que permite a los socios comerciales para colaborar mejor entre nosotros. Esto a su vez reduce el costo de las ventas y permite un giro más rápido y mayor. En sí mismo, el uso de ADempiere es posible mejoras circunstanciales en cada punto de venta y proceso de pago logrando mejoras dramáticas en los resultados generales tanto en ahorro de tiempo como en ahorro de costos directos.
 
-### Customer Management
+### Gestión de clientes
 
-Manage your business branches, customer groups, sales channels and regions, slice sales transactions by departments and locations.
+Administre sus sucursales comerciales, grupos de clientes, canales de ventas y regiones, divida las transacciones de ventas por departamentos y ubicaciones.
 
-### Pricing
+### Precios
 
-Price lists and and price liste versioning enable traceability. Accurate Tax
+Las listas de precios y el control de versiones de las listas de precios permiten la trazabilidad. Impuesto preciso
 
-### Orders & Quotes
+### Pedidos y Cotizaciones
 
-Enter your business orders and quotes either manually or massively leveraging reliable import process from Excel spreadsheets, further automate order processing implementing Web Services allowing real time synchronization between separate systems. Detail backlog on ordered items, history and traceability of orders.
+Ingrese sus pedidos comerciales y cotizaciones, ya sea de forma manual o masiva, aprovechando el proceso de importación confiable desde hojas de cálculo de Excel, automatice aún más el procesamiento de pedidos implementando servicios web que permitan la sincronización en tiempo real entre sistemas separados. Detalle de la acumulación de artículos pedidos, historial y trazabilidad de los pedidos.
 
-### Controls
+### Control S
 
-Enable automatic Customer Credit Check and Credit Status based on predefined business rules
+Habilite la verificación automática de crédito del cliente y el estado del crédito en función de las reglas comerciales predefinidas
 
-### Approvals
+### Aprobaciones
 
-Enable Approvals using ADempiere Workflows for your customer orders and shipments.
+Habilite las aprobaciones mediante ADempiere Workflows para los pedidos y envíos de sus clientes.
 
-### Business Rules
+### Reglas del negocio
 
-Set Up Promotions and Discount Schemas based on customer type and product type.
+Configure promociones y esquemas de descuento según el tipo de cliente y el tipo de producto.
 
-### Invoicing
+### Facturación
 
-Streamline invoice process and printing, issue credit notes and manage customer and vendor returns, also accrue differences in price and quantities through PO and receipt matching of documents.
+Optimice el proceso y la impresión de facturas, emita notas de crédito y gestione las devoluciones de clientes y proveedores, y también acumule diferencias en precio y cantidades a través de la comparación de documentos con órdenes de compra y recibos.
 
-## Forecast Management
+## Gestión de pronósticos
 
-### Sales Forecast
+### Pronóstico de ventas
 
-Monitor and manage your business supply chain more efficiently and cost-effectively. Get the most value from your customers and suppliers streamlining purchasing of goods and services, manage RFQs, recurrent purchases, commitments and reservations.
+Supervise y administre la cadena de suministro de su negocio de manera más eficiente y rentable. Obtenga el máximo valor de sus clientes y proveedores agilizando la compra de bienes y servicios, administre RFQ, compras recurrentes, compromisos y reservas.
 
-### Analyze demand and supply in real time
+### Analice la oferta y la demanda en tiempo real
 
-ADempiere provides user-friendly features to plan and control costs, mitigate risks and stay competitive. You can realize effective cost control measurements throughout the organization, and have accurate information for analyzing costs and trends, tracking current costs, and provide timely advice on cost management to all departments.
+ADempiere proporciona funciones fáciles de usar para planificar y controlar costos, mitigar riesgos y mantenerse competitivo. Puede realizar mediciones efectivas de control de costos en toda la organización y tener información precisa para analizar costos y tendencias, realizar un seguimiento de los costos actuales y brindar asesoramiento oportuno sobre la gestión de costos a todos los departamentos.
 
-The system monitors different costs types and directly relate them to operating and administrative expenses, allowing to manage them more effectively allowing easy screening of costs and revenue from specific products and services, providing accurate information to solve discrepancies and otherwise strengthening potential business advantages.
+El sistema monitorea diferentes tipos de costos y los relaciona directamente con los gastos operativos y administrativos, lo que permite administrarlos de manera más efectiva, lo que permite una fácil detección de costos e ingresos de productos y servicios específicos, brinda información precisa para resolver discrepancias y, de lo contrario, fortalece las ventajas comerciales potenciales.
 
-Leverage demand forecasting features to easily update estimates at a business scale using a per customer and/or per product granularity allowing decision makers great flexibility to compare and review against their own estimates. Adding different scenarios into the planning process will ultimately provide a more accurate vision of the future state of business and plan ahead successfully based on realistic targets.
+Aproveche las funciones de previsión de la demanda para actualizar fácilmente las estimaciones a escala empresarial utilizando una granularidad por cliente y/o por producto, lo que permite a los responsables de la toma de decisiones una gran flexibilidad para comparar y revisar sus propias estimaciones. Agregar diferentes escenarios al proceso de planificación en última instancia proporcionará una visión más precisa del estado futuro del negocio y planificará con éxito con base en objetivos realistas.
 
-## Financial Management
+## Gestión financiera
 
-### Bank
+### Banco
 
-Allows management of banks and bank accounts in different currencies handling all payment types, checkbook control, document printing and batch processing of checks and bank reconciliation.
+Permite el manejo de bancos y cuentas bancarias en diferentes monedas manejando todo tipo de pago, control de chequera, impresión de documentos y procesamiento por lotes de cheques y conciliación bancaria.
 
-It keeps strict data validation processes, through comparison of system records against bank statements, either manually or through automatic reconciliation processes based on dynamic validation rules.
+Mantiene estrictos procesos de validación de datos, a través de la comparación de los registros del sistema con los extractos bancarios, ya sea de forma manual o mediante procesos automáticos de conciliación basados ​​en reglas de validación dinámica.
 
-It leverages system integration with external sources as with automatic statement matching proces, it allows transactions to be uploaded from the bank and compares them against system records which in turn makes bank reconciliation process swift and accurate.
+Aprovecha la integración del sistema con fuentes externas como con el proceso automático de comparación de estados de cuenta, permite que las transacciones se carguen desde el banco y las compara con los registros del sistema, lo que a su vez hace que el proceso de conciliación bancaria sea rápido y preciso.
 
-### Banking Transactions
+### Transacciones bancarias
 
-It allows multilple payment and deposit types, such as cash, transfers, third party checks and bank vouchers through multiple bank accounts thus centralizing all financial information and providing traceability and accountability at all times.
+Permite múltiples tipos de pago y depósito, como efectivo, transferencias, cheques de terceros y comprobantes bancarios a través de múltiples cuentas bancarias, centralizando así toda la información financiera y brindando trazabilidad y rendición de cuentas en todo momento.
 
-### Detailed Internal Audit
+### Auditoría interna detallada
 
-The system creates a detailed transaction log from every record being created or updated and/or every background process executed keeping track of input parameters, run date/time, process duration and exit code indicating either success or failure after process execution.
+El sistema crea un registro de transacciones detallado de cada registro que se crea o actualiza y/o cada proceso en segundo plano que se ejecuta, manteniendo un registro de los parámetros de entrada, la fecha/hora de ejecución, la duración del proceso y el código de salida que indica el éxito o el fracaso después de la ejecución del proceso.
 
-### Document Traceability
+### Trazabilidad de documentos
 
-ADempiere allows to keep track of due dates for either collection and/or payables. Both own and third-party checks are entered into the system where they followed through with full traceablitiy. Each document is linkedto other documents within the system making this information more reliable and accurate.
+ADempiere permite realizar un seguimiento de las fechas de vencimiento, ya sea para el cobro y/o las cuentas por pagar. Tanto los cheques propios como los de terceros son ingresados ​​al sistema donde se realiza el seguimiento con total trazabilidad. Cada documento está vinculado a otros documentos dentro del sistema, lo que hace que esta información sea más confiable y precisa.
 
-### Reports
+### Informes
 
-It features an extensive reporting system, with daily, weekly and monthly reports and statements produced in real-time.
+Cuenta con un extenso sistema de informes, con informes y estados de cuenta diarios, semanales y mensuales producidos en tiempo real.
 
-### Cash Management
+### Gestión de efectivo
 
-Cash is effectively managed using the system, including Cash Flow, Tills opening/closing and Petty Cash reconciliation if used.
+El efectivo se administra de manera efectiva utilizando el sistema, incluido el flujo de efectivo, la apertura/cierre de cajas y la conciliación de caja chica, si se usa.
 
-## Human Capital
+## Capital humano
 
-- Availability of accurate information from its employees
-- Human Capital Management, boosting employee productivity
-- Defining Vision while Training together as well
-- Career Development Plans and goals of employees
-- Reduced operational costs through fluid and simple processes.
-- Your organization can use a centralized framework assuming all employees are
-- managed in accordance with the same structure and approach.
-- Automation of repetitive calculations
-- Fair and Competitive termination process when required
-- Calculation and processing of overtime
-- Loan Management
-- Tax Processing and Payment of Income Tax and employee contributions
-- Issuing files for dispersion of funds
-- Issuing checks
-- Issue payment receipts by email
+- Disponibilidad de información veraz de sus empleados
+- Gestión del Capital Humano, impulsando la productividad de los empleados
+- Definir la visión mientras entrenamos juntos también
+- Planes de Desarrollo de Carrera y objetivos de los empleados
+- Reducción de costos operativos a través de procesos fluidos y simples.
+- Su organización puede usar un marco centralizado asumiendo que todos los empleados están
+- gestionados de acuerdo con la misma estructura y enfoque.
+- Automatización de cálculos repetitivos
+- Proceso de terminación justo y competitivo cuando sea necesario
+- Cálculo y tramitación de horas extras
+- Gestión de préstamos
+- Tramitación Tributaria y Pago de Impuesto a la Renta y aportes de los trabajadores
+- Expedición de expedientes para dispersión de fondos
+- Emisión de cheques
+- Emitir comprobantes de pago por correo electrónico.
