@@ -1,14 +1,14 @@
 ---
-title: About of Announcements
+title: Acerca de los anuncios
 icon: blog
-category: Articles
+category: Artículos
 star: 9
 sticky: 9
 tag:
   - blog
-  - Articles
+  - Artículos
   - Post
 article: false
 ---
 
-A complete blog with some articles created by ADempiere contributors
+Un blog completo con algunos artículos creados por colaboradores de ADempiere
