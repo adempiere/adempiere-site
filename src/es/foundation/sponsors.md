@@ -1,15 +1,14 @@
 ---
-title: Sponsors
-category: Sponsors
+title: Patrocinadores
+category: Patrocinadores
 star: 9
 sticky: 9
 article: false
 ---
 
-## Platinum Sponsors
+## Patrocinadores Platino
 
-The following companies are currently sponsoring ADempiere.
-
+Las siguientes empresas actualmente patrocinan ADempiere.
 <table>
   <tbody>
     <tr>
@@ -25,7 +24,7 @@ The following companies are currently sponsoring ADempiere.
       <td align="center" valign="middle">
         <h3><a href="http://www.e-evolution.com/">e-Evolution</a></h3><br/>
         <p align="left">
-        e‑Evolution is an international consulting company based in Mexico with more than 20 years of experience and implementations throughout Latin America. With a multinational team of professionals, e‑Evolution supports clients in the adoption of new technologies such as ADempiere ERP, CRM & SCM, as well as the adoption of best business practices in the administration, finance, distribution, logistics, manufacturing, and supply chain processes.
+        e‑Evolution es una empresa de consultoría internacional con sede en México con más de 20 años de experiencia e implementaciones en toda América Latina. Con un equipo multinacional de profesionales, e‑Evolution apoya a los clientes en la adopción de nuevas tecnologías como ADempiere ERP, CRM & SCM, así como en la adopción de las mejores prácticas comerciales en la administración, finanzas, distribución, logística, manufactura y abastecimiento. procesos en cadena.
         </p>
       </td>
     </tr>
@@ -42,7 +41,7 @@ The following companies are currently sponsoring ADempiere.
       <td align="center" valign="middle">
         <h3><a href="http://erpya.com/">ERP Consultores y Asociados</a></h3><br/>
         <p align="left">
-        ERP Consultores y Asociados is a consulting and software development company in Venezuela with hundreds of implementations of ADempiere in Latin America.  They are the prime developers of the new ADempiere user interface.
+        ERP Consultores y Asociados es una empresa de consultoría y desarrollo de software en Venezuela con cientos de implementaciones de ADempiere en Latinoamérica. Son los principales desarrolladores de la nueva interfaz de usuario de ADempiere.
         </p>
       </td>
     </tr>
@@ -59,7 +58,7 @@ The following companies are currently sponsoring ADempiere.
       <td align="center" valign="middle">
         <h3><a href="http://www.ofbconsulting.com/">OFB Consulting</a></h3><br/>
         <p align="left">
-        OFB Consulting, located in Chile, is an official world class implementer of the ADempiere ERP  software with the largest number of successful implementations in both private and public sectors.
+        OFB Consulting, ubicada en Chile, es un implementador oficial de clase mundial del software ADempiere ERP con el mayor número de implementaciones exitosas tanto en el sector público como en el privado.
         </p>
       </td>
     </tr>
@@ -76,7 +75,7 @@ The following companies are currently sponsoring ADempiere.
       <td align="center" valign="middle">
         <h3><a href="http://www.openupsolutions.com/">Openup Solutions</a></h3><br/>
         <p align="left">
-        Openup Solutions is a consulting and software development company based in Uruguay with successful implementations in the service, retail, consumer credit, transportation and industry sectors.
+        Openup Solutions es una empresa de consultoría y desarrollo de software con sede en Uruguay con implementaciones exitosas en los sectores de servicios, retail, crédito al consumo, transporte e industria.
         </p>
       </td>
     </tr>
@@ -93,14 +92,14 @@ The following companies are currently sponsoring ADempiere.
       <td align="center" valign="middle">
         <h3><a href="http://westfalia-it.com/">Systemhaus Westfalia</a></h3><br/>
         <p align="left">
-        Offers consultancy and development around ADempiere. It is based in El Salvador, with implementations in several countries and sectors.
+        Ofrece consultoría y desarrollo en torno a ADempiere. Tiene su sede en El Salvador, con implementaciones en varios países y sectores.
         </p>
       </td>
     </tr>
   </tbody>
 </table>
 
-## Silver Sponsors
+## Patrocinadores de plata
 
 <table>
   <tbody>
@@ -117,7 +116,7 @@ The following companies are currently sponsoring ADempiere.
       <td align="center" valign="middle">
         <h3><a href="www.vdevsoft.com">VDevSoft</a></h3><br/>
         <p align="left">
-        Based in Thailand, founded in 2009 by software developers and accountants. With over 25 years of experience in commercial and community ERP systems.
+        Con sede en Tailandia, fundada en 2009 por desarrolladores de software y contadores. Con más de 25 años de experiencia en sistemas ERP comerciales y comunitarios.
         </p>
       </td>
     </tr>
@@ -134,7 +133,7 @@ The following companies are currently sponsoring ADempiere.
       <td align="center" valign="middle">
         <h3><a href="https://www.catura.de/">Catura AG</a></h3><br/>
         <p align="left">
-        Based in Passau, Germany, Catura offers its customers tailor-made ERP solutions with a focus on online trading as well as a profound data analysis & Business Intelligence (BI) based on Pentaho BI.
+        Con sede en Passau, Alemania, Catura ofrece a sus clientes soluciones ERP a medida con un enfoque en el comercio en línea, así como un profundo análisis de datos y Business Intelligence (BI) basado en Pentaho BI.
         </p>
       </td>
     </tr>
@@ -151,17 +150,17 @@ The following companies are currently sponsoring ADempiere.
       <td align="center" valign="middle">
         <h3><a href="http://www.efact.cl/">EFact</a></h3><br/>
         <p align="left">
-        EFact provides IT support for customers in Chile. They have two main service areas: infrastructure (Internet networks, antenna, power systems, data centers, UPS and ATS systems) and computer services providing transaction systems, Linux, Amazon Web Services, Disaster operations, databases and web design. With more than 25 years of experience with Linux systems and database administration, EFact can provide performance and stability to its customers.
+        EFact proporciona soporte de TI para clientes en Chile. Cuentan con dos áreas de servicio principales: infraestructura (redes de Internet, antena, sistemas de energía, centros de datos, sistemas UPS y ATS) y servicios informáticos que brindan sistemas de transacciones, Linux, Amazon Web Services, operaciones de desastres, bases de datos y diseño web. Con más de 25 años de experiencia con sistemas Linux y administración de bases de datos, EFact puede brindar rendimiento y estabilidad a sus clientes.
         </p>
       </td>
     </tr>
   </tbody>
 </table>
 
-## Become a Sponsor
+## Conviértase en patrocinador
 
-Companies that wish to sponsor the ADempiere community and the activities of the Foundation can purchase a sponsorship subscription. There are three levels: platinum, gold and silver with monthly subscription amounts of **$200**, **$100** and **$50** USD respectively. The Subscriptions can also be purchased with a single yearly amount of **$2000**, **$1000** and **$500** **USD** respectively. All funds provided will be controlled by the ADempiere Foundation and used to support the community.
+Las empresas que deseen patrocinar la comunidad ADempiere y las actividades de la Fundación pueden adquirir una suscripción de patrocinio. Hay tres niveles: platino, oro y plata con montos de suscripción mensual de **$200**, **$100** y **$50** USD respectivamente. Las Suscripciones también se pueden comprar con una sola cantidad anual de **$2000**, **$1000** y **$500** **USD** respectivamente. Todos los fondos proporcionados serán controlados por la Fundación ADempiere y se utilizarán para apoyar a la comunidad.
 
-Platinum sponsors are listed first on the page with a larger logo and can have a short descritpion included with the listing.
+Los patrocinadores de platino se enumeran primero en la página con un logotipo más grande y pueden incluir una breve descripción con la lista.
 
-Subscriptions can be purchsed through Paypal by selecting one of the options and clicking the "Subscribe" button below. You will need a Paypal account or you can create one during the process. If you need to cancel the subscription, you can do so through your Paypal account or by clicking the Unsubscribe button below. After you submit your subscription, we will contact you to gather your company info.
+Las suscripciones se pueden comprar a través de Paypal seleccionando una de las opciones y haciendo clic en el botón "Suscribirse" a continuación. Necesitará una cuenta de Paypal o puede crear una durante el proceso. Si necesita cancelar la suscripción, puede hacerlo a través de su cuenta de Paypal o haciendo clic en el botón Cancelar suscripción a continuación. Después de enviar su suscripción, nos pondremos en contacto con usted para recopilar la información de su empresa.
