@@ -1,11 +1,11 @@
 ---
-title: Downloads
+title: Descargas
 icon: download
-category: Download
+category: Descarga
 star: 9
 sticky: 9
 tag:
-  - Download
+  - Descarga
   - tar
   - gz
   - Docker
