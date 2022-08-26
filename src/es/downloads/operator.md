@@ -9,24 +9,24 @@ tag:
 article: false
 ---
 
-Replace this text by summary of index
+Reemplazar este texto por resumen del índice
 
-::: tip Intro
+::: consejo Introducción
 
-Replace this text by [ADempiere ERP](http://adempiere.net/) tip
+Sustituya este texto por [ADempiere ERP](http://adempiere.net/) tip
 
 :::
 
-## Replace this by new section
+## Reemplace esto por una nueva sección
 
-Replace this by section summary text.
+Reemplace esto por el texto de resumen de la sección.
 
-- [Replace by functionality Name](replace-by-folder-name)
-- [Replace by other functionality Name](replace-by-oter-folder-name)
+- [Reemplazar por nombre de funcionalidad] (reemplazar por nombre de carpeta)
+- [Reemplazar por otro nombre de funcionalidad] (reemplazar por otro nombre de carpeta)
 
-## Replace this by new section
+## Reemplace esto por una nueva sección
 
-Replace this by section summary text.
+Reemplace esto por el texto de resumen de la sección.
 
-- [Replace by functionality Name](replace-by-folder-name)
-- [Replace by other functionality Name](replace-by-oter-folder-name)
+- [Reemplazar por nombre de funcionalidad] (reemplazar por nombre de carpeta)
+- [Reemplazar por otro nombre de funcionalidad] (reemplazar por otro nombre de carpeta)

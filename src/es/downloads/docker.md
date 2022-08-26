@@ -10,7 +10,7 @@ tag:
 article: false
 ---
 
-Reemplazar este texto por resumen del índice.
+
 
 ::: consejo Introducción
 
