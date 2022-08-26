@@ -1,15 +1,15 @@
 ---
-title: Material Management
+title: Gestión de materiales
 category:
-  - Material Management
+  - Gestión de materiales
 star: 9
 sticky: 9
 article: false
 author: Yamel Senih
 ---
 
-Master data includes records that give rise to transactions, therefore they are not modifiable on a regular basis, in this sense ADempiere ERP explains how to create your teachers in an ideal way, thus avoiding duplication and inconsistency in the data.
+Los datos maestros incluyen registros que dan lugar a transacciones, por lo tanto no son modificables de manera regular, en este sentido ADempiere ERP explica cómo crear tus maestros de manera ideal, evitando así duplicidades e inconsistencias en los datos.
 
-Go to the follow content for learn more about it:
+Vaya al siguiente contenido para obtener más información al respecto:
 
-[Product Definition](product)
+[Definición de producto](producto)
