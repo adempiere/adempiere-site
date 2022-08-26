@@ -1,6 +1,6 @@
 ---
 title: The Future Of ADempiere as a DDD reactive system
-category: Articles
+category: Articulos
 star: 9
 sticky: 9
 tag:
@@ -16,92 +16,91 @@ date: 2015-06-22
 
 Antes de empezar a hablar de modularidad, me gustaría describir el camino para definir la arquitectura más adecuada para un software como ADempiere.
 
-During the last years I’ve been reading and analyzing the different approaches and architectures for software development and at the same time figure out which would be the best for ADempiere.
+Durante los últimos años he estado leyendo y analizando los diferentes enfoques y arquitecturas para el desarrollo de software y al mismo tiempo descifrar cuál sería la mejor para ADempiere.
 
-As we all know too well, the design of our program is based on a two-layer combination [Client/serve](http://en.wikipedia.org/wiki/Client) (1) Swing, which in the nineties of the last century was one of the best adopted because it used the network and the PCs in a way that the main server was freed from heavy load by leaving certain tasks on the client. The main focus was to have the core of the software being executed on a central server while clients connect to it to access data and do the business logic locally.
+Como todos sabemos muy bien, el diseño de nuestro programa se basa en una combinación de dos capas [Cliente/servido](http://en.wikipedia.org/wiki/Cliente) (1) Swing, que en los años noventa del el siglo pasado fue uno de los que mejor se adoptó porque utilizó la red y las PC de manera que el servidor principal se liberó de la carga pesada al dejar ciertas tareas en el cliente. El objetivo principal era que el núcleo del software se ejecutara en un servidor central mientras los clientes se conectaban a él para acceder a los datos y realizar la lógica comercial localmente.
 
-Ironically think have swung back to where they originally started, as there was a mainframe with dumb terminals which only displayed data to users without any kind of complex data processing.
+Irónicamente, creo que han regresado a donde comenzaron originalmente, ya que había un mainframe con terminales tontas que solo mostraban datos a los usuarios sin ningún tipo de procesamiento de datos complejo.
 
-I was not present at the age where it was needed a white coat to access to big data centers consisting of several IBM 390s or Systems 36 with hundreds of terminals (ATMs). But today, the context is in a way similar to these former times: there are big data centers -which by the way have helped to reduce costs- with rented servers accessed on a virtual way for a couple of hundreds dollars a month (Amazon, Google Cloud, Heroku to name a few). The main difference now is that applications have to service thousands or even millions of users, the capability of being able to scale up horizontally is an usual requirement nowadays; these new context demands that applications are designed differently as the requirements are totally different.
+No estuve presente en la época en que se necesitaba una bata blanca para acceder a grandes centros de datos formados por varios IBM 390 o Systems 36 con cientos de terminales (ATM). Pero hoy, el contexto es de alguna manera similar a estos tiempos pasados: hay grandes centros de datos -que por cierto han ayudado a reducir costos- con servidores alquilados a los que se accede de manera virtual por un par de cientos de dólares al mes (Amazon, Google Cloud, Heroku, por nombrar algunos). La principal diferencia ahora es que las aplicaciones tienen que dar servicio a miles o incluso millones de usuarios, la capacidad de poder escalar horizontalmente es un requisito habitual hoy en día; este nuevo contexto exige que las aplicaciones se diseñen de manera diferente ya que los requisitos son totalmente diferentes.
 
-The access to these servers is made by gadgets which though not totally dumb, they execute client applications run on a web browser whose only task is to interpret java script or HTML code, where the highest value is standardization and integration of multiple operating systems and platforms.
+El acceso a estos servidores se realiza mediante gadgets que, aunque no son totalmente tontos, ejecutan aplicaciones cliente que se ejecutan en un navegador web cuya única tarea es interpretar java script o código HTML, donde el valor más alto es la estandarización e integración de múltiples sistemas operativos y plataformas. .
 
-In the next decade the main focus was in developing applications based on the model view controller paradigm [MVC](http://en.wikipedia.org/wiki/Model) (2), which allowed code separation.
+En la próxima década, el enfoque principal fue el desarrollo de aplicaciones basadas en el paradigma del controlador de vista modelo [MVC] (http://en.wikipedia.org/wiki/Model) (2), que permitía la separación de código.
 
-The model layer allows the access and updating of data, mostly saved in a relational database. On the other side it allows to work with Object-relational mapping (ORM) which consist of an abstraction on the database and persistency, replacing the usage of SQL sentences depending on the implementation of a motor implemented on every database.
+La capa del modelo permite el acceso y actualización de datos, en su mayoría guardados en una base de datos relacional. Por otro lado, permite trabajar con mapeo objeto-relacional (ORM) que consiste en una abstracción en la base de datos y persistencia, reemplazando el uso de sentencias SQL dependiendo de la implementación de un motor implementado en cada base de datos.
+La capa de vista separa el código para la visualización y la interacción del usuario a través de una interfaz de usuario, que se implementa de acuerdo con el dispositivo de acceso.
 
-The view layer separates the code for displaying and for user interaction via an user interface, which is implemented according to the access gadget.
+La capa de controlador se encarga de vincular la capa de vista con el modelo de datos e implementa el código que responde a las acciones necesarias.
 
-The controller layer is in charge of linking the view layer with the data model, and implements the code that responds to the actions needed.
+Cuando analizamos el código de ADempiere en retrospectiva, podemos ver el transcurso del tiempo y la evolución que sufrió. Se pasó del cliente/servidor original basado en Java swing con acceso directo a la base de datos a través de sentencias SQL puras al actual ORM propio combinado con SQL para acceder a los datos y la aplicación MVC basada en el cliente web AJAX.
 
-When we analyze the code of ADempiere in retrospective, we can see the course of time and evolution of underwent. It went from the original client/server based on Java swing with direct database access via pure SQL sentences to the current own ORM combined with SQL to access the data and the MVC application based on te AJAX web client.
+Aunque la tecnología ha avanzado, nuestro modelo de dominio ha persistido; por eso podemos inferir que el activo más importante de ADempiere es el Diccionario de Aplicaciones que preserva el modelo de dominio y la lógica de negocio.
 
-Even though technology has moved on, our domain model has persisted; that is why we can infer that the most important asset of ADempiere is the Application Dictionary which preserves the domain model and the business logic.
+Gracias a que ADempiere fue redactado y desarrollado sobre una Arquitectura Dirigida por Modelos [MDA](http://en.wikipedia.org/wiki/Model-driven_architecture) (3), el modelo de dominio está protegido de obsolescencia por el Diccionario de Aplicaciones
 
-Thanks to the fact that ADempiere was drafted and developed on a Model Driven Architecture [MDA](http://en.wikipedia.org/wiki/Model-driven_architecture) (3), the domain model is protected of obsolescence by the Application Dictionary
+Como persona voluntaria, responsable de la futura arquitectura de la querida ADempiere, adoptaremos el enfoque DDD como línea principal de desarrollo.
 
-As a voluntary person, responsible for the future architecture of beloved ADempiere, we will adopt the DDD approach as the main line of development.
+**Ahora: ¿qué es un desarrollo de software guiado por el [DDD de Diseño Impulsado por Dominio](http://en.wikipedia.org/wiki/Domain-driven_design)(4)?**
 
-**Now: what is a software development guided by the [Domain Driven Design DDD](http://en.wikipedia.org/wiki/Domain-driven_design)(4)?**
+**DDD** es un enfoque para desarrollar software con requisitos complejos y que tiene un vínculo profundo con un modelo que define el núcleo de la lógica comercial que se está desarrollando.
+Los mandamientos más importantes para desarrollar y mantener un modelo de dominio son:
 
-**DDD** is an approach for developing software with complex requirements and having a deep linkage to a model that defines the core of the business logic being developed.
-The most important commandments to develop and maintain a domain model are:
+- Situar el foco principal del proyecto en el core y la lógica de negocio del dominio.
+- Todos los diseños complejos se basan en un modelo de dominio.
+- Iniciar una colaboración creativa entre técnicos y expertos en modelos de dominio para definir iterativamente un modelo que aborde los problemas particulares del dominio.
 
-- Place the main focus of the project in the core and the business logic of the domain.
-- All complex designs are based on a domain model.
-- Initiate a creative collaboration between technicians and domain model experts to define iteratively a model that addresses the particular problems of the domain.
+El [Domain Driven Design](http://domainlanguage.com/ddd/patterns/DDD_Reference_2011-01-31.pdf) (5) no es una tecnología ni una metodología. Es un conjunto de patrones para la construcción de aplicaciones comerciales a partir del modelo de dominio, que proporciona una estructura útil, práctica y con una terminología consistente para la toma de decisiones en el curso del diseño de software.
 
-The [Domain Driven Design](http://domainlanguage.com/ddd/patterns/DDD_Reference_2011-01-31.pdf) (5) is not a technology nor a methodology. It is a set of patterns towards the building of business applications starting from the domain model, which provides an useful, practical structure with consistent terminology for decision-making in the course of designing software.
+**Dominio:** una esfera de conocimiento (ontología), influencia o actividad. El área donde un usuario aplica un programa es el dominio del software.
+**Modelo:** un conjunto de abstracciones que describen secciones de un dominio seleccionado que se pueden usar para resolver problemas o tareas relacionadas con ese dominio.
+**Lenguaje ubicuo:** un lenguaje estructurado en el contexto de un modelo de dominio y utilizado por todos los miembros del equipo para interconectar todas las actividades del equipo.
+**Contexto:** el escenario en el que una palabra o declaración define su significado.
+Una visión puramente técnica para el desarrollo de software podría ser la migración a una aplicación de múltiples capas (capa de persistencia, capa de datos de acceso, capa de servicio y capa de presentación).
+**DDD** no está en conflicto con ninguna tecnología o patrón de diseño, por ejemplo [Inyección de dependencia DI] (http://en.wikipedia.org/wiki/Dependency_injection) (6),
 
-**Domain:** a knowledge sphere (ontology), influence or activity. The area where an user applies a program is the software domain.
-**Model:** a set of abstractions describing sections of a selected domain than can be used to solve problems or tasks related to that domain.
-**Ubiquitous language:** a structured language in the context of a domain model and used by all team members to interconnect all team activities.
-**Context:** the scenario in which a word or statement defines her meaning.
-A purely technical vision for the software development could be the migration to a multiple layer application (persistency layer, access data layer, service layer and presentation layer).
-**DDD** is not quarrel with any technology or design pattern for example [Dependency Injection DI](http://en.wikipedia.org/wiki/Dependency_injection) (6),
+pero sin cambios hay una premisa muy importante ¡El modelo de dominio debe permanecer aislado de las capas externas! ya que cualquier cambio tecnológico no debería afectar mi core business.
 
-but without change there is a very important premise The domain model should remain isolated from the outer layers! since any technological change should not affect my core business.
+**Premisa importante:**
 
-**Important Premise:**
+- ¡El modelo debe mantenerse aislado de las capas externas! La razón: ningún cambio tecnológico debe afectar al núcleo del negocio.
+- Cada capa es un círculo concéntrico que define un área de software; mientras se mueve desde el centro hacia los niveles exteriores, el software evoluciona. Los círculos exteriores son mecanismos, mientras que los círculos interiores son las condiciones.
+- La regla más importante para esta arquitectura es la regla de dependencia.
+- Como regla general, las dependencias dentro del código fuente solo pueden apuntar hacia el centro. Nada en un círculo interior puede saber nada en un círculo exterior. Además, cualquier nombre declarado en un círculo exterior no puede ser mencionado por el código de un círculo interior. Esto incluye llamadas a funciones, clases, variables o cualquier otra entidad de software.
+- Por la misma razón, los formatos de datos utilizados en un círculo exterior no pueden ser utilizados por un círculo interior, especialmente si estos formatos se generan en un ORM desde un círculo exterior. Nuestra intención es que nada de un círculo exterior afecte a los círculos interiores.
+- Así, para la interacción entre círculos o capas es primordial establecer una API que permita la comunicación entre capas internas y externas mediante adaptadores o mensajes.
 
-- The model must be kept isolated from the external layers! The reason: no technological change should affect the core of the business.
-- Each layer is a concentric circle which defines a software area; while moving from the center to the outer levels the software evolves. The outer circles are mechanisms, while the inner circles are the conditions.
-- The most important rule for this architecture is the dependency rule.
-- As a rule, dependencies within the source code can point only towards the center. Nothing in an inner circle can know about anything in an outer circle. Moreover, any declared name in an outer circle cannot be mentioned by the code of an inner circle. This includes function calls, classes, variables or any other software entity.
-- Due to the same reason, the data formats used in an outer circle cannot be used by an inner circle, especially if these formats are generated in a ORM from an outer circle. It is our intention that nothing from an outer circle affects the inner circles.
-- This way, for interacting between circles or layers is paramount to establish an API which allows the communication between inner and outer layers by means of adapters or messages
+Hay algunas arquitecturas basadas en esta vista; son similares y difieren en algunos puntos, pero coinciden en la importancia de un modelo de dominio [Arquitectura hexagonal](http://alistair.cockburn.us/Hexagonal+architecture) (7), [Arquitectura cebolla](http:// www.infoq.com/news/2014/10/ddd-onion-architecture) (8), [La arquitectura limpia] (http://blog.8thlight.com/uncle-bob/2012/08/13/the- arquitectura limpia.html) (9).
 
-There are some architectures based on this view; they are similar and differ in some points, but coincide in the importance of a domain model [Hexagonal architecture](http://alistair.cockburn.us/Hexagonal+architecture) (7), [Onion Architecture](http://www.infoq.com/news/2014/10/ddd-onion-architecture) (8), [The Clean Architecture](http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html) (9).
+Como la forma de definir cómo construiremos el software alrededor de ADempiere es crucial, adoptaremos la arquitectura limpia/Onion, donde el enfoque principal es mantener limpio el modelo de dominio interactuando con las capas externas por medio de contratos (API o interfaces) que permiten separar convenientemente el modelo de dominio de las implementaciones (API o contrato). Esto permitirá una evolución ordenada evitando la obsolescencia tecnológica.
 
-As the way of defining how we will build the software around ADempiere is crucial, we will adopt the clean/Onion architecture, where the main focus is to keep clean the domain model interacting with the outer layers by means of contracts (APIs or interfaces) which allow to conveniently separate the domain model of the implementations (API or contract). This will provide for an ordered evolution avoiding technological obsolescence.
+Por otro lado, definiremos un [DSL de Lenguaje Específico de Dominio](http://en.wikipedia.org/wiki/Domain-specific_language) (10) para ADempiere enfocado al negocio, que permita construir nuestro lenguaje ubicuo y delimitando claramente los contextos. Esto ayuda a un desarrollo más natural de la lógica empresarial.
+Como se dijo antes, toda decisión tiene que ser autorizada por los beneficios a obtener; avanzar hacia DDD nos permitirá obtener los siguientes beneficios:
 
-On the other hand, we will define a [Domain Specific Language DSL](http://en.wikipedia.org/wiki/Domain-specific_language) (10) for ADempiere focussed on the business, allowing the building of our ubiquitous language and clearly delimiting the contexts. This helps a more natural development of the business logic.
-As stated before, every decision has to be authorized by the benefits to be gained; moving towards DDD will allow us to obtain the following benefits:
+**Los beneficios:**
 
-**The Benefits:**
+- Código desacoplado
+- Reducir el código de espagueti
+- Servicios transversales independientes del modelo de dominio (Log, Transacciones, Seguridad).
+- Código fácil de mantener
+- Software adaptable a cambios
+- Diseño basado en componentes
+- Contextos delimitados por el proceso de negocio
+- Construir nuestros propios conjuntos de prueba (funcional, integración, prueba de regresión)
+- Mejor manejo de dependencias y modularidad.
+- Crear un DSL (lenguaje específico del dominio) (9) para la empresa
+- Compilación de Adempiere como un sistema reactivo (11) (Responsive, Resilient, Elastic, Message Driver)
+- Una aplicación diseñada para las exigencias de hoy
 
-- Decoupled code
-- Reduce spaghetti code
-- Traversal Services independent of the domain model (Log , Transactions , Security ).
-- Code easy to maintain
-- Software adaptable to changes
-- Design based on components
-- Contexts delimited by the business process
-- Build our own testing sets (functional, integration, regression test)
-- Better handling of dependencies and modularity.
-- Create a DSL (Domain-specific language) (9) for the business
-- Build to Adempiere as a Reactive System (11) (Responsive , Resilient , Elastic , Message Driver)
-- An application designed for the demands of today
+Es importante que los desarrolladores interesados ​​en participar en este gran proyecto se familiaricen con los conceptos y la terminología.
 
-It is important that developers interested in participating in this big project become familiar with concepts and terminology.
+En los próximos meses y semanas seguiré escribiendo más artículos con ejemplos concretos que permitan la discusión.
 
-In the next months and weeks, I will continue writing more articles with concrete examples permitting discussion.
-
-Victor Perez
-An ADempiere founder
+Víctor Pérez
+Un fundador de ADempiere
 victor.perez@e-evolution.com
 
-References:
+Referencias:
 
 - (1) [http://en.wikipedia.org/wiki/Client–server_model](http://en.wikipedia.org/wiki/Client–server_model)
 - (2) [http://en.wikipedia.org/wiki/Model–view–controller](http://en.wikipedia.org/wiki/Model–view–controller)
@@ -111,6 +110,6 @@ References:
 - (6) [http://en.wikipedia.org/wiki/Dependency_injection](http://en.wikipedia.org/wiki/Dependency_injection)
 - (7) [http://alistair.cockburn.us/Hexagonal+architecture](http://alistair.cockburn.us/Hexagonal+architecture)
 - (8) [http://www.infoq.com/news/2014/10/ddd-onion-architecture](http://www.infoq.com/news/2014/10/ddd-onion-architecture)
-- (9) [http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html](http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+- (9) [http://blog.8thlight.com/uncle-bob/2012/08/13/the-clean-architecture.html](http://blog.8thlight.com/uncle-bob/2012/ 13/08/la-arquitectura-limpia.html)
 - (10) [http://en.wikipedia.org/wiki/Domain-specific_language](http://en.wikipedia.org/wiki/Domain-specific_language)
 - (11) [http://www.reactivemanifesto.org](http://www.reactivemanifesto.org)
