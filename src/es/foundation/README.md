@@ -1,31 +1,31 @@
 ---
-title: About the Association
+title: Sobre la Asociación
 icon: interact
-category: Foundation
+category: Fundación
 star: 9
 sticky: 9
 tag:
-  - Foundation
+  - Fundación
 article: false
 ---
 
-## About the Association
+## Acerca de la Asociación
 
-::: tip Who is ADempiere Deutschland e.V.?
+::: consejo ¿Quién es ADempiere Deutschland e.V.?
 
-The ADempiere association (ADempiere Deutschland e.V.) represents the open-source software project "ADempiere" in germany. We understand ourselves as developing partner consisting of people who work with ADempiere.
+La asociación ADempiere (ADempiere Deutschland e.V.) representa el proyecto de software de código abierto "ADempiere" en Alemania. Nos entendemos como socio desarrollador formado por personas que trabajan con ADempiere.
 
 :::
 
-### Whats the aim of this association?
+### ¿Cuál es el objetivo de esta asociación?
 
-Our main goal in terms of this association is to help to further distribute the software in germany.
+Nuestro principal objetivo en términos de esta asociación es ayudar a distribuir aún más el software en Alemania.
 
-### What we do to fulfil these goals:
+### Lo que hacemos para cumplir estos objetivos:
 
-- Fostering the relationship and collaboration of users, developers and scientists
-- Development and further studies of free and open ERP software
-- Providing documentation and supporting media to accomplish free ERP software and to secure availability of all kinds of information around the software
-- Promoting the software on tradefares and congresses to gain to access to broad audience possibly interested in ADempiere
-- Organization of congresses and workshops in general with talks by users and developers
-- Protection of the free licensing of the software against commercially interested parties
+- Fomentar la relación y colaboración de usuarios, desarrolladores y científicos
+- Desarrollo y estudios adicionales de software ERP libre y abierto.
+- Proporcionar documentación y medios de soporte para lograr un software ERP gratuito y asegurar la disponibilidad de todo tipo de información sobre el software.
+- Promoción del software en ferias y congresos para acceder a una amplia audiencia posiblemente interesada en ADempiere
+- Organización de congresos y talleres en general con charlas de usuarios y desarrolladores
+- Protección de la licencia libre del software frente a interesados ​​comerciales
