@@ -1,7 +1,7 @@
 ---
-title: Binary Download
+title: Descarga Binaria
 icon: github
-category: Download
+category: Descarga
 star: 9
 sticky: 9
 tag:
