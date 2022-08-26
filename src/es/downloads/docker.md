@@ -1,12 +1,12 @@
 ---
-title: Docker
-icon: docker
-category: Download
+title: Estibador
+icon: estibador
+category: Descarga
 star: 9
 sticky: 9
 tag:
-  - Docker
-  - Docker Hub
+  - Estibador
+  - Estibador Hub
 article: false
 ---
 
