@@ -1,73 +1,73 @@
 ---
-title: Benefits
-category: Product
+title: Beneficios
+category: Producto
 star: 9
 sticky: 9
 tag:
-  - Product
+  - Producto
   - ADempiere
   - Software
 article: false
 ---
 
-![Benefits](/assets/img/product/benefits.jpg)
+![Beneficios](/assets/img/product/benefits.jpg)
 
-## ADempiere ERP / CRM Advantage
+## Ventajas de ADempiere ERP/CRM
 
-### Flexibility
+### Flexibilidad
 
-**ADempiere embraces open standards that allow:**
+**ADempiere adopta estándares abiertos que permiten:**
 
-- System Standardization, stability and inteoperability
-- Full Data Visibility
-- Seamles Integration with third party systems
-- Independence from hardware and propietary OSS
+- Estandarización, estabilidad e interoperabilidad del sistema
+- Visibilidad completa de datos
+- Integración Seamles con sistemas de terceros
+- Independencia de hardware y OSS propietario
 
-### Long Term Feasibility
+### Viabilidad a largo plazo
 
-**Protects your business from technology obsolescence:**
+**Protege tu negocio de la obsolescencia tecnológica:**
 
-- Complying with industry standards and using widely available tools that support these standards, for further development and customization.
-- Ensuring availability of a large base of supporting users and developers, with knowledge of the tools used.
-- Source Code is publicy available enables long-term development.
-- Highly scalable allows to meet natural as well as unpredicted market changes.
-- Not subject financial success or failure from a specific company or indivicual
+- Cumplir con los estándares de la industria y utilizar herramientas ampliamente disponibles que admitan estos estándares, para un mayor desarrollo y personalización.
+- Asegurar la disponibilidad de una gran base de usuarios y desarrolladores de apoyo, con conocimiento de las herramientas utilizadas.
+- El código fuente está disponible públicamente y permite el desarrollo a largo plazo.
+- Altamente escalable, permite cumplir con los cambios de mercado naturales e imprevistos.
+- No estar sujeto al éxito o fracaso financiero de una empresa o individuo específico.
 
-### Lower Cost or Ownership
+### Menor costo o propiedad
 
-- Software license at no cost
-- Without upfront license costs or long term maintainance commitments
-- Reduced costs for development and support
-- Reduced fees from integrators and service providers
+- Licencia de software sin costo
+- Sin costes de licencia iniciales ni compromisos de mantenimiento a largo plazo
+- Costes reducidos de desarrollo y soporte.
+- Tarifas reducidas de integradores y proveedores de servicios
 
-## Open Source Advantage
+## Ventaja de código abierto
 
-### Reducing dependence on a single service providers
+### Reducir la dependencia de un único proveedor de servicios
 
-- Minimize the use of proprietary technology
-- Eliminates vendor lock avoiding payment on license fees and maintenance
-- Lowers entry and maintenances costs from Open Source integrators and ancillary service providers
+- Minimizar el uso de tecnología propietaria
+- Elimina el bloqueo del proveedor evitando el pago de tarifas de licencia y mantenimiento
+- Reduce los costos de entrada y mantenimiento de los integradores de código abierto y los proveedores de servicios auxiliares
 
-### Its self dependent
+### Es auto dependiente
 
-- Encourages a flexible development process with a greater focus to specific business requirements.
-- Greater participation and collaboration between the service integrator and the end user
-- Technology independence
-- Increased responsiveness to address local needs as they are identified.
-- Gives End User requirements priority over supplier's.
+- Fomenta un proceso de desarrollo flexible con un mayor enfoque a los requisitos específicos del negocio.
+- Mayor participación y colaboración entre el integrador de servicios y el usuario final
+- Independencia tecnológica
+- Mayor capacidad de respuesta para abordar las necesidades locales a medida que se identifican.
+- Da prioridad a los requisitos del usuario final sobre los del proveedor.
 
-### Wide range of support options.
+### Amplia gama de opciones de soporte.
 
-- A Support business platform from many organizations worldwide.
-- Free support is available from a number of forums and community pages
-- Enjoy a support experience normally takes more relevance than with proprietary counterparts.
+- Una plataforma comercial de soporte de muchas organizaciones en todo el mundo.
+- El soporte gratuito está disponible en varios foros y páginas de la comunidad.
+- Disfrutar de una experiencia de soporte normalmente toma más relevancia que con sus contrapartes propietarias.
 
-### Technically Superior
+### Técnicamente superior
 
-OSS related products are more aligned to open standards that patented products allowing a greater degree of interoperability.
+Los productos relacionados con OSS están más alineados con los estándares abiertos que los productos patentados, lo que permite un mayor grado de interoperabilidad.
 
-### Integration with other software systems
+### Integración con otros sistemas de software
 
-Many organizations acquire a few software pieces to meet a specific requirement but later realize the difficulties they have to effectively share gathered and related information.
+Muchas organizaciones adquieren algunas piezas de software para cumplir con un requisito específico, pero luego se dan cuenta de las dificultades que tienen para compartir de manera efectiva la información recopilada y relacionada.
 
-This ends up duplicating sensible data, with more effort involved and errors incurred. The same problem happens with open source, only to learn the later case the user already has the code available and can further investigate critical points of failure and figure out solution alternatives before it gets to a critical state.
+Esto termina duplicando datos sensibles, con más esfuerzo involucrado y errores incurridos. El mismo problema ocurre con el código abierto, solo para descubrir el último caso: el usuario ya tiene el código disponible y puede investigar más a fondo los puntos críticos de falla y descubrir alternativas de solución antes de que llegue a un estado crítico.
