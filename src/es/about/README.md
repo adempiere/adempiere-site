@@ -15,7 +15,7 @@ article: false
 
 :::
 
-## ADempiere Historia
+## Historia de ADempiere
 
 Nuestra Historia se divide en tres importantes hitos:
 
