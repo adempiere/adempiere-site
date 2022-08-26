@@ -1,100 +1,100 @@
 ---
-title: Replenish
+title: Reabastecer
 category:
-  - Product
-  - Documentation
-  - Data Management
-  - Replenish
+  - Producto
+  - Documentacion
+  - Manejo de Datos
+  - Reabastecer
 star: 9
 sticky: 9
 article: false
 author: Yamel Senih
 ---
 
-## Replenish tab
+## Pestaña Reabastecer
 
-Select the "**Restock**" tab, located on the left side of the
-window "**Product**" and proceed to fill in the fields
-corresponding.
+Seleccione la pestaña "**Reabastecer**", ubicada en el lado izquierdo de la
+ventana "**Producto**" y proceda a llenar los campos
+correspondiente.
 
-![Replenish tab](/assets/img/docs/material-management/product/replenish-tab.png)
+![Pestaña Reponer](/assets/img/docs/material-management/product/replenish-tab.png)
 
-Image 49. Replenish tab
+Imagen 49. Pestaña Reponer
 
-Select in the field "**Warehouse**", the warehouse related to the
-record you are making.
+Seleccione en el campo "**Almacén**", el almacén relacionado con el
+registro que está haciendo.
 
-This field identifies a single point where products are
-stored
+Este campo identifica un solo punto donde los productos son
+almacenado
 
-![Storage Field](/assets/img/docs/material-management/product/warehouse.png)
+![Campo de almacenamiento](/assets/img/docs/material-management/product/warehouse.png)
 
-Image 50. Warehouse field
+Imagen 50. Campo almacén
 
-Select in the field "**Location**", the exact location in the
-store related to the record being made.
+Seleccione en el campo "**Ubicación**", la ubicación exacta en el
+almacén relacionado con el registro que se está realizando.
 
-This field indicates in which part of the warehouse the product is located.
+Este campo indica en qué parte del almacén se encuentra el producto.
 
-![Replenishment Location Field](/assets/img/docs/material-management/product/replenish-location.png)
+![Campo de ubicación de reposición](/assets/img/docs/material-management/product/replenish-location.png)
 
-Image 51. Location field
+Imagen 51. Campo de ubicación
 
-Select in the "**Type of Replenishment**" field, the type of
-replenishment related to the record found
-doing.
+Seleccione en el campo "**Tipo de Reposición**", el tipo de
+reposición relacionada con el registro encontrado
+haciendo.
 
-Method to re-order a product. The type of refueling
-indicates if this product will be manually reordered; ordered when
-the quantity is below the minimum or ordered quantity when
-is below the maximum amount.
+Método para volver a pedir un producto. El tipo de repostaje
+indica si este producto se volverá a pedir manualmente; ordenó cuando
+la cantidad está por debajo de la cantidad mínima o pedida cuando
+está por debajo de la cantidad máxima.
 
-![Field Type of
-Replenishment](/assets/img/docs/material-management/product/replenish-type.png)
+![Tipo de campo de
+Reabastecimiento](/assets/img/docs/material-management/product/replenish-type.png)
 
-Image 52. Replenishment Type Field
+Imagen 52. Campo Tipo de Reabastecimiento
 
-Select in the field "**Minimum Level**", the minimum level
-related to the registration that is being made.
+Seleccione en el campo "**Nivel Mínimo**", el nivel mínimo
+relacionado con el registro que se está realizando.
 
-This field indicates the minimum quantity of this product to be
-stored in inventory
+Este campo indica la cantidad mínima de este producto a ser
+almacenado en el inventario
 
-![Minimum Level Field](/assets/img/docs/material-management/product/minimum-level.png)
+![Campo de nivel mínimo](/assets/img/docs/material-management/product/minimum-level.png)
 
-Image 53. Minimum Level field
+Imagen 53. Campo Nivel Mínimo
 
-Select in the field "**Maximum Level**", the maximum level
-related to the registration that is being made.
+Seleccione en el campo "**Nivel Máximo**", el nivel máximo
+relacionado con el registro que se está realizando.
 
-This field indicates the maximum quantity of this product to be
-stored in inventory
+Este campo indica la cantidad máxima de este producto a ser
+almacenado en el inventario
 
-![Field Maximum Level](/assets/img/docs/material-management/product/maximum-level.png)
+![Nivel máximo de campo](/assets/img/docs/material-management/product/maximum-level.png)
 
-Image 54. Minimum Level field
+Imagen 54. Campo Nivel Mínimo
 
-Select in the field "**Source Warehouse**", the source warehouse
-related to the registration that is being made.
+Seleccionar en el campo "**Almacén Origen**", el almacén origen
+relacionado con el registro que se está realizando.
 
-Optional warehouse for replenishment. If defined, this store
-will be selected for product replenishment
+Almacén opcional para reposición. Si se define, esta tienda
+será seleccionado para la reposición de productos
 
-![Source Warehouse Field](/assets/img/docs/material-management/product/source-warehouse.png)
+![Campo de almacén de origen](/assets/img/docs/material-management/product/source-warehouse.png)
 
-Image 55. Source Warehouse field
+Imagen 55. Campo Almacén Fuente
 
-Select in the field "**Size Lot Quantity**", the source warehouse
-related to the registration that is being made.
+Seleccione en el campo "**Tamaño Cantidad de lote**", el almacén de origen
+relacionado con el registro que se está realizando.
 
-![Lot Quantity Size Field](/assets/img/docs/material-management/product/batch-size-quantity.png)
+![Campo de tamaño de cantidad de lote](/assets/img/docs/material-management/product/batch-size-quantity.png)
 
-Image 56. Batch Quantity Size Field
+Imagen 56. Campo de tamaño de cantidad de lote
 
-Select the "**Save Changes**" icon on the toolbar
-by ADempiere.
+Seleccione el icono "**Guardar cambios**" en la barra de herramientas
+por ADempiere.
 
-![Save Changes Icon Tab
-Replenish](/assets/img/docs/material-management/product/replenish-save.png)
+![Ficha del icono Guardar cambios
+Reponer](/assets/img/docs/material-management/product/replenish-save.png)
 
-Image 57. Save Changes Icon
+Imagen 57. Icono Guardar cambios
