@@ -1,29 +1,29 @@
 ---
-title: Basic Rules
-category: Community
+title: Reglas Basicas
+category: Comunidad
 star: 9
 sticky: 9
 tag:
-  - Duties and Rigths
+  - Deberes y Derechos
 article: false
 ---
 
-## Basic Rules of the Community
+## Reglas Básicas de la Comunidad
 
-This Code of Conduct covers your behavior as a member of the ADempiere Community, in any forum, mailing list, wiki, web site, IRC channel, public meeting or private correspondence. The ADempiere Association arbitrate in any dispute over the conduct of a member of the community.
+Este Código de Conducta cubre su comportamiento como miembro de la Comunidad ADempiere, en cualquier foro, lista de correo, wiki, sitio web, canal IRC, reunión pública o correspondencia privada. La Asociación ADempiere arbitrará en cualquier disputa sobre la conducta de un miembro de la comunidad.
 
-**Be considerate**. Your work will be used by other people, and you depend on the work of others. Any decision you take will affect users and colleagues, andwe hope you will take into account the consequences when making decisions.
+**Se considerado**. Su trabajo será utilizado por otras personas y usted depende del trabajo de otros. Cualquier decisión que tome afectará a los usuarios y colegas, y esperamos que tenga en cuenta las consecuencias al tomar decisiones.
 
-**Be respectful**. The ADempiere community and its members treat each other with respect. Everyone can make a valuable contribution to the ADempiere project. You may not always agree, but disagreement is no excuse for poor behavior and poor manners. We can all experience some frustration now and then, but we can not allow frustration to turn into a personal attack. It is important to remember that a community where people feel uncomfortable or threatened is not productive. We expect members of the ADempiere community to be respectful when dealing with other contributors as well as with people outside the Adempiere Project
+**Se respetuoso**. La comunidad ADempiere y sus miembros se tratan con respeto. Todos pueden hacer una valiosa contribución al proyecto ADempiere. Puede que no siempre esté de acuerdo, pero el desacuerdo no es excusa para el mal comportamiento y los malos modales. Todos podemos experimentar alguna frustración de vez en cuando, pero no podemos permitir que la frustración se convierta en un ataque personal. Es importante recordar que una comunidad donde las personas se sienten incómodas o amenazadas no es productiva. Esperamos que los miembros de la comunidad de ADempiere sean respetuosos al tratar con otros colaboradores, así como con personas ajenas al Proyecto Adempiere.
 
-**Be collaborative**. The ADempiere project and Free Software are all about collaboration and teamwork. Collaboration reduces redundancy of work done in the Free Software world, and improves the quality of the software produced. You should try to work with other ADempiere implementers, as well as others in the communitymay be interested in the work you do. Your work should be done transparently and patches of Adempiere, when performed, should be given to the community. If you want to work on new code for new projects, at least keep those projects informed of your ideas and progress. It may not be possible to obtain the consensus of the project or even from your colleagues about the correct implementation of an idea, so do not feel obliged to have that agreement before you begin, but at least keep informedthe outside world of your work, and publishyour work in a way that allowsothers to test, discuss and contribute to your efforts.
+**Sé colaborativo**. El proyecto ADempiere y el Software Libre tienen que ver con la colaboración y el trabajo en equipo. La colaboración reduce la redundancia del trabajo realizado en el mundo del Software Libre y mejora la calidad del software producido. Debe tratar de trabajar con otros implementadores de ADempiere, así como con otras personas de la comunidad que puedan estar interesadas en el trabajo que realiza. Su trabajo debe realizarse de manera transparente y los parches de Adempiere, cuando se realizan, deben entregarse a la comunidad. Si desea trabajar en un nuevo código para nuevos proyectos, al menos mantenga esos proyectos informados de sus ideas y progreso. Puede que no sea posible obtener el consenso del proyecto o incluso de tus compañeros sobre la correcta implementación de una idea, así que no te sientas obligado a tener ese acuerdo antes de empezar, pero al menos mantente informado al mundo exterior de tu trabajo, y publique su trabajo de una manera que permita que otros prueben, discutan y contribuyan a sus esfuerzos.
 
-**When you disagree, check**. Disagreements, both political and technical, happen all the time and the ADempiere community is no exception. The important thing is not to avoid disagreements or differences of opinion but to resolve them constructively. Go to the community and the community process to seek advice and to resolve disagreements.The ADempierecommunity will help you decide the right course for the project. There are also several Project Teams and Team. Leaders, who may be able to help you figure out which direction would be moreacceptable. If you really want to go a different way, then we encourage you to make a derivative distribution or alternative set of packages available using the framework of ADempiere package management, so that the community can try these changes and ideas for themselves and contribute to the discussion.
+**Cuando no esté de acuerdo, marque**. Los desacuerdos, tanto políticos como técnicos, suceden todo el tiempo y la comunidad ADempiere no es una excepción. Lo importante no es evitar desacuerdos o diferencias de opinión sino resolverlos constructivamente. Acude a la comunidad y al proceso comunitario para buscar asesoramiento y resolver desacuerdos. La comunidad ADempiere te ayudará a decidir el rumbo adecuado para el proyecto. También hay varios Equipos de Proyecto y Equipo. Líderes, que pueden ayudarlo a determinar qué dirección sería más aceptable. Si realmente desea ir por un camino diferente, lo alentamos a que haga una distribución derivada o un conjunto alternativo de paquetes disponibles utilizando el marco de administración de paquetes de ADempiere, para que la comunidad pueda probar estos cambios e ideas por sí mismos y contribuir a la discusión. .
 
-**When you are unsure, ask for help**. Nobody knows everything, and nobody is expected to be perfect in the ADempiere community. Asking questions avoids many problems down the road, so we encourage questions. Theperson you ask would most probable be responsive and helpful. However, when asking a question, you must be careful to do so in an appropriate forum.
+**Cuando no esté seguro, pida ayuda**. Nadie lo sabe todo, y nadie se espera que sea perfecto en la comunidad ADempiere. Hacer preguntas evita muchos problemas en el futuro, por lo que alentamos las preguntas. Lo más probable es que la persona a la que le pregunte sea receptiva y útil. Sin embargo, al hacer una pregunta, debe tener cuidado de hacerlo en un foro adecuado.
 
-**Leave with consideration**. Developers on every project come and go and the ADempiere project is no different. When youleave the project, in whole or in part, we ask that you do so in a way that minimizes disruption to the project. This means you should tell people you're working with you, you are leaving and take appropriate measures to ensure that others can pick up where you leave.
+**Salir con consideración**. Los desarrolladores de cada proyecto van y vienen y el proyecto ADempiere no es diferente. Cuando abandone el proyecto, en su totalidad o en parte, le pedimos que lo haga de una manera que minimice la interrupción del proyecto. Esto significa que debe decirles a las personas que está trabajando con usted, que se va y tomar las medidas adecuadas para asegurarse de que otros puedan continuar donde usted se va.
 
-## Shearing
+## Cizallamiento
 
-The Code of Conduct ADempiere is based on Ubuntu Code of Conduct. You can re-use it for your own project, and modify it as you wish, and when you allow others to use your modifications,please give credit to the ADempiere project.
+El Código de Conducta ADempiere se basa en el Código de Conducta de Ubuntu. Puede reutilizarlo para su propio proyecto y modificarlo como desee, y cuando permita que otros usen sus modificaciones, dé crédito al proyecto ADempiere.
