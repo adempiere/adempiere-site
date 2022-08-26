@@ -1,136 +1,135 @@
 ---
-title: ADempiere Features
-category: Product
+title: Características de ADempiere
+category: Producto
 star: 9
 sticky: 9
 tag:
-  - Sales
-  - Purchase
-  - Inventory
-  - Accounting
+  - Ventas
+  - Compra
+  - Inventario
+  - Contabilidad
 article: false
 ---
 
-## Business Processes
+## Procesos de negocios
 
-### Sales Processes
+### Procesos de Ventas
 
-- Raising a quotation or proposal
-- Recording orders
-- Sending the goods or performing the services
-- Invoicing the customer
+- Levantar una cotización o propuesta
+- Grabación de pedidos.
+- Envío de las mercancías o prestación de los servicios.
+- Facturar al cliente.
 
-### Purchase Processes
+### Procesos de compra
 
-- Raising a purchase requisition from a catalogue
-- Issuing a purchase order
-- Receiving goods and services
-- Receiving supplier invoices.
-- Paying Suppliers & Collecting Debts
+- Levantar una solicitud de compra de un catálogo
+- Emisión de una orden de compra.
+- Recepción de bienes y servicios.
+- Recepción de facturas de proveedores.
+- Pago de Proveedores y Cobro de Deudas
 
-### Inventory Processes
+### Procesos de inventario
 
-- Tracking inventory
-- Replenishing warehouses
-- Multiple warehouse sites and locators
-- Stock movements
-- Shipping
+- Seguimiento de inventario
+- Reposición de almacenes.
+- Múltiples sitios de almacén y localizadores
+- Movimientos de existencias
+- Transporte
 
-### Accounting Processes
+### Procesos Contables
 
-- Period and year end
-- Financial and management accounting
-- Charts of accounts
-- VAT/TAX/IVA
-- Reporting for other regulatory bodies
+- Fin de periodo y año
+- Contabilidad financiera y de gestión
+- Planes de cuentas
+- IVA/IVA/IVA
+- Reporting para otros organismos reguladores
 
-## On-line historical information
+## Información histórica en línea
 
-- Many Calendars can be created for reporting purposes and the periods within those Calendars are defined with a start date and an end date of the users choosing.
-- Information is also captured for all changes to static information recording the date and time of the change as well as the ID of the user who created and updated the record.
-- **ADempiere stores all information and transactions entered into the system for as long as the user organisation chooses.**
-- There is no concept of an "end of year" and purging process.
-- Calendars are established for reporting and period access control purposes only.
-- Historical information is maintained for as long as is desired and is able to be reported on using the calendar function.
+- Se pueden crear muchos calendarios con fines informativos y los períodos dentro de esos calendarios se definen con una fecha de inicio y una fecha de finalización que el usuario elija.
+- También se captura información de todos los cambios a la información estática registrando la fecha y hora del cambio así como el ID del usuario que creó y actualizó el registro.
+- **ADempiere almacena toda la información y transacciones ingresadas al sistema por el tiempo que la organización usuaria elija.**
+- No existe el concepto de "fin de año" y proceso de depuración.
+- Los calendarios se establecen únicamente con fines informativos y de control de acceso a periodos.
+- La información histórica se mantiene durante el tiempo que se desee y se puede informar mediante la función de calendario.
 
-## Reporting
+## Informes
 
-::: tip
+::: propina
 
-    ADempiere provides comprehensive reporting capabilities.
+    ADempiere proporciona capacidades integrales de generación de informes.
 
 :::
 
-### Smart Reporting
+### Informes inteligentes
 
-- **For most applications, reporting is a separate or add-on entity. ADempiere's reporting is based on the data dictionary.**
-  - As the report viewer has access to the definitions, this allows drill-down to any entity referenced and drill-across to entities where the reported entity is used.
-  - The links are automatically generated, while ensuring adherence to security and access definitions.
-- **The report viewer provides for the selection of data, sequencing, grouping, totalling and display formatting.**
-  - Reporting output can be viewed on screen before sending it to a printer, an email or fax address or generating files in many different formats (e.g. Excel text formats, HTML, XML, PDF and Postscript).
+- **Para la mayoría de las aplicaciones, la generación de informes es una entidad separada o adicional. Los informes de ADempiere se basan en el diccionario de datos.**
+  - Dado que el visor del informe tiene acceso a las definiciones, esto permite profundizar en cualquier entidad a la que se haga referencia y profundizar en las entidades en las que se utiliza la entidad informada.
+  - Los enlaces se generan automáticamente, garantizando el cumplimiento de las definiciones de seguridad y acceso.
+- **El visor de informes proporciona la selección de datos, secuenciación, agrupación, totalización y formato de visualización.**
+  - El resultado del informe se puede ver en la pantalla antes de enviarlo a una impresora, una dirección de correo electrónico o fax o generar archivos en muchos formatos diferentes (por ejemplo, formatos de texto de Excel, HTML, XML, PDF y Postscript).
 
-### Business Views
+### Vistas comerciales
 
-- Business Views are designed for end users and allow information to be accessed using standard SQL based tools without the need to create SQL table joins.
-- The majority of Business Views are generated based on the Application Dictionary.
+- Business Views está diseñado para usuarios finales y permite acceder a la información mediante herramientas basadas en SQL estándar sin necesidad de crear uniones de tablas SQL.
+- La mayoría de las vistas comerciales se generan en función del diccionario de la aplicación.
 
-### Drill-down and Drill-across
+### Drill-down y Drill-across
 
-- **All reporting output allows users to drill-down or drill-across to any entity referenced within the context of the report.**
-- **When using drill-down, a new report is generated based on the entity selected.**
-  - In an Order report, for example, the user can drill-down to generate a report showing the order lines that make up the order.
-  - **The user can identify the drill-across entity (order lines) and then click on the product name to display a separate report of order lines for the particular product selected.**
-- **Following the Web-UI convention, users can drill-down to any blue underlined entity displayed on the report screen.**
-- **Drill-across allows the user create a new report about a related entity on a report. For example, in a Product report the user may wish to see order lines for a particular product.**
+- **Todos los resultados de los informes permiten a los usuarios profundizar o profundizar en cualquier entidad a la que se haga referencia en el contexto del informe.**
+- **Al usar el desglose, se genera un nuevo informe basado en la entidad seleccionada.**
+  - En un informe de pedido, por ejemplo, el usuario puede profundizar para generar un informe que muestre las líneas de pedido que componen el pedido.
+  - **El usuario puede identificar la entidad detallada (líneas de pedido) y luego hacer clic en el nombre del producto para mostrar un informe separado de las líneas de pedido para el producto en particular seleccionado.**
+- **Siguiendo la convención de la interfaz de usuario web, los usuarios pueden profundizar en cualquier entidad subrayada en azul que se muestre en la pantalla del informe.**
+- **Drill-across permite al usuario crear un nuevo informe sobre una entidad relacionada en un informe. Por ejemplo, en un informe de producto, el usuario puede desear ver las líneas de pedido de un producto en particular.**
 
-### Report types
+### Tipos de informes
 
-1. Lists - are based on Window information. Users can generate a report for every window in the system including Windows containing new user defined fields and tables. The reports can be modified to specify which fields are to be displayed, in which orderand how they are to be grouped. The report can calculate minimum, maximum, sum, count, standard deviation and variance for selected columns.
+1. Listas: se basan en la información de la ventana. Los usuarios pueden generar un informe para cada ventana del sistema, incluidas las ventanas que contienen nuevos campos y tablas definidos por el usuario. Los informes se pueden modificar para especificar qué campos se mostrarán, en qué orden y cómo se agruparán. El informe puede calcular el mínimo, el máximo, la suma, el conteo, la desviación estándar y la varianza para las columnas seleccionadas.
 
-2. Reports - are usually based on summarised information and are based on Report Views. Reports allow the definition of what information is to appear in rows and what is to appear in columns, the combination of a rowset definition and a column set definition determines the report content.
+2. Informes: generalmente se basan en información resumida y se basan en vistas de informes. Los informes permiten definir qué información aparecerá en las filas y qué aparecerá en las columnas; la combinación de una definición de conjunto de filas y una definición de conjunto de columnas determina el contenido del informe.
 
-### Third Party Reporting Tools
+### Herramientas de informes de terceros
 
-Third party tools such as Jasper Reports; a Java based equivalent of Crystal Reports, can also be used to create reports if needed. The present release of Adempiere already has JasperReports substantially integrated to its reporting engine.
+Herramientas de terceros como Jasper Reports; un equivalente basado en Java de Crystal Reports, también se puede usar para crear informes si es necesario. La versión actual de Adempiere ya tiene JasperReports sustancialmente integrado a su motor de informes.
 
-### Customising Reports
+### Personalización de informes
 
-**ADempiere differentiates the 'view' from the 'model'. With the exception of Report Views, the model is usually given. If you provide a SQL Select statement a Report View can be created, the user doesn't need to resolve foreign key references (which require the knowledge of the data model) or worry about data security, as ADempiere resolves these issues for the user. This allows the writing of 'simple' statements. Few people agree on how each report should look. ADempiere allows the user to define the format of any report at the System, Client, Organisation or User level:**
+**ADempiere diferencia la 'vista' del 'modelo'. Con la excepción de Vistas de informe, el modelo generalmente se proporciona. Si proporciona una instrucción SQL Select, se puede crear una vista de informe, el usuario no necesita resolver las referencias de claves externas (que requieren el conocimiento del modelo de datos) ni preocuparse por la seguridad de los datos, ya que ADempiere resuelve estos problemas para el usuario. Esto permite la escritura de sentencias 'simples'. Pocas personas están de acuerdo en cómo debe verse cada informe. ADempiere permite al usuario definir el formato de cualquier reporte a nivel de Sistema, Cliente, Organización o Usuario:**
 
-- Report columns
-- Column order
-- Report sorting
-- Column heading
-- Sums (for numeric columns)
-- Grouping
-- Pie Chart
-- Bar/Line Chart
+- Columnas de informe
+- Orden de las columnas
+- Clasificación de informes
+- Encabezado de columna
+- Sumas (para columnas numéricas)
+- Agrupación
+- Gráfico circular
+- Gráfico de barras/líneas
 
-**Data selection is via Report Parameters when initiating the report, or via Query, allowing the user to enter criteria in an enhanced 'query by example' style.**
+**La selección de datos se realiza a través de Parámetros de informe al iniciar el informe, o a través de Consulta, lo que permite al usuario ingresar criterios en un estilo mejorado de "consulta por ejemplo".**
 
-## Data and meta-data
+## Datos y metadatos
 
-**Programmers of many applications that do not use the sophistication of an Active Data Dictionary need to design, code and test every screen. ADempiere uses the more advanced concept of a central active data dictionary, also called information repository. ADempiere's active data dictionary is at the meta-data layer, and knows how to access data and how data is related.**
+**Los programadores de muchas aplicaciones que no utilizan la sofisticación de un Active Data Dictionary necesitan diseñar, codificar y probar cada pantalla. ADempiere utiliza el concepto más avanzado de un diccionario central de datos activos, también llamado repositorio de información. El diccionario de datos activos de ADempiere está en la capa de metadatos y sabe cómo acceder a los datos y cómo se relacionan los datos.**
 
-- **The data dictionary contains:**
+- **El diccionario de datos contiene:**
 
-  - Definitions of a data entity (type, validation, etc.)
-  - Method of display (label on screens and reports, help, display sequence and position relative to other fields)
-  - Display rules
-  - Security and access rules
+  - Definiciones de una entidad de datos (tipo, validación, etc.)
+  - Modo de visualización (etiqueta en pantallas e informes, ayuda, secuencia de visualización y posición relativa a otros campos)
+  - Reglas de visualización
+  - Normas de seguridad y acceso
 
-- **The data dictionary is 'active', meaning it is used at runtime and is context sensitive. For example: it 'knows' that an over-the-counter sale does not have a payment term and does not display it. However if you change the transaction type to a standard order, a payment term becomes a mandatory part of the transaction.**
-- **The Active Data Dictionary is user-extensible and can include user specified rules and information. The extensibility of the Active Data Dictionary simplifies user extensions to the application since much of what would otherwise have to be coded by programmers can be created by a knowledgeable and authorised users (with System privilege) from within the application**
+- **El diccionario de datos está 'activo', lo que significa que se usa en tiempo de ejecución y es sensible al contexto. Por ejemplo: 'sabe' que una venta en ventanilla no tiene plazo de pago y no lo muestra. Sin embargo, si cambia el tipo de transacción a un pedido estándar, un término de pago se convierte en una parte obligatoria de la transacción.**
+- **El diccionario de datos activos es ampliable por el usuario y puede incluir reglas e información especificadas por el usuario. La extensibilidad del Active Data Dictionary simplifica las extensiones del usuario a la aplicación, ya que gran parte de lo que de otro modo tendría que ser codificado por programadores puede ser creado por usuarios informados y autorizados (con privilegios de sistema) desde dentro de la aplicación**
+## Compatibilidad
 
-## Supportability
+**El soporte de software representa una parte sustancial de los costos de por vida de cualquier sistema complejo. Una arquitectura modular y flexible es esencial para garantizar:**
 
-**Software Support represents a substantial portion of the lifetime costs of any complex system. A flexible, modular architecture is essential for ensuring:**
+- Comprensibilidad
+- Modificabilidad
+- Interoperabilidad
+- Reutilización
+- Capacidad de expansión
+- Portabilidad
 
-- Understandability
-- Modifiability
-- Interoperability
-- Reusability
-- Expandability
-- Portability
-
-all of which are necessary for software that can be supported in an efficient and cost effective manner. Many problems associated with software support can be traced to deficiencies in the way the original software product was designed. Lack of attention to the design of modular software architectures during development can cause excessive software support problems and costs. ADempiere is designed to be as flexible as possible and to accommodate change. Unless the system architecture allows for change, modifications to the software are likely to be difficult and defect-prone. ADempiere's software architecture carefully addresses abstraction, encapsulation, and information hiding to minimize dependencies. By maximising use of object-oriented design, the software can be easily modified. ADempiere's Active Data Dictionary ensures that software support can be simplified by ensuring that changes are made in one location with a consistent impact throughout the whole of the application. Additionally, ADempiere uses no third-party toolsets which may become unsupported due to lack of interest by their respective vendors. Other than for the Oracle database itself, source code for all aspects of the system is open and available ensuring that the user community will always be able to provide support for all aspects of the system.
+todos los cuales son necesarios para el software que puede soportarse de manera eficiente y rentable. Muchos problemas asociados con el soporte de software pueden atribuirse a deficiencias en la forma en que se diseñó el producto de software original. La falta de atención al diseño de arquitecturas de software modulares durante el desarrollo puede causar problemas y costos de soporte de software excesivos. ADempiere está diseñado para ser lo más flexible posible y adaptarse al cambio. A menos que la arquitectura del sistema permita el cambio, es probable que las modificaciones al software sean difíciles y propensas a fallas. La arquitectura de software de ADempiere aborda cuidadosamente la abstracción, la encapsulación y la ocultación de información para minimizar las dependencias. Al maximizar el uso del diseño orientado a objetos, el software se puede modificar fácilmente. Active Data Dictionary de ADempiere garantiza que el soporte de software se pueda simplificar al garantizar que los cambios se realicen en una ubicación con un impacto constante en toda la aplicación. Además, ADempiere no utiliza conjuntos de herramientas de terceros que puedan dejar de ser compatibles debido a la falta de interés de sus respectivos proveedores. Aparte de la propia base de datos de Oracle, el código fuente de todos los aspectos del sistema está abierto y disponible, lo que garantiza que la comunidad de usuarios siempre podrá brindar soporte para todos los aspectos del sistema.
