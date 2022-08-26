@@ -1,105 +1,105 @@
 ---
-title: Source Code
-category: Source Code
+title: Código fuente
+category: Código fuente
 star: 9
 sticky: 9
 tag:
   - Demo
-  - Product
+  - Producto
   - Github
 article: false
 ---
 
-![Source Code](/assets/img/product/source-code.png)
+![Código fuente](/assets/img/product/source-code.png)
 
-## Adempiere Project Repository
+## Repositorio de Proyectos Adempiere
 
-The ADempiere main repository can be found in [GitHub](https://github.com/adempiere/adempiere).
+El repositorio principal de ADempiere se puede encontrar en[GitHub](https://github.com/adempiere/adempiere).
 
 ::: tip Git
 
-Before proceeding, please refer to the [Git SCM Documentation](http://git-scm.com/doc)
+Antes de continuar, consulte el[Git SCM Documentation](http://git-scm.com/doc)
 
-To collaborate with the ADempiere team, we use the Git Hub Fork and Pull model. From the [GitHub website](https://help.github.com/articles/using-pull-requests/#fork--pull)
-
-:::
-
-::: tip Collabotate
-
-To collaborate with the ADempiere team, we use the Git Hub Fork and Pull model. From the [GitHub website](https://help.github.com/articles/using-pull-requests/#fork--pull)
+Para colaborar con el equipo de ADempiere, usamos el modelo Git Hub Fork and Pull. Desde el [GitHub website](https://help.github.com/articles/using-pull-requests/#fork--pull)
 
 :::
 
-The fork & pull model lets anyone fork an existing repository and push changes to their personal fork without requiring access be granted to the source repository. The changes must then be pulled into the source repository by the project maintainer. This model reduces the amount of friction for new contributors and is popular with open source projects because it allows people to work independently without upfront coordination.
+::: tip colaborar
 
-Refer to the GitHub article on [Pull Requests](https://help.github.com/articles/using-pull-requests) for more information and instructions on how to get started.
+Para colaborar con el equipo de ADempiere, usamos el modelo Git Hub Fork and Pull. Desde el[GitHub website](https://help.github.com/articles/using-pull-requests/#fork--pull)
 
-### Summary Instructions
+:::
 
-The setup is easy. Follow these steps:
+El modelo de bifurcación y extracción permite que cualquier persona bifurque un repositorio existente y envíe cambios a su bifurcación personal sin necesidad de que se le otorgue acceso al repositorio de origen. Luego, el mantenedor del proyecto debe extraer los cambios al repositorio de origen. Este modelo reduce la cantidad de fricción para los nuevos colaboradores y es popular entre los proyectos de código abierto porque permite que las personas trabajen de forma independiente sin una coordinación inicial.
 
-- Install the Git Software. You can work with the Git command line or any of a number of Git GUI tools. As the repository is on GitHub, it is recommended to follow the [GitHub setup procedures](https://help.github.com/articles/set-up-git/).
-- Create a GitHub account
-- Create your personal fork of the Adempiere project
-- Create a local clone of your personal fork
-- Start developing!
-- Commit your work to your own fork. Follow the [Adempiere Software Development Procedure](http://wiki.adempiere.net/Software_Development_Procedure) for branch naming.
-- Send a pull request to the Adempiere project.
+Consulte el artículo de GitHub sobre[Pull Requests](https://help.github.com/articles/using-pull-requests) para obtener más información e instrucciones sobre cómo empezar.
 
-### Cloning a Repository
+### Instrucciones resumidas
 
-Cloning a repository to your local computer is simple. Follow the instructions with the GitHub software or your GUI tool, many of which allow for cloning a GitHub repository to a local computer with a few mouse clicks. If you want to do it from the command line,
+La configuración es fácil. Sigue estos pasos:
 
-::: vue-demo Clone the project default
+- Instalar el software Git. Puede trabajar con la línea de comandos de Git o con cualquiera de las herramientas de GUI de Git. Como el repositorio está en GitHub, se recomienda seguir los [procedimientos de configuración de GitHub](https://help.github.com/articles/set-up-git/).
+- Crear una cuenta de GitHub
+- Crea tu tenedor personal del proyecto Adempiere
+- Crea un clon local de tu bifurcación personal
+- ¡Empieza a desarrollar!
+- Encomienda tu trabajo a tu propio tenedor. Siga el [Procedimiento de desarrollo de software de Adempiere](http://wiki.adempiere.net/Software_Development_Procedure) para la denominación de sucursales.
+- Enviar una solicitud de extracción al proyecto Adempiere.
 
-```Shell
-# Navigate to the parent directory where the repository will be placed and type the following command
-git clone https://github.com/adempiere/adempiere
+### Clonación de un repositorio
+
+Clonar un repositorio en su computadora local es simple. Siga las instrucciones con el software de GitHub o su herramienta GUI, muchas de las cuales permiten clonar un repositorio de GitHub en una computadora local con unos pocos clics del mouse. Si quieres hacerlo desde la línea de comandos,
+
+::: vue-demo Clonar el proyecto por defecto
+
+```Concha
+# Navegue hasta el directorio principal donde se colocará el repositorio y escriba el siguiente comando
+clon de git https://github.com/adempiere/adempiere
 ```
 
 :::
 
-This will create a directory using the url project name, initialize a .git directory inside it, pull down all the data for that repository, and check out a working copy of the latest version. If you go into the new directory, you'll see the project files in there, ready to be worked on or used.
+Esto creará un directorio usando el nombre del proyecto URL, inicializará un directorio .git dentro de él, extraerá todos los datos para ese repositorio y obtendrá una copia de trabajo de la última versión. Si ingresa al nuevo directorio, verá los archivos del proyecto allí, listos para trabajar o usar.
 
-To change the name of clone directory use the following
+Para cambiar el nombre del directorio de clonación use lo siguiente
 
-::: vue-demo Clone the project with Optional Name
+::: vue-demo Clona el proyecto con Nombre Opcional
 
-```Shell
-# Navigate to the parent directory where the repository will be placed and type the following command
-git clone https://github.com/adempiere/adempiere <Optional Name>
+```Concha
+# Navegue hasta el directorio principal donde se colocará el repositorio y escriba el siguiente comando
+clon de git https://github.com/adempiere/adempiere <Nombre opcional>
 ```
 
 :::
 
-### Cloning the Repository with a Slow Connection
+### Clonación del repositorio con una conexión lenta
 
-To clone a repository over a slow or intermittent Internet connection, try using git fetch instead of clone as follows:
+Para clonar un repositorio a través de una conexión a Internet lenta o intermitente, intente usar git fetch en lugar de clonar de la siguiente manera:
 
-::: vue-demo For Linux
+::: vue-demo Para Linux
 
-```Shell
-  # Go to default folder
+```Concha
+  # Ir a la carpeta predeterminada
   cd /opt/Development/repos
 
-  # Create a directory for the repo and change to it
+  # Crea un directorio para el repositorio y cámbialo
   mkdir adempiere
 
-  # Go to new folder
-  cd adempiere
+  # Ir a nueva carpeta
+  cd admière
 
-  # Initialize the repository
-  git init
-  Initialized empty Git repository in /opt/Development/repos/github/adempiere/.git/
+  # Inicializar el repositorio
+  iniciar git
+  Repositorio Git vacío inicializado en/opt/Development/repos/github/adempiere/.git/
 
-  # The default reference to the source repository in a clone is "origin".  Clone your
-  # personal fork from your account <account>.
-  git remote add origin https://github.com/adempiere/adempiere.git
+  # La referencia predeterminada al repositorio fuente en un clon es "origen". Clona tu
+  # bifurcación personal de tu cuenta <cuenta>.
+  git remoto añadir origen https://github.com/adempiere/adempiere.git
 
-  # Fetch the contents.
-  git fetch
+  # Obtener el contenido.
+  buscar
 
-  # Update to the current master branch - for example
+  # Actualizar a la rama maestra actual - por ejemplo
   git reset --hard origin/master
 ```
 
