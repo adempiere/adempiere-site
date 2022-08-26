@@ -1,31 +1,30 @@
 ---
-title: How To Contribute
-category: Foundation
+title: Como Contribuir?
+category: Foundación
 star: 9
 sticky: 9
 tag:
-  - Contribution
+  - Contribucion
 article: false
 ---
-
 ::: tip
 
-There are a number of ways you can contribute to the ADempiere project and the ADempiere Foundation.
+Hay varias maneras de contribuir al proyecto ADempiere y la Fundación ADempiere.
 
 :::
 
-## Purchase a Membership in the Foundation
+## Comprar una Membresía en la Fundación
 
-Become a Member of the Foundation. Membership enables you to sit on the Foundation Board, vote at the Foundation meetings and actively serve the community. Your membership funds will be used in support of the community by the Foundation to fund the servers and administration of the community. Memberships are purchased as a subscription for **$200.00 USD** per year or **$20.00 USD** per month. You can purchase your membership on the Membership page.
+Hazte Socio de la Fundación. La membresía le permite formar parte de la Junta de la Fundación, votar en las reuniones de la Fundación y servir activamente a la comunidad. Los fondos de su membresía serán utilizados en apoyo de la comunidad por la Fundación para financiar los servidores y la administración de la comunidad. Las membresías se compran como suscripción por **$200.00 USD** al año o **$20.00 USD** al mes. Puede comprar su membresía en la página de Membresía.
 
-## Become a Sponsor of the Community
+## Conviértase en patrocinador de la comunidad
 
-Companies that benefit from ADempiere can contribute by sponsoring the community and the Foundation. Sponsorships. Funds raised through sponsorships will be used to support the Foundation and community activities. Sponsorships are available at three levels: Platinum, Gold and Silver. You can purchase a sponsorhip for your company on the Sponsorship page.
+Las empresas que se benefician de ADempiere pueden contribuir patrocinando a la comunidad ya la Fundación. Patrocinios. Los fondos recaudados a través de patrocinios se utilizarán para apoyar las actividades de la Fundación y la comunidad. Los patrocinios están disponibles en tres niveles: Platino, Oro y Plata. Puede adquirir un patrocinio para su empresa en la página Patrocinio.
 
-## Make a Donation
+## Haz una donación
 
-You can make a one-time donation to the Foundation and target your donation to general support of the community or to a special project, such as the new User Interface development. If you want to contribute in this way, please contact us at official@admpiere.net.
+Puede hacer una donación única a la Fundación y destinar su donación al apoyo general de la comunidad oa un proyecto especial, como el desarrollo de la nueva interfaz de usuario. Si desea contribuir de esta manera, contáctenos en official@admpiere.net.
 
-## Contribute to the Software Development and Advancement of ADempiere
+## Contribuya al desarrollo y avance del software de ADempiere
 
-If you are involved in this community as a contributor or advocate, there is no obligation to become a Member of the Foundation or Sponsor but we would really appreciate it if you did. The more funding we receive, the more power we can put behind the community servers that support our website, wiki and, most importantly, the demo server. At the same time, contributions of your intelligence and effort are the priceless - contributions from developers around the world have made this software project so valuable and powerful. If you can write code, you can start to contribute today by making a pull request that fixes a but or adds a feature. If you can write technical documents, please contribute to the documentation. If you sell services related to ADempiere or use it in your business, advocate for the project on your websites. Spread the word.
+Si participa en esta comunidad como colaborador o defensor, no tiene la obligación de convertirse en Miembro de la Fundación o Patrocinador, pero le agradeceríamos mucho que lo hiciera. Cuantos más fondos recibamos, más poder podremos poner detrás de los servidores de la comunidad que respaldan nuestro sitio web, wiki y, lo que es más importante, el servidor de demostración. Al mismo tiempo, las contribuciones de su inteligencia y esfuerzo no tienen precio: las contribuciones de desarrolladores de todo el mundo han hecho que este proyecto de software sea tan valioso y poderoso. Si puede escribir código, puede comenzar a contribuir hoy mismo haciendo una solicitud de extracción que solucione un pero o agregue una función. Si puede escribir documentos técnicos, por favor contribuya a la documentación. Si vende servicios relacionados con ADempiere o lo usa en su negocio, defienda el proyecto en sus sitios web. Difundir la palabra.
