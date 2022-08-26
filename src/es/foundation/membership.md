@@ -1,27 +1,27 @@
 ---
-title: Members
-category: Foundation
+title: Miembros
+category: Foundación
 star: 9
 sticky: 9
 tag:
-  - Members
+  - Miembros
 article: false
 ---
 
-As a non-for-profit association, the ADempiere Foundation is controlled by its members. Members can take part in assemblies of the Foundation, vote on Foundation business, select the Board of Directors and server on the Board.
+Como asociación sin ánimo de lucro, la Fundación ADempiere está controlada por sus miembros. Los miembros pueden participar en las asambleas de la Fundación, votar sobre los asuntos de la Fundación, seleccionar la Junta Directiva y servir en la Junta.
 
-## Who can become a member and what kinds of memberships are available?
+## ¿Quién puede convertirse en miembro y qué tipos de membresías están disponibles?
 
-People and companies who seek to further develop and support ADempiere can become a member of the association. There are three types of members:
+Las personas y empresas que busquen seguir desarrollando y apoyando a ADempiere pueden convertirse en miembros de la asociación. Hay tres tipos de miembros:
 
-- **Active members** are people who activly support the association and help developing while being fully responsible in terms of the association. We expect these kinds of members to collaborate, to take part in assemblies of the association and to activly make use of voting right.
+- **Miembros activos** son personas que apoyan activamente a la asociación y ayudan a desarrollarse siendo totalmente responsables en términos de la asociación. Esperamos que este tipo de miembros colaboren, participen en las asambleas de la asociación y hagan uso activo del derecho al voto.
 
-- **Passive members** may be people who seek to support the association through their membership but who would like to relenquish the rights of an active member. Passive membership is granted to sponsoring companies who can delegate a contact person.
+- Los **miembros pasivos** pueden ser personas que buscan apoyar a la asociación a través de su membresía pero que quisieran renunciar a los derechos de un miembro activo. Se otorga membresía pasiva a las empresas patrocinadoras que pueden delegar una persona de contacto.
 
-- **Promoting members** may be people and companies who support the aim of the aossication especially through monetary- or donations of goods. These members are represented on the website, if they wish, and have the right to take part in the general assemblies of the association without the power to vote.
+- **Miembros promotores** pueden ser personas y empresas que apoyen el objeto de la asociación especialmente a través de donaciones dinerarias o de bienes. Estos miembros están representados en el sitio web, si así lo desean, y tienen derecho a participar en las asambleas generales de la asociación sin derecho a voto.
 
-## Become a Member
+## Hazte miembro
 
-Join us and help out! Membership is purchased as a subscription for **$200** **USD** per year or **$20** **USD** per month. The subscriptions are managed by Paypal and you will need to have a Paypal account or create one during the subscription process. You can cancel the subscription and your memebership at any time through your Paypal account or by clicking the Unsubscirbe button below.
+¡Únete a nosotros y ayúdanos! La membresía se compra como suscripción por **$200** **USD** al año o **$20** **USD** al mes. Las suscripciones son administradas por Paypal y deberá tener una cuenta de Paypal o crear una durante el proceso de suscripción. Puede cancelar la suscripción y su membresía en cualquier momento a través de su cuenta de Paypal o haciendo clic en el botón Cancelar suscripción a continuación.
 
-If you purchase a Membership, we will assume it is Active. If you do not want to be considered Active, please contact us at official@admpiere.net.
+Si compra una Membresía, asumiremos que está Activa. Si no desea ser considerado Activo, contáctenos en official@admpiere.net.
