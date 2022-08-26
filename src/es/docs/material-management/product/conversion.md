@@ -1,47 +1,47 @@
 ---
-title: Conversion Unit of Measurement tab
+title: Pestaña Unidad de medida de conversión
 category:
-  - Product
-  - Purchase
-  - Documentation
-  - Data Management
+  - Producto
+  - Compra
+  - Documentacion
+  - Manejo de Datos
 star: 9
 sticky: 9
 article: false
 author: Yamel Senih
 ---
 
-In this window the conversions of the different units are registered.
-of measurement used by the company, in order to apply these
-conversions at the time of making a purchase / sale of a
-product. Each of the fields with the symbol (\*) are mandatory
-for the record.
+En esta ventana se registran las conversiones de las diferentes unidades.
+de medida que utiliza la empresa, con el fin de aplicar estos
+conversiones al momento de realizar una compra/venta de un
+producto. Cada uno de los campos con el símbolo (\*) son obligatorios
+para el registro.
 
-Select the "**Conversion Unit of Measurement**" tab, located on the
-left side of the "**Product**" window and proceed to fill in the
-the corresponding fields.
+Seleccione la pestaña "**Unidad de medida de conversión**", ubicada en la
+lado izquierdo de la ventana "**Producto**" y proceda a completar el
+los campos correspondientes.
 
-![Unit of Measurement Conversion tab](/assets/img/docs/material-management/product/unit-of-measure-tab.png)
+![Pestaña Conversión de unidades de medida](/assets/img/docs/material-management/product/unit-of-measure-tab.png)
 
-Image 74. Measurement Unit Conversion tab
+Imagen 74. Pestaña de conversión de unidades de medida
 
-Select in the field "**UM Destination**", the unit of measure to which
-which conversion will be performed.
+Seleccione en el campo "**Destino UM**", la unidad de medida a la que
+qué conversión se realizará.
 
-![Destination UM Field](/assets/img/docs/material-management/product/unit-of-measure-target-uom.png)
+![Campo de mensajería unificada de destino](/assets/img/docs/material-management/product/unit-of-measure-target-uom.png)
 
-Image 75. Destination UM field
+Imagen 75. Campo UM de destino
 
-Enter in the field "**Destination Factor to Base**", the number of
-products contained in the selected unit of measure.
+Ingrese en el campo "**Destino Factor a Base**", el número de
+productos contenidos en la unidad de medida seleccionada.
 
-![Base Target Factor Field](/assets/img/docs/material-management/product/unit-o.f-measure-target-to-base.png)
+![Campo de factor objetivo base](/assets/img/docs/material-management/product/unit-o.f-measure-target-to-base.png)
 
-Image 76. Base Destination Factor field
+Imagen 76. Campo Factor Destino Base
 
-Select the "**Save Changes**" icon on the toolbar
-by ADempiere.
+Seleccione el icono "**Guardar cambios**" en la barra de herramientas
+por ADempiere.
 
-![Conversion Tab Save Changes Icon](/assets/img/docs/material-management/product/unit-of-measure-save.png)
+![Ícono Guardar cambios en la pestaña Conversión](/assets/img/docs/material-management/product/unit-of-measure-save.png)
 
-Image 77. Save Changes Icon
+Imagen 77. Icono Guardar cambios
