@@ -10,10 +10,7 @@ tag:
 article: false
 ---
 
-
-
-::: consejo Introducción
-
+<
 Sustituya este texto por [ADempiere ERP](http://adempiere.net/) tip
 
 :::
