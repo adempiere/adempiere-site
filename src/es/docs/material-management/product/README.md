@@ -264,7 +264,7 @@ Imagen 31. Campo Almacenado
 Seleccione en el campo "**Ubicación**", la ubicación de
 almacenamiento dentro de la empresa del producto que está registrando.
 
-![Campo de ubicación](/assets/img/docs/material-management/product/ubicación.png)
+![Campo de ubicación](/assets/img/docs/material-management/product/location.png)
 
 Imagen 32. Campo de ubicación
 

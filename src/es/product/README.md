@@ -43,6 +43,7 @@ article: false
 - Planes de cuentas
 - IVA/IVA/IVA
 - Reporting para otros organismos reguladores
+
 ## Información histórica en línea
 
 - Se pueden crear muchos calendarios con fines informativos y los períodos dentro de esos calendarios se definen con una fecha de inicio y una fecha de finalización que el usuario elija.
