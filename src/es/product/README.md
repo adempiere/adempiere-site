@@ -43,6 +43,7 @@ article: false
 - Planes de cuentas
 - IVA/IVA/IVA
 - Reporting para otros organismos reguladores
+
 ## Información histórica en línea
 
 - Se pueden crear muchos calendarios con fines informativos y los períodos dentro de esos calendarios se definen con una fecha de inicio y una fecha de finalización que el usuario elija.
@@ -56,11 +57,13 @@ article: false
 
 ::: propina
 
+
     ADempiere proporciona capacidades integrales de generación de informes.
 
 :::
 
 ### Informes inteligentes
+
 
 - **Para la mayoría de las aplicaciones, la generación de informes es una entidad separada o adicional. Los informes de ADempiere se basan en el diccionario de datos.**
   - Dado que el visor del informe tiene acceso a las definiciones, esto permite profundizar en cualquier entidad a la que se haga referencia y profundizar en las entidades en las que se utiliza la entidad informada.
