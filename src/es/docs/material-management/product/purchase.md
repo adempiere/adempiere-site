@@ -63,7 +63,7 @@ Imagen 62. Campo de precio de lista
 Seleccione en el campo "**Fecha de vigencia del precio**", el
 fecha en la que el precio introducido es válido.
 
-![Campo de fecha de vigencia del precio](/assets/img/docs/material-management/product/product-po-efective-date.png)
+![Campo de fecha de vigencia del precio](/assets/img/docs/material-management/product/product-po-effective-date.png)
 
 Imagen 63. Campo Fecha de vigencia del precio
 
