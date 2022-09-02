@@ -1,28 +1,28 @@
 ---
-title: Berlin Conference 2009
-icon: date
-category: Foundation
+title: Conferencia Berlin 2009
+icon: fecha
+category: Base
 star: 9
 sticky: 9
 tag:
-  - Conference
+  - Conferencia
   - Berlin
-  - Europe
-date: 2009-06-21
+  - Europa
+fecha: 2009-06-21
 ---
 
-## 2nd. European ADempiere conference in Berlin
+## 2do. Conferencia europea ADempiere en Berlín
 
-**June 21st – 23rd 2009**
+**21 al 23 de junio de 2009**
 
-For the first time in May 2007, developers from all over the world, involved in the open-source project ADempiere, met up for the first European ADempiere conference at the FHTW in Berlin.
+Por primera vez en mayo de 2007, desarrolladores de todo el mundo, involucrados en el proyecto de código abierto ADempiere, se reunieron para la primera conferencia europea ADempiere en el FHTW de Berlín.
 
-Though the project leader Red1 is of the opinion that the possibilities one has with the internet today are sufficient to connect team members and be successful on projectslike ADempiere, the internet still a virtual place with a virtual community.
+Aunque el líder del proyecto Red1 es de la opinión de que las posibilidades que uno tiene con Internet hoy en día son suficientes para conectar a los miembros del equipo y tener éxito en proyectos como ADempiere, Internet sigue siendo un lugar virtual con una comunidad virtual.
 
-With this first conference every member of the "ADempiere Bazaar" community turned from a virtual to a real person for everyone else; nicknames became real names and real faces. This personal exchange between community members lead to a good speed-up in the project development.
+Con esta primera conferencia, cada miembro de la comunidad "ADempiere Bazaar" pasó de ser una persona virtual a una persona real para todos los demás; los apodos se convirtieron en nombres reales y rostros reales. Este intercambio personal entre los miembros de la comunidad conduce a una buena aceleración en el desarrollo del proyecto.
 
-To engage everyone in another personal meeting, the 2nd European ADempiere conference will take place in Berlin from June 21st till 23rd.
+Para involucrar a todos en otro encuentro personal, la 2ª conferencia europea ADempiere tendrá lugar en Berlín del 21 al 23 de junio.
 
-The conference will focus on technical improvements in ADempiere and on optimizing the social structure of the ADempiere community to be even more successful in terms of development and distribution.
+La conferencia se centrará en las mejoras técnicas de ADempiere y en la optimización de la estructura social de la comunidad de ADempiere para tener aún más éxito en términos de desarrollo y distribución.
 
-Altogether we'll use the weekend to exchange personal experiences with the software as well as to improve documentation, code and localization – and of course to have a bunch of fun!
+En total, utilizaremos el fin de semana para intercambiar experiencias personales con el software, así como para mejorar la documentación, el código y la localización, ¡y por supuesto para divertirnos mucho!

@@ -1,380 +1,379 @@
 ---
-title: Product Definition
+title: Definicion de Producto
 category:
-  - Product
-  - Documentation
-  - Data Management
+  - Producto
+  - Documentacion
+  - Manejo de Datos
 star: 9
 sticky: 9
 article: false
 author: Yamel Senih
 ---
 
-In ADempiere a product is an item, resource or service that can be
-be produced, sold or purchased by the company. The registration of these
-allows the company to track the entry and exit of
-products. In the same way, it allows knowing and controlling its quantity in
-existence to proceed with the purchase, sale or acquisition thereof.
+En ADempiere un producto es un artículo, recurso o servicio que puede ser
+ser producido, vendido o comprado por la empresa. El registro de estos
+permite a la empresa rastrear la entrada y salida de
+productos Del mismo modo, permite conocer y controlar su cantidad en
+existencia para proceder a la compra, venta o adquisición de los mismos.
 
-This material aims to offer you an efficient explanation of the procedure to follow to register a product in [ADempiere ERP](http://adempiere.net/).
+Este material tiene como objetivo ofrecerle una explicación eficiente del procedimiento a seguir para registrar un producto en [ADempiere ERP](http://adempiere.net/).
 
-In the ADempiere menu, locate and select the "**Data Management" folder.
-Materials**", then select the folder "**Material Management Rules
-Materials**" and finally select the window "**Product**",
-I attached image for reference.
+En el menú de ADempiere, busque y seleccione la carpeta "**Administración de datos".
+Materiales**", luego seleccione la carpeta "**Reglas de gestión de materiales
+Materiales**" y finalmente seleccionar la ventana "**Producto**",
+Adjunto imagen para referencia.
 
-![ADempiere menu](/assets/img/docs/material-management/product/menu.png)
+![Menú ADempiere](/assets/img/docs/material-management/product/menu.png)
 
-Image 1. ADempiere Menu
+Imagen 1. Menú ADempiere
 
-This window registers the main data that the company
-requires knowledge of the products, in order to be used
-at the time of making a purchase / sale with said product. Each
-one of the fields with the symbol (\*) are required for the
-Registration.
+Esta ventana registra los principales datos que la empresa
+requiere conocimiento de los productos, para poder ser utilizado
+al momento de realizar una compra/venta con dicho producto. Cada
+uno de los campos con el símbolo (\*) son obligatorios para el
+Registro.
 
-You will be able to see the "**Product**" window, where you must select the
-icon "**New Registration**", which is located in the toolbar
-ADempiere tools.
+Podrá ver la ventana "**Producto**", donde debe seleccionar el
+icono "**Nuevo registro**", que se encuentra en la barra de herramientas
+Herramientas ADempiere.
 
-![New Record Icon](/assets/img/docs/material-management/product/new.png)
+![Ícono de registro nuevo](/assets/img/docs/material-management/product/new.png)
 
-Image 2. New Registration Icon
+Imagen 2. Nuevo icono de registro
 
-Select in the field "**Organization**", the organization for the
-which is registering the product.
+Seleccione en el campo "**Organización**", la organización para la
+que está registrando el producto.
 
-![Organization Field](/assets/img/docs/material-management/product/org.png)
+![Campo de organización](/assets/img/docs/material-management/product/org.png)
 
-Image 3. Organization field
+Imagen 3. Campo de organización
 
-::: warning
+::: advertencia
 
-To make the product available to all organizations,
-it must be registered with the organization in (\*) as
-Otherwise the product will only be available for a single
-organization.
+Para que el producto esté disponible para todas las organizaciones,
+debe estar registrado en la organización en (\*) como
+De lo contrario, el producto solo estará disponible para una sola
+organización.
 :::
 
-Enter in the "**Code**" field, the code for the product you
-is registering, this code is defined by a standard of
-encoding established in [ERPyA](http://erpya.com) for the
-`lve/standard-coding/product`{.interpreted-text role="ref"}.
+Introduzca en el campo "**Código**", el código del producto que
+se está registrando, este código está definido por un estándar de
+codificación establecida en [ERPyA](http://erpya.com) para la
+`lve/codificación-estándar/producto`{.interpreted-text role="ref"}.
 
-![Code Field](/assets/img/docs/material-management/product/value.png)
+![Campo de código](/assets/img/docs/material-management/product/value.png)
 
-Image 4. Code field
+Imagen 4. Campo de código
 
-Enter in the "**Name**" field, the name of the product you are
-registering.
+Ingrese en el campo "**Nombre**", el nombre del producto que está
+registrándose
 
-![Field Name](/assets/img/docs/material-management/product/name.png)
+![Nombre de campo](/assets/img/docs/material-management/product/name.png)
 
-Image 5. Name field
+Imagen 5. Campo de nombre
 
-Enter in the "**Description**" field, a brief description
-corresponding to the product you are registering.
+Ingrese en el campo "**Descripción**", una breve descripción
+correspondiente al producto que está registrando.
 
-![Field Description](/assets/img/docs/material-management/product/description.png)
+![Descripción del campo](/assets/img/docs/material-management/product/description.png)
 
-Image 6. Description field
+Imagen 6. Campo de descripción
 
-Enter in the "**Document Note**" field, any
-additional information you deem necessary.
+Ingrese en el campo "**Nota del documento**", cualquier
+información adicional que considere necesaria.
 
-![Document Note Field](/assets/img/docs/material-management/product/note.png)
+![Campo de nota del documento](/assets/img/docs/material-management/product/note.png)
+Imagen 7. Campo Nota del documento
 
-Image 7. Document Note field
+Ingrese en el campo "**UPC/EAN**", el código de barras
+correspondiente al producto que está registrando.
 
-Enter in the "**UPC/EAN**" field, the barcode
-corresponding to the product you are registering.
+![Campo UPC/EAN](/assets/img/docs/material-management/product/upc.png)
 
-![UPC/EAN Field](/assets/img/docs/material-management/product/upc.png)
+Imagen 8. Campo UPC/EAN
 
-Image 8. UPC/EAN field
+Ingrese en el campo "**Almacenamiento UM (SKU)**", la unidad de medida
+almacenamiento de productos.
 
-Enter in the field "**Storage UM (SKU)**", the unit of measure
-product storage.
+![Campo de mensajería unificada de almacenamiento](/assets/img/docs/material-management/product/sku.png)
 
-![Storage UM Field](/assets/img/docs/material-management/product/sku.png)
+Imagen 9. Campo UM de almacenamiento
 
-Image 9. Storage UM field
+Seleccione en el campo "**Categoría de producto**", la categoría a
+al que pertenece el producto que está registrando, la selección de
+esto define el comportamiento del producto que se está registrando,
+Este comportamiento se explica en el documento.
+`documento/categoría-producto`{.interpreted-text role="ref"}
+elaborado por [ERPyA](http://erpya.com).
 
-Select in the "**Product Category**" field, the category to
-which the product you are registering belongs, the selection of
-this defines the behavior of the product that is being registered,
-This behavior is explained in the document
-`document/product-category`{.interpreted-text role="ref"}
-prepared by [ERPyA](http://erpya.com).
+![Campo de categoría de producto](/assets/img/docs/material-management/product/product-category.png)
 
-![Product Category Field](/assets/img/docs/material-management/product/product-category.png)
+Imagen 10. Campo Categoría de Producto
 
-Image 10. Product Category Field
-
-Select in the "**Product Group**" field, the group to which
-belongs to the product you are registering, the selection of this
-defines the behavior of the product that is being registered, said
-behavior is explained in the document
-`document/product-group`{.interpreted-text role="ref"} prepared by
+Seleccione en el campo "**Grupo de productos**", el grupo al que
+pertenece al producto que está registrando, la selección de este
+define el comportamiento del producto que se está registrando, dicho
+el comportamiento se explica en el documento
+`document/product-group`{.interpreted-text role="ref"} preparado por
 [ERPyA](http://erpya.com).
 
-![Product Group Field](/assets/img/docs/material-management/product/product-group.png)
+![Campo de grupo de productos](/assets/img/docs/material-management/product/product-group.png)
 
-Image 11. Product Group Field
+Imagen 11. Campo de grupo de productos
 
-Select in the "**Product Class**" field, the class to which
-belongs to the product you are registering.
+Seleccione en el campo "**Clase de producto**", la clase a la que
+pertenece al producto que está registrando.
 
-![Product Class Field](/assets/img/docs/material-management/product/product-class.png)
+![Campo de clase de producto](/assets/img/docs/material-management/product/product-class.png)
 
-Image 12. Product Class field
+Imagen 12. Campo Clase de Producto
 
-Select in the field "**Product Classification**", the
-classification to which the product you are registering belongs.
+Seleccione en el campo "**Clasificación de productos**", el
+clasificación a la que pertenece el producto que está registrando.
 
-![Product Classification Field](/assets/img/docs/material-management/product/product-classification.png)
+![Campo de clasificación de productos](/assets/img/docs/material-management/product/product-classification.png)
 
-Image 13. Product Classification field
+Imagen 13. Campo Clasificación de productos
 
-Select in the field "**Tax Category**", the group
-tax applies to the product you are registering.
+Seleccione en el campo "**Categoría fiscal**", el grupo
+el impuesto se aplica al producto que está registrando.
 
-![Tax Category Field](/assets/img/docs/material-management/product/tax.png)
+![Campo de categoría de impuestos](/assets/img/docs/material-management/product/tax.png)
 
-Image 14. Tax Category field
+Imagen 14. Campo Categoría de impuestos
 
-Select in the field "**Type of Tax**", the type of tax
-applicable to the product you are registering.
+Seleccione en el campo "**Tipo de Impuesto**", el tipo de impuesto
+aplicables al producto que está registrando.
 
-![Tax Type Field](/assets/img/docs/material-management/product/tax-type.png)
+![Campo de tipo de impuesto](/assets/img/docs/material-management/product/tax-type.png)
 
-Image 15. Tax Type field
+Imagen 15. Campo Tipo de Impuesto
 
-Enter in the "**Group 1**" field, the group to which the
-product.
+Ingrese en el campo "**Grupo 1**", el grupo al que pertenece el
+producto.
 
-![Group 1 Field](/assets/img/docs/material-management/product/group1.png)
+![Campo del Grupo 1](/assets/img/docs/material-management/product/group1.png)
 
-Image 16. Group 1 field
+Imagen 16. Campo Grupo 1
 
-Enter in the field "**Group 2**", the additional group to which
-the product belongs.
+Ingrese en el campo "**Grupo 2**", el grupo adicional al que
+pertenece el producto.
 
-![Group 2 Field](/assets/img/docs/material-management/product/group2.png)
+![Campo del Grupo 2](/assets/img/docs/material-management/product/group2.png)
 
-Image 17. Group 2 field
+Imagen 17. Campo del grupo 2
 
-Select in the field "**Income Recognition**", as they will be
-recognized revenue for the product.
+Seleccione en el campo "**Reconocimiento de Ingresos**", como serán
+ingresos reconocidos por el producto.
 
-![Entry Recognition Field](/assets/img/docs/material-management/product/recognition.png)
+![Campo de reconocimiento de entrada](/assets/img/docs/material-management/product/recognition.png)
 
-Image 18. Income Acknowledgment Field
+Imagen 18. Campo de Reconocimiento de Ingresos
 
-Enter in the field "**Product Line**", the classification
-to group the product.
+Ingrese en el campo "**Línea de Producto**", la clasificación
+para agrupar el producto.
 
-![Product Line Field](/assets/img/docs/material-management/product/product-line.png)
+![Campo de línea de producto](/assets/img/docs/material-management/product/product-line.png)
 
-Image 19. Product Line Field
+Imagen 19. Campo Línea de Producto
 
-Select in the field "**UM**", the unit of measure of the product.
+Seleccione en el campo "**UM**", la unidad de medida del producto.
 
-![UM Field](/assets/img/docs/material-management/product/unit-of-measure.png)
+![Campo UM](/assets/img/docs/material-management/product/unit-of-measure.png)
 
-Image 20. UM field
+Imagen 20. Campo UM
 
-Select in the field "**Company Agent**", the purchasing agent
-of the product you are registering.
+Seleccione en el campo "**Agente de la empresa**", el agente de compras
+del producto que está registrando.
 
-![Company Agent Field](/assets/img/docs/material-management/product/sales-representative.png)
+![Campo de agente de la empresa](/assets/img/docs/material-management/product/sales-representative.png)
 
-Image 21. Agent Company field
+Imagen 21. Campo Empresa Agente
 
-Select in the field "**Type of Product**", the type of product
-which is registering.
+Seleccione en el campo "**Tipo de Producto**", el tipo de producto
+que se está registrando.
 
-![Product Type Field](/assets/img/docs/material-management/product/product-type.png)
+![Campo de tipo de producto](/assets/img/docs/material-management/product/product-type.png)
 
-Image 22. Product Type Field
+Imagen 22. Campo Tipo de Producto
 
-Select in "**Mail Pattern**", the template used for
-be sent to business partners regarding the product.
+Seleccione en "**Patrón de correo**", la plantilla utilizada para
+enviarse a los socios comerciales en relación con el producto.
 
-![Mail Pattern Field](/assets/img/docs/material-management/product/mail-template.png)
+![Campo de patrón de correo](/assets/img/docs/material-management/product/mail-template.png)
 
-Image 23. Mail Pattern Field
+Imagen 23. Campo de patrón de correo
 
-Enter in the "**Weight**" field, the weight of the product you are
-registering.
+Introduzca en el campo "**Peso**", el peso del producto que está
+registrándose
 
-![Weight Field](/assets/img/docs/material-management/product/weight.png)
+![Campo de ponderación](/assets/img/docs/material-management/product/weight.png)
 
-Image 24. Weight field
+Imagen 24. Campo de peso
 
-Enter in the "**Volume**" field, the volume of the product you
-is registering.
+Introduzca en el campo "**Volumen**", el volumen del producto que
+se está registrando
 
-![Volume Field](/assets/img/docs/material-management/product/volumen.png)
+![Campo de volumen](/assets/img/docs/material-management/product/volumen.png)
 
-Image 25. Volume field
+Imagen 25. Campo de volumen
 
-Enter in the "**Minimum Weight**" field, the minimum weight of the
-product you are registering.
+Ingrese en el campo "**Peso Mínimo**", el peso mínimo del
+producto que está registrando.
 
-![Minimum Weight Field](/assets/img/docs/material-management/product/minimum-weight.png)
+![Campo de peso mínimo](/assets/img/docs/material-management/product/minimum-weight.png)
 
-Image 26. Minimum Weight Field
+Imagen 26. Campo Peso Mínimo
 
-Enter in the "**Maximum Weight**" field, the maximum weight of the
-product you are registering.
+Ingrese en el campo "**Peso Máximo**", el peso máximo del
+producto que está registrando.
 
-![Max Weight Field](/assets/img/docs/material-management/product/maximum-weight.png)
+![Campo de peso máximo](/assets/img/docs/material-management/product/maximum-weight.png)
 
-Image 27. Maximum Weight Field
+Imagen 27. Campo Peso Máximo
 
-Select the checklist "**Bulk Product**", to indicate that the
-product you are registering is in bulk.
+Seleccione la lista de verificación "**Producto a granel**", para indicar que el
+El producto que está registrando es a granel.
 
-![Bulk Product Field](/assets/img/docs/material-management/product/bulk.png)
+![Campo de producto a granel](/assets/img/docs/material-management/product/bulk.png)
 
-Image 28. Bulk Product Field
+Imagen 28. Campo Producto Granel
 
-Select in the "**Freight Category**" field, the category of
-freight to apply to the selected product.
+Seleccione en el campo "**Categoría de Carga**", la categoría de
+flete a aplicar al producto seleccionado.
 
-![Freight Category Field](/assets/img/docs/material-management/product/freight-category.png)
+![Campo de categoría de flete](/assets/img/docs/material-management/product/freight-category.png)
 
-Image 29. Freight Category field
+Imagen 29. Campo Categoría de Carga
 
-Select the checklist "**Direct Delivery**", to indicate that the
-Shipments of the product you are registering will be made directly
-to the client business partner.
+Seleccione la lista de verificación "**Entrega directa**", para indicar que el
+Los envíos del producto que estás registrando se realizarán directamente
+al socio comercial del cliente.
 
-![Direct Delivery Field](/assets/img/docs/material-management/product/drop-shipment.png)
+![Campo de entrega directa](/assets/img/docs/material-management/product/drop-shipment.png)
 
-Image 30. Direct Delivery field
+Imagen 30. Campo Entrega Directa
 
-You will see the "**Stored**" checklist, indicating that the
-company stores the product you are registering.
+Verá la lista de verificación "**Almacenados**", que indica que el
+empresa almacena el producto que está registrando.
 
-![Stored Field](/assets/img/docs/material-management/product/stored.png)
+![Campo almacenado](/assets/img/docs/material-management/product/stored.png)
 
-Image 31. Stored Field
+Imagen 31. Campo Almacenado
 
-Select in the "**Location**" field, the location of
-storage within the company of the product you are registering.
+Seleccione en el campo "**Ubicación**", la ubicación de
+almacenamiento dentro de la empresa del producto que está registrando.
 
-![Location Field](/assets/img/docs/material-management/product/location.png)
+![Campo de ubicación](/assets/img/docs/material-management/product/location.png)
 
-Image 32. Location field
+Imagen 32. Campo de ubicación
 
-Enter in the field "**Shelf Width**", the required width
-of the shelf to store the product you are registering.
+Ingrese en el campo "**Ancho de estante**", el ancho requerido
+de la estantería para guardar el producto que estás registrando.
 
-![Shelf Width Field](/assets/img/docs/material-management/product/width.png)
+![Campo de ancho de estantería](/assets/img/docs/material-management/product/width.png)
 
-Image 33. Shelf Width Field
+Imagen 33. Campo de ancho de estante
 
-Enter in the field "**Shelf Height**", the required height
-of the shelf to store the product you are registering.
+Ingrese en el campo "**Altura del estante**", la altura requerida
+de la estantería para guardar el producto que estás registrando.
 
-![Shelf Field](/assets/img/docs/material-management/product/height.png)
+![Campo de estantería](/assets/img/docs/material-management/product/height.png)
 
-Image 34. Shelf field
+Imagen 34. Campo estantería
 
-Enter in the "**Shelf Depth**" field, the depth
-required from the shelf to store the product you are registering.
+Ingrese en el campo "**Profundidad del estante**", la profundidad
+necesario del estante para almacenar el producto que está registrando.
 
-![Shelf Depth Field](/assets/img/docs/material-management/product/depth.png)
+![Campo de profundidad de estantería](/assets/img/docs/material-management/product/ depth.png)
 
-Image 35. Shelf Depth field
+Imagen 35. Campo Profundidad de estantería
 
-Enter in the field "**Units per Package**", the number of
-units of the product you are registering that make up a package.
+Ingrese en el campo "**Unidades por Paquete**", el número de
+unidades del producto que está registrando que componen un paquete.
 
-![Units per Package Field](/assets/img/docs/material-management/product/package.png)
+![Unidades por campo de paquete](/assets/img/docs/material-management/product/package.png)
 
-Image 36. Units per Package field
+Imagen 36. Campo Unidades por Paquete
 
-Enter in the field "**Units per Pallet**",
+Ingrese en el campo "**Unidades por Palet**",
 
-![Units per Pallet Field](/assets/img/docs/material-management/product/pallet.png)
+![Campo Unidades por palet](/assets/img/docs/material-management/product/pallet.png)
 
-Image 37. Units per Pallet field
+Imagen 37. Campo Unidades por Palet
 
-Select the "**Discontinued**" checklist, to indicate that the
-product is not available.
+Seleccione la lista de verificación "**Discontinued**", para indicar que el
+el producto no está disponible.
 
-![Field Discontinued](/assets/img/docs/material-management/product/discontinued.png)
+![Campo discontinuado](/assets/img/docs/material-management/product/discontinued.png)
 
-Image 38. Field Discontinued
+Imagen 38. Campo Discontinuado
 
-Select in the "**Type of Subscription**" field, the type of
-product subscription.
+Seleccione en el campo "**Tipo de Suscripción**", el tipo de
+suscripción de productos.
 
-![Subscription Type Field](/assets/img/docs/material-management/product/subscription-type.png)
+![Campo de tipo de suscripción](/assets/img/docs/material-management/product/subscription-type.png)
 
-Image 39. Subscription Type field
+Imagen 39. Campo Tipo de Suscripción
 
-Select the checklist "**Exclude from Auto Delivery**", to exclude
-the product of automatic delivery.
+Seleccione la lista de verificación "**Excluir de la entrega automática**", para excluir
+el producto de la entrega automática.
 
-![Field Exclude from Auto Delivery](/assets/img/docs/material-management/product/exclude-auto-delivery.png)
+![Campo Excluir de entrega automática](/assets/img/docs/material-management/product/exclude-auto-delivery.png)
 
-Image 40. Field Exclude from Auto Delivery
+Imagen 40. Campo Excluido de Auto Entrega
 
-Enter in the "**Image Web Address**" field, the url of the
-Product image.
+Ingrese en el campo "**Dirección web de la imagen**", la url de la
+Imagen del producto.
 
-![Image Web Address Field](/assets/img/docs/material-management/product/web-image.png)
+![Campo de dirección web de imagen](/assets/img/docs/material-management/product/web-image.png)
 
-Image 41. Web Address Field Image
+Imagen 41. Imagen del campo Dirección web
 
-Enter in the "**Web Address Description**" field, the url of the
-Product description.
+Ingrese en el campo "**Descripción de la dirección web**", la url de la
+Descripción del Producto.
 
-![Web Address Field Description](/assets/img/docs/material-management/product/web-description.png)
+![Descripción del campo de dirección web](/assets/img/docs/material-management/product/web-description.png)
 
-Image 42. Web Address Field Description
+Imagen 42. Dirección web Campo Descripción
 
-Enter in the "**Expiration Days**" field, the number of days
-availability limit or guarantee of the product you are registering.
+Ingrese en el campo "**Días de Caducidad**", el número de días
+límite de disponibilidad o garantía del producto que estás registrando.
 
-![Expiration Days Field](/assets/img/docs/material-management/product/expiration.png)
+![Campo de días de vencimiento](/assets/img/docs/material-management/product/expiration.png)
 
-Image 43. Expiration days field
+Imagen 43. Campo de días de caducidad
 
-Enter in the field "**Minimum Expiration Days**", the number
-minimum days limit of availability or guarantee of the product that
-is registering.
+Ingrese en el campo "**Días Mínimos de Caducidad**", el número
+días mínimos límite de disponibilidad o garantía del producto que
+se está registrando
 
-![Minimum Expiration Days Field](/assets/img/docs/material-management/product/minimum-expiration.png)
+![Campo Días de vencimiento mínimo](/assets/img/docs/material-management/product/minimum-expiration.png)
 
-Image 44. Minimum Days Expiration field
+Imagen 44. Campo de Caducidad de Días Mínimos
 
-Select in the field "**Set of Attributes**", the attribute of the
-product you are registering.
+Seleccione en el campo "**Conjunto de Atributos**", el atributo del
+producto que está registrando.
 
-![Set Attribute Field](/assets/img/docs/material-management/product/attribute-set.png)
+![Establecer campo de atributo](/assets/img/docs/material-management/product/attribute-set.png)
 
-Image 45. Set of Attributes Field
+Imagen 45. Campo Conjunto de Atributos
 
-Select in the "**Attribute Set Instance**" field, the
-set of attributes belonging to the product you are registering.
+Seleccione en el campo "**Instancia de conjunto de atributos**", el
+conjunto de atributos pertenecientes al producto que está registrando.
 
-![Attribute Set Instance Field](/assets/img/docs/material-management/product/attribute-set-instance.png)
+![Campo de instancia de conjunto de atributos](/assets/img/docs/material-management/product/attribute-set-instance.png)
 
-Image 46. Attribute Set Instance Field
+Imagen 46. Campo de instancia de conjunto de atributos
 
-Enter in the "**CPE code**" field, the CPE code belonging to
-to the product you are registering.
+Introduzca en el campo "**Código CPE**", el código CPE perteneciente a
+al producto que está registrando.
 
-Image 47. CPE Code field
+Imagen 47. Campo Código CPE
 
-Select the "**Save Changes**" icon on the toolbar
-by ADempiere.
+Seleccione el icono "**Guardar cambios**" en la barra de herramientas
+por ADempiere.
 
-![Product Tab Save Changes Icon](/assets/img/docs/material-management/product/save.png)
+![Ícono Guardar cambios en la pestaña Producto](/assets/img/docs/material-management/product/save.png)
 
-Image 48. Save Changes Icon
+Imagen 48. Icono Guardar cambios

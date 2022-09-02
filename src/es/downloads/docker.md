@@ -10,9 +10,6 @@ tag:
 article: false
 ---
 
-Reemplazar este texto por resumen del índice.
-
-::: consejo Introducción
 
 Sustituya este texto por [ADempiere ERP](http://adempiere.net/) tip
 
