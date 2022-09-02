@@ -19,17 +19,13 @@ article: false
 
 Nuestra Historia se divide en tres importantes hitos:
 
-
 ### Nuestro predecesor
 
 Jorg Janke, que en ese momento era un arquitecto empresarial para ADV / ORGA, asesoró a SAP, mientras trabajaba en un proyecto de consultoría para ellos, qué arquitectura debería utilizarse para que su versión R/3 sea entonces y cómo debería convertirse en un ERP multidimensional. (multiempresa, multidivisa multiidioma, etc.), altamente extensible y fácil de configurar. SAP decidió tomar un camino diferente simplemente agregando capas de funcionalidad a su producto R/2 actual.
 
-=======
-
-
 Posteriormente, como arquitecto senior en Oracle, Jorg Janke escribió el primer prototipo de la aplicación con la visión de cómo implementar el nuevo paradigma de programas de gestión. En 2000 recibe financiación del fabricante de neumáticos Goodyear en Alemania y escribe la primera versión de su producto.
 
-### Compiere
+### Compiere.
 
 En 2000, Jorg fundó una pequeña empresa llamada Compiere Inc. para desarrollar y dar soporte a su nuevo producto llamado también Compiere, una palabra italiana que significa "completo".
 
