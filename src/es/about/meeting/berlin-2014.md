@@ -1,36 +1,36 @@
 ---
-title: Berlin Conference 2014
+titulo: Conferencia Berlin 2014
 icon: date
-category: Foundation
+categoria: Base
 star: 9
 sticky: 9
 tag:
-  - Conference
+  - Conferencia
   - Berlin
-  - Europe
-date: 2014-09-04
+  - Europa
+fecha: 2014-09-04
 ---
 
-# ADempiere World Conference in Berlin
+# Conferencia Mundial ADempiere en Berlín
 
-**September 2nd till 4th of 2014**
+**2 al 4 de septiembre de 2014**
 
-In May 2007 the 1st European ADempiere conference in Berlin – organized by the German ADempiere association – brought together developers from all over the world.
+En mayo de 2007, la primera conferencia europea ADempiere en Berlín, organizada por la asociación alemana ADempiere, reunió a desarrolladores de todo el mundo.
 
-Gaining from this successful first conference, the "ADempiere Bazaar" community met again for the 2nd European conference in 2009; step by step transforming from a virtual community into a real community.
+Aprovechando esta exitosa primera conferencia, la comunidad "ADempiere Bazaar" se reunió nuevamente para la segunda conferencia europea en 2009; paso a paso transformándose de una comunidad virtual a una comunidad real.
 
-Starting as only the German ADempiere association, these compelling conferences brought progress, and new members into the community, so that the association got the opportunity to open up and rename to be the "ADempiere association" with international orientation. The next step in bringing together developers from all over the world is not the European Conference, but the World Conference.
+Comenzando como solo la asociación alemana ADempiere, estas convincentes conferencias trajeron progreso y nuevos miembros a la comunidad, de modo que la asociación tuvo la oportunidad de abrirse y cambiar su nombre para convertirse en la "asociación ADempiere" con orientación internacional. El siguiente paso para reunir a desarrolladores de todo el mundo no es la Conferencia Europea, sino la Conferencia Mundial.
 
-Now for the first time in September 2011 the ADempiere World Conference takes place at the Beuth Technical University in Berlin.
+Ahora, por primera vez en septiembre de 2011, la Conferencia Mundial ADempiere se lleva a cabo en la Universidad Técnica de Beuth en Berlín.
 
-The conference tries to bring together every party interested in ADempiere: Community members, service providers, users or people solely interested in ADempiere.
+La conferencia intenta reunir a todas las partes interesadas en ADempiere: miembros de la comunidad, proveedores de servicios, usuarios o personas interesadas únicamente en ADempiere.
 
-Notable ADempiere developers will be sharing their ADempiere know how in talks or workshops with valuable best practice advice and real world use cases.
+Los desarrolladores notables de ADempiere compartirán su conocimiento de ADempiere en charlas o talleres con valiosos consejos de mejores prácticas y casos de uso del mundo real.
 
-We can tell from the quickly increasing number of international participants at the conference that the community was desperately waiting for an event like this.
+Podemos decir por el rápido aumento del número de participantes internacionales en la conferencia que la comunidad estaba esperando desesperadamente un evento como este.
 
-"The interest and feedback we get for the world conference is just more proof for the global collaboration of community members and the growing network around ADempiere. I'm looking forward to another great experience with this positive and progressive spirit surrounding the community." – Kai Schaeffer, chairman of the ADempiere association.
+"El interés y los comentarios que recibimos por la conferencia mundial son solo una prueba más de la colaboración global de los miembros de la comunidad y la creciente red en torno a ADempiere. Espero con ansias otra gran experiencia con este espíritu positivo y progresista que rodea a la comunidad". – Kai Schaeffer, presidente de la asociación ADempiere.
 
-Another item on the World Conference agenda is the general assembly of the association and the election of a new chairman.
+Otro punto de la agenda de la Conferencia Mundial es la asamblea general de la asociación y la elección de un nuevo presidente.
 
-Of course the weekend will also be used to incorporate social events to get to know each other further and to exchange know how and experiences.
+Por supuesto, el fin de semana también se utilizará para incorporar eventos sociales para conocernos más e intercambiar conocimientos y experiencias.
