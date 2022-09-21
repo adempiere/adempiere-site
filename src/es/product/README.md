@@ -69,10 +69,10 @@ article: false
 ### Informes inteligentes
 
 
-- **Para la mayoría de las aplicaciones, la generación de informes es una entidad separada o adicional. Los informes de ADempiere se basan en el diccionario de datos.**
+- Para la mayoría de las aplicaciones, la generación de informes es una entidad separada o adicional. Los informes de ADempiere se basan en el diccionario de datos.
   - Dado que el visor del informe tiene acceso a las definiciones, esto permite profundizar en cualquier entidad a la que se haga referencia y profundizar en las entidades en las que se utiliza la entidad informada.
   - Los enlaces se generan automáticamente, garantizando el cumplimiento de las definiciones de seguridad y acceso.
-- **El visor de informes proporciona la selección de datos, secuenciación, agrupación, totalización y formato de visualización.**
+- El visor de informes proporciona la selección de datos, secuenciación, agrupación, totalización y formato de visualización.
   - El resultado del informe se puede ver en la pantalla antes de enviarlo a una impresora, una dirección de correo electrónico o fax o generar archivos en muchos formatos diferentes (por ejemplo, formatos de texto de Excel, HTML, XML, PDF y Postscript).
 
 ### Vistas comerciales
@@ -83,11 +83,11 @@ article: false
 ### Drill-down y Drill-across
 
 - **Todos los resultados de los informes permiten a los usuarios profundizar o profundizar en cualquier entidad a la que se haga referencia en el contexto del informe.**
-- **Al usar el desglose, se genera un nuevo informe basado en la entidad seleccionada.**
+- Al usar el desglose, se genera un nuevo informe basado en la entidad seleccionada.
   - En un informe de pedido, por ejemplo, el usuario puede profundizar para generar un informe que muestre las líneas de pedido que componen el pedido.
-  - **El usuario puede identificar la entidad detallada (líneas de pedido) y luego hacer clic en el nombre del producto para mostrar un informe separado de las líneas de pedido para el producto en particular seleccionado.**
-- **Siguiendo la convención de la interfaz de usuario web, los usuarios pueden profundizar en cualquier entidad subrayada en azul que se muestre en la pantalla del informe.**
-- **Drill-across permite al usuario crear un nuevo informe sobre una entidad relacionada en un informe. Por ejemplo, en un informe de producto, el usuario puede desear ver las líneas de pedido de un producto en particular.**
+  - El usuario puede identificar la entidad detallada (líneas de pedido) y luego hacer clic en el nombre del producto para mostrar un informe separado de las líneas de pedido para el producto en particular seleccionado.
+- Siguiendo la convención de la interfaz de usuario web, los usuarios pueden profundizar en cualquier entidad subrayada en azul que se muestre en la pantalla del informe.
+- Drill-across permite al usuario crear un nuevo informe sobre una entidad relacionada en un informe. Por ejemplo, en un informe de producto, el usuario puede desear ver las líneas de pedido de un producto en particular.
 
 ### Tipos de informes
 
@@ -101,7 +101,7 @@ Herramientas de terceros como Jasper Reports; un equivalente basado en Java de C
 
 ### Personalización de informes
 
-**ADempiere diferencia la 'vista' del 'modelo'. Con la excepción de Vistas de informe, el modelo generalmente se proporciona. Si proporciona una instrucción SQL Select, se puede crear una vista de informe, el usuario no necesita resolver las referencias de claves externas (que requieren el conocimiento del modelo de datos) ni preocuparse por la seguridad de los datos, ya que ADempiere resuelve estos problemas para el usuario. Esto permite la escritura de sentencias 'simples'. Pocas personas están de acuerdo en cómo debe verse cada informe. ADempiere permite al usuario definir el formato de cualquier reporte a nivel de Sistema, Cliente, Organización o Usuario:**
+ADempiere diferencia la 'vista' del 'modelo'. Con la excepción de Vistas de informe, el modelo generalmente se proporciona. Si proporciona una instrucción SQL Select, se puede crear una vista de informe, el usuario no necesita resolver las referencias de claves externas (que requieren el conocimiento del modelo de datos) ni preocuparse por la seguridad de los datos, ya que ADempiere resuelve estos problemas para el usuario. Esto permite la escritura de sentencias 'simples'. Pocas personas están de acuerdo en cómo debe verse cada informe. ADempiere permite al usuario definir el formato de cualquier reporte a nivel de Sistema, Cliente, Organización o Usuario:
 
 - Columnas de informe
 - Orden de las columnas
@@ -112,11 +112,11 @@ Herramientas de terceros como Jasper Reports; un equivalente basado en Java de C
 - Gráfico circular
 - Gráfico de barras/líneas
 
-**La selección de datos se realiza a través de Parámetros de informe al iniciar el informe, o a través de Consulta, lo que permite al usuario ingresar criterios en un estilo mejorado de "consulta por ejemplo".**
+La selección de datos se realiza a través de Parámetros de informe al iniciar el informe, o a través de Consulta, lo que permite al usuario ingresar criterios en un estilo mejorado de "consulta por ejemplo".
 
 ## Datos y metadatos
 
-**Los programadores de muchas aplicaciones que no utilizan la sofisticación de un Active Data Dictionary necesitan diseñar, codificar y probar cada pantalla. ADempiere utiliza el concepto más avanzado de un diccionario central de datos activos, también llamado repositorio de información. El diccionario de datos activos de ADempiere está en la capa de metadatos y sabe cómo acceder a los datos y cómo se relacionan los datos.**
+Los programadores de muchas aplicaciones que no utilizan la sofisticación de un Active Data Dictionary necesitan diseñar, codificar y probar cada pantalla. ADempiere utiliza el concepto más avanzado de un diccionario central de datos activos, también llamado repositorio de información. El diccionario de datos activos de ADempiere está en la capa de metadatos y sabe cómo acceder a los datos y cómo se relacionan los datos.
 
 - **El diccionario de datos contiene:**
 
@@ -130,7 +130,7 @@ Herramientas de terceros como Jasper Reports; un equivalente basado en Java de C
 
 ## Compatibilidad
 
-**El soporte de software representa una parte sustancial de los costos de por vida de cualquier sistema complejo. Una arquitectura modular y flexible es esencial para garantizar:**
+El soporte de software representa una parte sustancial de los costos de por vida de cualquier sistema complejo. Una arquitectura modular y flexible es esencial para garantizar:
 - Comprensibilidad
 - Modificabilidad
 - Interoperabilidad
