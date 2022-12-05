@@ -78,14 +78,14 @@ article: false
 - Business Views está diseñado para usuarios finales y permite acceder a la información mediante herramientas basadas en SQL estándar sin necesidad de crear uniones de tablas SQL.
 - La mayoría de las vistas comerciales se generan en función del diccionario de la aplicación.
 
-### Drill-down y Drill-across
+### Navegar de forma Vertical y Navegar de forma Horizontal
 
 - **Todos los resultados de los informes permiten a los usuarios profundizar o profundizar en cualquier entidad a la que se haga referencia en el contexto del informe.**
 - Al usar el desglose, se genera un nuevo informe basado en la entidad seleccionada.
   - En un informe de pedido, por ejemplo, el usuario puede profundizar para generar un informe que muestre las líneas de pedido que componen el pedido.
   - El usuario puede identificar la entidad detallada (líneas de pedido) y luego hacer clic en el nombre del producto para mostrar un informe separado de las líneas de pedido para el producto en particular seleccionado.
 - Siguiendo la convención de la interfaz de usuario web, los usuarios pueden profundizar en cualquier entidad subrayada en azul que se muestre en la pantalla del informe.
-- Drill-across permite al usuario crear un nuevo informe sobre una entidad relacionada en un informe. Por ejemplo, en un informe de producto, el usuario puede desear ver las líneas de pedido de un producto en particular.
+- Navegar de forma Horizontal permite al usuario crear un nuevo informe sobre una entidad relacionada en un informe. Por ejemplo, en un informe de producto, el usuario puede desear ver las líneas de pedido de un producto en particular.
 
 ### Tipos de informes
 
