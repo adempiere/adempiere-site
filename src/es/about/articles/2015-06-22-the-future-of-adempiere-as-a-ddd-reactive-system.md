@@ -1,17 +1,17 @@
 ---
-title: The Future Of ADempiere as a DDD reactive system
+title: El futuro de ADempiere como sistema reactivo DDD
 category: Articulos
 star: 9
 sticky: 9
 tag:
   - ADempiere
-  - Announcement
+  - Anuncio
   - Blog
   - DDD
-  - Reactive System
+  - Sistema Reactivo
 
-author: Victor Pérez
-date: 2015-06-22
+autor: Victor Pérez
+fecha: 2015-06-22
 ---
 
 Antes de empezar a hablar de modularidad, me gustaría describir el camino para definir la arquitectura más adecuada para un software como ADempiere.
