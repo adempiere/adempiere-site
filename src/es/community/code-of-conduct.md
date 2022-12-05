@@ -4,7 +4,7 @@ category: Community
 star: 9
 sticky: 9
 tag:
-  - Code of Conduct
+  - Código de Conducta
 article: false
 ---
 
