@@ -1,6 +1,6 @@
 ---
 title: Estatutos
-category: Foundación
+category: Fundación
 star: 9
 sticky: 9
 tag:
