@@ -1,11 +1,11 @@
 ---
 title: Quiénes Somos?
 icon: group
-category: Community
+category: Comunidad
 star: 9
 sticky: 9
 tag:
-  - Community
+  - Comunidad
 article: false
 ---
 
