@@ -6,8 +6,8 @@ star: 9
 sticky: 9
 tag:
   - Github
-  - Release
-  - Assets
+  - Descarga
+  - Bienes
   - tar
   - gz
 article: false
