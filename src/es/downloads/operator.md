@@ -1,7 +1,7 @@
 ---
 title: Operator
-icon: download
-category: Download
+icon: descarga
+category: Descarga
 star: 9
 sticky: 9
 tag:
