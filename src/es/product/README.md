@@ -15,7 +15,7 @@ article: false
 
 ### Procesos de Ventas
 
-- Levantar una cotización o propuesta
+- Levantar una cotización o propuesta.
 - Grabación de pedidos.
 - Envío de las mercancías o prestación de los servicios.
 - Facturar al cliente.
