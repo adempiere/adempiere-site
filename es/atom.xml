@@ -3,7 +3,7 @@
   <id>https://github.com/adempiere/adempiere-site.github.io/es/</id>
   <title>Página Oficial de ADempiere</title>
   <subtitle>Página oficial de la comunidad de ADempiere</subtitle>
-  <updated>2022-12-20T15:55:30.487Z</updated>
+  <updated>2022-12-20T15:56:43.398Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://github.com/adempiere/adempiere-site.github.io/atom.xml"/>
   <link rel="alternate" href="https://github.com/adempiere/adempiere-site.github.io/es/"/>
@@ -13,10 +13,10 @@
     <name>Victor Pérez</name>
   </contributor>
   <entry>
-    <title type="html">The Future Of ADempiere as a DDD reactive system</title>
+    <title type="html">El futuro de ADempiere como sistema reactivo DDD</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/es/about/articles/2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/es/about/articles/2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system.html"/>
-    <updated>2022-08-26T17:49:37.000Z</updated>
+    <updated>2022-12-20T15:55:05.000Z</updated>
     <content type="html"><![CDATA[<p>Antes de empezar a hablar de modularidad, me gustaría describir el camino para definir la arquitectura más adecuada para un software como ADempiere.</p>
 <p>Durante los últimos años he estado leyendo y analizando los diferentes enfoques y arquitecturas para el desarrollo de software y al mismo tiempo descifrar cuál sería la mejor para ADempiere.</p>
 <p>Como todos sabemos muy bien, el diseño de nuestro programa se basa en una combinación de dos capas <a href="http://en.wikipedia.org/wiki/Cliente" target="_blank" rel="noopener noreferrer">Cliente/servido</a> (1) Swing, que en los años noventa del el siglo pasado fue uno de los que mejor se adoptó porque utilizó la red y las PC de manera que el servidor principal se liberó de la carga pesada al dejar ciertas tareas en el cliente. El objetivo principal era que el núcleo del software se ejecutara en un servidor central mientras los clientes se conectaban a él para acceder a los datos y realizar la lógica comercial localmente.</p>
@@ -95,15 +95,8 @@ victor.perez@e-evolution.com</p>
 <li>(11) <a href="http://www.reactivemanifesto.org" target="_blank" rel="noopener noreferrer">http://www.reactivemanifesto.org</a></li>
 </ul>
 ]]></content>
-    <author>
-      <name>Victor Pérez</name>
-    </author>
     <category term="Articulos" scheme=""/>
-    <contributor>
-      <name>Victor Pérez</name>
-    </contributor>
-    <published>2015-06-22T00:00:00.000Z</published>
-    <rights>Copyright by Victor Pérez</rights>
+    <published>2022-07-19T23:06:56.000Z</published>
   </entry>
   <entry>
     <title type="html">Anuncio mundial del nuevo y mejorado portal de contenido de ADempiere</title>

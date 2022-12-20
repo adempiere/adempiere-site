@@ -6,19 +6,19 @@
     <link>https://github.com/adempiere/adempiere-site.github.io/es/</link>
     <description>Página oficial de la comunidad de ADempiere</description>
     <language>es-ES</language>
-    <pubDate>Tue, 20 Dec 2022 15:55:30 GMT</pubDate>
-    <lastBuildDate>Tue, 20 Dec 2022 15:55:30 GMT</lastBuildDate>
+    <pubDate>Tue, 20 Dec 2022 15:56:43 GMT</pubDate>
+    <lastBuildDate>Tue, 20 Dec 2022 15:56:43 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Articulos</category>
     <category>Base</category>
     <item>
-      <title>The Future Of ADempiere as a DDD reactive system</title>
+      <title>El futuro de ADempiere como sistema reactivo DDD</title>
       <link>https://github.com/adempiere/adempiere-site.github.io/es/about/articles/2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system.html</link>
       <guid>https://github.com/adempiere/adempiere-site.github.io/es/about/articles/2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system.html</guid>
-      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">The Future Of ADempiere as a DDD reactive system</source>
+      <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">El futuro de ADempiere como sistema reactivo DDD</source>
       <category>Articulos</category>
-      <pubDate>Mon, 22 Jun 2015 00:00:00 GMT</pubDate>
+      <pubDate>Tue, 19 Jul 2022 23:06:56 GMT</pubDate>
       <content:encoded><![CDATA[<p>Antes de empezar a hablar de modularidad, me gustaría describir el camino para definir la arquitectura más adecuada para un software como ADempiere.</p>
 <p>Durante los últimos años he estado leyendo y analizando los diferentes enfoques y arquitecturas para el desarrollo de software y al mismo tiempo descifrar cuál sería la mejor para ADempiere.</p>
 <p>Como todos sabemos muy bien, el diseño de nuestro programa se basa en una combinación de dos capas <a href="http://en.wikipedia.org/wiki/Cliente" target="_blank" rel="noopener noreferrer">Cliente/servido</a> (1) Swing, que en los años noventa del el siglo pasado fue uno de los que mejor se adoptó porque utilizó la red y las PC de manera que el servidor principal se liberó de la carga pesada al dejar ciertas tareas en el cliente. El objetivo principal era que el núcleo del software se ejecutara en un servidor central mientras los clientes se conectaban a él para acceder a los datos y realizar la lógica comercial localmente.</p>
