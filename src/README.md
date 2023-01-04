@@ -5,7 +5,7 @@ icon: home
 title: Home
 heroImage: /logo.svg
 heroText: ADempiere ERP
-bgImage: /background.jpg
+bgImage: /pantalla principal v2.jpg
 heroFullScreen: true
 tagline: Created by people like you
 projects:
