@@ -3,11 +3,8 @@ home: true
 layout: Blog
 icon: home
 title: Home
-heroImage: /logo.svg
-heroText: ADempiere ERP
 bgImage: /background.jpg
 heroFullScreen: true
-tagline: Created by people like you
 projects:
   - name: Release 3.9.4
     desc: This is a great news for ADempiere Community
