@@ -18,6 +18,19 @@ Note that all [ADempiere ERP](http://adempiere.net/) ecosystem was created to be
 
 :::
 
+3.9.4 Team
+Main contributors among many other volunteers that collaborated in this very significant new ADempiere version include:
+- Director Victor Perez (e-evolution)
+- Key technical lead Mario Calderon (Westfalia)
+- Key Technical lead Yamil Senih (ERP Consultores y Asociados)
+- Technical developer & DBA Horacio Miranda (Prolinux)
+- Technical Developer Raul Capecce (Openup)
+- Technical Developer Edwin Betancourt
+- Functional tester Nicolas Lopez (Openup)
+- Functional tester Susana Calderon (Westfalia)
+- PMO Ramiro Vergara M. (OFB)
+- Scrum Master Alberto Abudinen (OFB)
+
 ## Develop Guide
 A complete guide for any developer become to ADempiere.
 
