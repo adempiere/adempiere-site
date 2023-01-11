@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <atom:link href="https://github.com/adempiere/adempiere-site.github.io/rss.xml" rel="self" type="application/rss+xml"/>
-    <title>Página Oficial de ADempiere</title>
+    <title>ADempiere 3.9.4 una nueva generación de ERP basada en las mejores prácticas</title>
     <link>https://github.com/adempiere/adempiere-site.github.io/es/</link>
     <description>Página oficial de la comunidad de ADempiere</description>
     <language>es-ES</language>
-    <pubDate>Wed, 11 Jan 2023 19:38:42 GMT</pubDate>
-    <lastBuildDate>Wed, 11 Jan 2023 19:38:42 GMT</lastBuildDate>
+    <pubDate>Wed, 11 Jan 2023 19:56:36 GMT</pubDate>
+    <lastBuildDate>Wed, 11 Jan 2023 19:56:36 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Articulos</category>
