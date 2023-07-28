@@ -24,7 +24,7 @@ Procedure:
 
 5. When a bunch of nominees are listed CC will start a vote via limesurvey
 
-6. When voted your entry will be moved from here to the [Citizen List](../citizens/citizens.md) and a copy will be archived here [Citizen Elections Archive](../citizens/citizen-elections-archive.md).
+6. When voted your entry will be moved from here to the [Citizen List](../citizens/README.md) and a copy will be archived here [Citizen Elections Archive](../citizens/citizen-elections-archive.md).
 
 | Name                     | SF nick   | Application form Received | Nominator | Supporter#1 | Supporter#2 | Status                 | Old Citizen ID |
 |--------------------------|-----------|---------------------------|-----------|-------------|-------------|------------------------|----------------|

@@ -9,7 +9,7 @@ tag:
 article: false
 ---
 
-This page is maintained by the [CC Team](community-council-team.md) and the following rules are actively applied according to [Community Governance](./community-governance.md).
+This page is maintained by the [CC Team](README.md) and the following rules are actively applied according to [Community Governance](./community-governance.md).
 
 1. Please avoid flamewars, trolling, personal attacks, repetitive arguments, advertising
 2. Do not post any messages that are obscene, vulgar, sexually-orientated, hateful, threatening, or otherwise violative of any laws.

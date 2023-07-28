@@ -27,7 +27,7 @@ ___
 
 We propose that the community includes people who are more active and people who are less active. For example, some people may come to the community and make a valuable contribution, but for what ever reason may decide not to participate actively again. This can cause problems with a formal decision making process.
 
-We recognise all people as part of the community - you need only to make your own decision to join. We have proposed to recognise people who are more active by granting the privilege of [ADempiere citizen](../community/citizens/citizens.md). An ADempiere citizen will be granted certain rights but will also agree certain obligations. People are free to apply for citizenship as long as they agree with these rights and obligations.
+We recognise all people as part of the community - you need only to make your own decision to join. We have proposed to recognise people who are more active by granting the privilege of [ADempiere citizen](../community/citizens/README.md). An ADempiere citizen will be granted certain rights but will also agree certain obligations. People are free to apply for citizenship as long as they agree with these rights and obligations.
 
 ___
 
@@ -95,6 +95,6 @@ Reasons proposed why someone might lose citizenship:
 
 - If an active member does not use their right to vote for one month and did not participate int the last three elections they are being removed from their status and the mailing list. They can always get promoted to an active member again later on.
 
-- Flagrant and repetitive breaches of the [project charter](../community/project-charter/project-charter.md) (under review)
+- Flagrant and repetitive breaches of the [project charter](../community/project-charter/README.md) (under review)
 
-We propose that the [Community Council Team](../community/community-council-team/community-council-team.md) be an arbitrator of such cases. In order for someone to lose their citizenship, six people should propose to the mailing list the reasons with evidence why they think a person should lose their citizenship. The community will then announce an election on this proposal and there will be one week (7 days) in which to vote. At the end of the voting period, the voting will be counted and a declaration made. The proposal is passed and the person will lose citizenship if the vote exceeds 50%.
+We propose that the [Community Council Team](../community/community-council-team/README.md) be an arbitrator of such cases. In order for someone to lose their citizenship, six people should propose to the mailing list the reasons with evidence why they think a person should lose their citizenship. The community will then announce an election on this proposal and there will be one week (7 days) in which to vote. At the end of the voting period, the voting will be counted and a declaration made. The proposal is passed and the person will lose citizenship if the vote exceeds 50%.
