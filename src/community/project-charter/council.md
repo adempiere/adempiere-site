@@ -22,7 +22,7 @@ According to this new definition [1](https://sourceforge.net/p/adempiere/discuss
 
 ## What are the Adempiere objectives?
 
-see [Project Principles](../project-charter/project-charter.md)
+see [Project Principles](../project-charter/README.md)
 
 ## Who is on the Council?
 

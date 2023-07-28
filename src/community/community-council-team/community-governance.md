@@ -14,7 +14,7 @@ article: false
 This concept was accepted by the citizens via vote on 23 of August 2010 [1](https://sourceforge.net/p/adempiere/discussion/611167/thread/5ab597c4/)
 :::
 
-Current CC Team can be found here: [Community Council Team](./community-council-team.md)
+Current CC Team can be found here: [Community Council Team](./README.md)
 
 This is a suggestion to create a new body for Community Governance in the ADempiere project as we have learned that we need somebody to take care about they way we talk and work with each other.
 
