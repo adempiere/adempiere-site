@@ -14,7 +14,7 @@ article: false
 
 ## Requisitos Generales: 
 
-1.- Investigación de la fundación y sus criterios de selección: Al igual que en el procedimiento anterior, comienza investigando la fundación que organiza el concurso y comprende sus objetivos y requisitos para la asignación de fondos. 
+1.- Investigación de la fundación y sus criterios de selección: Comienza investigando la fundación que organiza el concurso y comprende sus objetivos y requisitos para la asignación de fondos. 
 
 Verifica si la fundación tiene un interés particular en proyectos relacionados con Adempiere.
 
