@@ -13,7 +13,7 @@ article: false
 
 ## General requirements:
 
-1.- Research the foundation and its selection criteria: As in the previous procedure, start by researching the foundation that organizes the contest and understand its objectives and requirements for the allocation of funds.
+1.- Research the foundation and its selection criteria: start by researching the foundation that organizes the contest and understand its objectives and requirements for the allocation of funds.
 
 Check to see if the foundation has a particular interest in projects related to Adempiere.
 
