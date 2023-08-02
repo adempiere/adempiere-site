@@ -39,9 +39,9 @@ My contributions to the community have been the following (short list of contrib
 
 The following Links I will follow and respect:
 
-- Citizens: http://www.adempiere.com/Community
-- Community Governance: http://www.adempiere.com/Community_Governance
-- Communication Guidelines: http://www.adempiere.com/Communication_Guidelines
+- [Citizens](https://www.adempiere.io/community/citizens/)
+- [Community Governance](https://www.adempiere.io/community/community-council-team/community-governance.html)
+- [Communication Guidelines](https://www.adempiere.io/community/community-council-team/communication-guidelines.html)
 - Software Development Procedure: https://www.adempierebr.com/Software_Development_Procedure
 
 I am also aware that not acting in a proper way may lead to losing my citizenship.
