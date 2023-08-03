@@ -24,4 +24,3 @@ To join our efforts all you have to do is get involved.
 - Learn
   - Adopt our [Etiquette](../preface/quality-assurance-and-problem-reporting-guidelines/the-etiquette-of-involvement.md) and learn about our [Community Governance Structure](../community-council-team/community-governance.md) and, specifically, our [Behaviour Guidelines](../community-council-team/community-governance.md).
 
-- Connect
