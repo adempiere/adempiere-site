@@ -13,8 +13,7 @@ article: false
 - [A Brief History of ADempiere](./a-brief-history-of-adempiere.md)
 - [Conventions Used in the Documentation](./conventions-used-in-the-documentation.md)
 - [Quality Assurance and Problem Reporting Guidelines](./quality-assurance-and-problem-reporting-guidelines/README.md)
-- [Joining the ADempiere Community](./joining-the-adempiere-community.md)
+- [Joining the ADempiere Community](/community/preface/joining-the-adempiere-community/README.md)
 - [Evaluating ADempiere](./evaluating-adempiere.md)
 - [License](./license-preface.md)
-- Latest Release [Release_390](https://wiki.adempiere.net/Release_390) or [Releases on github](https://github.com/adempiere/adempiere/releases)
-
+- Latest Release [Release_390](./release_390.md) or [Releases on github](https://github.com/adempiere/adempiere/releases)

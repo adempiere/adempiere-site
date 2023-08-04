@@ -11,9 +11,9 @@ article: false
 
 ## Welcome to the Dark Side
 
-How wonderful this heavenly place where all [Information Is Free!](a) But here is the catch - [People Are Not](sa). To bother the people behind this great bazaar can be one last inch of paradise that has so far defined your ADempierean travels. We would not want your star-studded series to end in a war with the empire.
+How wonderful this heavenly place where all [Information Is Free!](../joining-the-adempiere-community/information-is-free.md) But here is the catch - [People Are Not](../joining-the-adempiere-community/people-are-not.md). To bother the people behind this great bazaar can be one last inch of paradise that has so far defined your ADempierean travels. We would not want your star-studded series to end in a war with the empire.
 
-We have to somehow introduce an etiquette and behaviour and gently persuade everyone to participate in this joyous journey of adopting ADempiere but sparing the fits and rants, screams and moans upon the very people who made all this possible. We also hope that one day, you can always be one of us, and be on our side, [helping](n) instead.
+We have to somehow introduce an etiquette and behaviour and gently persuade everyone to participate in this joyous journey of adopting ADempiere but sparing the fits and rants, screams and moans upon the very people who made all this possible. We also hope that one day, you can always be one of us, and be on our side, [helping](../joining-the-adempiere-community/contributors-are-priceless.md) instead.
 
 - Get smart with [Eric Raymond's](http://catb.org/~esr/faqs/smart-questions.html) way of posing questions.
 - A word from wikipedia about [Netiquette](https://en.wikipedia.org/wiki/Etiquette_in_technology#Netiquette).

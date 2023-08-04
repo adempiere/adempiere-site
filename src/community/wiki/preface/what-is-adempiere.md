@@ -51,5 +51,5 @@ On the other hand, productization requires a huge amount of work. It can take do
 
 ## Case Studies
 
-[Complex Distribution System: Case Study](a)
-[ADempiere Rapid Development as notes on how to achieve the Holy Grail](a).
+- [Complex Distribution System: Case Study](a)
+- [ADempiere Rapid Development as notes on how to achieve the Holy Grail](a).
