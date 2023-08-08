@@ -13,9 +13,9 @@ A work in progress. This page will become the table of contents of the ADempiere
 ## Table of Contents
 
 1. [Preface](./preface/README.md)
-2. [User Guide](a)
+2. [Developer's Guide](./developers-guide/README.md)
 3. [Business Functionality Guide](a)
 4. [System Administrator's Guide](a)
-5. [Developer's Guide](a)
+5. [User Guide](./user-guide/README.md)
 6. [Appendices](a)
 

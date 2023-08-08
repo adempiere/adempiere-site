@@ -11,7 +11,7 @@ article: false
 
 If you are reading this, you are already part of our community.
 
-ADempiere is a open-source project using [commons-based peer-production](https://en.wikipedia.org/wiki/Commons-based_peer_production) methods. Organized as a bazaar of [Citizens](../citizens/README.md), the project is governed by [Technical](a), [Functional](a) and [Community Council Teams](../community-council-team/README.md). The intellectual property of the community is protected by the ADempiere Foundation, a non-profit group which provides legal and financial support to the community.
+ADempiere is a open-source project using [commons-based peer-production](https://en.wikipedia.org/wiki/Commons-based_peer_production) methods. Organized as a bazaar of [Citizens](/community/citizens/README.md), the project is governed by [Technical](a), [Functional](a) and [Community Council Teams](/community/community-council-team/README.md). The intellectual property of the community is protected by the ADempiere Foundation, a non-profit group which provides legal and financial support to the community.
 
 The project follows a Open Source philosophy with a 3-line principle of:
 
@@ -22,11 +22,11 @@ The project follows a Open Source philosophy with a 3-line principle of:
 To join our efforts all you have to do is get involved.
 
 - Learn
-  - Adopt our [Etiquette](../preface/quality-assurance-and-problem-reporting-guidelines/the-etiquette-of-involvement.md) and learn about our [Community Governance Structure](../community-council-team/community-governance.md) and, specifically, our [Behaviour Guidelines](../community-council-team/community-governance.md).
+  - Adopt our [Etiquette](/community/wiki/preface/quality-assurance-and-problem-reporting-guidelines/the-etiquette-of-involvement.md) and learn about our [Community Governance Structure](/community/community-council-team/community-governance.md) and, specifically, our [Behaviour Guidelines](/community/community-council-team/community-governance.md).
 
   - Read this wiki
 
-  - Read [Getting Involved in QA](./quality-assurance-and-problem-reporting-guidelines/getting-involved-in-qa.md)
+  - Read [Getting Involved in QA](/community/wiki/preface/quality-assurance-and-problem-reporting-guidelines/getting-involved-in-qa.md)
 
 - Connect
 
