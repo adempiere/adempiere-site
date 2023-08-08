@@ -10,23 +10,23 @@ article: false
 
 ## Software Development
 
-- [Becoming a Developer](./software-development/becoming-a-developer.md)
-- [Software Development Procedure](./software-development/software-development-procedure.md)
-- [ADempiere Version Control]()
-- [ADempiere Best Practices]()
-- [Software Testing and QA]()
-- [Road Map]()
+- [Becoming a Developer](./becoming-a-developer.md)
+- [Software Development Procedure](./software-development-procedure.md)
+- [ADempiere Version Control](./adempiere-version-control.md)
+- [ADempiere Best Practices](./adempiere-best-practices.md)
+- [Software Testing and QA](./software-testing-and-qa.md)
+- [Road Map](./road-map.md)
 
 ## Releasing New Versions
 
-- [Creating a New Seed Database](https://wiki.adempiere.net/Creating_a_New_Seed_Database)
-- [Steps to Release](https://wiki.adempiere.net/Steps_To_Release)
-- [Generating Windows Installers](https://wiki.adempiere.net/Generating_Windows_Installers)
+- [Creating a New Seed Database](./creating-a-new-seed-database.md)
+- [Steps to Release](./steps-to-release.md)
+- [Generating Windows Installers](./generating-windows-installers.md)
 
 ## Development Environments for Testing and Customization
 
-- [Create your ADempiere development environment](https://wiki.adempiere.net/Create_your_ADempiere_development_environment)
-  - [Creating WebUI Workspace using Eclipse Webtool](https://wiki.adempiere.net/Creating_WebUI_Workspace_using_Eclipse_Webtool)
+- [Create your ADempiere development environment](development-environments-for-testing-and-customization.md)
+  - [Creating WebUI Workspace using Eclipse Webtool](./creating-webui-workspace-using-eclipse-webtool.md)
   - [Create your ADempiere customization environment](https://wiki.adempiere.net/Create_your_ADempiere_customization_environment)
 
 ## Understanding ADempiere
