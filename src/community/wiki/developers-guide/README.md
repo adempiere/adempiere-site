@@ -33,24 +33,24 @@ article: false
 
 - [Application Dictionary Philosophy](./application-dictionary-philosophy.md)
 - [Application Dictionary Overview](./application-dictionary-overview.md)
-- [Application Dictionary Layers](https://wiki.adempiere.net/Application_Dictionary_Layers)
+- [Application Dictionary Layers](./application-dictionary-layers.md)
 
 ## Rapid Development
 
-- [ADempiere Rapid Development](https://wiki.adempiere.net/ADempiere_Rapid_Development) Overview
-  - [Virtual Columns](https://wiki.adempiere.net/Virtual_Columns) - Column SQL
+- [ADempiere Rapid Development](./adempiere-rapid-development.md) Overview
+  - [Virtual Columns](./virtual-columns.md) - Column SQL
 
-- [Development with Reports and Process](https://wiki.adempiere.net/Development_with_Reports_and_Process)
+- [Development with Reports and Process](./development-with-reports-and-process.md)
 
-- AD [Workflow](https://wiki.adempiere.net/Workflow)
-  - [Document Apporval Workflow](https://wiki.adempiere.net/How_to_Activate_Document_Approval_Workflow)
+- AD [Workflow](workflow.md)
+  - [Document Apporval Workflow](./document-apporval-workflow.md)
 
 ## Advanced Development Documentation
 
-- [Development](https://wiki.adempiere.net/Development) Page
-- [Development FAQ](https://wiki.adempiere.net/Development_Terms)
-- [Centralized ID Management](https://wiki.adempiere.net/Centralized_ID_Management)
-- [First Step for Developers](https://wiki.adempiere.net/First_Step_for_Developers)
+- [Development](./development.md) Page
+- [Development FAQ](development-faq)
+- [Centralized ID Management](centralized-id-management.md)
+- [First Step for Developers](first-step-for-developers.md)
   - [Method Invocation Sequence](https://wiki.adempiere.net/Method_Invocation_Sequence)
 - [When to use what Technology](https://wiki.adempiere.net/DevGuide_When_to_use)
 - [Methods of Development](https://wiki.adempiere.net/Methods_of_Development)
