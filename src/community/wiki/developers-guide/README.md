@@ -27,12 +27,12 @@ article: false
 
 - [Create your ADempiere development environment](development-environments-for-testing-and-customization.md)
   - [Creating WebUI Workspace using Eclipse Webtool](./creating-webui-workspace-using-eclipse-webtool.md)
-  - [Create your ADempiere customization environment](https://wiki.adempiere.net/Create_your_ADempiere_customization_environment)
+  - [Create your ADempiere customization environment](./create-your-adempiere-development-environment.md)
 
 ## Understanding ADempiere
 
-- [Application Dictionary Philosophy](https://wiki.adempiere.net/Application_Dictionary_Philosophy)
-- [Application Dictionary Overview](https://wiki.adempiere.net/Application_Dictionary)
+- [Application Dictionary Philosophy](./application-dictionary-philosophy.md)
+- [Application Dictionary Overview](./application-dictionary-overview.md)
 - [Application Dictionary Layers](https://wiki.adempiere.net/Application_Dictionary_Layers)
 
 ## Rapid Development
