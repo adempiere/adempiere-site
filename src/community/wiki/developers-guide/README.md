@@ -27,37 +27,36 @@ article: false
 
 - [Create your ADempiere development environment](development-environments-for-testing-and-customization.md)
   - [Creating WebUI Workspace using Eclipse Webtool](./creating-webui-workspace-using-eclipse-webtool.md)
-  - [Create your ADempiere customization environment](https://wiki.adempiere.net/Create_your_ADempiere_customization_environment)
+  - [Create your ADempiere customization environment](./create-your-adempiere-development-environment.md)
 
 ## Understanding ADempiere
 
-- [Application Dictionary Philosophy](https://wiki.adempiere.net/Application_Dictionary_Philosophy)
-- [Application Dictionary Overview](https://wiki.adempiere.net/Application_Dictionary)
-- [Application Dictionary Layers](https://wiki.adempiere.net/Application_Dictionary_Layers)
+- [Application Dictionary Philosophy](./application-dictionary-philosophy.md)
+- [Application Dictionary Overview](./application-dictionary-overview.md)
+- [Application Dictionary Layers](./application-dictionary-layers.md)
 
 ## Rapid Development
 
-- [ADempiere Rapid Development](https://wiki.adempiere.net/ADempiere_Rapid_Development) Overview
-  - [Virtual Columns](https://wiki.adempiere.net/Virtual_Columns) - Column SQL
+- [ADempiere Rapid Development](./adempiere-rapid-development.md) Overview
+  - [Virtual Columns](./virtual-columns.md) - Column SQL
 
-- [Development with Reports and Process](https://wiki.adempiere.net/Development_with_Reports_and_Process)
+- [Development with Reports and Process](./development-with-reports-and-process.md)
 
-- AD [Workflow](https://wiki.adempiere.net/Workflow)
-  - [Document Apporval Workflow](https://wiki.adempiere.net/How_to_Activate_Document_Approval_Workflow)
+- AD [Workflow](workflow.md)
+  - [Document Apporval Workflow](./document-apporval-workflow.md)
 
 ## Advanced Development Documentation
 
-- [Development](https://wiki.adempiere.net/Development) Page
-- [Development FAQ](https://wiki.adempiere.net/Development_Terms)
-- [Centralized ID Management](https://wiki.adempiere.net/Centralized_ID_Management)
-- [First Step for Developers](https://wiki.adempiere.net/First_Step_for_Developers)
-  - [Method Invocation Sequence](https://wiki.adempiere.net/Method_Invocation_Sequence)
-- [When to use what Technology](https://wiki.adempiere.net/DevGuide_When_to_use)
-- [Methods of Development](https://wiki.adempiere.net/Methods_of_Development)
-- [Extending ADempiere](https://wiki.adempiere.net/Extending_ADempiere)
-  - [Model Validator](https://wiki.adempiere.net/ModelValidator)
-  - [Callout](https://wiki.adempiere.net/Callout)
-    - [Example Callout](https://wiki.adempiere.net/Callout_Code)
+- [Development](./development.md) Page
+- [Development FAQ](development-faq.md)
+- [Centralized ID Management](centralized-id-management.md)
+- [First Step for Developers](first-step-for-developers.md)
+  - [Method Invocation Sequence](method-invocation-sequence.md)
+- [When to use what Technology](when-to-use-what-technology.md)
+- [Extending ADempiere](extending-adempiere.md)
+  - [Model Validator](model-validator.md)
+  - [Callout](callout.md)
+    - [Example Callout](callout-code.md)
 - [Rules](https://wiki.adempiere.net/Rule) and [Validator](https://wiki.adempiere.net/ModelValidator)
   - [Rule](https://wiki.adempiere.net/Rule)
   - AD [Validation Rule](https://wiki.adempiere.net/Validation_Rule)
@@ -96,5 +95,3 @@ Example [Code Snippets](http://www.adempiere.com/index.php/Category:Code_snippet
 - [Contriburing to Adempiere](https://wiki.adempiere.net/index.php?title=Contriburing_to_Adempiere&action=edit&redlink=1)
 - ["How To" Guides for developers](https://wiki.adempiere.net/Technical_HOWTOs)
 - [Adempiere Technical Training](http://en.wikiversity.org/wiki/Adempiere_Technical_Training) in Wikiversity by Carlos Ruiz.
-
-
