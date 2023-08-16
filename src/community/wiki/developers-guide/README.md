@@ -48,13 +48,12 @@ article: false
 ## Advanced Development Documentation
 
 - [Development](./development.md) Page
-- [Development FAQ](development-faq)
+- [Development FAQ](development-faq.md)
 - [Centralized ID Management](centralized-id-management.md)
 - [First Step for Developers](first-step-for-developers.md)
-  - [Method Invocation Sequence](https://wiki.adempiere.net/Method_Invocation_Sequence)
-- [When to use what Technology](https://wiki.adempiere.net/DevGuide_When_to_use)
-- [Methods of Development](https://wiki.adempiere.net/Methods_of_Development)
-- [Extending ADempiere](https://wiki.adempiere.net/Extending_ADempiere)
+  - [Method Invocation Sequence](method-invocation-sequence.md)
+- [When to use what Technology](when-to-use-what-technology.md)
+- [Extending ADempiere](extending-adempiere.md)
   - [Model Validator](https://wiki.adempiere.net/ModelValidator)
   - [Callout](https://wiki.adempiere.net/Callout)
     - [Example Callout](https://wiki.adempiere.net/Callout_Code)
