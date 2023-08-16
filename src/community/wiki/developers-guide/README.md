@@ -54,9 +54,9 @@ article: false
   - [Method Invocation Sequence](method-invocation-sequence.md)
 - [When to use what Technology](when-to-use-what-technology.md)
 - [Extending ADempiere](extending-adempiere.md)
-  - [Model Validator](https://wiki.adempiere.net/ModelValidator)
-  - [Callout](https://wiki.adempiere.net/Callout)
-    - [Example Callout](https://wiki.adempiere.net/Callout_Code)
+  - [Model Validator](model-validator.md)
+  - [Callout](callout.md)
+    - [Example Callout](callout-code.md)
 - [Rules](https://wiki.adempiere.net/Rule) and [Validator](https://wiki.adempiere.net/ModelValidator)
   - [Rule](https://wiki.adempiere.net/Rule)
   - AD [Validation Rule](https://wiki.adempiere.net/Validation_Rule)
@@ -95,5 +95,3 @@ Example [Code Snippets](http://www.adempiere.com/index.php/Category:Code_snippet
 - [Contriburing to Adempiere](https://wiki.adempiere.net/index.php?title=Contriburing_to_Adempiere&action=edit&redlink=1)
 - ["How To" Guides for developers](https://wiki.adempiere.net/Technical_HOWTOs)
 - [Adempiere Technical Training](http://en.wikiversity.org/wiki/Adempiere_Technical_Training) in Wikiversity by Carlos Ruiz.
-
-
