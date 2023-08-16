@@ -57,7 +57,7 @@ article: false
   - [Model Validator](model-validator.md)
   - [Callout](callout.md)
     - [Example Callout](callout-code.md)
-- [Rules](https://wiki.adempiere.net/Rule) and [Validator](https://wiki.adempiere.net/ModelValidator)
+- [Rules](rule.md) and [Validator](https://wiki.adempiere.net/ModelValidator)
   - [Rule](https://wiki.adempiere.net/Rule)
   - AD [Validation Rule](https://wiki.adempiere.net/Validation_Rule)
 - [Scripting](https://wiki.adempiere.net/Scripting)
