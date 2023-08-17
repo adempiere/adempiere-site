@@ -14,5 +14,5 @@ article: false
 - Michael Judd, vicepresidente, [Kimberly-Clark, británico] (http://www.kimberly-clark.com/)
 - Susanne Calderon, Vicepresidenta y Tesorera, [Systemhaus Westfalia, Alemana](http://www.westfalia-it.com/)
 - Mario Calderon, Vicepresidente, [Systemhaus Westfalia, Salvadoreño](http://www.westfalia-it.com/)
-- Yamel Senih , Vicepresidente, [ERPYa, Venezolano](http://www.westfalia-it.com/](https://erpya.com)https://erpya.com)
+- Yamel Senih , Vicepresidente, [ERPYa, Venezolano](https://erpya.com)
 
