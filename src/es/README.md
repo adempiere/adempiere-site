@@ -16,7 +16,7 @@ projects:
     icon: /assets/img/vue-logo.png
   - name: Chat de Discord.
     desc: Estamos en Discord!
-    link: https://discord.gg/G8nWdaB2
+    link: https://discord.gg/K7pC22hgUm
     icon: /assets/img/discord-logo.png
 
 footer: '<a href="https://github.com/adempiere" rel="noopener noreferrer" target="_blank">Comunidad ADempiere</a> | <a href="/about/site">Acerca De</a>'
