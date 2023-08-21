@@ -16,7 +16,7 @@ projects:
     icon: /assets/img/vue-logo.png
   - name: Discord Rooms
     desc: Hey we are on Discord!
-    link: https://discord.gg/8eFAqkhb
+    link: https://discord.gg/K7pC22hgUm
     icon: /assets/img/discord-logo.png
 
 footer: '<a href="https://github.com/adempiere" rel="noopener noreferrer" target="_blank">ADempiere Community</a> | <a href="/about/site">About Site</a>'
