@@ -57,26 +57,26 @@ article: false
   - [Model Validator](model-validator.md)
   - [Callout](callout.md)
     - [Example Callout](callout-code.md)
-- [Rules](rule.md) and [Validator](https://wiki.adempiere.net/ModelValidator)
-  - [Rule](https://wiki.adempiere.net/Rule)
-  - AD [Validation Rule](https://wiki.adempiere.net/Validation_Rule)
-- [Scripting](https://wiki.adempiere.net/Scripting)
-  - [Script_Callout](https://wiki.adempiere.net/Script_Callout)
-  - [Script_ModelValidator](https://wiki.adempiere.net/Script_ModelValidator)
-  - [Script_Process](https://wiki.adempiere.net/Script_Process)
+- [Rules](rule.md) and [Validator](model-validator.md)
+  - [Rule](rule.md)
+  - AD [Validation Rule](application-dictionary.md)
+- [Scripting](scripting.md)
+  - [Script_Callout](script-callout.md)
+  - [Script_ModelValidator](script-modelvalidator.md)
+  - [Script_Process](script-process.md)
 
-- [Process](https://wiki.adempiere.net/Process)
-  - [Calling a process from code](https://wiki.adempiere.net/Calling_a_process_from_code)
-  - [How to write an Adempiere Process](https://wiki.adempiere.net/Howto_write_an_Adempiere_process)
+- [Process](process.md)
+  - [Calling a process from code](calling-a-process-from-code.md)
+  - [How to write an Adempiere Process](howto-write-an-adempiere-process.md)
 
 - Extending Functionality
 
-- [Attribute Level Pricing](https://wiki.adempiere.net/Attribute_Level_Pricing)
+- [Attribute Level Pricing](attribute-level-pricing.md)
 
 - Extending Specific Features
-  - [Zoom Across](https://wiki.adempiere.net/Extending_Zoom_Across)
+  - [Zoom Across](zoom-across.md)
 
-- [How to create a complete new module in ADempiere](https://wiki.adempiere.net/How_to_create_a_complete_new_module_in_ADempiere)
+- [How to create a complete new module in ADempiere](how-to-create-a-complete-new-module-in-adempiere.md)
 
 - [WebUI](https://wiki.adempiere.net/WebUI)
 - [Introduction to ZK WebUI](https://wiki.adempiere.net/Introduction_to_ZK_WebUI)
