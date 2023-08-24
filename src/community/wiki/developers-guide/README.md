@@ -78,10 +78,10 @@ article: false
 
 - [How to create a complete new module in ADempiere](how-to-create-a-complete-new-module-in-adempiere.md)
 
-- [WebUI](https://wiki.adempiere.net/WebUI)
-- [Introduction to ZK WebUI](https://wiki.adempiere.net/Introduction_to_ZK_WebUI)
-- [Creating WebUI Workspace](https://wiki.adempiere.net/Creating_WebUI_Workspace)
-- [Configuring WebUI in Eclipse](https://wiki.adempiere.net/Creating_WebUI_Workspace_using_Eclipse_Webtool)
+- [WebUI](webui.md)
+- [Introduction to ZK WebUI](introduction-zk-webui.md)
+- [Creating WebUI Workspace](creating-webui-workspace.md)
+- [Configuring WebUI in Eclipse](creating-webui-workspace-using-eclipse-webtool.md)
 - [Creating WebUI Workspace using Sysdeo Tomcat Plugin](https://wiki.adempiere.net/Creating_WebUI_Workspace_using_Sysdeo_Tomcat_Plugin)
 - [Migrating Swing to ZK WebUI](https://wiki.adempiere.net/Porting_Custom_Swing_Form_to_ZK)
 - [ZK Enhancements](https://wiki.adempiere.net/Sponsored_Development:_Zk_Enhancement)

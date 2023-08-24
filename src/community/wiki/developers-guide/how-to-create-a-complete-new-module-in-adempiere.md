@@ -202,6 +202,379 @@ As such, we will be creating 2 new model extension classes.
 
 org.ecosoft.MCBilling.java
 org.ecosoft.MCBillingLine.java
+
 Note that, these classes will extend the getter and setter classes (X_ classes) in previous steps. We can add more logic when a billing record is, i.e., saved, deleted, completed, etc. For training purpose we will be using the pre-written class provided in this tutorial.
 
+### Step 5: Making Billing a Document Type
 
+Recommended reading: [How to create a new document with specific accounting](a)
+
+If it is for window that simply keep master data, all implementation in previous steps is enough. But if the window will become a transaction data, or in the term of ERP system, become a "Document", this step is necessary. Becoming a Document will embed the following behavior 1) have document status 2) have period control 3) have document workflow and 4) can create accounting fact (optional).
+
+In our example, Billing is a kind document, but it will not have to create accounting fact.
+
+To register for new Document Base Type - "Billing", first, we will be registering the new type into References window.
+
+- Login as System, open References window
+- Lookup for C_DocType DocBaseType 
+- Select the List Validation tab and add a new entry
+  - Search Key: BIL
+  - Name: Billing
+  - Entity Type: Thai Localisation
+
+Note: In our case, the Billing.zip already created it.
+
+Extending C_DocType for new DocType
+
+- There is a class in ADempiere X_C_DocType.java (located in base/src org.compiere.model) which contains all constants of document types in the system. As we have new DocType, at first glance it would be easy to overwrite it to accommodate the new DocType, i.e., in this case to add a Constant into existing X_C_DocType.java
+
+~~~
+/** Billing = BIL */
+	public static final String DOCBASETYPE_Billing = "BIL";
+~~~
+
+- But overwriting the existing class is not a good practice, the BETTER way is --> in our BillingModule project directory create a new interface (I call it "Extension Interface"), I_C_DocType.java that extend the existing I_C_Doctype.java
+
+~~~
+package org.ecosoft.model;
+
+public interface I_C_DocType extends org.compiere.model.I_C_DocType
+{
+	public static final String DOCBASETYPE_Billing = "BIL";
+}
+~~~
+
+Note: More suggestion on extending the interface class was discussed by [User:Teo_sarca](https://wiki.adempiere.net/User:Teo_sarca) [here](http://sourceforge.net/projects/adempiere/forums/forum/610548/topic/4645417?message=10578224).
+
+Up to here, all the model classes necessary for new model is created, let's install all the new classes into Eclipse.
+
+![Billing-classes-2](/assets/img/community/developers-guide/Billing_classes_eclipse_rev2.jpg)
+
+To add this new Billing document type to use, i.e., for "Garden World" client.
+
+- Login to client "Garden World" using GardenAdmin role.
+- Run process Verify Document Type --> This will make Billing a new Document Type. I.e., Register Billing (BIL) in Document Type window, create Billing's Document - Actions, create Billing Document's Workflow, create Calendar Periods for it, etc...
+- Run process Role Access Update --> This ensure that, people are granted access right to execute the document process.
+This tutorial will not go in-dept about the Java Code. But you can explore MCBilling.java and MCBillingLine.java and see what additional logic we try to achieve - when some event occur with Billing document
+
+Now, from eclipse, stop and rerun the Application and notice changes,
+
+What are added?
+
+In Billing Window
+
+- Create new Billing record
+- Document Type = Billing (now exists)
+- Document No is now running
+- Clicking the Complete button, DocAction is shown
+
+In Workflow window
+
+- You will see new Document Process for Billing
+
+In Calendar Year and Period window
+
+- You will see periods for new Billing Document Type
+
+In Role window
+
+In Document Action Access, you will see all DocAction for new Billing Document Type
+
+![billing1](/assets/img/community/developers-guide/Billing1.jpg)
+
+Up to this point, the new window is functional. But according to the Business Requirement, we still miss some important pieces of code.
+
+- Callout: To make the UI more interactive, filling one field triggers the retrieval and automatic filling of information in other fields.
+- Process: To execute an internal process by clicking a button in the Billing window.
+- Report: To display the Jasper Form of the Billing document when clicking on the Billing window's Print Preview.
+- ModelValidator: To enhance interaction with other existing processes without modifying the existing code.
+
+We will see them in the next steps
+
+### Step 6: Create Java Callout
+
+Recommended reading: [Callout](callout.md)
+
+What we want to achieve with callout class here?
+
+Get the billing location for the selected Business Partner
+Register the callout class
+
+- Login as System, open Table and Column window
+- Look for C_Billing table, C_Bpartner_ID column
+- Make sure that the callout is org.ecosoft.model.CalloutBilling.bPartner
+- This explains that when C_Bpartner_ID is changed, it will call the method bPartner() of class CalloutBilling
+- Create a class CalloutBilling in the package org.ecosoft.model
+
+![billing-callout](/assets/img/community/developers-guide/Billing_callout.jpg)
+
+::: note Note:
+
+For this tutorial, we can use the source code provided in Billing_src.zip.
+
+:::
+
+Test the callout
+
+- Start Adempiere from Eclipse.
+- Login as GardenAdmin, open Billing window.
+- Select the Business Partner, and now you should see that the Location field is changed to the billing address automatically.
+
+Note: Callout class is extended from Callout Engine class. When the function is called, the caller will provide the information as following -- Properties ctx, int WindowNo, GridTab mTab, GridField mField, Object value
+
+### Step 7: Create Java Process
+
+Recommended reading: [Process](process.md)
+
+What we want to achieve with Generate Billing Lines process?
+
+What we want to achieve with Generate Billing Lines process?
+
+- Create billing lines based on the open invoice of the selected customers which their due date are not beyond due date on the billing.
+
+Register the Process class
+
+- Login as System, open Report & Process.
+- Create a new process.
+  - Search Key: GenerateBillingLine.
+  - Name: Generate Billing Line.
+  - Data Access Level: Client + Organization.
+  - Classname: org.ecosoft.process.GenerateBillingLine.
+- Save the record.
+- No parameter required (RECORD_ID will be passed to the process by default).
+- Open Table and Column window.
+- Look for C_Billing table, GenerateBillingLine column.
+- You will notice that this column is of reference type "Button". Clicking the button will trigger the process.
+- Make sure that the process is set as GenerateBillingLine_Generate Billing Line.
+
+![generate-billing-process](/assets/img/community/developers-guide/Generate_billingline_process.jpg)
+
+- Create a class GenerateBillingLine in the package org.ecosoft.process
+- For training purpose, we will use the pre-written class. But please notice from the code to learn how it works.
+
+![gener-bill-ling-line](/assets/img/community/developers-guide/Generatebilllingline_rev2.jpg)
+
+**Note**: Up to this point, the general use of Billing window is ready. User can create new Billing record. Provided the Invoice DueDate and Business Partner, clicking on Generate Billing Line button will create Billing Line based on the invoices that meet the criteria.
+
+## Test: Create new Billing that summarize invoices (customer)
+
+As the process will look up for the completed invoices that match the criteria on the Billing window, i.e., Business Partner, Billing Date, before running this test, make sure you created and completed Invoice (customer) for this Business Partner, i..e, C&W Construction (Invoice's Due Date + Payment Term < Billing Date).
+
+Create Billing document for a specific customer
+
+- Login as Garden Admin, open Billing window
+- New Billing record, i.e.,
+  - Document Type: Billing
+  - Business Partner: C&W Construction
+  - Due Date: End of Month (cover all the completed invoices that reach the due date)
+- Billing Location will be automatically selected (by callout)
+- Click on Generate Billing Lines button, and click OK to confirm create lines
+
+Note: This process will lookup for all completed AR Invoices for this Business Partner that has due date (after payment term) before or equal the due date, then create them as Billing Lines.
+
+- You should notice the billing lines as following,
+
+![billings-generated](/assets/img/community/developers-guide/Billinglines_generated.jpg)
+
+- And on Billing tab, notice the Checque Received Date = n/a as customer did not pay yet. Now, complete this document!
+
+![billing-status](/assets/img/community/developers-guide/Billing_status.jpg)
+
+Next we will make it more useful by making a Jasper Form for this window and make it more interactive with other existing process using ModelValidator.
+
+## Step 8: Register Jasper Report for Billing Form
+
+Recommended reading: [Using Jasper Report Form in place of Standard Forms](a)
+
+Although the Billing document is completed, you will notice that the Print Preview button is not available. This is because there is no form register for this window yet.
+
+![no-billing](/assets/img/community/developers-guide/No_billing_form.jpg)
+
+Create a new Jasper Form using iReport
+
+- For training purposes, we will be using a ready-to-use form named "Billing_Form.jrxml".
+- Explore this form. This is a simple Jasper Report form, but do notice the input parameter - RECORD_ID. This parameter is passed by ADempiere when the user clicks on the Print Preview button.
+- Compile and test this form by previewing it. Jasper will open up the input parameter box "RECORD_ID". Please enter the Billing Record ID (C_Billing_ID) that you want to test.
+- You will find the compiled version of Billing_Form.jrxml as "Billing_Form.jasper" in the same folder.
+
+Register new Billing Form to Billing Tab
+
+- Open Report & Process window
+- New
+  - Search Key: BillingForm
+  - Name: Billing Form
+  - Data Access Level: Client + Organization
+  - Report: Checked
+  - Jasper Report: attachment:Billing_Form.jasper
+- As we are using the attachment: directive, we will attach the .jasper file directly with this record.
+- Click on the Attachment icon on the menu, and attach Billing_Form.jasper.
+
+Note: There are more better ways of deploying Jasper Report, you can read it here.
+
+For the simplicity of the tutorial, we will use attachment.
+
+![attach-billing](/assets/img/community/developers-guide/Attach_billing_form.jpg)
+
+Register the Billing Form with Billing Tab
+
+- Open Window, Tab & Field window
+- Lookup for Billing Tab, set the Process to BillingForm_Billing Form
+
+![register-billing](/assets/img/community/developers-guide/Register_billing_form.jpg)
+
+### Test: Print Preview - Billing Form
+
+- Login as Garden Admin, open Billing window, and find our last active record.
+- Now, as the form got registered, the Print Preview button will now be enabled
+
+![register-form](/assets/img/community/developers-guide/Yes_billing_form.jpg)
+
+- Simply click on the Print Preview button
+
+![billing-form-preview](/assets/img/community/developers-guide/Billing_form_preview.jpg)
+
+### Step 8: New Java Process - Generate Lines from Billing Process (Payment window)
+
+Start from this step, we will be enhancing the existing Payment window to be able to interact with the Billing module. When doing the AR Receipt on Payment window, by clicking at a button, user should be able to allocate invoices based on the issued Billing Document.
+
+Before we can do that, we need to have a new Button "Create lines from..." button and a new field "Billing Document". And like previous steps, we will be registering new Java Process to that button.
+
+But again, for this tutorial, our Billing.zip package has created those necessary Application Dictionary elements for us. Please refer to Application Dictionary for table C_Payment (column - CreateForm and C_Billing_ID) and window Payment (field - Create lines form... and Billing Document) on how they are configured.
+
+![new-billing](/assets/img/community/developers-guide/New_billing_fields_payment.jpg)
+
+- Setup new Dynamic Validation Rule (used for the process window)
+
+- Login as System, open Validation window
+- Validation Rule
+  - Name: C_Billing of BPartner
+  - Entity Type: Thai Localisation
+- Validation Code (SQL): C_Billing.C_BPartner_ID=@C_BPartner_ID@ AND C_Billing.DocStatus IN ('CO')
+
+![billing-validation_code](/assets/img/community/developers-guide/Billing_validation_code.jpg)
+
+Register the Process Class
+
+- Open Report & Process window
+- New
+  - Search Key: CreateLineFromBilling
+  - Name: Create Line From Billing
+  - Data Access Level: Client + Organization
+  - Classname: org.ecosoft.process.CreateLineFromBilling
+- Click on Parameter Tab, New
+  - Name: Billing Number
+  - DB Column Name: C_Billing_ID
+  - System Element: C_Billing_ID
+  - Reference: Table Direct
+  - Dynamic Validation: C_Billing of Bpartner
+- Save the record
+
+Register the new process – Generate Lines from Billing
+
+- Open Table and Column window
+- For C_Payment table, look for CreateFrom column,
+- Make sure that process is CreateLineFromBilling_Generate Lines from Billing
+
+On Eclipse, also register the new Java Class
+
+- Create a class CreateLineFromBilling.java in the package org.ecosoft.process
+
+![createline](/assets/img/community/developers-guide/CreateLineFromBilling.jpg)
+
+### Test: AR Receipt, allocate the Receipt with the help of Billing Document
+
+After getting the payment from customer, create the new AR Receipt
+
+- Restart Adempiere from Eclipse.
+- Login as GardenAdmin.
+- Run the Role Access Process to ensure that the user has rights to the new process.
+- Open the Receipt window.
+- Create a new AR Receipt document.
+  - Select Business Partner: C&W Construction.
+- Click on the "Create lines from…" button. This will show the Billing Document popup window.
+
+Select the Billing Number from previous step and click OK. This will create Allocation lines from Billing lines.
+
+![payment-allocated](/assets/img/community/developers-guide/Payment_allocated_billing.jpg)
+
+## Step 8: Intercept other process with ModelValidator
+
+Recommended reading: [ModelValidator](model-validator.md)
+
+What we want to achieve with Model Validator?
+
+- ModelValidator is the good way to intercept existing process without overwrite the existing code.
+- This case, we want to intercept the process in AR Receipt document process
+  - After COMPLETE the Payment (receipt) Document, update the Billing Document associate with it
+
+Register the ModelValidator class
+
+- Login as System, open Model Validator window.
+- Create a new record.
+  - Entity Type: Thai Localisation.
+  - Name: Model Validator for Billing Module.
+  - Model Validation Class: org.ecosoft.model.BillingValidator.
+  - Sequence: 2.
+- Save the record.
+
+Note: ModelValidator can be registered in both System and Clint level. In this case, we are registering at System level.
+
+![billing-modelvalidator](/assets/img/community/developers-guide/Billing_modelvalidator.jpg)
+
+- Create a class BillingValidator in the package org.ecosoft.model
+
+![billingvalidator](/assets/img/community/developers-guide/Billingvalidator.jpg)
+
+You can read the code in BillingValidator.java and notice how event is registered for C_Payment
+
+## Test: Complete the AR Receipt
+
+Complete the AR Receipt
+
+- Restart Adempiere from Eclipse.
+- Login as GardenAdmin.
+- Open the Receipt window and look for the AR Receipt record from the previous step.
+- On the Receipt tab, fill in the receipt amount (i.e., 142.75 USD).
+- Complete the AR Receipt Document.
+
+See the effect of AR Receipt document complete to the referenced Billing Document.
+
+- Open to the referred Billing Document
+- Now you will see document status changed to Closed
+- And Cheque Received Date is now updated
+
+![billing-paid](/assets/img/community/developers-guide/Billing_paid.jpg)
+
+## Step 9: Deploy Billing.jar Package
+
+Now, we have all the functionalites we need for this new module. Meanwhile, we still run it directly from Eclipse. For development period, this is ok. But what if we want to use it on our production server?
+
+So, next, let's deploy! The concept is easy, just make the Billing.jar file out of the Eclipse and deploy them in the server.
+
+![export-jar](/assets/img/community/developers-guide/Export_jar_window.jpg)
+
+1. From Eclipse, right click on BillingModule project --> Export --> JAR File, name the file "Billing.jar" and click next to export it
+2. Since this is a new package (work as separately as module), we can deploy them package folder. Deploy to ADEMPIERE_HOME\packages\Billing\lib\Billing.jar
+3. RUN_silentsetup .sh/.bat to include this new package into the application.
+
+::: info Note:
+
+Adempeiere Precedence of JAR
+
+1. Customization.jar
+2. Patches.jar
+3. `<Package>`.jar (i.e., LiberoHR.jar, LiberoManu.jar, etc…)
+4. Adempiere.jar
+
+Deploying as a new JAR
+
+- Copy and Paste to Adempiere
+  - As customization.jar in C:\Adempiere\lib
+  - As `<Package>`.jar in `C:\Adempiere\Packages\<Package>\lib\<Package>.jar`
+- Execute Run_Setup.bat or RUN_SilentSetup.bat to include the new classes into the system runtime
+
+## Summary
+
+As you will see now, ADempiere is a great tool to develop new Business Application. This sample module is utilizing most of the important techniques available in ADempiere and try to connect them together in a single tutorial. Yet, these are just the basic steps to understand ADempiere. I do highly recommended the reader to read though all the links provided in this tutorial.
+
+If this tutorial has any typo error or is not clear enough, please do help me in suggesting any edits or by giving your feedback in the [Discussion](./how-to-create-a-complete-new-module-in-adempiere.md) page. Thank you and have fun!
