@@ -119,7 +119,7 @@ To create a new theme:
 
 ## Adding External less/css Files
 
-Additional css files can be added to the theme by including them as resources in the Theme Resources tab of the Application Dictionary{{#if: Theme Management | →Theme Management }}{{#if: | → }}{{#if: | → }} window.
+Additional css files can be added to the theme by including them as resources in the Theme Resources tab of the Application Dictionary`{{#if: Theme Management | →Theme Management }}{{#if: | → }}{{#if: | → }} window.`
 
 Styles in these files can override the styles in the theme-specific zk.wcs file. Changes to these files will be posted to the server once saved and the changes will be visible when the browser is refreshed. It is strongly suggested that .less files be used to generate the css files as it is much easier to maintain .less files. Less files can be stored in the zkwebui/less folder and the output css.dsp files will be saved in the css folder using the same file name.
 
