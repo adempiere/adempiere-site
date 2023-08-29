@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en-US" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-beta.48" />
+    <meta name="theme" content="VuePress Theme Hope" />
+    <meta property="og:url" content="https://github.com/adempiere/adempiere-site.github.io/community/wiki/meetings/FT-2013/FT-20130527.html"><meta property="og:title" content="FT/TT meeting minutes May 27th 2013"><meta property="og:type" content="article"><meta property="og:updated_time" content="2023-08-29T22:51:16.000Z"><meta property="og:locale" content="en-US"><meta property="og:locale:alternate" content="es-ES"><meta property="article:tag" content="Wiki"><meta property="article:tag" content="Meetings"><meta property="article:modified_time" content="2023-08-29T22:51:16.000Z"><meta name="baidu-site-verification" content="4H7tszevS8"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5c92d1"><link rel="icon" href="/favicon.ico"><link rel="icon" href="/assets/icon/chrome-192.png" type="image/png" sizes="192x192"><link rel="icon" href="/assets/icon/chrome-512.png" type="image/png" sizes="512x512"><link rel="icon" href="/assets/icon/chrome-mask-192.png" type="image/png" sizes="192x192"><link rel="icon" href="/assets/icon/chrome-mask-512.png" type="image/png" sizes="512x512"><link rel="manifest" href="/manifest.webmanifest" crossorigin="use-credentials"><meta name="theme-color" content="#5c92d1"><link rel="apple-touch-icon" href="/assets/icon/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="white"><meta name="msapplication-TileImage" content="/assets/icon/ms-icon-144.png"><meta name="msapplication-TileColor" content="#ffffff"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"><title>FT/TT meeting minutes May 27th 2013 | </title><meta name="description" content="A official page of ADempiere community.">
+    <style>
+      :root {
+        --bg-color: #fff;
+      }
+
+      html[data-theme="dark"] {
+        --bg-color: #1d2025;
+      }
+
+      html,
+      body {
+        background-color: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.querySelector("html").setAttribute("data-theme", "dark");
+      }
+    </script>
+    <link rel="stylesheet" href="/assets/css/styles.752249c8.css">
+    <link rel="preload" href="/assets/js/runtime~app.1ab2fe50.js" as="script"><link rel="preload" href="/assets/css/styles.752249c8.css" as="style"><link rel="preload" href="/assets/js/8095.50afc563.js" as="script"><link rel="preload" href="/assets/js/app.e9f8f974.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="skip-link sr-only">Skip to content</a><!--]--><div class="theme-container has-toc"><!--[--><!--[--><header class="navbar"><div class="navbar-left"><button class="toggle-sidebar-button" title="Toggle Sidebar"><span class="icon"></span></button><!----><a href="/" class="brand"><img class="logo" src="/logo.svg" alt><!----><!----></a><!----></div><div class="navbar-center"><!----><nav class="nav-links"><div class="nav-item hide-in-mobile"><a href="/" class="nav-link" aria-label="Home"><span class="icon iconfont icon-home" style=""></span>Home<!----></a></div><div class="nav-item hide-in-mobile"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="About"><span class="title"><span class="icon iconfont icon-profile" style=""></span>About</span><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a href="/about/" class="nav-link" aria-label="About"><span class="icon iconfont icon-software" style=""></span>About<!----></a></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Some History</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/about/the-beginning.html" class="nav-link" aria-label="The Beginning"><!---->The Beginning<!----></a></li><li class="dropdown-subitem"><a href="/about/branding.html" class="nav-link" aria-label="The Brand"><!---->The Brand<!----></a></li></ul></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Meeting</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/about/meeting/berlin-2009.html" class="nav-link" aria-label="Berlin Conference 2009"><span class="icon iconfont icon-date" style=""></span>Berlin Conference 2009<!----></a></li><li class="dropdown-subitem"><a href="/about/meeting/berlin-2014.html" class="nav-link" aria-label="Berlin Conference 2014"><span class="icon iconfont icon-date" style=""></span>Berlin Conference 2014<!----></a></li></ul></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Articles</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/about/articles/2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system.html" class="nav-link" aria-label="The Future Of ADempiere as a DDD reactive system"><!---->The Future Of ADempiere as a DDD reactive system<!----></a></li><li class="dropdown-subitem"><a href="/about/articles/2015-08-06-world-announcement-for-adempiere.html" class="nav-link" aria-label="World Announcement for ADempiere new and improved content portal"><!---->World Announcement for ADempiere new and improved content portal<!----></a></li></ul></li><li class="dropdown-item"><a href="/about/articles/" class="nav-link" aria-label="About of Announcements"><span class="icon iconfont icon-blog" style=""></span>About of Announcements<!----></a></li></ul></button></div></div><div class="nav-item hide-in-mobile"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="Product"><span class="title"><span class="icon iconfont icon-engine" style=""></span>Product</span><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a href="/product/" class="nav-link" aria-label="Product"><span class="icon iconfont icon-engine" style=""></span>Product<!----></a></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Technology</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/product/technology.html" class="nav-link" aria-label="Technology"><!---->Technology<!----></a></li><li class="dropdown-subitem"><a href="/product/business-process.html" class="nav-link" aria-label="ADempiere Business Process"><!---->ADempiere Business Process<!----></a></li><li class="dropdown-subitem"><a href="/product/benefits.html" class="nav-link" aria-label="Benefits"><!---->Benefits<!----></a></li><li class="dropdown-subitem"><a href="/product/source-code.html" class="nav-link" aria-label="Source Code"><!---->Source Code<!----></a></li><li class="dropdown-subitem"><a href="/product/demo.html" class="nav-link" aria-label="Demo"><!---->Demo<!----></a></li></ul></li></ul></button></div></div><div class="nav-item hide-in-mobile"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="Community"><span class="title"><span class="icon iconfont icon-group" style=""></span>Community</span><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a href="/community/" class="nav-link" aria-label="Community"><span class="icon iconfont icon-group" style=""></span>Community<!----></a></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Community</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/community/code-of-conduct.html" class="nav-link" aria-label="Code of Conduct"><!---->Code of Conduct<!----></a></li><li class="dropdown-subitem"><a href="/community/duties-and-rigths.html" class="nav-link" aria-label="Basic Rules"><!---->Basic Rules<!----></a></li><li class="dropdown-subitem"><a href="/community/community-detail.html" class="nav-link" aria-label="Community Details"><!---->Community Details<!----></a></li></ul></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Wiki</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/community/wiki/developers-guide/" class="nav-link" aria-label="Developer&#39;s Guide"><!---->Developer&#39;s Guide<!----></a></li><li class="dropdown-subitem"><a href="/community/wiki/preface/" class="nav-link" aria-label="Preface"><!---->Preface<!----></a></li><li class="dropdown-subitem"><a href="/community/wiki/meetings/" class="nav-link active" aria-label="Meetings"><!---->Meetings<!----></a></li></ul></li></ul></button></div></div><div class="nav-item hide-in-mobile"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="Documentation"><span class="title"><span class="icon iconfont icon-creative" style=""></span>Documentation</span><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a href="/docs/" class="nav-link" aria-label="Docs"><span class="icon iconfont icon-note" style=""></span>Docs<!----></a></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Develop Guide</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/develop-guide/getting-started/" class="nav-link" aria-label="Getting Started"><!---->Getting Started<!----></a></li></ul></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Material Management</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/material-management/product/" class="nav-link" aria-label="Product Definition"><!---->Product Definition<!----></a></li></ul></li></ul></button></div></div><div class="nav-item hide-in-mobile"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="Downloads"><span class="title"><span class="icon iconfont icon-software" style=""></span>Downloads</span><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a href="/downloads/" class="nav-link" aria-label="Downloads"><span class="icon iconfont icon-software" style=""></span>Downloads<!----></a></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Binary Files</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/downloads/docker.html" class="nav-link" aria-label="Docker"><span class="icon iconfont icon-docker" style=""></span>Docker<!----></a></li><li class="dropdown-subitem"><a href="/downloads/helm.html" class="nav-link" aria-label="Helm"><span class="icon iconfont icon-download" style=""></span>Helm<!----></a></li><li class="dropdown-subitem"><a href="/downloads/operator.html" class="nav-link" aria-label="Operator"><span class="icon iconfont icon-download" style=""></span>Operator<!----></a></li><li class="dropdown-subitem"><a href="/downloads/binary.html" class="nav-link" aria-label="Binary Download"><span class="icon iconfont icon-github" style=""></span>Binary Download<!----></a></li></ul></li></ul></button></div></div><div class="nav-item hide-in-mobile"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="Foundation"><span class="title"><span class="icon iconfont icon-software" style=""></span>Foundation</span><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a href="/foundation/" class="nav-link" aria-label="Foundation"><span class="icon iconfont icon-software" style=""></span>Foundation<!----></a></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>How To</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/foundation/how-to-contribute.html" class="nav-link" aria-label="How To Contribute"><!---->How To Contribute<!----></a></li><li class="dropdown-subitem"><a href="/foundation/membership.html" class="nav-link" aria-label="Members"><!---->Members<!----></a></li><li class="dropdown-subitem"><a href="/foundation/board.html" class="nav-link" aria-label="Board"><!---->Board<!----></a></li><li class="dropdown-subitem"><a href="/foundation/statutes.html" class="nav-link" aria-label="Statutes"><!---->Statutes<!----></a></li><li class="dropdown-subitem"><a href="/foundation/sponsors.html" class="nav-link" aria-label="Sponsors"><!---->Sponsors<!----></a></li></ul></li></ul></button></div></div></nav><!----></div><div class="navbar-right"><!----><div class="nav-item"><div class="dropdown-wrapper i18n-dropdown"><button class="dropdown-title" type="button" aria-label="Select language"><!--[--><svg xmlns="http://www.w3.org/2000/svg" class="icon i18n-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="i18n icon" style="width:1rem;height:1rem;vertical-align:middle;"><path d="M379.392 460.8 494.08 575.488l-42.496 102.4L307.2 532.48 138.24 701.44l-71.68-72.704L234.496 460.8l-45.056-45.056c-27.136-27.136-51.2-66.56-66.56-108.544h112.64c7.68 14.336 16.896 27.136 26.112 35.84l45.568 46.08 45.056-45.056C382.976 312.32 409.6 247.808 409.6 204.8H0V102.4h256V0h102.4v102.4h256v102.4H512c0 70.144-37.888 161.28-87.04 210.944L378.88 460.8zM576 870.4 512 1024H409.6l256-614.4H768l256 614.4H921.6l-64-153.6H576zM618.496 768h196.608L716.8 532.48 618.496 768z"></path></svg><!--]--><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a aria-current="page" href="/community/wiki/meetings/FT-2013/FT-20130527.html" class="router-link-active router-link-exact-active nav-link active" aria-label="English"><!---->English<!----></a></li><li class="dropdown-item"><a href="/es/" class="nav-link" aria-label="Español"><!---->Español<!----></a></li></ul></button></div></div><!----><div class="nav-item hide-in-mobile"><button id="appearance-switch"><svg xmlns="http://www.w3.org/2000/svg" class="icon auto-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="auto icon" style="display:block;"><path d="M512 992C246.92 992 32 777.08 32 512S246.92 32 512 32s480 214.92 480 480-214.92 480-480 480zm0-840c-198.78 0-360 161.22-360 360 0 198.84 161.22 360 360 360s360-161.16 360-360c0-198.78-161.22-360-360-360zm0 660V212c165.72 0 300 134.34 300 300 0 165.72-134.28 300-300 300z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon dark-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="dark icon" style="display:none;"><path d="M524.8 938.667h-4.267a439.893 439.893 0 0 1-313.173-134.4 446.293 446.293 0 0 1-11.093-597.334A432.213 432.213 0 0 1 366.933 90.027a42.667 42.667 0 0 1 45.227 9.386 42.667 42.667 0 0 1 10.24 42.667 358.4 358.4 0 0 0 82.773 375.893 361.387 361.387 0 0 0 376.747 82.774 42.667 42.667 0 0 1 54.187 55.04 433.493 433.493 0 0 1-99.84 154.88 438.613 438.613 0 0 1-311.467 128z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon light-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="light icon" style="display:none;"><path d="M952 552h-80a40 40 0 0 1 0-80h80a40 40 0 0 1 0 80zM801.88 280.08a41 41 0 0 1-57.96-57.96l57.96-58a41.04 41.04 0 0 1 58 58l-58 57.96zM512 752a240 240 0 1 1 0-480 240 240 0 0 1 0 480zm0-560a40 40 0 0 1-40-40V72a40 40 0 0 1 80 0v80a40 40 0 0 1-40 40zm-289.88 88.08-58-57.96a41.04 41.04 0 0 1 58-58l57.96 58a41 41 0 0 1-57.96 57.96zM192 512a40 40 0 0 1-40 40H72a40 40 0 0 1 0-80h80a40 40 0 0 1 40 40zm30.12 231.92a41 41 0 0 1 57.96 57.96l-57.96 58a41.04 41.04 0 0 1-58-58l58-57.96zM512 832a40 40 0 0 1 40 40v80a40 40 0 0 1-80 0v-80a40 40 0 0 1 40-40zm289.88-88.08 58 57.96a41.04 41.04 0 0 1-58 58l-57.96-58a41 41 0 0 1 57.96-57.96z"></path></svg></button></div><div id="docsearch-container"></div><!----><button class="toggle-navbar-button" aria-label="Toggle Navbar" aria-expanded="false" aria-controls="nav-screen"><span class="button-container"><span class="button-top"></span><span class="button-middle"></span><span class="button-bottom"></span></span></button></div></header><!----><!--]--><!----><div class="toggle-sidebar-wrapper"><span class="arrow left"></span></div><aside class="sidebar"><!--[--><!----><!--]--><ul class="sidebar-links"><li><!--[--><a href="/" class="nav-link sidebar-link sidebar-page" aria-label="Home"><span class="icon iconfont icon-home" style=""></span>Home<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><span class="icon iconfont icon-interact" style=""></span><span class="title">About the Association</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">ADempiere Features</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">ADempiere® 3.9.4 Official Documentation</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><span class="icon iconfont icon-download" style=""></span><span class="title">Downloads</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">Some History</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable active"><span class="icon iconfont icon-group" style=""></span><span class="title">Who Are We?</span><span class="arrow down"></span></button><ul class="sidebar-links"><li><!--[--><a href="/community/" class="nav-link sidebar-link sidebar-page" aria-label="Who Are We?"><span class="icon iconfont icon-group" style=""></span>Who Are We?<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/duties-and-rigths.html" class="nav-link sidebar-link sidebar-page" aria-label="Basic Rules"><!---->Basic Rules<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">Citizens</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><a href="/community/code-of-conduct.html" class="nav-link sidebar-link sidebar-page" aria-label="Code of Conduct"><!---->Code of Conduct<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">Community Council Team</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><a href="/community/community-detail.html" class="nav-link sidebar-link sidebar-page" aria-label="Community Details"><!---->Community Details<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/apply_for_projects_to_allocate_funds_from_the_foundation.html" class="nav-link sidebar-link sidebar-page" aria-label="How to Apply for Projects?"><!---->How to Apply for Projects?<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">Project Charter</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable active"><!----><span class="title">Wiki</span><span class="arrow down"></span></button><ul class="sidebar-links"><li><!--[--><a href="/community/wiki/" class="nav-link sidebar-link sidebar-page" aria-label="Wiki"><!---->Wiki<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">Developer&#39;s Guide</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable active"><!----><span class="title">Meetings</span><span class="arrow down"></span></button><ul class="sidebar-links"><li><!--[--><a href="/community/wiki/meetings/" class="nav-link sidebar-link sidebar-page" aria-label="Meetings"><!---->Meetings<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">FT-2010</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">FT-2011</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">FT-2012</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable active"><!----><span class="title">FT-2013</span><span class="arrow down"></span></button><ul class="sidebar-links"><li><!--[--><a href="/community/wiki/meetings/FT-2013/" class="nav-link sidebar-link sidebar-page" aria-label="FT-2013"><!---->FT-2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130612.html" class="nav-link sidebar-link sidebar-page" aria-label="FT meeting minutes June 12th 2013"><!---->FT meeting minutes June 12th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130812.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes August 12th 2013"><!---->FT/TT meeting minutes August 12th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130819.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes August 19th 2013"><!---->FT/TT meeting minutes August 19th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130826.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes August 26th 2013"><!---->FT/TT meeting minutes August 26th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130805.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes August 5th 2013"><!---->FT/TT meeting minutes August 5th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131203.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes December 03rd 2013"><!---->FT/TT meeting minutes December 03rd 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131210.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes December 10th 2013"><!---->FT/TT meeting minutes December 10th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131217.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes December 17th 2013"><!---->FT/TT meeting minutes December 17th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130715.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes July 15th 2013"><!---->FT/TT meeting minutes July 15th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130701.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes July 1st 2013"><!---->FT/TT meeting minutes July 1st 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130722.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes July 22nd 2013"><!---->FT/TT meeting minutes July 22nd 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130729.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes July 29th 2013"><!---->FT/TT meeting minutes July 29th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130708.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes July 8th 2013"><!---->FT/TT meeting minutes July 8th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130610.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes June 10th 2013"><!---->FT/TT meeting minutes June 10th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130617.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes June 17th 2013"><!---->FT/TT meeting minutes June 17th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130624.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes June 24th 2013"><!---->FT/TT meeting minutes June 24th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130603.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes June 3rd 2013"><!---->FT/TT meeting minutes June 3rd 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a aria-current="page" href="/community/wiki/meetings/FT-2013/FT-20130527.html" class="router-link-active router-link-exact-active nav-link active sidebar-link sidebar-page active" aria-label="FT/TT meeting minutes May 27th 2013"><!---->FT/TT meeting minutes May 27th 2013<!----></a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a aria-current="page" href="/community/wiki/meetings/FT-2013/FT-20130527.html#log" class="router-link-active router-link-exact-active nav-link sidebar-link heading" aria-label="Log"><!---->Log<!----></a><ul class="sidebar-sub-headers"></ul></li></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131112.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes November 12th 2013"><!---->FT/TT meeting minutes November 12th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131119.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes November 19th 2013"><!---->FT/TT meeting minutes November 19th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131126.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes November 26th 2013"><!---->FT/TT meeting minutes November 26th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131105.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes November 5th 2013"><!---->FT/TT meeting minutes November 5th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131015.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes October 15th 2013"><!---->FT/TT meeting minutes October 15th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131001.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes October 1st 2013"><!---->FT/TT meeting minutes October 1st 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131022.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes October 22nd 2013"><!---->FT/TT meeting minutes October 22nd 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131029.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes October 29th 2013"><!---->FT/TT meeting minutes October 29th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131008.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes October 8th 2013"><!---->FT/TT meeting minutes October 8th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130903.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes September 03rd 2013"><!---->FT/TT meeting minutes September 03rd 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130910.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes September 10th 2013"><!---->FT/TT meeting minutes September 10th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130917.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes September 17th 2013"><!---->FT/TT meeting minutes September 17th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130924.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes September 24th 2013"><!---->FT/TT meeting minutes September 24th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/TT-20130614.html" class="nav-link sidebar-link sidebar-page" aria-label="TT meeting minutes June 14th 2013"><!---->TT meeting minutes June 14th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li></ul></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">FT-2014</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">FT-2015</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">FT-2016</span><span class="arrow right"></span></button><!----></section><!--]--></li></ul></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">Preface</span><span class="arrow right"></span></button><!----></section><!--]--></li></ul></section><!--]--></li></ul></section><!--]--></li></ul><!--[--><!----><!--]--></aside><!--[--><main class="page" id="main-content"><!--[--><!----><nav class="breadcrumb disable"></nav><div class="page-title"><h1><!---->FT/TT meeting minutes May 27th 2013</h1><div class="page-info"><span class="author-info" aria-label="Author🖊" data-balloon-pos="down" localizeddate="August 29, 2023" isoriginal="false" pageview="true"><svg xmlns="http://www.w3.org/2000/svg" class="icon author-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="author icon"><path d="M649.6 633.6c86.4-48 147.2-144 147.2-249.6 0-160-128-288-288-288s-288 128-288 288c0 108.8 57.6 201.6 147.2 249.6-121.6 48-214.4 153.6-240 288-3.2 9.6 0 19.2 6.4 25.6 3.2 9.6 12.8 12.8 22.4 12.8h704c9.6 0 19.2-3.2 25.6-12.8 6.4-6.4 9.6-16 6.4-25.6-25.6-134.4-121.6-240-243.2-288z"></path></svg><span><a class="author-item" href="https://adempiere-site.erpya.com" target="_blank" rel="noopener noreferrer">ADempiere</a></span><span property="author" content="ADempiere"></span></span><!----><span class="date-info" aria-label="Writing Date📅" data-balloon-pos="down" isoriginal="false" pageview="true"><svg xmlns="http://www.w3.org/2000/svg" class="icon calendar-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="calendar icon"><path d="M716.4 110.137c0-18.753-14.72-33.473-33.472-33.473-18.753 0-33.473 14.72-33.473 33.473v33.473h66.993v-33.473zm-334.87 0c0-18.753-14.72-33.473-33.473-33.473s-33.52 14.72-33.52 33.473v33.473h66.993v-33.473zm468.81 33.52H716.4v100.465c0 18.753-14.72 33.473-33.472 33.473a33.145 33.145 0 01-33.473-33.473V143.657H381.53v100.465c0 18.753-14.72 33.473-33.473 33.473a33.145 33.145 0 01-33.473-33.473V143.657H180.6A134.314 134.314 0 0046.66 277.595v535.756A134.314 134.314 0 00180.6 947.289h669.74a134.36 134.36 0 00133.94-133.938V277.595a134.314 134.314 0 00-133.94-133.938zm33.473 267.877H147.126a33.145 33.145 0 01-33.473-33.473c0-18.752 14.72-33.473 33.473-33.473h736.687c18.752 0 33.472 14.72 33.472 33.473a33.145 33.145 0 01-33.472 33.473z"></path></svg><span>August 29, 2023</span><meta property="datePublished" content="2023-08-29T22:51:16.000Z"></span><span class="category-info" aria-label="Category🌈" data-balloon-pos="down" localizeddate="August 29, 2023" isoriginal="false" pageview="true"><svg xmlns="http://www.w3.org/2000/svg" class="icon category-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="category icon"><path d="M148.41 106.992h282.176c22.263 0 40.31 18.048 40.31 40.31V429.48c0 22.263-18.047 40.31-40.31 40.31H148.41c-22.263 0-40.311-18.047-40.311-40.31V147.302c0-22.263 18.048-40.31 40.311-40.31zM147.556 553.478H429.73c22.263 0 40.311 18.048 40.311 40.31v282.176c0 22.263-18.048 40.312-40.31 40.312H147.555c-22.263 0-40.311-18.049-40.311-40.312V593.79c0-22.263 18.048-40.311 40.31-40.311zM593.927 106.992h282.176c22.263 0 40.31 18.048 40.31 40.31V429.48c0 22.263-18.047 40.31-40.31 40.31H593.927c-22.263 0-40.311-18.047-40.311-40.31V147.302c0-22.263 18.048-40.31 40.31-40.31zM730.22 920.502H623.926c-40.925 0-74.22-33.388-74.22-74.425V623.992c0-41.038 33.387-74.424 74.425-74.424h222.085c41.038 0 74.424 33.226 74.424 74.067v114.233c0 10.244-8.304 18.548-18.547 18.548s-18.548-8.304-18.548-18.548V623.635c0-20.388-16.746-36.974-37.33-36.974H624.13c-20.585 0-37.331 16.747-37.331 37.33v222.086c0 20.585 16.654 37.331 37.126 37.331H730.22c10.243 0 18.547 8.304 18.547 18.547 0 10.244-8.304 18.547-18.547 18.547z"></path></svg><ul class="categories-wrapper"><li class="category category2" role>Community</li><meta property="articleSection" content="Community"></ul></span><span aria-label="Tag🏷" data-balloon-pos="down" localizeddate="August 29, 2023" isoriginal="false" pageview="true"><svg xmlns="http://www.w3.org/2000/svg" class="icon tag-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="tag icon"><path d="M939.902 458.563L910.17 144.567c-1.507-16.272-14.465-29.13-30.737-30.737L565.438 84.098h-.402c-3.215 0-5.726 1.005-7.634 2.913l-470.39 470.39a10.004 10.004 0 000 14.164l365.423 365.424c1.909 1.908 4.42 2.913 7.132 2.913s5.223-1.005 7.132-2.913l470.39-470.39c2.01-2.11 3.014-5.023 2.813-8.036zm-240.067-72.121c-35.458 0-64.286-28.828-64.286-64.286s28.828-64.285 64.286-64.285 64.286 28.828 64.286 64.285-28.829 64.286-64.286 64.286z"></path></svg><ul class="tags-wrapper"><li class="tag tag3" role>Wiki</li><li class="tag tag5" role>Meetings</li></ul><meta property="keywords" content="Wiki,Meetings"></span><span class="reading-time-info" aria-label="Reading Time⌛" data-balloon-pos="down" localizeddate="August 29, 2023" isoriginal="false" pageview="true"><svg xmlns="http://www.w3.org/2000/svg" class="icon timer-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="timer icon"><path d="M799.387 122.15c4.402-2.978 7.38-7.897 7.38-13.463v-1.165c0-8.933-7.38-16.312-16.312-16.312H256.33c-8.933 0-16.311 7.38-16.311 16.312v1.165c0 5.825 2.977 10.874 7.637 13.592 4.143 194.44 97.22 354.963 220.201 392.763-122.204 37.542-214.893 196.511-220.2 389.397-4.661 5.049-7.638 11.651-7.638 19.03v5.825h566.49v-5.825c0-7.379-2.849-13.981-7.509-18.9-5.049-193.016-97.867-351.985-220.2-389.527 123.24-37.67 216.446-198.453 220.588-392.892zM531.16 450.445v352.632c117.674 1.553 211.787 40.778 211.787 88.676H304.097c0-48.286 95.149-87.382 213.728-88.676V450.445c-93.077-3.107-167.901-81.297-167.901-177.093 0-8.803 6.99-15.793 15.793-15.793 8.803 0 15.794 6.99 15.794 15.793 0 80.261 63.69 145.635 142.01 145.635s142.011-65.374 142.011-145.635c0-8.803 6.99-15.793 15.794-15.793s15.793 6.99 15.793 15.793c0 95.019-73.789 172.82-165.96 177.093z"></path></svg><span>About 37 min</span><meta property="timeRequired" content="PT37M"></span></div><hr></div><div class="toc-place-holder"><aside id="toc"><div class="toc-header">On This Page</div><div class="toc-wrapper"><ul class="toc-list"><!--[--><li class="toc-item"><a aria-current="page" href="/community/wiki/meetings/FT-2013/FT-20130527.html#log" class="router-link-active router-link-exact-active toc-link level2">Log</a></li><!----><!--]--></ul></div></aside></div><!----><div class="theme-hope-content"><h1 id="meeting-minutes" tabindex="-1"><a class="header-anchor" href="#meeting-minutes" aria-hidden="true">#</a> Meeting Minutes</h1><p><strong>General</strong></p><ul><li><strong>Moderator:</strong> Victor Perez</li><li><strong>Secretary:</strong> Paul Aviles/Mike Judd</li><li><strong>Participants:</strong> Colin Rooney, John Agudelo, Karsten Thiemann, Mario Calderon, Mark Ostermann, Paul Aviles, Pradeep Lavania, Suman Ravuri, Steven Sackett, Teodor Sarca, Tobias Shöneberg, Trifon Trifonov, and Victor Perez</li><li><strong>Date / Time:</strong> May 27th, 2013 / 3:00 PM - 6:00 PM GMT</li></ul><p><strong>Agenda</strong></p><ol><li>Define a roadmap for 3.8.0</li><li>Define contributions to be included in 3.8.0</li><li>Define release management activities</li><li>Mercurial repository issues/GitHub</li><li>Define release deadline</li><li>Next Adempiere Conference</li></ol><p><strong>Minutes of Previous Meeting</strong></p><ul><li><a href="https://docs.google.com/a/e-evolution.com/document/d/1PqNM0p53As4iUcrEo_eGBUtK9YyrhTDL7xiJ_87i_tY/edit?pli=1" target="_blank" rel="noopener noreferrer">Link to Previous Meeting Minutes<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a></li></ul><p><strong>Discussion</strong></p><ul><li>A high-level document based on the current list of branches was shared to define the roadmap for ADempiere 3.8.0.</li><li>Features to be included must have proper test case scenarios, test cases, and documentation.</li><li>Prioritization and estimation of each feature were discussed, considering eligibility, priority, code standards, test cases, documentation, and more.</li><li>Release Manager&#39;s roles and responsibilities were outlined, including technical code review, coordination with functional teams, trunk management, testing, and seeking approval.</li><li>SourceForge issues were addressed, and better support from SourceForge was sought.</li><li>Rotation of the Adempiere Conference location, potentially in the Americas, was suggested.</li><li>Progress on the Wiki and website design was shared, pending formal approval and production rollout.</li></ul><p><strong>Next Meeting</strong></p><ul><li>Date / Time: Monday, June 03rd, 2013 / 12:00 PM - 2:00 PM GMT</li></ul><p><strong>Action Items</strong></p><table><thead><tr><th>Action Item</th><th>Person Responsible</th><th>Deadline</th></tr></thead><tbody><tr><td>FT/TT</td><td>All</td><td>5/31/2013</td></tr><tr><td><a href="https://wiki.adempiere.net/Release_380LTS" target="_blank" rel="noopener noreferrer">ADempiere Release 3.8.0 Feature/Roadmap List Completion<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a></td><td>Pradeep Lavania</td><td>5/31/2013</td></tr><tr><td>Criteria qualification for release</td><td>Pradeep Lavania</td><td>5/31/2013</td></tr><tr><td>SourceForge HG Repo issues</td><td>Victor Perez, Paul Aviles</td><td>5/31/2013</td></tr><tr><td>ADempiere Yearly Meeting location</td><td>Paul Aviles, Mario Calderon</td><td>6/3/2013</td></tr><tr><td>ADempiere Wiki/Portal</td><td>Victor Perez</td><td>TBD</td></tr></tbody></table><h2 id="log" tabindex="-1"><a class="header-anchor" href="#log" aria-hidden="true">#</a> Log</h2><p>Following is the meeting log</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>Monday, May 27, 2013
+[10:25:31 AM] Victor Perez Juarez: 2.- Define that contributions to be included in 3.8.0
+[10:25:54 AM] Victor Perez Juarez: 3.- Define the release management activities
+[10:26:19 AM] Victor Perez Juarez: 4.- Migrate our current repository code to github
+[10:26:41 AM] Victor Perez Juarez: 5.- Define a dead line to release 3.8.0
+[10:48:38 AM] Colin Rooney: hi all
+[10:07:45 AM] *** Victor Perez Juarez added Paul Aviles ***
+[10:07:57 AM] Mario Calderón: pradeep
+[10:07:58 AM] *** Victor Perez Juarez added Colin Rooney ***
+[10:08:04 AM] Mario Calderón: suman ravuri
+[10:08:10 AM] *** Victor Perez Juarez added Pradeep Lavania ***
+[10:08:13 AM] Paul Aviles: Hello everyone
+[10:08:22 AM] Karsten Thiemann: hi Paul
+[10:08:28 AM] Trifon: hi Paul
+[10:08:36 AM] Mario Calderón: john agudelo
+[10:08:52 AM] Karsten Thiemann: is Mike McKay in the TT?
+[10:09:05 AM] Mario Calderón: i the FT I think..
+[10:09:17 AM] *** Victor Perez Juarez added Michael McKay ***
+[10:09:54 AM] *** Victor Perez Juarez added jdaison ***
+[10:10:00 AM] Mario Calderón: Mark Ostermann?
+[10:10:07 AM] Mark Ostermann: moin
+[10:10:14 AM] Mario Calderón: hi Mark!!!
+[10:10:21 AM] Mark Ostermann: hi mario
+[10:10:23 AM] Mark Ostermann: hi all
+[10:10:25 AM] Mario Calderón: invite Tobi?
+[10:10:27 AM] jdaison: Hi all
+[10:10:40 AM] Steven: hi to All
+[10:10:44 AM] Tobias Schoeneberg: hi
+[10:10:46 AM] Mark Ostermann: Contact received from Mark Ostermann
+[10:11:31 AM] *** Norbert Wessel has left ***
+[10:11:42 AM] Mario Calderón: hi every body!
+[10:11:46 AM] Victor Perez Juarez: Mario do you think that are everybody?
+[10:12:19 AM] Mario Calderón: Suman Ravuri is missing
+[10:12:42 AM] Steven: and Pradeep?
+[10:12:45 AM] Victor Perez Juarez: can you include , hava not as contanct
+[10:14:23 AM] *** Victor Perez Juarez added suman ravuri ***
+[10:14:24 AM] *** suman ravuri can&#39;t be added until they accept your contact request. ***
+[10:14:47 AM] Steven: in another chat Pradeep asks if we can give him a couple of minutes
+[10:15:07 AM] *** Victor Perez Juarez added Enrique Ruibal ***
+[10:15:31 AM] Victor Perez Juarez: ok is ok for me
+[10:15:35 AM] Mario Calderón: ok...
+[10:15:38 AM] Paul Aviles: ok
+[10:15:42 AM] Mario Calderón: 10 mins?
+[10:15:43 AM | Edited 10:15:56 AM] Karsten Thiemann: sure
+[10:15:50 AM] Mark Ostermann: ok
+[10:15:54 AM] Victor Perez Juarez: I made an roadmap propouse
+[10:16:21 AM] jdaison: Ok
+[10:16:25 AM] Victor Perez Juarez: can please confirm that you can see?
+[10:16:44 AM] Victor Perez Juarez: https://docs.google.com/a/e-evolution.com/document/d/1PqNM0p53As4iUcrEo_eGBUtK9YyrhTDL7xiJ_87i_tY/edit
+[10:16:51 AM] Mario Calderón: reading..
+[10:17:23 AM] Karsten Thiemann: yes
+[10:17:34 AM] Schöneberg, Tobias (metas.de): [10:15 AM] Victor Perez Juarez: 
+&lt;&lt;&lt; can please confirm that you can see?yes
+[10:18:15 AM] Teodor Sarca: yes
+[10:18:46 AM] Steven: can we start?
+[10:18:53 AM] Victor Perez Juarez: any change is welcome, the current list is based on the current list of branches of current repository
+[10:19:22 AM] Karsten Thiemann: looks very promising to me
+[10:19:50 AM | Edited 10:19:56 AM] Mark Ostermann: @victor: can u give us write access?
+[10:19:58 AM] Victor Perez Juarez: yes
+[10:20:02 AM] Mark Ostermann: cannot change
+[10:20:24 AM] Mario Calderón: should we select a moderator and a secretary
+[10:20:25 AM] Mario Calderón: ?
+[10:20:51 AM] Victor Perez Juarez: Mark can test now ?
+[10:20:52 AM] Victor Perez Juarez: https://docs.google.com/a/e-evolution.com/document/d/1PqNM0p53As4iUcrEo_eGBUtK9YyrhTDL7xiJ_87i_tY/edit
+[10:21:19 AM] Victor Perez Juarez: ok I can be the moderator
+[10:21:32 AM] *** Pradeep Lavania added suman ravuri ***
+[10:21:42 AM] Mark Ostermann: yepp, works now. thanks
+[10:21:51 AM] Victor Perez Juarez: some volunteered to be secretary?
+[10:22:17 AM] Paul Aviles: Mario, I will help taking notes, will bounce first to you to make sure I did not miss anything
+[10:22:45 AM] Mario Calderón: ok
+[10:22:59 AM] Mario Calderón: do we accept Paul as secretary?
+[10:23:20 AM] Karsten Thiemann: of course we do
+[10:23:23 AM] Teodor Sarca: sure
+[10:23:39 AM] Mario Calderón: who wants to moderate?
+[10:24:48 AM] Steven: can we seek some general agreement about candidate functionality?
+[10:24:53 AM] Victor Perez Juarez: ok
+[10:24:57 AM] Victor Perez Juarez: This Agenda:
+[10:25:12 AM] Victor Perez Juarez:  1.-Define a roadmap for 3.8.0
+[10:25:13 AM] Steven: i would like to suggest it comes from many contributors
+[10:25:30 AM] Steven: and be easily added..
+[10:25:31 AM] Victor Perez Juarez: 2.- Define that contributions to be included in 3.8.0
+[10:25:54 AM] Victor Perez Juarez: 3.- Define the release management activities
+[10:26:19 AM] Victor Perez Juarez: 4.- Migrate our current repository code to github
+[10:26:41 AM] Victor Perez Juarez: 5.- Define a dead line to release 3.8.0
+[10:27:19 AM] Victor Perez Juarez: have you some other subject that you want add?
+[10:27:42 AM] Pradeep Lavania: Hi All
+[10:27:54 AM] Pradeep Lavania: I&#39;m in....Sorry for being late...was stuck up in another meeting.
+[10:27:57 AM] Steven: hi Pradeep
+[10:27:58 AM] Schöneberg, Tobias (metas.de): [10:23 AM] Steven: 
+&lt;&lt;&lt; can we seek some general agreement about candidate functionality?sorry i didn&#39;t understand what you mean (just asking now because this might be another agenda item..?)
+[10:28:22 AM] Victor Perez Juarez: hi Pradeep
+[10:28:34 AM] Steven: sorry Tobias .. got ahead ..we should follow Victors plan
+[10:28:41 AM] Schöneberg, Tobias (metas.de): ok
+[10:29:46 AM] Paul Aviles: I will suggest that for every functional additon the proper test cases to be created at the very begining with the functionality
+[10:30:14 AM] Pradeep Lavania: Agreed....Documented test cases created and available for general review and feedback...
+[10:30:20 AM] Paul Aviles: the knowledge of the SME and the documentation is essential for this and cannot be done after several months
+[10:31:02 AM] Paul Aviles: should we also propose that if the test case functionality is not included then the new enhancement will not be considered?
+[10:31:39 AM] Victor Perez Juarez: ok Paul
+[10:32:05 AM] Pradeep Lavania: I would vote for it....if there are test scenarios ....which should be PASSED before the functionality can be approved....either the contributor provides a fix in-time...or it would need to be left out
+[10:32:20 AM] Victor Perez Juarez: 6.- Define as should be include of new fuctionality (test case , oficaill demo data , documentation , etc )?
+[10:33:05 AM] Paul Aviles: correct victor, we should not take more code unless we know how to validate, test and with the proper functional test cases
+[10:34:37 AM] Steven: Paul, can you give me an example because this is new stuff to me .. for something like, say, the GL Reconciliation module do you need more than the 15 pages Howto guide that we produced?
+[10:35:02 AM] Victor Perez Juarez: ok then starting
+[10:35:06 AM] Victor Perez Juarez: 1.-Define a roadmap for 3.8.0
+[10:35:23 AM] Paul Aviles: Steve I have not see the doc you are refering,so if that is the case it should be fine
+[10:35:41 AM] Victor Perez Juarez: I created a posible candidate functionality in this document
+[10:35:42 AM] Victor Perez Juarez: https://docs.google.com/a/e-evolution.com/document/d/1PqNM0p53As4iUcrEo_eGBUtK9YyrhTDL7xiJ_87i_tY/edit
+[10:36:03 AM] Victor Perez Juarez: aso the idea is include the must importat fuctionality that we can collect for 3.8.0
+[10:36:31 AM] Victor Perez Juarez: I add the funcionality that e-Evolution are using, and that we know that it work
+[10:36:45 AM] Victor Perez Juarez: but I think that other also can contribute
+[10:37:01 AM] *** Victor Perez Juarez added Ramiro Vergara ***
+[10:37:27 AM] Paul Aviles: is there a target date for the release? we need to make sure all the items on the list will be able to get included or need to prioritize them
+[10:38:01 AM] Paul Aviles: is there perhaps a &quot;must have&quot; list?
+[10:38:16 AM] Steven: ... and that the amount of effort is covered by our budget!
+[10:38:24 AM] Victor Perez Juarez: Paul we need define, it is 5 list point
+[10:38:35 AM | Edited 10:38:43 AM] Mark Ostermann: [10:36 AM] Paul Aviles: 
+&lt;&lt;&lt; is there a target date for the releaseyes, thats the question for us too. without a date we don&#39;t know how much functionaliteis we can put onto the raodmap list.
+[10:38:36 AM] Paul Aviles: opps sorry
+[10:38:37 AM] Mario Calderón: I suggest, we decide the target date after we know the functionality
+[10:39:09 AM] Paul Aviles: so lets flipped it a bit, are there any must have?
+[10:39:27 AM] Steven: good approach
+[10:39:53 AM] Victor Perez Juarez: so the idea is that other can offert your contribution
+[10:40:34 AM] Victor Perez Juarez: so e-Evolution and Adaxa we&#39;d like others to join the list :)
+[10:41:05 AM] Victor Perez Juarez: I know that Wallking Tree and Metas have contribution that would be included
+[10:41:06 AM] Mark Ostermann: [10:39 AM] Victor Perez Juarez: 
+&lt;&lt;&lt; so e-Evolution and Adaxa we&#39;d like others to join the list :)thanks for the invitation. metas joined. ;)
+[10:41:41 AM] Victor Perez Juarez: of course any is welcome
+[10:41:47 AM] suman ravuri: Can we update the document you shared?
+[10:42:02 AM] suman ravuri: with WTC(Walkingtree)  items?
+[10:42:11 AM] Victor Perez Juarez: yes of course
+[10:42:20 AM] Victor Perez Juarez: please
+[10:42:37 AM] Pradeep Lavania: Suman, please do check if you have the write permissions....
+[10:43:01 AM] Victor Perez Juarez: I give permissions for public access
+[10:43:07 AM] Pradeep Lavania: great
+[10:44:05 AM] Pradeep Lavania: So...do we fix a target date and then scope-in the items that can be released within the timeframe.....OR should be scope-in the must haves and good to haves ....and then come up with a timeframe for it ?
+[10:44:51 AM] Victor Perez Juarez: than you for complete the list, now we should define the rules  to include
+[10:45:00 AM] Victor Perez Juarez: 2.- Define that contributions to be included in 3.8.0
+[10:45:08 AM] Paul Aviles: as with any release we should have bug fixes, must have and enhacements
+[10:45:58 AM] Victor Perez Juarez: yes
+[10:46:24 AM] Steven: perhaps we can get the complete candidate list and try to rank?
+[10:46:26 AM] Victor Perez Juarez: I will like that the release management define the rules to release
+[10:46:59 AM] Victor Perez Juarez: for example if we need release candidate candidate 1 , 2 3 until get a stable version
+[10:47:22 AM] Victor Perez Juarez: good idea Steven
+[10:47:37 AM] Mark Ostermann: ... or we define release dates and take what is &quot;finished&quot; until that date
+[10:47:55 AM] Victor Perez Juarez: I se only the contribution of Adaxa that I know and are into our current repository
+[10:48:17 AM] Victor Perez Juarez: so Steven please add or remove if you need
+[10:48:21 AM] Mark Ostermann: this way we can have target dates for releases that contributors/ community can plan for
+[10:48:29 AM] Colin Rooney: hi all
+[10:48:30 AM] Paul Aviles: i like steven&#39;s idea, lets rank and estimate an approx effort and timeline for everyone
+[10:48:35 AM] Mark Ostermann: hi colin
+[10:48:38 AM] Colin Rooney: hi all
+[10:48:47 AM] Steven: hi Colin
+[10:48:47 AM] Colin Rooney: opps .. sorry :)
+[10:48:54 AM] Mario Calderón: hi colin
+[10:49:12 AM] Pradeep Lavania: I would second the thought of scoping the items and then defining a feasible timeline to achieve it....
+[10:49:20 AM] Victor Perez Juarez: Hi Colin
+[10:49:42 AM] Paul Aviles: should we all then agree to that approach of ranking, estimating and prioritizing?
+[10:50:28 AM] Mark Ostermann: [10:48 AM] Pradeep Lavania: 
+&lt;&lt;&lt; I would second the thought of scoping the items and then defining a feasible timeline to achieve it....... and when the timeline turns out to be not sufficient the release is moved later?
+[10:50:33 AM] Pradeep Lavania: Listing, ranking/prioritization, estimating and releasing
+[10:51:31 AM] Pradeep Lavania: Or may be the next set of items could be 3.8.X
+[10:51:44 AM] Victor Perez Juarez: ok , then we need finish with the contribution list, after we include the ranking/prioritization
+[10:52:47 AM] Victor Perez Juarez: Steven How do you suggest we do the ranking / prioritization?
+[10:54:30 AM] Steven: do others agree we also have some overall priorities, java 7,  contributions from many parties to avoid politics, not have functional items in idempiere which are not in adempiere .. especially if they started in adempiere.
+[10:55:03 AM] Mark Ostermann: [10:51 AM] Victor Perez Juarez: 
+
+&lt;&lt;&lt; Steven How do you suggest we do the ranking / prioritization?sorry, but i don&#39;t understand why ranking/ priotizing? is this for the Release Manager to decide what to integrate first, second ...?
+[10:55:28 AM] Karsten Thiemann: I agree that java 7 needs to be a high priority
+[10:56:13 AM] suman ravuri: +1 for java 7
+[10:56:22 AM] Steven: Mark, I think there will be &quot;easy&quot; stuff and important stuff and as usual they wont be the same :(
+[10:56:41 AM] Karsten Thiemann: java 6 is already deprecated
+[10:57:09 AM] Victor Perez Juarez: yes ,this are migrated and current development repositorio
+[10:57:39 AM] Victor Perez Juarez: but now we need agrement how should define of  ranking or prioritization
+[10:57:45 AM] Mark Ostermann: @Steven: So it&#39;s about steering/ organising not allready exiting contributions in community?
+[10:57:59 AM] Mark Ostermann: and not about roadmap?
+[10:58:00 AM] Victor Perez Juarez: so we can only define a list and voting
+[10:58:03 AM] Paul Aviles: personally I have seen release managers working with buiness priorities, and yes some are technical, but the business usually decides what goes first. I dont know honestly what the power of one vs the other are being considered here, but I will suggest this gets addressed asap to avoid the problems we had in the past
+[10:59:11 AM] Pradeep Lavania: Ok..I would think the idea should be to Include ALL that we can find eligible....
+[10:59:25 AM] Steven: @Mark, I get the feeling that the work of Victor focussed on what was available .. from Victor and from Adaxa .. my view is that the contributors should be much broader even if we hold some candiddate material of Victor or adaxa back.
+[10:59:33 AM] Victor Perez Juarez: MArk in general this functionality are work in proate repositories , so that idea is contribute in a general adempiere version
+[10:59:46 AM] Victor Perez Juarez: the road map will created based in this approach
+[10:59:47 AM] Pradeep Lavania: If something falls in place with standards and expectations with the release managers and qualifies in QA...should be included...
+[11:00:24 AM] Mark Ostermann: @Steven, Victor: Agree. but why priotize then? Why not leave the Release Manager &quot;First come, first serve&quot;?
+[11:00:47 AM] Mark Ostermann: if a contribute provides something for a release and all documentation and testing is done
+[11:00:51 AM] Paul Aviles: how come first serve will take any priority over a security issue?
+[11:01:30 AM] Mario Calderón: may I suggest to complete the list? I think OFB, Walking Tree and Metas might put down their contributions
+[11:01:30 AM] Paul Aviles: or a feature that most if not all could take advantage?
+[11:01:34 AM] Colin Rooney: Sounds like an Agile approach ... back your list - call it the backlog
+[11:01:34 AM] Mark Ostermann: @paul. im talking about the release manager work prio not the importance of fixing something
+[11:01:40 AM] Paul Aviles: k
+[11:01:47 AM] Mark Ostermann: @colin: agree
+[11:01:50 AM] Colin Rooney: then chose the first thing to do ... give it a short &quot;sprint&quot; time of a week
+[11:01:50 AM] Victor Perez Juarez: Ok simpler then define the requirements for listing, and this defines the end is included and not
+[11:02:01 AM] Colin Rooney: and whern it&#39;s done look at the backlog again for the next item
+[11:02:03 AM] Colin Rooney: ?
+[11:02:28 AM] Teodor Sarca: maybe it would be better to define which are the requirements for something to be contributable, and then see which of current items respect all the requirements and then prioritize. because i have the feeling there are not so many, and in meantime the RM can take one by one an integrate
+[11:02:33 AM] Mark Ostermann: @colin: thats why i think we should have fix release dates, and then choose what we will put into that release
+[11:02:42 AM] suman ravuri: We need release the funtionality which community needs first, If one of the feature more customers are asking then we need to prioritize that
+[11:02:45 AM] Colin Rooney: @Teo; agree
+[11:02:56 AM] Mark Ostermann: @teo. yepp
+[11:03:22 AM] Mario Calderón: can then Metas and Walking Tree complete the list?
+[11:03:27 AM] Steven: @Teo, agree
+[11:03:28 AM] Karsten Thiemann: @Teo right
+[11:03:38 AM] Mark Ostermann: @mario. already done
+[11:03:43 AM] Mario Calderón: and Adaxa and eEvolution verify??
+[11:03:58 AM] Mario Calderón: oops! :$
+[11:04:03 AM] Victor Perez Juarez: @Teo we are agree
+[11:04:24 AM] Pradeep Lavania: @Teo...Agree
+[11:04:29 AM] Victor Perez Juarez: Requirements for contribution:
+[11:04:34 AM] Mario Calderón: I miss a lot of Adaxa
+[11:05:35 AM] Mark Ostermann: i believe it would be good to draw the line betwen Release Manager - Technical Team - Functional Team first
+[11:05:58 AM | Edited 11:07:49 AM] Mark Ostermann: because at the moment I believe we are discussing stuff that has been discussed long before http://www.adempiere.com/Software_Development_Procedure
+[11:06:09 AM] Victor Perez Juarez: 1. - Requires the documented contribution
+[11:07:28 AM] Paul Aviles: victor you BOM import is for regular MTO/MTS and not for variant confiurable materials correct?
+[11:07:48 AM] Mario Calderón: @Mark: actually, the Functional Team would select WHAT comes in, the Technical Team decides HOW to be done it, and the RM DOES it, supported by the teams. But now, we are boot-strapping, and somehow wh mix functions
+[11:07:57 AM] Victor Perez Juarez: 2.- The code should meet the ABP or use best practices in java ie (Design Patterns)
+[11:08:52 AM] Colin Rooney: @Mario, yes I se etasks as...
+[11:08:52 AM] Colin Rooney: List new functionality Define what defines &quot;ready&quot; functionality
+Add what meets &quot;ready&quot; status to the &quot;backlog&quot;
+Each week the business team decides what functionality is selected from the backlog 
+and the technical team(s) estimate time 1-2 weeks max to integrate
+[11:08:59 AM] Mark Ostermann: [11:06 AM] Mario Calderón: 
+&lt;&lt;&lt; @Mark: actually, the Functional Team would select WHAT comes in, the Technical Team decides HOW to be done it, and the RM DOES it, supported by the teams.agree ;)
+[11:09:25 AM | Edited 11:10:04 AM] Mark Ostermann: so now back to the question, why define a roadmap first, and then the date of release?
+[11:09:45 AM | Edited 11:11:02 AM] Mark Ostermann: because the FT/ TT cannot decide before seeing the contribution (documentation, functionality, tests, code ...)
+[11:10:28 AM] Victor Perez Juarez: can define the requirement
+[11:10:33 AM] Victor Perez Juarez: please
+[11:11:14 AM | Edited 11:12:06 AM] Victor Perez Juarez: so I think that  Pradeep Lavania and Suman shoud define that should have
+[11:12:55 AM | Edited 11:13:23 AM] Mark Ostermann: so the rodmap should be an ADempiere roadmap/ contribution container -&gt; Backlog, and not a release 3.x roadmap
+[11:12:58 AM] Pradeep Lavania: I would be happy to create a documentation around the &quot;required attributes&quot; of a releasable item
+[11:13:13 AM] Victor Perez Juarez: and make simple  the release
+[11:13:45 AM] Mark Ostermann: [11:12 AM] Pradeep Lavania: 
+&lt;&lt;&lt; I would be happy to create a documentation around the &quot;required attributes&quot; of a releasable item+1
+[11:14:21 AM | Edited 11:14:33 AM] Mario Calderón: @Mark, agree. That&#39;s what it is.
+But: roadmap sounds better doesn&#39;t it ? ;)
+[11:14:32 AM] Teodor Sarca: +1
+[11:15:39 AM] Steven: @Mark,  the Functional Team would select WHAT comes in, the Technical Team decides HOW it is to be done, and the RM DOES it, supported by the teams.... and the RM decides what is able to go in easily, is of high standard?  If it needs more work it is the RMs decision?
+[11:15:43 AM] Mark Ostermann: [11:13 AM] Mario Calderón: 
+
+&lt;&lt;&lt; @Mark, agree. That&#39;s what it is.but its called &quot;ADempiere 3.8.0 Road Map&quot;. should be called &quot;ADempiere Roadmap&quot; then. or not?
+[11:16:07 AM] Victor Perez Juarez: I agree on a road map, the community always asked this, we had criticized for not having one
+[11:16:07 AM] Mark Ostermann: because we from ft/ tt cannot decide until now if it&#39;s in next release or not
+[11:16:19 AM] Mark Ostermann: [11:15 AM] Victor Perez Juarez: 
+&lt;&lt;&lt; I agree on a road map, the community always asked this, we had criticized for not having one+1
+[11:16:37 AM] Paul Aviles: https://docs.google.com/a/e-evolution.com/document/d/1PqNM0p53As4iUcrEo_eGBUtK9YyrhTDL7xiJ_87i_tY/edit?pli=1
+[11:16:55 AM] Paul Aviles: scroll over there is a grid with the list of items, it is large in my opinion
+[11:17:14 AM] Paul Aviles: put priotity and effort to get an idea how long this all will take
+[11:17:58 AM | Edited 11:18:07 AM] Mario Calderón: @Pradeep: I think ou can put your contributions in the table
+[11:17:59 AM] Victor Perez Juarez: I remember at the last conference germany someone ask about the roadmap, and we could not give an answer
+[11:18:43 AM] Pradeep Lavania: See the way I see it.....
+Let us get the complete list of available items ( Adaxa, Metas, WTC, eEvolution,etc )
+let us have a criteria to qualify each of these items against the eligibility to release ( fix/enhancement/high priority, standards, documentations, QA, etc )
+Lets us put a tentative release date based on the overall scope
+Put each of the item against the qualifying criteria and report back to the respective teams in case an items falls short of release criteria
+If the teams are able to respond within time, RM team would take responsibility to work to include it...
+Finally, we might have to reschedule the release for justified reasons, but i think this would be fair/smooth way to meet the release 3.8.0
+[11:18:48 AM] Victor Perez Juarez: I know a road map should have dates, but it is important to have a goal
+[11:19:09 AM] Victor Perez Juarez: So that I think that Colin have a good propouse
+[11:19:26 AM] Victor Perez Juarez: List new functionality
+Define what defines &quot;ready&quot; functionality
+Add what meets &quot;ready&quot; status to the &quot;backlog&quot;
+Each week the business team decides what functionality is selected from the backlog 
+and the technical team(s) estimate time 1-2 weeks max to integrate
+[11:20:49 AM] Victor Perez Juarez: @Pradeep Lavania, agree
+[11:21:09 AM] Steven: @Pradeep Lavania, agree also
+[11:21:21 AM] Pradeep Lavania: @Mario, already added a few items in the list...will add more...as they are under internal review to be finalized to be contributed
+[11:21:23 AM | Edited 11:22:25 AM] Mario Calderón: @all
+should we we put it as a task for all of us to complete the list ASAP?
+and put some information beside it to integrate it?
+We meet soon and we decide about the list. 
+We move on to the next agenda item
+[11:21:45 AM] Victor Perez Juarez: ok
+[11:22:12 AM] Victor Perez Juarez: ready
+[11:22:20 AM] Paul Aviles: agreed
+[11:22:28 AM] Victor Perez Juarez: the I think we can continue with next subject
+[11:22:37 AM] Victor Perez Juarez: 3.- Define the release management activities
+[11:23:11 AM] Victor Perez Juarez: I think that Steven told about the this activities with wallking tree
+[11:24:10 AM] John Daison Agudelo S.: @Pradeep Lavania, We are agree
+[11:24:51 AM] Victor Perez Juarez: So I want know if Pradeep and Suman know
+[11:25:37 AM] Pradeep Lavania: I understand, 
+Code review from technical/standards perspective, 
+Coordinate with respective teams in case of issues identified
+Merging into the trunk, 
+Hosted integrated solution Availability for General Testing, 
+QA report, 
+Coordinate with respective teams in case of issues identified
+request Approval from FT/TT
+once approved consider finalized
+[11:26:19 AM] Victor Perez Juarez: Of course we expect contributors collaboration, to support the release mangement
+[11:27:08 AM] Pradeep Lavania: Use case/Test case documentation, functional documentations, etc....or the required information case-to-case would be requested and expected from the Contributors
+[11:27:34 AM] Paul Aviles: Pradeep they should come from whomever is the SME
+[11:27:45 AM] Pradeep Lavania: Even the commentary in the code would be required.
+[11:28:27 AM] Pradeep Lavania: @Paul....Could be. But I would think the Contributors to take the responsibility of supplying it and SMEs approval could be a part of the approval process
+[11:28:27 AM] Mark Ostermann: [11:17 AM] Pradeep Lavania: 
+&lt;&lt;&lt; Finally, we might have to reschedule the release for justified reasons, but i think this would be fair/smooth way to meet the release 3.8.0Really don&#39;t want to bee picke, but we have decided once in FT/ TT that we would like to work like this: http://www.adempiere.com/Software_Development_Procedure#Software_Production_Cycle
+[11:28:51 AM] Mark Ostermann: Development Phase (3 Months), Stabilization Phase (1 month), Release
+[11:28:57 AM] Victor Perez Juarez: I&#39;d think that should also review and place the documentation in a single format, of course based on the documentation of the contributor
+[11:29:21 AM] Mark Ostermann: so if we don&#39;t want this anymore we should at least have a change discussion and decision
+[11:29:48 AM] Mario Calderón: I think we should stick to it as much as we can
+[11:31:00 AM] Mario Calderón: @Pradeep, Suman: in this process, the Release Manager should be also active, asking the people to do what they agreed to do
+[11:31:28 AM] Mario Calderón: because we all are busy and tend to let things rest...
+[11:32:02 AM | Edited 11:32:17 AM] Victor Perez Juarez: @Mark The problem with this approach is that it is very long, many do not have the time for it, so I would think that once defined the general plan, Wallking Tree works with the Contributors, and move faster
+[11:32:21 AM] Pradeep Lavania: @Mario....yes. RM would drive the release....but in case the contributors are not able to meet certain timelines to respond back....the priority for inclusion in the release might be downgraded.
+[11:32:39 AM] Mario Calderón: agree
+[11:33:06 AM] John Daison Agudelo S.: We need a process more agile to release more often
+[11:33:13 AM] Mark Ostermann: [11:31 AM] Victor Perez Juarez: 
+&lt;&lt;&lt; @Mark The problem with this approach is that it is very long, many do not have the time for it, so I would think that once defined the general plan, Wallking Tree works with the Contributors, and move fasterwhy? the contributors pace decides what comes into a sprint?
+[11:33:34 AM] John Daison Agudelo S.: We have a 1 year delay ADempiere 3.8
+[11:33:41 AM] Karsten Thiemann: yes - I think it is very important to show more activity
+[11:33:54 AM] Mark Ostermann: if we don&#39;t fix the release date, the contributors pace decides about the release date
+[11:34:04 AM] Mark Ostermann: so whats better?
+[11:34:33 AM] Teodor Sarca: [11:32 AM] John Daison Agudelo S.: 
+
+&lt;&lt;&lt; We need a process more agile to release more oftenchange the values (from 4months to something smaller), but why changing the principle?
+[11:34:41 AM] Paul Aviles: I think there is also a budget number to be considered no?
+[11:34:50 AM] Mario Calderón: @all: I think we have an official Procedure.
+We make the list.
+We see to that the contributions fit into the procedure
+[11:34:52 AM] Mark Ostermann: [11:33 AM] Teodor Sarca: 
+&lt;&lt;&lt; change the values (from 4months to something smaller), but why changing the principle?ok for me
+[11:35:05 AM] Steven: Mark .. if we don&#39;t fix the release date, the contributors pace decides about the release date ... no the RM just cuts it out
+[11:35:08 AM] Victor Perez Juarez: So I think that the functional or technical team team they would take the last decision on a contribution, if you have any questions wallking tree inclusion, after review by them
+[11:36:14 AM] Mark Ostermann: [11:34 AM] Steven: 
+&lt;&lt;&lt; no the RM just cuts it out[11:17 AM] Pradeep Lavania: 
+&lt;&lt;&lt; Finally, we might have to reschedule the release for justified reasons
+[11:36:21 AM] Mark Ostermann: thats why im discussing
+[11:36:40 AM | Edited 11:36:53 AM] Mark Ostermann: because it seems as if the RM will want to reschedule then ;)
+[11:36:48 AM] Mario Calderón: the contributor is kindly asked to match the procedure, or the FT/TT/community does it
+[11:38:01 AM] Paul Aviles: I am sorry, I am a bit lost, what is being discussed? need to make sure I understand for the minutes
+[11:38:12 AM] Mark Ostermann: another BIG advantage of having fixed Release dates is about decisions what comes into next release and what not
+[11:38:18 AM] Victor Perez Juarez: @Mark, I think we should change, that did not work in the past, there were no regular meetings functional or technical team team, my fear is that continue well
+[11:38:49 AM] Mario Calderón: @all: if the contribution is functionally OK, but there are some steps in the procedure missing, we can mark it as &quot;beta&quot;
+What do you think about it?
+[11:38:56 AM] Teodor Sarca: the software development procedure that we voted last time (long time ago), would act like a drummer, contribute it or not, a release will happen... that&#39;s what is wanted in open source projects. we did not respected it in past, but that&#39;s not approach&#39;s fault
+[11:39:20 AM] Mario Calderón: @Teo: agree
+[11:39:32 AM] Schöneberg, Tobias (metas.de): @Teo aggree
+[11:39:34 AM] Mario Calderón: we should stick to it, as much as we can
+[11:39:37 AM] Karsten Thiemann: yes
+[11:39:37 AM] Mark Ostermann: +1
+[11:39:44 AM] Victor Perez Juarez: agree Teo
+[11:39:55 AM] Mario Calderón: but also we should be pragmatical
+[11:40:19 AM] Victor Perez Juarez: @Teo,  Now as we make it work
+[11:40:45 AM] Mark Ostermann: great, so we can stick to our procedure ;)
+[11:41:26 AM | Edited 11:42:02 AM] Victor Perez Juarez: there is commitment to functional and technical teams to devote hours to the project defined, as the agreement said
+[11:41:53 AM] Mark Ostermann: yepp
+[11:42:26 AM | Edited 11:42:39 AM] Mario Calderón: @all, now that we are synched, can the moderator resume what we&#39;ve up to know, and what we do have still to discuss?
+[11:42:31 AM] Paul Aviles: 1.- Define a roadmap for 3.8.0
+2.- Define that contributions to be included in 3.8.0
+3.- Define the release management activities
+4.- Migrate our current repository code to github
+5.- Define a dead line to release 3.8.0
+[11:42:40 AM] Paul Aviles: which one are we discussing?
+[11:43:45 AM] Mark Ostermann: [11:41 AM] Paul Aviles: 
+&lt;&lt;&lt; 1.- Define a roadmap for 3.8.0this one is Roadmap for ADempiere (as we discussed)
+[11:43:52 AM] Steven: sorry, i have to go .. getting close to 2:00 am here . is the very first step getting for each of us to get our possible contributions into a form that WT can work with. is there an agreed format (in the wiki) Should WT review in case thet have suggestions?  then can we get a copy
+[11:43:59 AM] Victor Perez Juarez: about the time and dead lines, rather than tree wallking check the functionality and propose dates cycles and since it is a job they have to do, of course this has to be reasonable for sponsors
+[11:44:29 AM] Victor Perez Juarez: Paul we are in of dicusion of 2 and 3 subject
+[11:44:38 AM] Teodor Sarca: @Steven, good night
+[11:44:43 AM] Victor Perez Juarez: the way how we need work
+[11:44:50 AM] Steven: bye all
+[11:44:56 AM] Paul Aviles: bye steve
+[11:45:00 AM] Paul Aviles: night mate
+[11:45:09 AM | Edited 11:45:34 AM] Mark Ostermann: the procedure is roadmap -&gt; contributes plans to be finished until ... -&gt; FT check -&gt; TT check -&gt; RM List. correct?
+[11:45:11 AM] Pradeep Lavania: Good Night Steve
+[11:45:12 AM] Mark Ostermann: right?
+[11:45:16 AM | Edited 11:46:38 AM] Mark Ostermann: bye steven
+[11:45:58 AM] Victor Perez Juarez: bye Steven
+[11:46:05 AM] Mark Ostermann: so we can have the list for walking tree as soon as FT and TT have agreed
+[11:46:27 AM] Mark Ostermann: to certain contributions
+[11:47:37 AM] suman ravuri: can we put time line for this?
+[11:47:52 AM] Mark Ostermann: so th contributors should now provide their functionalities/ improvements with documentations, tests ... so that the teams can start working
+[11:47:59 AM] Mario Calderón: @Mark: this is it
+[11:48:30 AM | Edited 11:48:39 AM] Mark Ostermann: [11:46 AM] suman ravuri: 
+&lt;&lt;&lt; can we put time line for this?yepp, let&#39;s start with regular FT/ TT Meetings again
+[11:48:33 AM] Mario Calderón: @Suman: this shold be ASAP
+[11:48:48 AM] Victor Perez Juarez: may be that contributes plans to be finished -&gt; Wallkin tree make first revision and give a general diagnostic of contribution , then ask for FT and TT if exist some dubut, if not only notifies to teams
+[11:49:01 AM | Edited 11:49:50 AM] Mario Calderón: I will put a line in the document: &quot;comply to the procedure&quot; or similar
+[11:49:36 AM] Pradeep Lavania: Can we meet in another week ( 3rd June ) to discuss the list of items that we see coming from the contributors.....
+[11:50:02 AM] Pradeep Lavania: atleast we get to see the Final-Final list that we can call as &quot;available contribution&quot;
+[11:50:39 AM] Victor Perez Juarez: Pradeep Lavania, we should have a meeting for week
+[11:50:46 AM] Pradeep Lavania: Meanwhile...We would also document and share the &quot;proposed&quot; process as the qualifying criteria for inclusion in the release
+[11:50:50 AM] Victor Perez Juarez: as minimal
+[11:51:42 AM] Victor Perez Juarez: @Pradeep  is very important, so that it work will usefull in next contributions
+[11:51:51 AM] Mario Calderón: may I suggest that the matter or repository is discussed anyway? this is a technical matter
+[11:51:55 AM] Victor Perez Juarez: yes
+[11:52:09 AM] Victor Perez Juarez: MArio let conclude this subject with a summary
+[11:53:44 AM] suman ravuri: when is next FT/TT meeting scheduled
+[11:53:50 AM] Mario Calderón: I will ask Norbert to include Pradeep and Suman in the Technical Team
+[11:54:01 AM] Paul Aviles: do we have any deliverables from this meeting?
+[11:54:12 AM] Mark Ostermann: [11:52 AM] suman ravuri: 
+&lt;&lt;&lt; when is next FT/TT meeting scheduledsuggestion: same time next week?
+[11:54:19 AM] Victor Perez Juarez: Functional and technical teams must work closely with wallking  Tree in realizing the plan
+[11:54:33 AM] Pradeep Lavania: I would like to share a &quot;Proposed process&quot; document to all of you....as a follow up to this meeting
+[11:54:38 AM] Mario Calderón: I would like that the issue of repositoty is discussed
+[11:54:56 AM] Victor Perez Juarez: Functional and Team hope we can keep up with release management
+[11:55:09 AM] Mario Calderón: perhaps not here and now, but the technical people should take a descision soon
+[11:55:39 AM] Mario Calderón: @Pradeep: go ahead
+[11:55:49 AM] Victor Perez Juarez: next subject 4.- Migrate our current repository code to github
+[11:56:20 AM] Victor Perez Juarez: @Pradeep  agree
+[11:56:41 AM] Victor Perez Juarez: about the currect repository
+[11:56:55 AM] Victor Perez Juarez: we have a lot the issues with current repository
+[11:57:12 AM] Victor Perez Juarez: 1.- the sourceforget not work before migration
+[11:57:52 AM] Schöneberg, Tobias (metas.de): [11:54 AM] Victor Perez Juarez: 
+&lt;&lt;&lt;  4.- Migrate our current repository code to githubi thought that now SF is updated, those problems are history..arent&#39; they?
+[11:57:54 AM] Trifon: @Victor every Distributed SCM will have problems with huge repo like ADempeire
+[11:58:01 AM] Trifon: i think we should move back to SVN.
+[11:58:05 AM] Victor Perez Juarez: 2.- The community complains that our repository is very large, it is impossible to download
+[11:59:21 AM] Victor Perez Juarez: 3.- Sourceforget no tiene un servicio para descargar solo un branch o el codigo como github or bitbucket
+[11:59:38 AM] Teodor Sarca: :)
+[11:59:49 AM] Schöneberg, Tobias (metas.de): [11:57 AM] Victor Perez Juarez: 
+&lt;&lt;&lt; 2.- The community complains that our repository is very large, it is impossible to downloadhow would this be better using github?
+[12:00:02 PM] Victor Perez Juarez: 4.- Sourceforget is very slow
+[12:00:18 PM] Paul Aviles: isnt the whole repo less than 2 GB?
+[12:00:28 PM] Victor Perez Juarez: So the propouse is move anyother place to solve this issue
+[12:00:32 PM] Schöneberg, Tobias (metas.de): regarding that problem (big repo) in general, we can move the jar&#39;s out of the repo and download them as part of the build provess..it&#39;s not a difficult thing
+[12:00:41 PM] Paul Aviles: can we move the report to one of the DE servers?
+[12:00:47 PM] Paul Aviles: repo sorry...
+[12:00:49 PM] Victor Perez Juarez: the 2 alternatives is or github or bitbucket
+[12:01:26 PM] suman ravuri: [11:59 AM] Schöneberg, Tobias (metas.de): 
+&lt;&lt;&lt; regarding that problem (big repo) in general, we can move the jar&#39;s out of the repo and download them as part of the build provess..it&#39;s not a difficult thingMavenization with combination of artifactory we can do this
+[12:01:37 PM] Trifon: @Pauls less then 2 GB :)
+[12:01:45 PM] Paul Aviles: du -hs /opt/hg-repositories/adempiere.hg
+1.8G    /opt/hg-repositories/adempiere.hg
+[12:01:53 PM] Paul Aviles: so what is the issue of downloading?
+[12:01:59 PM] Trifon: in fact to build adempeire you just need specific version or trunk... not the whole history
+[12:02:03 PM] Victor Perez Juarez: you can ask of Trifon
+[12:02:27 PM] Victor Perez Juarez: or any contributor that have not the networking that exist in USA ;)
+[12:02:34 PM | Edited 12:03:08 PM] Schöneberg, Tobias (metas.de): [12:00 PM] suman ravuri: 
+&lt;&lt;&lt; Mavenization with combination of artifactory we can do thiseasier: we can extend the ant build-files using maven-ant tasks, to so the downloading
+..and most of the jars are already in ADeV nexus (thx to silvano)
+[12:03:00 PM] Teodor Sarca: [12:00 PM] Trifon: 
+&lt;&lt;&lt; in fact to build adempeire you just need specific version or trunk... not the whole historythat problem can be easily solved by having -source.zips near the release... but as a developer, i consider having all the repo on my machine it&#39;s helpful
+[12:03:02 PM] Paul Aviles: I think we will have much better code and control using maveninging and nexus
+[12:03:19 PM] Victor Perez Juarez: pros and cons
+[12:03:50 PM | Edited 12:04:37 PM] Victor Perez Juarez: 1.- in github we have the adempiere domain, Teo ask and we have the control, in bitbucket we have not , but should use any other domain as adempiereERP
+[12:04:45 PM] Schöneberg, Tobias (metas.de): so do we in SF and bitbucket :)
+[12:05:01 PM] Schöneberg, Tobias (metas.de): we don&#39;T have it in bitbucket??
+[12:05:24 PM | Edited 12:05:46 PM] Teodor Sarca: imho, if possible, i would avoid switching the repo type... remember that we had problems, last time, when we switched from SVN to mercurial
+[12:05:36 PM] Victor Perez Juarez: 2.- compression algorithms, so the pulls and push are more efficient than in mercurial
+[12:06:15 PM] Paul Aviles: you can do compression on both http and ssh access victor under hg
+[12:06:32 PM] Victor Perez Juarez:  3.- Git to download only the branch with which you&#39;re working, so it is more efficient than mercury that do not require the whole story
+[12:07:15 PM] Teodor Sarca: 3. ... that&#39;s an advantage and a disadvantage in the same time
+[12:07:19 PM] Paul Aviles: I think this will delay anything on the roadmap, lets consider  that too please
+[12:07:46 PM] Teodor Sarca: agree
+[12:08:04 PM | Edited 12:08:28 PM] Victor Perez Juarez: 4.-  Many open source projects currently working with github, so it is highly recommended by the developers of other projects
+[12:08:07 PM] Mario Calderón: is the repository switch Prio 1?
+[12:08:21 PM] Mark Ostermann: @paul: agree. don&#39;t see the importance to dicsuss migration to other repos now.
+[12:08:23 PM] Mario Calderón: or can it be done after the release of 3.8?
+[12:09:01 PM] suman ravuri: [12:07 PM] Mario Calderón: 
+&lt;&lt;&lt; or can it be done after the release of 3.8?agree, in keeping 3.8 release perpective
+[12:09:02 PM] John Daison Agudelo S.: El 27/05/13, a las 11:06, Paul Aviles escribió:
+&gt; I think this will delay anything on the roadmap, lets consider  that too please
+I Agree
+[12:09:04 PM] Victor Perez Juarez: 5.- bitbucket only allows four free accounts, I think we will be sufficient for the future
+[12:09:08 PM] Paul Aviles: agree victor, it is more popular, but is that a technical limitation? if anyone does not have 2 GB of space locally on their computers they need a new one and a bigger internet connection
+[12:09:25 PM] Paul Aviles: what else is not working in hg?
+[12:10:26 PM] Victor Perez Juarez: in sourceforget not work the commits history
+[12:10:39 PM] Victor Perez Juarez: we have not browser navegation
+[12:10:49 PM] Victor Perez Juarez: and a compare the change log
+[12:11:09 PM] Paul Aviles: ok that is an issue they need to fix, has anyone contacted them and open a case and do we have a documented answer from SF?
+[12:11:45 PM] Victor Perez Juarez: not work
+[12:11:46 PM] Victor Perez Juarez: https://sourceforge.net/p/adempiere/code/ref/default/
+[12:12:01 PM] Victor Perez Juarez: https://sourceforge.net/p/adempiere/code/commit_browser
+[12:12:01 PM] Victor Perez Juarez: not work
+[12:12:14 PM] Paul Aviles: ok but you can use tortoise or any of the hg clients out there
+[12:12:39 PM] Victor Perez Juarez: we ask the SF team , Mario made and they no anware
+[12:12:56 PM] Paul Aviles: i can take that since they are here in US
+[12:13:28 PM] Victor Perez Juarez: we need basic services , you can compare
+[12:13:29 PM] Victor Perez Juarez: https://github.com/adempiere/extension_libero_manufacturing
+[12:13:41 PM] Victor Perez Juarez: commit history
+[12:13:42 PM] Victor Perez Juarez: https://github.com/adempiere/extension_libero_manufacturing/commits/master
+[12:13:44 PM] Paul Aviles: look, if we are going to change lets decide and change, but for me this is just a tool and there are ways around to work with it, being that it was a pain to switch in the first place. This will delay anything for a few months
+[12:13:59 PM] Victor Perez Juarez: the change log
+[12:14:00 PM] Victor Perez Juarez: https://github.com/adempiere/extension_libero_manufacturing/commit/3c3520d2e2ca19cc29fa9e8630718f5a02051f3b
+[12:14:16 PM] Paul Aviles: I agree victor, but I can see them also in my hg client without any issues
+[12:14:37 PM] Victor Perez Juarez: So I think we should have a respectable space to work :)
+[12:14:57 PM] Victor Perez Juarez: and current sf does not meet the expectations
+[12:15:17 PM] Paul Aviles: Ok, is there then a motion to move away from HG in SF?
+[12:15:39 PM] Victor Perez Juarez: the problem is not like you so you can watch your client, if not the image you reflect project out
+[12:15:56 PM] Mario Calderón: @all: again here: can Victor, Tobi, Teo , Suman, etc. meet?
+there the problems are discussed and a resolution taken
+[12:16:27 PM] Mario Calderón: then we decide to migrate or not, and if yes- when
+[12:17:11 PM] Teodor Sarca: fully agree with Victor, but imho this will add another sand bag to the balon that we struggle to lift ;)
+[12:17:15 PM] Victor Perez Juarez: the current environment is a mess, any new contributor comes when you see sf services will not work, not to have a change control system decent
+[12:17:36 PM] Paul Aviles: why did we move in the first place then?
+[12:17:59 PM] Schöneberg, Tobias (metas.de): imho it did beat svn :)
+[12:18:09 PM] Trifon: @Paul SVN was just fine.
+[12:18:34 PM] Victor Perez Juarez: Trifon the issue with SVN
+[12:18:41 PM] Schöneberg, Tobias (metas.de): maybe we can set up this migration effort like a contribution ?
+[12:18:50 PM] Trifon: SVN did not had issues with SVN.
+[12:18:54 PM] Schöneberg, Tobias (metas.de): with a concept and documentation
+[12:19:00 PM] Victor Perez Juarez: is that not allow execute the development procedure
+[12:19:00 PM] John Daison Agudelo S.: I agree with Victor But maybe make this in another moment may be after of release 3.8
+[12:19:10 PM] suman ravuri: Let us not get into that discussion now
+[12:19:12 PM] Trifon: I was receving email for each commit in SVN. something which is not working with Marcurial
+[12:19:30 PM] Victor Perez Juarez: We certainly require a distributed change control
+[12:20:06 PM] Victor Perez Juarez: so we need move if not github for any other place that can work
+[12:20:08 PM] Trifon: I doubt that such HUGE code require Distrubted SCM. Look at the compplains in the forums about the size of the repo and downlaod speed.
+[12:20:24 PM] Victor Perez Juarez: becasue current sf not allow as we should work
+[12:20:50 PM] Mark Ostermann: @all: a nontechnical point of view about SF vs. bitbucket/ githib. SF has &gt; 200.000 Projects. ADempiere was once in the Top 10. Would be a great aim to manage to get back there. I don&#39;t know if it is a great deal to get into the top 10 of bb/ gh. just my 2 cents.
+[12:20:50 PM] Victor Perez Juarez: @Trifon, I know
+[12:21:15 PM] Victor Perez Juarez: and git solve this issue allow to development only download the branch that you need not all repository
+[12:21:43 PM] Teodor Sarca: [12:19 PM] Trifon: 
+&lt;&lt;&lt; I doubt that such HUGE code require Distrubted SCM. Look at the compplains in the forums about the size of the repo and downlaod speed.i think that sites like bitbucket or github offers some SVN bridge ....
+[12:21:45 PM] suman ravuri: [12:18 PM] Victor Perez Juarez: 
+&lt;&lt;&lt; We certainly require a distributed change controlAgree, some one will start working on it, but may not be pat of 3.8 release
+[12:21:47 PM] Victor Perez Juarez: So I think that the important here is no is if not move or not
+[12:21:53 PM] Victor Perez Juarez: ifnot how will solve this issues
+[12:22:31 PM] Paul Aviles: can someone put together a list of item to address with SF and I will address with them please
+[12:22:39 PM] Mark Ostermann: ok, just seen that gh has more than 5 mio repos
+[12:22:39 PM] Paul Aviles: lets move to the next item
+[12:23:32 PM] Schöneberg, Tobias (metas.de): @paul: agree, i don&#39;t think we can come to a good conclusion this time
+[12:23:37 PM] Teodor Sarca: can we come to a conclusion on this one? my conclusion is: i won&#39;t change this before release
+[12:23:42 PM] Victor Perez Juarez: So I propose to Paul as the defender of mercurial, to solve the problems if this is resuleto promise to say no more of mercurial ;)
+[12:23:45 PM] Paul Aviles: @Teo agree
+[12:24:03 PM] Mark Ostermann: @teo: +1
+[12:24:10 PM] Paul Aviles: I am no defender of it, I hate the damn thing... but I manage to make it work
+[12:24:50 PM] Paul Aviles: get me the list and I can address with SF, it is up to them to fix their issues
+[12:25:05 PM] Paul Aviles: or give us a &quot;roadmap&quot;
+[12:25:14 PM] John Daison Agudelo S.: @teo: I agree
+[12:25:36 PM] Victor Perez Juarez: just remember Trifon point, not everyone has good network connections that are in the U.S. or Europe
+[12:25:40 PM] Paul Aviles: so Victor can you send me the list of HG issues?
+[12:26:27 PM] Victor Perez Juarez: Pradep what is repository that use Wallking Tree  for your developments?
+[12:26:31 PM] Victor Perez Juarez: yes Paul
+[12:26:44 PM] suman ravuri: we use SVN
+[12:27:16 PM | Edited 12:27:25 PM] Teodor Sarca: [12:24 PM] Victor Perez Juarez: 
+&lt;&lt;&lt; just remember Trifon point, not everyone has good network connections that are in the U.S. or Europei think we can put the repo on something like bittorrent or other download sites... after u have the repo, updating it with latest commits it&#39;s piece of cake... just loud thinking
+[12:27:59 PM] Victor Perez Juarez: yes , Teo we need fix the old notice
+[12:28:07 PM] Victor Perez Juarez: becasue with the migration it not work
+[12:28:23 PM] Schöneberg, Tobias (metas.de): [12:24 PM] Victor Perez Juarez: 
+&lt;&lt;&lt; just remember Trifon point, not everyone has good network connections that are in the U.S. or Europebefore going through another migration, i would like to have some concept, and a discussion of workarounds (e.g. there no need to check out the full repo) and fixes for the problems the have with SF
+[12:28:33 PM] Victor Perez Juarez: before any commit was send the development mail list
+[12:28:40 PM] Teodor Sarca: not to add that, if u have slow connection, accessing the history in SVN or similar is a huge pain.... so win some, lose some...
+[12:28:43 PM] Victor Perez Juarez: now it not si work
+[12:29:26 PM] Victor Perez Juarez: a decision we can make is to leave the story up to date
+[12:29:51 PM] Paul Aviles: guys I deal everyday with issues connecting to SAP in Walldorf and I garantee you that more people download updates and access SAP than adempiere, speed is not controlled by the dvcs
+[12:31:01 PM] Victor Perez Juarez: ok
+[12:31:04 PM] Paul Aviles: item 5 was the deadline for release 3.8, I guess we dont have that?
+[12:31:29 PM] Victor Perez Juarez: then the subject of agenda 4.- Migrate our current repository code to github change for :
+[12:31:47 PM] Victor Perez Juarez: 4.- Solve the issue with the curent mercurial repository
+[12:32:04 PM] Teodor Sarca: agree
+[12:32:10 PM] Victor Perez Juarez: 5.- Define a dead line to release 3.8.0
+[12:32:20 PM] Mark Ostermann: [12:30 PM] Victor Perez Juarez: 
+&lt;&lt;&lt; 4.- Solve the issue with the curent mercurial repository+1
+[12:32:45 PM] Victor Perez Juarez: I think that wallking tree should have an dead line dates
+[12:32:54 PM] Victor Perez Juarez: based on your revision
+[12:33:05 PM] Mark Ostermann: nope, don&#39;t think so
+[12:33:18 PM] Victor Perez Juarez: of course this shoudl be review for FT and TT
+[12:33:40 PM] Victor Perez Juarez: and the dates should be acceptables with our goal
+[12:33:48 PM] Teodor Sarca: i think this shall somehow relate with our dev. cycle and maybe....
+[12:33:50 PM] Teodor Sarca: [11:33 AM] Teodor Sarca: 
+&lt;&lt;&lt; We need a process more agile to release more oftenchange the values (from 4months to something smaller), but why changing the principle?
+[12:33:54 PM] Mark Ostermann: the deadline can already be defined
+[12:34:06 PM] Victor Perez Juarez: so we should give some estimate dates
+[12:34:11 PM | Edited 12:34:46 PM] John Daison Agudelo S.: El 27/05/13, a las 11:30, Victor Perez Juarez escribió:
+&gt; then the subject of agenda 4.- Migrate our current repository code to github change for :
+4.- Solve the issue with the curent mercurial repository
+I agree
+[12:34:13 PM] Mark Ostermann: the FT/ TT together with RM decides what will be put into that release
+[12:34:52 PM] suman ravuri: let us discuss in FT/TT and go for voting
+[12:35:04 PM] Victor Perez Juarez: could be for a release for each month until you achieve the general plan
+[12:35:18 PM] Paul Aviles: can I add one extra item to the agenda?
+[12:36:02 PM] Victor Perez Juarez: @Mark agree, but we must begin to show progress
+[12:36:35 PM] Victor Perez Juarez: we should plan early and frequent releases
+[12:37:18 PM] Mark Ostermann: @victor: yes, thats why we should create the &quot;ADempiere Roadmap&quot;, do the FT and TT work, and provide the voted &quot;Tasks&quot; to RM
+[12:37:20 PM] Victor Perez Juarez: Maybe anybody do we release candidate 1, 2, 3 hata achieve the goal 3.8.0
+[12:37:21 PM] Mario Calderón: when should the TT meet again to resolve the Repository issue?
+and when should we meet as FT/TT?
+[12:37:39 PM] Mark Ostermann: how about next week same time?
+[12:37:57 PM] Schöneberg, Tobias (metas.de): sry, i need to leave right now..in case of voting, I would vote whatever mark votes :)
+[12:37:58 PM] Victor Perez Juarez: even as Mario says if something still not fully concuido may release as benta for help with testing testers
+[12:38:26 PM] Mario Calderón: ok
+[12:38:33 PM] Victor Perez Juarez: the next meeting for me is ok the same day and hour
+[12:38:34 PM] Mark Ostermann: bye tobi
+[12:38:35 PM] Paul Aviles: I love to participate but cannot do it in the middle of the day. I can do it any sat/sun if that helps. Lucky is a holiday here in the US otherwise I cannot
+[12:38:37 PM] Mario Calderón: so FT/TT meets in 1 week same time...
+[12:38:44 PM] Teodor Sarca: cu tobi
+[12:38:54 PM] Victor Perez Juarez: but Steven Ask me if we can have the meeting more early
+[12:39:01 PM] Mario Calderón: when meets TT concerning repository?
+[12:39:40 PM] Victor Perez Juarez: becasue in Australia very late
+[12:39:50 PM] Mark Ostermann: [12:38 PM] Mario Calderón: 
+&lt;&lt;&lt; when meets TT concerning repository?can be discussed after 3.8, or?
+[12:39:52 PM] Mario Calderón: what about 12:00 hours GMT?
+[12:40:02 PM] Victor Perez Juarez: Although Steve has no problem
+[12:40:13 PM] Mark Ostermann: 12h GMT is ok for us
+[12:40:20 PM] Teodor Sarca: fine for me too
+[12:40:28 PM] Paul Aviles: can you guys please add these to the agenda
+[12:40:29 PM | Edited 12:41:21 PM] Paul Aviles: 6 - Yearly meeting
+7 - Wiki/Web Redesign
+[12:40:29 PM] John Daison Agudelo S.: for me too
+[12:40:34 PM] suman ravuri: I am ok with this
+[12:41:51 PM | Edited 12:41:59 PM] Teodor Sarca: as i see it, so far we have a list of things we propose for contributing. so far, there are no dates about when those features will be available, not sure if we can provide those dates in this meeting. so, i think all that we can do, is establish when we do next meeting and do our best until then...
+[12:42:13 PM] Victor Perez Juarez: for me is ok 12 GTM
+[12:42:39 PM] Victor Perez Juarez: Paul I ask for this subject the CC
+[12:42:43 PM] Mario Calderón: we can move forward, even before we meet
+[12:42:47 PM] Victor Perez Juarez: about the a new portal management
+[12:42:56 PM] Victor Perez Juarez: I hope that they can answare soon
+[12:43:20 PM] Victor Perez Juarez: We can remember now to MArio and Ramiro for some answare :)
+[12:43:48 PM] Victor Perez Juarez: ok somebody have some other subject
+[12:43:51 PM] Paul Aviles: too bad CoreMedia is not open source :)
+[12:44:29 PM] Victor Perez Juarez: I ask if we can install liferay
+[12:44:36 PM] Paul Aviles: I know traditionally the ADev meetings are in germany, any objections to having alternates and have one this year in the US?
+[12:44:53 PM] Victor Perez Juarez: ok the we can finish with this agenda
+[12:45:09 PM] Trifon: @Paul yes the money :)
+[12:45:15 PM] Trifon: for the ticket to fly to USA
+[12:45:33 PM] Paul Aviles: ok, lets trade you pay mine to DE
+[12:45:45 PM] Victor Perez Juarez: then a lot everybody, we can close the metting and continue with open discusion
+[12:46:09 PM] John Daison Agudelo S.: ticket to travel from america to germany for us is very expensive too
+[12:46:18 PM] Mario Calderón: ok
+[12:46:30 PM] Mario Calderón: then: Paul is writng the minutes
+[12:46:38 PM] Paul Aviles: hence &quot;alternating&quot;
+[12:46:46 PM] Mario Calderón: Paul: you have to do it here:
+[12:47:13 PM] Mark Ostermann: ok, thanks to all. see u next week again. bye.
+[12:47:14 PM] Paul Aviles: i know
+[12:47:26 PM] Teodor Sarca: Thailand can be an option too ;)
+[12:47:28 PM] Teodor Sarca: cu mark
+[12:47:33 PM] Victor Perez Juarez: yes I will like make an Adempiere conference in American
+[12:47:36 PM] Paul Aviles: ok after US... :)
+[12:47:37 PM] John Daison Agudelo S.: Ok, thanks to all.  bye
+[12:47:45 PM] Colin Rooney: bye all
+[12:47:50 PM] Mario Calderón: bye
+[12:47:54 PM] Victor Perez Juarez: bye bye colin
+[12:48:00 PM] Victor Perez Juarez: bye bye mario
+[12:48:05 PM] John Daison Agudelo S.: @paul I like your idea
+[12:48:07 PM] Victor Perez Juarez: bye John
+[12:48:22 PM] Teodor Sarca: bye
+[12:48:32 PM] Victor Perez Juarez: if we can not can make that can be as AdeV
+[12:48:34 PM] Paul Aviles: Victor I will not be able to join during the week, please address the meeting
+[12:49:28 PM] Victor Perez Juarez: then can make for ameriacan people , of cource we can invited All our friends in Europe and Asia
+[12:50:07 PM] Victor Perez Juarez: So Paul while the CC give some anwared about the hosting
+[12:50:20 PM] Victor Perez Juarez: and domain I am setup an proposal
+[12:50:30 PM] Victor Perez Juarez: http://50.18.54.56:8081/
+[12:50:40 PM] Victor Perez Juarez: I sorry until now is only an draft
+[12:50:50 PM] Victor Perez Juarez: it are mount in liferay
+[12:50:55 PM] Paul Aviles: I like the picture, why not business related?
+[12:51:14 PM] Victor Perez Juarez: in a begin we ask for an domain for community spanish and an domain
+[12:51:24 PM] Colin Rooney: wherever that picture is ... that&#39;s were you should have your next conference :D
+[12:51:25 PM] Teodor Sarca: see.... there we shall do the conference! :)
+[12:51:30 PM] Colin Rooney: snap!
+[12:51:44 PM] Paul Aviles: but Teo, that is right here in Fort Lauderdale!
+[12:51:46 PM] Paul Aviles: :)
+[12:51:47 PM] Victor Perez Juarez: as I ask I am using the standard lokk and feal , I need change the images
+[12:51:54 PM] Victor Perez Juarez: in only the thema
+[12:51:55 PM] Colin Rooney: :)
+[12:52:07 PM] Paul Aviles: we should use confluence for the wili
+[12:52:30 PM] Teodor Sarca: nice! what u were saying about next conf in US? :)))))
+[12:52:56 PM] Victor Perez Juarez: I need  business image that not violate copyright
+[12:53:18 PM] Victor Perez Juarez: yes Paul and me have this propouse
+[12:53:28 PM] Victor Perez Juarez: so you can travel to USA or Cancun
+[12:53:30 PM] Victor Perez Juarez: :)
+[12:53:56 PM] Paul Aviles: I dont think my wife will think I am going to business jaja
+[12:55:01 PM] Teodor Sarca: and what do you believe ? :)))
+[12:55:27 PM] Victor Perez Juarez: then you need go with your wife Paul
+[12:55:28 PM] Colin Rooney: I thought you were a good sales man Paul?  You gotta sell it!! :D
+[12:55:43 PM] Paul Aviles: aha... 20 years of selling...
+[12:55:47 PM] Colin Rooney: lol
+[12:55:57 PM] Teodor Sarca: :)
+[12:55:58 PM] Victor Perez Juarez: then you have not issue
+[12:56:05 PM] Colin Rooney: I&#39;ve got to go ... take care guys
+[12:56:13 PM] Victor Perez Juarez: a good saler cna sole this little issue
+[12:56:44 PM] Paul Aviles: yes, she does not believe me a word after 20 years of &quot;selling&quot;..
+[12:57:36 PM] John Daison Agudelo S.: I like cancun or USA
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div><!----><footer class="page-meta"><div class="meta-item edit-link"><a href="https://github.com/adempiere/adempiere-site/edit/main/src/community/wiki/meetings/FT-2013/FT-20130527.md" rel="noopener noreferrer" target="_blank" aria-label="Edit this page" class="nav-link label"><!--[--><svg xmlns="http://www.w3.org/2000/svg" class="icon edit-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="edit icon"><path d="M430.818 653.65a60.46 60.46 0 0 1-50.96-93.281l71.69-114.012 7.773-10.365L816.038 80.138A60.46 60.46 0 0 1 859.225 62a60.46 60.46 0 0 1 43.186 18.138l43.186 43.186a60.46 60.46 0 0 1 0 86.373L588.879 565.55l-8.637 8.637-117.466 68.234a60.46 60.46 0 0 1-31.958 11.229z"></path><path d="M728.802 962H252.891A190.883 190.883 0 0 1 62.008 771.98V296.934a190.883 190.883 0 0 1 190.883-192.61h267.754a60.46 60.46 0 0 1 0 120.92H252.891a69.962 69.962 0 0 0-69.098 69.099V771.98a69.962 69.962 0 0 0 69.098 69.098h475.911A69.962 69.962 0 0 0 797.9 771.98V503.363a60.46 60.46 0 1 1 120.922 0V771.98A190.883 190.883 0 0 1 728.802 962z"></path></svg><!--]-->Edit this page<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span><!----></a></div><div class="meta-item update-time"><span class="label">Last update: </span><span class="info">8/29/2023, 10:51:16 PM</span></div><div class="meta-item contributors"><span class="label">Contributors: </span><!--[--><!--[--><span class="contributor" title="email: 134967453+tecnicoerp@users.noreply.github.com">Jesús Albujas</span><!--]--><!--]--></div></footer><nav class="page-nav"><a href="/community/wiki/meetings/FT-2013/FT-20130603.html" class="nav-link prev" aria-label="FT/TT meeting minutes June 3rd 2013"><div class="hint"><span class="arrow left"></span>Prev</div><div class="link"><!---->FT/TT meeting minutes June 3rd 2013</div></a><a href="/community/wiki/meetings/FT-2013/FT-20131112.html" class="nav-link next" aria-label="FT/TT meeting minutes November 12th 2013"><div class="hint">Next<span class="arrow right"></span></div><div class="link">FT/TT meeting minutes November 12th 2013<!----></div></a></nav><div class="waline-wrapper" style="display:block;" darkmode="false"><div data-waline provider="Waline"><div class="wl-comment"><!--v-if--><div class="wl-panel"><div class="wl-header item3"><!--[--><div class="wl-header-item"><label for="nick">NickName</label><input id="wl-nick" class="wl-input wl-nick" name="nick" type="text" value></div><div class="wl-header-item"><label for="mail">E-Mail</label><input id="wl-mail" class="wl-input wl-mail" name="mail" type="email" value></div><div class="wl-header-item"><label for="link">Website</label><input id="wl-link" class="wl-input wl-link" name="link" type="text" value></div><!--]--></div><textarea class="wl-editor" id="wl-edit" placeholder="Write a comment here (Fill in the email address to receive an email notification when being replied)"></textarea><div class="wl-preview" style="display:none;"><hr><h4>Preview:</h4><div class="wl-content"></div></div><div class="wl-footer"><div class="wl-actions"><a href="https://guides.github.com/features/mastering-markdown/" title="Markdown Guide" aria-label="Markdown is supported" class="wl-action" target="_blank" rel="noreferrer"><svg width="16" height="16" ariahidden="true"><path d="M14.85 3H1.15C.52 3 0 3.52 0 4.15v7.69C0 12.48.52 13 1.15 13h13.69c.64 0 1.15-.52 1.15-1.15v-7.7C16 3.52 15.48 3 14.85 3zM9 11H7V8L5.5 9.92 4 8v3H2V5h2l1.5 2L7 5h2v6zm2.99.5L9.5 8H11V5h2v3h1.5l-2.51 3.5z" fill="currentColor"></path></svg></a><button class="wl-action" title="Emoji" style="display:none;"><svg viewbox="0 0 1024 1024" width="24" height="24"><path d="M563.2 463.3 677 540c1.7 1.2 3.7 1.8 5.8 1.8.7 0 1.4-.1 2-.2 2.7-.5 5.1-2.1 6.6-4.4l25.3-37.8c1.5-2.3 2.1-5.1 1.6-7.8s-2.1-5.1-4.4-6.6l-73.6-49.1 73.6-49.1c2.3-1.5 3.9-3.9 4.4-6.6.5-2.7 0-5.5-1.6-7.8l-25.3-37.8a10.1 10.1 0 0 0-6.6-4.4c-.7-.1-1.3-.2-2-.2-2.1 0-4.1.6-5.8 1.8l-113.8 76.6c-9.2 6.2-14.7 16.4-14.7 27.5.1 11 5.5 21.3 14.7 27.4zM387 348.8h-45.5c-5.7 0-10.4 4.7-10.4 10.4v153.3c0 5.7 4.7 10.4 10.4 10.4H387c5.7 0 10.4-4.7 10.4-10.4V359.2c0-5.7-4.7-10.4-10.4-10.4zm333.8 241.3-41-20a10.3 10.3 0 0 0-8.1-.5c-2.6.9-4.8 2.9-5.9 5.4-30.1 64.9-93.1 109.1-164.4 115.2-5.7.5-9.9 5.5-9.5 11.2l3.9 45.5c.5 5.3 5 9.5 10.3 9.5h.9c94.8-8 178.5-66.5 218.6-152.7 2.4-5 .3-11.2-4.8-13.6zm186-186.1c-11.9-42-30.5-81.4-55.2-117.1-24.1-34.9-53.5-65.6-87.5-91.2-33.9-25.6-71.5-45.5-111.6-59.2-41.2-14-84.1-21.1-127.8-21.1h-1.2c-75.4 0-148.8 21.4-212.5 61.7-63.7 40.3-114.3 97.6-146.5 165.8-32.2 68.1-44.3 143.6-35.1 218.4 9.3 74.8 39.4 145 87.3 203.3.1.2.3.3.4.5l36.2 38.4c1.1 1.2 2.5 2.1 3.9 2.6 73.3 66.7 168.2 103.5 267.5 103.5 73.3 0 145.2-20.3 207.7-58.7 37.3-22.9 70.3-51.5 98.1-85 27.1-32.7 48.7-69.5 64.2-109.1 15.5-39.7 24.4-81.3 26.6-123.8 2.4-43.6-2.5-87-14.5-129zm-60.5 181.1c-8.3 37-22.8 72-43 104-19.7 31.1-44.3 58.6-73.1 81.7-28.8 23.1-61 41-95.7 53.4-35.6 12.7-72.9 19.1-110.9 19.1-82.6 0-161.7-30.6-222.8-86.2l-34.1-35.8c-23.9-29.3-42.4-62.2-55.1-97.7-12.4-34.7-18.8-71-19.2-107.9-.4-36.9 5.4-73.3 17.1-108.2 12-35.8 30-69.2 53.4-99.1 31.7-40.4 71.1-72 117.2-94.1 44.5-21.3 94-32.6 143.4-32.6 49.3 0 97 10.8 141.8 32 34.3 16.3 65.3 38.1 92 64.8 26.1 26 47.5 56 63.6 89.2 16.2 33.2 26.6 68.5 31 105.1 4.6 37.5 2.7 75.3-5.6 112.3z" fill="currentColor"></path></svg></button><button class="wl-action" title="GIF"><svg width="24" height="24" fill="currentcolor" viewbox="0 0 24 24"><path style="transform: translateY(0.5px)" d="M18.968 10.5H15.968V11.484H17.984V12.984H15.968V15H14.468V9H18.968V10.5V10.5ZM8.984 9C9.26533 9 9.49967 9.09367 9.687 9.281C9.87433 9.46833 9.968 9.70267 9.968 9.984V10.5H6.499V13.5H8.468V12H9.968V14.016C9.968 14.2973 9.87433 14.5317 9.687 14.719C9.49967 14.9063 9.26533 15 8.984 15H5.984C5.70267 15 5.46833 14.9063 5.281 14.719C5.09367 14.5317 5 14.2973 5 14.016V9.985C5 9.70367 5.09367 9.46933 5.281 9.282C5.46833 9.09467 5.70267 9.001 5.984 9.001H8.984V9ZM11.468 9H12.968V15H11.468V9V9Z"></path><path d="M18.5 3H5.75C3.6875 3 2 4.6875 2 6.75V18C2 20.0625 3.6875 21.75 5.75 21.75H18.5C20.5625 21.75 22.25 20.0625 22.25 18V6.75C22.25 4.6875 20.5625 3 18.5 3ZM20.75 18C20.75 19.2375 19.7375 20.25 18.5 20.25H5.75C4.5125 20.25 3.5 19.2375 3.5 18V6.75C3.5 5.5125 4.5125 4.5 5.75 4.5H18.5C19.7375 4.5 20.75 5.5125 20.75 6.75V18Z"></path></svg></button><input class="upload" id="wl-image-upload" type="file" accept=".png,.jpg,.jpeg,.webp,.bmp,.gif"><label for="wl-image-upload" class="wl-action" title="Upload Image"><svg viewbox="0 0 1024 1024" width="24" height="24"><path d="M784 112H240c-88 0-160 72-160 160v480c0 88 72 160 160 160h544c88 0 160-72 160-160V272c0-88-72-160-160-160zm96 640c0 52.8-43.2 96-96 96H240c-52.8 0-96-43.2-96-96V272c0-52.8 43.2-96 96-96h544c52.8 0 96 43.2 96 96v480z" fill="currentColor"></path><path d="M352 480c52.8 0 96-43.2 96-96s-43.2-96-96-96-96 43.2-96 96 43.2 96 96 96zm0-128c17.6 0 32 14.4 32 32s-14.4 32-32 32-32-14.4-32-32 14.4-32 32-32zm462.4 379.2-3.2-3.2-177.6-177.6c-25.6-25.6-65.6-25.6-91.2 0l-80 80-36.8-36.8c-25.6-25.6-65.6-25.6-91.2 0L200 728c-4.8 6.4-8 14.4-8 24 0 17.6 14.4 32 32 32 9.6 0 16-3.2 22.4-9.6L380.8 640l134.4 134.4c6.4 6.4 14.4 9.6 24 9.6 17.6 0 32-14.4 32-32 0-9.6-4.8-17.6-9.6-24l-52.8-52.8 80-80L769.6 776c6.4 4.8 12.8 8 20.8 8 17.6 0 32-14.4 32-32 0-8-3.2-16-8-20.8z" fill="currentColor"></path></svg></label><button class="wl-action" title="Preview"><svg viewbox="0 0 1024 1024" width="24" height="24"><path d="M710.816 654.301c70.323-96.639 61.084-230.578-23.705-314.843-46.098-46.098-107.183-71.109-172.28-71.109-65.008 0-126.092 25.444-172.28 71.109-45.227 46.098-70.756 107.183-70.756 172.106 0 64.923 25.444 126.007 71.194 172.106 46.099 46.098 107.184 71.109 172.28 71.109 51.414 0 100.648-16.212 142.824-47.404l126.53 126.006c7.058 7.06 16.297 10.979 26.406 10.979 10.105 0 19.343-3.919 26.402-10.979 14.467-14.467 14.467-38.172 0-52.723L710.816 654.301zm-315.107-23.265c-65.88-65.88-65.88-172.54 0-238.42 32.069-32.07 74.245-49.149 119.471-49.149 45.227 0 87.407 17.603 119.472 49.149 65.88 65.879 65.88 172.539 0 238.42-63.612 63.178-175.242 63.178-238.943 0zm0 0" fill="currentColor"></path><path d="M703.319 121.603H321.03c-109.8 0-199.469 89.146-199.469 199.38v382.034c0 109.796 89.236 199.38 199.469 199.38h207.397c20.653 0 37.384-16.645 37.384-37.299 0-20.649-16.731-37.296-37.384-37.296H321.03c-68.582 0-124.352-55.77-124.352-124.267V321.421c0-68.496 55.77-124.267 124.352-124.267h382.289c68.582 0 124.352 55.771 124.352 124.267V524.72c0 20.654 16.736 37.299 37.385 37.299 20.654 0 37.384-16.645 37.384-37.299V320.549c-.085-109.8-89.321-198.946-199.121-198.946zm0 0" fill="currentColor"></path></svg></button></div><div class="wl-info"><div class="wl-text-number">0 <!--v-if-->  Words</div><button class="wl-btn">Login</button><button class="wl-btn primary" title="Cmd|Ctrl + Enter"><!--[-->Submit<!--]--></button></div><div class="wl-gif-popup"><input type="text" placeholder="Search GIF"><div class="wl-gallery" style="gap:6px;"><!--[--><!--]--></div><div class="wl-loading"><svg width="30" height="30" viewbox="0 0 100 100" preserveaspectratio="xMidYMid"><circle cx="50" cy="50" fill="none" stroke="currentColor" strokewidth="4" r="40" stroke-dasharray="85 30"><animateTransform attributename="transform" type="rotate" repeatcount="indefinite" dur="1s" values="0 50 50;360 50 50" keytimes="0;1"></animateTransform></circle></svg></div></div><div class="wl-emoji-popup"><!--[--><!--]--><!--v-if--></div></div></div><!--v-if--></div><div class="wl-count"><!--v-if--> Comments</div><div class="wl-cards"><!--[--><!--]--></div><!--[--><div class="wl-loading"><svg width="30" height="30" viewbox="0 0 100 100" preserveaspectratio="xMidYMid"><circle cx="50" cy="50" fill="none" stroke="currentColor" strokewidth="4" r="40" stroke-dasharray="85 30"><animateTransform attributename="transform" type="rotate" repeatcount="indefinite" dur="1s" values="0 50 50;360 50 50" keytimes="0;1"></animateTransform></circle></svg></div><!--]--><!-- Copyright Information --><div class="wl-power"> Powered by <a href="https://github.com/walinejs/waline" target="_blank" rel="noreferrer"> Waline </a> v2.6.1</div></div></div><!----><!--]--></main><!--]--><footer class="footer-wrapper"><div class="footer"></div><div class="copyright">Copyright © 2022-present ADempiere Community</div></footer><!--]--></div><!--]--><!----><!----><!--]--></div>
+    <script src="/assets/js/runtime~app.1ab2fe50.js" defer></script><script src="/assets/js/8095.50afc563.js" defer></script><script src="/assets/js/app.e9f8f974.js" defer></script>
+  </body>
+</html>

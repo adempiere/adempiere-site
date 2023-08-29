@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en-US" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-beta.48" />
+    <meta name="theme" content="VuePress Theme Hope" />
+    <meta property="og:url" content="https://github.com/adempiere/adempiere-site.github.io/community/wiki/meetings/FT-2014/FT-20140617.html"><meta property="og:title" content="FT/TT meeting minutes June 17th 2014"><meta property="og:type" content="article"><meta property="og:updated_time" content="2023-08-29T22:51:16.000Z"><meta property="og:locale" content="en-US"><meta property="og:locale:alternate" content="es-ES"><meta property="article:tag" content="Wiki"><meta property="article:tag" content="Meetings"><meta property="article:modified_time" content="2023-08-29T22:51:16.000Z"><meta name="baidu-site-verification" content="4H7tszevS8"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5c92d1"><link rel="icon" href="/favicon.ico"><link rel="icon" href="/assets/icon/chrome-192.png" type="image/png" sizes="192x192"><link rel="icon" href="/assets/icon/chrome-512.png" type="image/png" sizes="512x512"><link rel="icon" href="/assets/icon/chrome-mask-192.png" type="image/png" sizes="192x192"><link rel="icon" href="/assets/icon/chrome-mask-512.png" type="image/png" sizes="512x512"><link rel="manifest" href="/manifest.webmanifest" crossorigin="use-credentials"><meta name="theme-color" content="#5c92d1"><link rel="apple-touch-icon" href="/assets/icon/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="white"><meta name="msapplication-TileImage" content="/assets/icon/ms-icon-144.png"><meta name="msapplication-TileColor" content="#ffffff"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"><title>FT/TT meeting minutes June 17th 2014 | </title><meta name="description" content="A official page of ADempiere community.">
+    <style>
+      :root {
+        --bg-color: #fff;
+      }
+
+      html[data-theme="dark"] {
+        --bg-color: #1d2025;
+      }
+
+      html,
+      body {
+        background-color: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.querySelector("html").setAttribute("data-theme", "dark");
+      }
+    </script>
+    <link rel="stylesheet" href="/assets/css/styles.752249c8.css">
+    <link rel="preload" href="/assets/js/runtime~app.1ab2fe50.js" as="script"><link rel="preload" href="/assets/css/styles.752249c8.css" as="style"><link rel="preload" href="/assets/js/8095.50afc563.js" as="script"><link rel="preload" href="/assets/js/app.e9f8f974.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="skip-link sr-only">Skip to content</a><!--]--><div class="theme-container has-toc"><!--[--><!--[--><header class="navbar"><div class="navbar-left"><button class="toggle-sidebar-button" title="Toggle Sidebar"><span class="icon"></span></button><!----><a href="/" class="brand"><img class="logo" src="/logo.svg" alt><!----><!----></a><!----></div><div class="navbar-center"><!----><nav class="nav-links"><div class="nav-item hide-in-mobile"><a href="/" class="nav-link" aria-label="Home"><span class="icon iconfont icon-home" style=""></span>Home<!----></a></div><div class="nav-item hide-in-mobile"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="About"><span class="title"><span class="icon iconfont icon-profile" style=""></span>About</span><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a href="/about/" class="nav-link" aria-label="About"><span class="icon iconfont icon-software" style=""></span>About<!----></a></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Some History</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/about/the-beginning.html" class="nav-link" aria-label="The Beginning"><!---->The Beginning<!----></a></li><li class="dropdown-subitem"><a href="/about/branding.html" class="nav-link" aria-label="The Brand"><!---->The Brand<!----></a></li></ul></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Meeting</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/about/meeting/berlin-2009.html" class="nav-link" aria-label="Berlin Conference 2009"><span class="icon iconfont icon-date" style=""></span>Berlin Conference 2009<!----></a></li><li class="dropdown-subitem"><a href="/about/meeting/berlin-2014.html" class="nav-link" aria-label="Berlin Conference 2014"><span class="icon iconfont icon-date" style=""></span>Berlin Conference 2014<!----></a></li></ul></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Articles</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/about/articles/2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system.html" class="nav-link" aria-label="The Future Of ADempiere as a DDD reactive system"><!---->The Future Of ADempiere as a DDD reactive system<!----></a></li><li class="dropdown-subitem"><a href="/about/articles/2015-08-06-world-announcement-for-adempiere.html" class="nav-link" aria-label="World Announcement for ADempiere new and improved content portal"><!---->World Announcement for ADempiere new and improved content portal<!----></a></li></ul></li><li class="dropdown-item"><a href="/about/articles/" class="nav-link" aria-label="About of Announcements"><span class="icon iconfont icon-blog" style=""></span>About of Announcements<!----></a></li></ul></button></div></div><div class="nav-item hide-in-mobile"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="Product"><span class="title"><span class="icon iconfont icon-engine" style=""></span>Product</span><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a href="/product/" class="nav-link" aria-label="Product"><span class="icon iconfont icon-engine" style=""></span>Product<!----></a></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Technology</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/product/technology.html" class="nav-link" aria-label="Technology"><!---->Technology<!----></a></li><li class="dropdown-subitem"><a href="/product/business-process.html" class="nav-link" aria-label="ADempiere Business Process"><!---->ADempiere Business Process<!----></a></li><li class="dropdown-subitem"><a href="/product/benefits.html" class="nav-link" aria-label="Benefits"><!---->Benefits<!----></a></li><li class="dropdown-subitem"><a href="/product/source-code.html" class="nav-link" aria-label="Source Code"><!---->Source Code<!----></a></li><li class="dropdown-subitem"><a href="/product/demo.html" class="nav-link" aria-label="Demo"><!---->Demo<!----></a></li></ul></li></ul></button></div></div><div class="nav-item hide-in-mobile"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="Community"><span class="title"><span class="icon iconfont icon-group" style=""></span>Community</span><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a href="/community/" class="nav-link" aria-label="Community"><span class="icon iconfont icon-group" style=""></span>Community<!----></a></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Community</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/community/code-of-conduct.html" class="nav-link" aria-label="Code of Conduct"><!---->Code of Conduct<!----></a></li><li class="dropdown-subitem"><a href="/community/duties-and-rigths.html" class="nav-link" aria-label="Basic Rules"><!---->Basic Rules<!----></a></li><li class="dropdown-subitem"><a href="/community/community-detail.html" class="nav-link" aria-label="Community Details"><!---->Community Details<!----></a></li></ul></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Wiki</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/community/wiki/developers-guide/" class="nav-link" aria-label="Developer&#39;s Guide"><!---->Developer&#39;s Guide<!----></a></li><li class="dropdown-subitem"><a href="/community/wiki/preface/" class="nav-link" aria-label="Preface"><!---->Preface<!----></a></li><li class="dropdown-subitem"><a href="/community/wiki/meetings/" class="nav-link active" aria-label="Meetings"><!---->Meetings<!----></a></li></ul></li></ul></button></div></div><div class="nav-item hide-in-mobile"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="Documentation"><span class="title"><span class="icon iconfont icon-creative" style=""></span>Documentation</span><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a href="/docs/" class="nav-link" aria-label="Docs"><span class="icon iconfont icon-note" style=""></span>Docs<!----></a></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Develop Guide</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/develop-guide/getting-started/" class="nav-link" aria-label="Getting Started"><!---->Getting Started<!----></a></li></ul></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Material Management</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/material-management/product/" class="nav-link" aria-label="Product Definition"><!---->Product Definition<!----></a></li></ul></li></ul></button></div></div><div class="nav-item hide-in-mobile"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="Downloads"><span class="title"><span class="icon iconfont icon-software" style=""></span>Downloads</span><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a href="/downloads/" class="nav-link" aria-label="Downloads"><span class="icon iconfont icon-software" style=""></span>Downloads<!----></a></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Binary Files</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/downloads/docker.html" class="nav-link" aria-label="Docker"><span class="icon iconfont icon-docker" style=""></span>Docker<!----></a></li><li class="dropdown-subitem"><a href="/downloads/helm.html" class="nav-link" aria-label="Helm"><span class="icon iconfont icon-download" style=""></span>Helm<!----></a></li><li class="dropdown-subitem"><a href="/downloads/operator.html" class="nav-link" aria-label="Operator"><span class="icon iconfont icon-download" style=""></span>Operator<!----></a></li><li class="dropdown-subitem"><a href="/downloads/binary.html" class="nav-link" aria-label="Binary Download"><span class="icon iconfont icon-github" style=""></span>Binary Download<!----></a></li></ul></li></ul></button></div></div><div class="nav-item hide-in-mobile"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="Foundation"><span class="title"><span class="icon iconfont icon-software" style=""></span>Foundation</span><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a href="/foundation/" class="nav-link" aria-label="Foundation"><span class="icon iconfont icon-software" style=""></span>Foundation<!----></a></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>How To</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/foundation/how-to-contribute.html" class="nav-link" aria-label="How To Contribute"><!---->How To Contribute<!----></a></li><li class="dropdown-subitem"><a href="/foundation/membership.html" class="nav-link" aria-label="Members"><!---->Members<!----></a></li><li class="dropdown-subitem"><a href="/foundation/board.html" class="nav-link" aria-label="Board"><!---->Board<!----></a></li><li class="dropdown-subitem"><a href="/foundation/statutes.html" class="nav-link" aria-label="Statutes"><!---->Statutes<!----></a></li><li class="dropdown-subitem"><a href="/foundation/sponsors.html" class="nav-link" aria-label="Sponsors"><!---->Sponsors<!----></a></li></ul></li></ul></button></div></div></nav><!----></div><div class="navbar-right"><!----><div class="nav-item"><div class="dropdown-wrapper i18n-dropdown"><button class="dropdown-title" type="button" aria-label="Select language"><!--[--><svg xmlns="http://www.w3.org/2000/svg" class="icon i18n-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="i18n icon" style="width:1rem;height:1rem;vertical-align:middle;"><path d="M379.392 460.8 494.08 575.488l-42.496 102.4L307.2 532.48 138.24 701.44l-71.68-72.704L234.496 460.8l-45.056-45.056c-27.136-27.136-51.2-66.56-66.56-108.544h112.64c7.68 14.336 16.896 27.136 26.112 35.84l45.568 46.08 45.056-45.056C382.976 312.32 409.6 247.808 409.6 204.8H0V102.4h256V0h102.4v102.4h256v102.4H512c0 70.144-37.888 161.28-87.04 210.944L378.88 460.8zM576 870.4 512 1024H409.6l256-614.4H768l256 614.4H921.6l-64-153.6H576zM618.496 768h196.608L716.8 532.48 618.496 768z"></path></svg><!--]--><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a aria-current="page" href="/community/wiki/meetings/FT-2014/FT-20140617.html" class="router-link-active router-link-exact-active nav-link active" aria-label="English"><!---->English<!----></a></li><li class="dropdown-item"><a href="/es/" class="nav-link" aria-label="Español"><!---->Español<!----></a></li></ul></button></div></div><!----><div class="nav-item hide-in-mobile"><button id="appearance-switch"><svg xmlns="http://www.w3.org/2000/svg" class="icon auto-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="auto icon" style="display:block;"><path d="M512 992C246.92 992 32 777.08 32 512S246.92 32 512 32s480 214.92 480 480-214.92 480-480 480zm0-840c-198.78 0-360 161.22-360 360 0 198.84 161.22 360 360 360s360-161.16 360-360c0-198.78-161.22-360-360-360zm0 660V212c165.72 0 300 134.34 300 300 0 165.72-134.28 300-300 300z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon dark-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="dark icon" style="display:none;"><path d="M524.8 938.667h-4.267a439.893 439.893 0 0 1-313.173-134.4 446.293 446.293 0 0 1-11.093-597.334A432.213 432.213 0 0 1 366.933 90.027a42.667 42.667 0 0 1 45.227 9.386 42.667 42.667 0 0 1 10.24 42.667 358.4 358.4 0 0 0 82.773 375.893 361.387 361.387 0 0 0 376.747 82.774 42.667 42.667 0 0 1 54.187 55.04 433.493 433.493 0 0 1-99.84 154.88 438.613 438.613 0 0 1-311.467 128z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon light-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="light icon" style="display:none;"><path d="M952 552h-80a40 40 0 0 1 0-80h80a40 40 0 0 1 0 80zM801.88 280.08a41 41 0 0 1-57.96-57.96l57.96-58a41.04 41.04 0 0 1 58 58l-58 57.96zM512 752a240 240 0 1 1 0-480 240 240 0 0 1 0 480zm0-560a40 40 0 0 1-40-40V72a40 40 0 0 1 80 0v80a40 40 0 0 1-40 40zm-289.88 88.08-58-57.96a41.04 41.04 0 0 1 58-58l57.96 58a41 41 0 0 1-57.96 57.96zM192 512a40 40 0 0 1-40 40H72a40 40 0 0 1 0-80h80a40 40 0 0 1 40 40zm30.12 231.92a41 41 0 0 1 57.96 57.96l-57.96 58a41.04 41.04 0 0 1-58-58l58-57.96zM512 832a40 40 0 0 1 40 40v80a40 40 0 0 1-80 0v-80a40 40 0 0 1 40-40zm289.88-88.08 58 57.96a41.04 41.04 0 0 1-58 58l-57.96-58a41 41 0 0 1 57.96-57.96z"></path></svg></button></div><div id="docsearch-container"></div><!----><button class="toggle-navbar-button" aria-label="Toggle Navbar" aria-expanded="false" aria-controls="nav-screen"><span class="button-container"><span class="button-top"></span><span class="button-middle"></span><span class="button-bottom"></span></span></button></div></header><!----><!--]--><!----><div class="toggle-sidebar-wrapper"><span class="arrow left"></span></div><aside class="sidebar"><!--[--><!----><!--]--><ul class="sidebar-links"><li><!--[--><a href="/" class="nav-link sidebar-link sidebar-page" aria-label="Home"><span class="icon iconfont icon-home" style=""></span>Home<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><span class="icon iconfont icon-interact" style=""></span><span class="title">About the Association</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">ADempiere Features</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">ADempiere® 3.9.4 Official Documentation</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><span class="icon iconfont icon-download" style=""></span><span class="title">Downloads</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">Some History</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable active"><span class="icon iconfont icon-group" style=""></span><span class="title">Who Are We?</span><span class="arrow down"></span></button><ul class="sidebar-links"><li><!--[--><a href="/community/" class="nav-link sidebar-link sidebar-page" aria-label="Who Are We?"><span class="icon iconfont icon-group" style=""></span>Who Are We?<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/duties-and-rigths.html" class="nav-link sidebar-link sidebar-page" aria-label="Basic Rules"><!---->Basic Rules<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">Citizens</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><a href="/community/code-of-conduct.html" class="nav-link sidebar-link sidebar-page" aria-label="Code of Conduct"><!---->Code of Conduct<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">Community Council Team</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><a href="/community/community-detail.html" class="nav-link sidebar-link sidebar-page" aria-label="Community Details"><!---->Community Details<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/apply_for_projects_to_allocate_funds_from_the_foundation.html" class="nav-link sidebar-link sidebar-page" aria-label="How to Apply for Projects?"><!---->How to Apply for Projects?<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">Project Charter</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable active"><!----><span class="title">Wiki</span><span class="arrow down"></span></button><ul class="sidebar-links"><li><!--[--><a href="/community/wiki/" class="nav-link sidebar-link sidebar-page" aria-label="Wiki"><!---->Wiki<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">Developer&#39;s Guide</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable active"><!----><span class="title">Meetings</span><span class="arrow down"></span></button><ul class="sidebar-links"><li><!--[--><a href="/community/wiki/meetings/" class="nav-link sidebar-link sidebar-page" aria-label="Meetings"><!---->Meetings<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">FT-2010</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">FT-2011</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">FT-2012</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">FT-2013</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable active"><!----><span class="title">FT-2014</span><span class="arrow down"></span></button><ul class="sidebar-links"><li><!--[--><a href="/community/wiki/meetings/FT-2014/" class="nav-link sidebar-link sidebar-page" aria-label="FT-2014"><!---->FT-2014<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2014/FT-20140204.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes February 04th 2014"><!---->FT/TT meeting minutes February 04th 2014<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2014/FT-20140211.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes February 11th 2014"><!---->FT/TT meeting minutes February 11th 2014<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2014/FT-20140107.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes January 07th 2014"><!---->FT/TT meeting minutes January 07th 2014<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2014/FT-20140114.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes January 14th 2014"><!---->FT/TT meeting minutes January 14th 2014<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2014/FT-20140121.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes January 21st 2014"><!---->FT/TT meeting minutes January 21st 2014<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2014/FT-20140128.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes January 28th 2014"><!---->FT/TT meeting minutes January 28th 2014<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2014/FT-20140603.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes June 03rd 2014"><!---->FT/TT meeting minutes June 03rd 2014<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a aria-current="page" href="/community/wiki/meetings/FT-2014/FT-20140617.html" class="router-link-active router-link-exact-active nav-link active sidebar-link sidebar-page active" aria-label="FT/TT meeting minutes June 17th 2014"><!---->FT/TT meeting minutes June 17th 2014<!----></a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a aria-current="page" href="/community/wiki/meetings/FT-2014/FT-20140617.html#minutes" class="router-link-active router-link-exact-active nav-link sidebar-link heading" aria-label="Minutes"><!---->Minutes<!----></a><ul class="sidebar-sub-headers"></ul></li><li class="sidebar-sub-header"><a aria-current="page" href="/community/wiki/meetings/FT-2014/FT-20140617.html#log" class="router-link-active router-link-exact-active nav-link sidebar-link heading" aria-label="Log"><!---->Log<!----></a><ul class="sidebar-sub-headers"></ul></li></ul><!--]--></li></ul></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">FT-2015</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">FT-2016</span><span class="arrow right"></span></button><!----></section><!--]--></li></ul></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">Preface</span><span class="arrow right"></span></button><!----></section><!--]--></li></ul></section><!--]--></li></ul></section><!--]--></li></ul><!--[--><!----><!--]--></aside><!--[--><main class="page" id="main-content"><!--[--><!----><nav class="breadcrumb disable"></nav><div class="page-title"><h1><!---->FT/TT meeting minutes June 17th 2014</h1><div class="page-info"><span class="author-info" aria-label="Author🖊" data-balloon-pos="down" localizeddate="August 29, 2023" isoriginal="false" pageview="true"><svg xmlns="http://www.w3.org/2000/svg" class="icon author-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="author icon"><path d="M649.6 633.6c86.4-48 147.2-144 147.2-249.6 0-160-128-288-288-288s-288 128-288 288c0 108.8 57.6 201.6 147.2 249.6-121.6 48-214.4 153.6-240 288-3.2 9.6 0 19.2 6.4 25.6 3.2 9.6 12.8 12.8 22.4 12.8h704c9.6 0 19.2-3.2 25.6-12.8 6.4-6.4 9.6-16 6.4-25.6-25.6-134.4-121.6-240-243.2-288z"></path></svg><span><a class="author-item" href="https://adempiere-site.erpya.com" target="_blank" rel="noopener noreferrer">ADempiere</a></span><span property="author" content="ADempiere"></span></span><!----><span class="date-info" aria-label="Writing Date📅" data-balloon-pos="down" isoriginal="false" pageview="true"><svg xmlns="http://www.w3.org/2000/svg" class="icon calendar-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="calendar icon"><path d="M716.4 110.137c0-18.753-14.72-33.473-33.472-33.473-18.753 0-33.473 14.72-33.473 33.473v33.473h66.993v-33.473zm-334.87 0c0-18.753-14.72-33.473-33.473-33.473s-33.52 14.72-33.52 33.473v33.473h66.993v-33.473zm468.81 33.52H716.4v100.465c0 18.753-14.72 33.473-33.472 33.473a33.145 33.145 0 01-33.473-33.473V143.657H381.53v100.465c0 18.753-14.72 33.473-33.473 33.473a33.145 33.145 0 01-33.473-33.473V143.657H180.6A134.314 134.314 0 0046.66 277.595v535.756A134.314 134.314 0 00180.6 947.289h669.74a134.36 134.36 0 00133.94-133.938V277.595a134.314 134.314 0 00-133.94-133.938zm33.473 267.877H147.126a33.145 33.145 0 01-33.473-33.473c0-18.752 14.72-33.473 33.473-33.473h736.687c18.752 0 33.472 14.72 33.472 33.473a33.145 33.145 0 01-33.472 33.473z"></path></svg><span>August 29, 2023</span><meta property="datePublished" content="2023-08-29T22:51:16.000Z"></span><span class="category-info" aria-label="Category🌈" data-balloon-pos="down" localizeddate="August 29, 2023" isoriginal="false" pageview="true"><svg xmlns="http://www.w3.org/2000/svg" class="icon category-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="category icon"><path d="M148.41 106.992h282.176c22.263 0 40.31 18.048 40.31 40.31V429.48c0 22.263-18.047 40.31-40.31 40.31H148.41c-22.263 0-40.311-18.047-40.311-40.31V147.302c0-22.263 18.048-40.31 40.311-40.31zM147.556 553.478H429.73c22.263 0 40.311 18.048 40.311 40.31v282.176c0 22.263-18.048 40.312-40.31 40.312H147.555c-22.263 0-40.311-18.049-40.311-40.312V593.79c0-22.263 18.048-40.311 40.31-40.311zM593.927 106.992h282.176c22.263 0 40.31 18.048 40.31 40.31V429.48c0 22.263-18.047 40.31-40.31 40.31H593.927c-22.263 0-40.311-18.047-40.311-40.31V147.302c0-22.263 18.048-40.31 40.31-40.31zM730.22 920.502H623.926c-40.925 0-74.22-33.388-74.22-74.425V623.992c0-41.038 33.387-74.424 74.425-74.424h222.085c41.038 0 74.424 33.226 74.424 74.067v114.233c0 10.244-8.304 18.548-18.547 18.548s-18.548-8.304-18.548-18.548V623.635c0-20.388-16.746-36.974-37.33-36.974H624.13c-20.585 0-37.331 16.747-37.331 37.33v222.086c0 20.585 16.654 37.331 37.126 37.331H730.22c10.243 0 18.547 8.304 18.547 18.547 0 10.244-8.304 18.547-18.547 18.547z"></path></svg><ul class="categories-wrapper"><li class="category category2" role>Community</li><meta property="articleSection" content="Community"></ul></span><span aria-label="Tag🏷" data-balloon-pos="down" localizeddate="August 29, 2023" isoriginal="false" pageview="true"><svg xmlns="http://www.w3.org/2000/svg" class="icon tag-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="tag icon"><path d="M939.902 458.563L910.17 144.567c-1.507-16.272-14.465-29.13-30.737-30.737L565.438 84.098h-.402c-3.215 0-5.726 1.005-7.634 2.913l-470.39 470.39a10.004 10.004 0 000 14.164l365.423 365.424c1.909 1.908 4.42 2.913 7.132 2.913s5.223-1.005 7.132-2.913l470.39-470.39c2.01-2.11 3.014-5.023 2.813-8.036zm-240.067-72.121c-35.458 0-64.286-28.828-64.286-64.286s28.828-64.285 64.286-64.285 64.286 28.828 64.286 64.285-28.829 64.286-64.286 64.286z"></path></svg><ul class="tags-wrapper"><li class="tag tag3" role>Wiki</li><li class="tag tag5" role>Meetings</li></ul><meta property="keywords" content="Wiki,Meetings"></span><span class="reading-time-info" aria-label="Reading Time⌛" data-balloon-pos="down" localizeddate="August 29, 2023" isoriginal="false" pageview="true"><svg xmlns="http://www.w3.org/2000/svg" class="icon timer-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="timer icon"><path d="M799.387 122.15c4.402-2.978 7.38-7.897 7.38-13.463v-1.165c0-8.933-7.38-16.312-16.312-16.312H256.33c-8.933 0-16.311 7.38-16.311 16.312v1.165c0 5.825 2.977 10.874 7.637 13.592 4.143 194.44 97.22 354.963 220.201 392.763-122.204 37.542-214.893 196.511-220.2 389.397-4.661 5.049-7.638 11.651-7.638 19.03v5.825h566.49v-5.825c0-7.379-2.849-13.981-7.509-18.9-5.049-193.016-97.867-351.985-220.2-389.527 123.24-37.67 216.446-198.453 220.588-392.892zM531.16 450.445v352.632c117.674 1.553 211.787 40.778 211.787 88.676H304.097c0-48.286 95.149-87.382 213.728-88.676V450.445c-93.077-3.107-167.901-81.297-167.901-177.093 0-8.803 6.99-15.793 15.793-15.793 8.803 0 15.794 6.99 15.794 15.793 0 80.261 63.69 145.635 142.01 145.635s142.011-65.374 142.011-145.635c0-8.803 6.99-15.793 15.794-15.793s15.793 6.99 15.793 15.793c0 95.019-73.789 172.82-165.96 177.093z"></path></svg><span>About 27 min</span><meta property="timeRequired" content="PT27M"></span></div><hr></div><div class="toc-place-holder"><aside id="toc"><div class="toc-header">On This Page</div><div class="toc-wrapper"><ul class="toc-list"><!--[--><li class="toc-item"><a aria-current="page" href="/community/wiki/meetings/FT-2014/FT-20140617.html#minutes" class="router-link-active router-link-exact-active toc-link level2">Minutes</a></li><!----><!--]--><!--[--><li class="toc-item"><a aria-current="page" href="/community/wiki/meetings/FT-2014/FT-20140617.html#log" class="router-link-active router-link-exact-active toc-link level2">Log</a></li><!----><!--]--></ul></div></aside></div><!----><div class="theme-hope-content"><h2 id="minutes" tabindex="-1"><a class="header-anchor" href="#minutes" aria-hidden="true">#</a> Minutes</h2><p><strong>General</strong></p><ul><li><strong>Participants:</strong> Jacken Chan, Michael McKay, Mario Calderon, Suman Ravuri, Steven Sackett, Victor Perez</li><li><strong>Date / Time:</strong> Tuesday, June 17th 2014 / 12:00h - 14:13h GMT and 21:00-24:23h GMT</li><li><strong>The meeting closed after 5 hours 30 mins</strong></li></ul><p><strong>Agenda</strong></p><ol><li><strong>Minutes of Previous Meeting</strong></li><li><strong>Distribute Bugs to be fixed</strong></li><li><strong>Next meeting</strong></li></ol><p><strong>Minutes of Previous Meeting</strong></p><ul><li><a href="http://www.adempiere.com/FT/TT_meeting_minutes_June_03rd_2014" target="_blank" rel="noopener noreferrer">Link to previous meeting&#39;s minutes<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span></a></li></ul><p><strong>Distribute Bugs to be fixed:</strong></p><p><strong>Methodology:</strong></p><ul><li>Delimit Jira issues to only bugs</li></ul><p><strong>Assignments of bugs:</strong></p><ul><li>Delimit Jira issues to only bugs <ul><li>Go to Jira and log in ( https://adempiere.atlassian.net ).</li><li>Select Issues/all issues.</li><li>In the first combo box select project &quot;ADempiere&quot;</li><li>In the second combo box select only &quot;bug&quot;</li><li>In the third combo box select all issue types but &quot;closed&quot; and &quot;resolved&quot;.</li><li>Or filter by project = ADEMPIERE AND status != Resolved AND status != Closed AND type = Bug ORDER BY key ASC</li></ul></li></ul><p><strong>Assignments of bugs:</strong> We will go all bugs through and assign them.</p><ul><li>https://adempiere.atlassian.net/browse/ADEMPIERE-29 : Adaxa</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-30 : Mike McKay</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-53 : Steven Sackett</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-54 : Suman Ravuri</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-60 : Victor Perez</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-59 : Suman Ravuri</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-60 : Victor Perez</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-61 : Victor Perez</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-62 : Mario Calderon</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-63 : Mario Calderon</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-64 : Victor Perez</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-65 : Suman Ravuri</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-66 : Suman Ravuri</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-67 : Mike McKay</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-68 : Mike McKay</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-75 : Steven Sackett</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-80 : Steven Sackett</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-82 : Suman Ravuri</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-85 : Steven Sackett</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-90 : UNASSIGNED</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-99 : Suman Ravuri</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-102 : Victor Perez</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-103 : Suman Ravuri</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-104 : Victor Perez</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-105 : Jacken Chan</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-106 : Suman Ravuri</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-107 : Suman Ravuri</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-108 : Suman Ravuri</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-109 : Suman Ravuri</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-111 : Suman Ravuri</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-112 : Suman Ravuri</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-113 : Jacken Chan</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-114 : Jacken Chan</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-116 : Victor Perez</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-117 : Victor Perez</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-118 : Victor Perez</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-119 : Steven Sackett</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-120 : Mike McKay</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-121 : Steven Sackett</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-122 : Victor Perez</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-124 : Victor Perez</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-126 : Suman Ravuri</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-127 : Suman Ravuri</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-140 : Mike McKay</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-141 : UNASSIGNED</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-154 : Jacken Chan</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-155 : Mario Calderon</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-156 : Suman Ravuri</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-157 : Suman Ravuri</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-163 : Suman Ravuri</li><li>https://adempiere.atlassian.net/browse/ADEMPIERE-165 : Suman Ravuri <ul><li>No date for missing bugs</li></ul></li></ul><p><strong>Next Meeting:</strong></p><ul><li>Tuesday, June 24th 2014 / 12:00h.</li></ul><h2 id="log" tabindex="-1"><a class="header-anchor" href="#log" aria-hidden="true">#</a> Log</h2><p>Following is the meeting log - time is in GMT -6</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>Tuesday, June 17, 2014
+[4:10:35 PM] * Mario Calderón ha agregado a vpj-cd a este chat
+[4:10:58 PM] Mario Calderón: hi Steven, victor
+[4:15:54 PM] Victor Perez Juarez: Mario is here
+[4:15:56 PM] Victor Perez Juarez: ?
+[4:16:04 PM] Steven Sackett (Adaxa): Mario .. u there?
+[4:16:06 PM] Mario Calderón: hi
+[4:16:21 PM] Mario Calderón: yes, I was not invited, kind of...
+[4:16:31 PM] Steven Sackett (Adaxa): ok .. some reason it shows two conversation withus three in my skype window
+[4:17:17 PM] Victor Perez Juarez: ok
+[4:17:22 PM] Victor Perez Juarez: staring then
+[4:17:23 PM] Victor Perez Juarez: ?
+[4:17:30 PM] Steven Sackett (Adaxa): wot filter to get the same bugs please
+[4:17:35 PM] Victor Perez Juarez: I chat with Mario
+[4:17:40 PM] Mario Calderón: ok, let me open jira...
+[4:18:33 PM] Victor Perez Juarez: I said that we have little people to test
+[4:18:46 PM] Victor Perez Juarez: so my propose that each sponsor testing your contribution
+[4:20:02 PM] Steven Sackett (Adaxa): thats ok .. but we need to allocate each one to someone .. not just leave them unallocated.
+[4:20:26 PM] Victor Perez Juarez: so my propose is that each sponsor make your testing and fixbug
+[4:20:48 PM] Victor Perez Juarez: So I can make libero , payroll , my new features
+[4:20:49 PM] Mario Calderón: I have in Jira the Adempiere project open, just bugs and in staus (not open, not in progress)
+[4:20:58 PM] Victor Perez Juarez: Adaxa your contribution and improves
+[4:21:40 PM] Steven Sackett (Adaxa): number 53?
+[4:22:15 PM] Steven Sackett (Adaxa): Victor .. we already said we take anything to do wioth adaxa stuff and anything that came from idempiere
+[4:22:17 PM] Victor Perez Juarez: and Mario can can testing standard functionality  this way can see that no introduce in some marge
+[4:22:24 PM] Steven Sackett (Adaxa): now need to set the owner accordingly
+[4:22:27 PM] Victor Perez Juarez: I am sure that Suman validate each commit
+[4:22:55 PM] Steven Sackett (Adaxa): I have had Jacken testing our stuff for two weks now
+[4:23:23 PM] Mario Calderón: which filters did you set, Steven?
+[4:23:34 PM] Steven Sackett (Adaxa): project adempiere  bugs
+[4:23:43 PM] Mario Calderón: and status?
+[4:24:23 PM] Victor Perez Juarez: ok
+[4:24:30 PM] Steven Sackett (Adaxa): and open and in progress etc .. all except closed and
+[4:24:37 PM] Victor Perez Juarez: what is of idea with adempiere
+[4:24:42 PM] Victor Perez Juarez: and idempiere ?
+[4:24:48 PM] Steven Sackett (Adaxa): closed and resolved .. I see 100
+[4:24:57 PM] Mario Calderón: ok, let me check
+[4:25:21 PM] Mario Calderón: here also
+[4:25:24 PM] Steven Sackett (Adaxa): Victor .. I was told that some bug fixes have been migrated from idempiere... if there are some then we will check them
+[4:26:05 PM] Victor Perez Juarez: ok, how management of credits
+[4:26:08 PM] Steven Sackett (Adaxa): Victor .. u ok to start looking at number 53?
+[4:26:41 PM] Mario Calderón: Steven, may I say something before?
+[4:26:47 PM] Steven Sackett (Adaxa): sure
+[4:28:57 PM] Mario Calderón: I suggest, we decide/define/find out the most important bugs which MUST be solved for going live.
+
+
+
+We create a list and then try to assign them.
+
+
+
+We must sort out &quot;bugs&quot; which are not proved, but just recorded by somebody.
+[4:29:24 PM] Steven Sackett (Adaxa):  ok .. you lead
+[4:30:06 PM] Mario Calderón: which are the showstoppers?
+[4:30:31 PM] Steven Sackett (Adaxa): I thought we were looking at each issue to decide that and to allocate to a person rather than leave unassigned.. it the unassigned that is stopping us from kmnowing what to work on
+[4:30:56 PM] Mario Calderón: ok, this is in the end the same Steven...
+[4:31:04 PM] Steven Sackett (Adaxa): yes
+[4:31:46 PM] Steven Sackett (Adaxa): but unfortunately it requires us to look at each one
+[4:31:55 PM] Victor Perez Juarez: I&#39;m confused :-(
+[4:32:14 PM] Mario Calderón: yes, this is the downside.
+
+
+
+Victor, do you agree?
+[4:32:58 PM] Victor Perez Juarez: ok
+[4:33:11 PM] Mario Calderón: we opened the Issues of the project
+[4:33:28 PM] Victor Perez Juarez: so the goal is assign a people to charge for each issue
+[4:33:51 PM] Mario Calderón: then selected all but closed and resolved
+[4:33:57 PM] Victor Perez Juarez: ok I have this query
+[4:33:58 PM] Mario Calderón: then sort by Key
+[4:33:58 PM] Victor Perez Juarez: project = ADEMPIERE and status != Resolved and  status != Closed
+[4:34:10 PM] Mario Calderón: then sort by Key
+[4:34:15 PM] Victor Perez Juarez: project = ADEMPIERE AND status != Resolved AND status != Closed ORDER BY key ASC
+[4:34:16 PM] Mario Calderón: should be 100 issues
+[4:34:47 PM] Steven Sackett (Adaxa): adempiere then bugs then all status except resolved and closed.
+[4:34:50 PM] Victor Perez Juarez: I have 197
+[4:34:55 PM] Victor Perez Juarez: wit this filter
+[4:35:15 PM] Mario Calderón: bugs
+[4:35:19 PM] Mario Calderón: filter by bugs
+[4:35:36 PM] Steven Sackett (Adaxa): I hate this Jira thing with passion
+[4:35:49 PM] Mario Calderón: ;)
+[4:35:59 PM] Victor Perez Juarez: project = ADEMPIERE AND status != Resolved AND status != Closed AND type = Bug ORDER BY key ASC
+[4:36:07 PM] Steven Sackett (Adaxa): we had it 10 years ago and paid for it .. and I still deleted it
+[4:36:20 PM] Mario Calderón: hehehe
+[4:36:31 PM] Mario Calderón: Victor, how many do you get now?
+[4:36:33 PM] Steven Sackett (Adaxa): so Victor, how many do you now see
+[4:36:48 PM] Victor Perez Juarez: ok let me guide
+[4:37:18 PM] Steven Sackett (Adaxa): Mario.. it does not matter .. just say each number we are looking at .. They will be in Victors larger liist
+[4:37:20 PM] Victor Perez Juarez: choose Issue Menu -&gt; current Issue
+[4:37:37 PM] Mario Calderón: I selected &quot;all issues&quot;
+[4:37:44 PM] * Steven Sackett (Adaxa) envió el archivo IMG_18062014_083752.png.
+[4:37:57 PM] Victor Perez Juarez: he show a field in blank that now had project = ADEMPIERE
+[4:38:16 PM] Victor Perez Juarez: here you need paste project = ADEMPIERE AND status != Resolved AND status != Closed AND type = Bug ORDER BY key ASC
+[4:38:19 PM] Victor Perez Juarez: and readi
+[4:38:21 PM] Victor Perez Juarez: ready
+[4:38:22 PM] Steven Sackett (Adaxa): adempiere ion first filter, bugs in second fillter, everything except resolved and closed in third fiter dropdown
+[4:38:24 PM] Mario Calderón: I have the same as Steven&#39;s
+[4:38:59 PM] Victor Perez Juarez: so I got 100 bug issues
+[4:39:17 PM] Steven Sackett (Adaxa): ok
+[4:39:44 PM] Mario Calderón: the we go over them one by one (:|
+[4:39:44 PM] Victor Perez Juarez: ￼
+
+	.	ADempiereADEMPIERE-29
+
+Wrong display format for DateTime fields
+[4:39:50 PM] Steven Sackett (Adaxa): 53 is first unassigned one
+[4:40:02 PM] Steven Sackett (Adaxa): ok 29
+[4:40:04 PM] Victor Perez Juarez: only not unassigned
+[4:40:08 PM] Mario Calderón: ok Victor, you are the technical guy, you must guide us here...
+[4:40:29 PM] Mario Calderón: 29 is assigned to you Steven
+[4:40:36 PM] Mario Calderón: so you take care?
+[4:40:46 PM] Mario Calderón: (you=Adaxa?)
+[4:40:48 PM] Steven Sackett (Adaxa): 29 is assigned to adaxa .. lets go to first unassigned 53
+[4:40:54 PM] Mario Calderón: ok
+[4:41:09 PM] Victor Perez Juarez: so with this filter
+[4:41:13 PM] Victor Perez Juarez: I got 84 issues
+[4:41:15 PM] Victor Perez Juarez: project = ADEMPIERE AND status != Resolved AND status != Closed AND type = Bug AND assignee is null ORDER BY key ASC
+[4:41:47 PM] Steven Sackett (Adaxa): ok .. now what about issue 53
+[4:42:06 PM] Mario Calderón: Carlos Santana says he hasn&#39;t reproduced it...
+[4:42:52 PM] Mario Calderón: so I would say: reject it or change status
+[4:43:16 PM] Victor Perez Juarez: ok
+[4:43:16 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-53
+[4:43:30 PM] Victor Perez Juarez: this I think than should be to Adaxa
+[4:43:40 PM] Victor Perez Juarez: they create a new InitialClientSetup
+[4:44:32 PM] Victor Perez Juarez: What do you think
+[4:45:05 PM] Victor Perez Juarez: it also was report me that no is create of role standard security
+[4:45:10 PM] Mario Calderón: we must ask ourselves if this is a showstopper.
+
+in my opinion, it is not...
+[4:45:21 PM] Victor Perez Juarez: with new create tenant or client
+[4:45:34 PM] Steven Sackett (Adaxa): 54
+[4:46:07 PM] Victor Perez Juarez: of 54 is issue old version
+[4:46:13 PM] Victor Perez Juarez: we can fix or not
+[4:46:40 PM] Victor Perez Juarez: the issue is that in sf not is update MD5 in release binary
+[4:46:45 PM] Mario Calderón: Vassilis is the Greek guy who was on the conference, he still writes me and asks things
+[4:46:58 PM] Victor Perez Juarez: Mario you had permission so you should solve in sf net
+[4:47:30 PM] Mario Calderón: I will document every issue we go over and publish it
+[4:48:06 PM] Steven Sackett (Adaxa): is this impoertant for 380 .. sounds like if we have wrong mdsum then no one can know there new version is not corrupted. Is that correct?
+[4:48:06 PM] Mario Calderón: ....but I lack the knowledge to do it...   :$
+
+what should be done?
+[4:48:38 PM] Mario Calderón: if it is easy, gladly...
+[4:48:44 PM] Victor Perez Juarez: Is simple you need
+[4:48:52 PM] Victor Perez Juarez: create of MD5
+[4:49:03 PM] Victor Perez Juarez: and upload in release management in sf net
+[4:49:03 PM] Mario Calderón: can you guide me later???
+[4:49:07 PM] Victor Perez Juarez: yes
+[4:49:14 PM] Mario Calderón: then assign it to me...{
+[4:49:14 PM] Steven Sackett (Adaxa): lets allocate to Suman .. sounds like a release managers issue.
+[4:49:23 PM] Mario Calderón: or suman...
+[4:50:13 PM] Steven Sackett (Adaxa): adding Jacken to this .. he is my chief tester
+[4:50:16 PM] Steven Sackett (Adaxa): ok?
+[4:50:26 PM] Mario Calderón: ok
+[4:50:47 PM] Mario Calderón: so 54 assigned to whom?
+[4:51:12 PM] Steven Sackett (Adaxa): I vote Suman .. but I cant allocate to him
+[4:51:24 PM] Steven Sackett (Adaxa): Victor&gt;. I can add Jacken to this chat?
+[4:51:39 PM] Victor Perez Juarez: yes is a release managers issue.
+[4:51:44 PM] Victor Perez Juarez: then to suman
+[4:51:51 PM] Victor Perez Juarez: I not know if Suman continue
+[4:52:02 PM] Steven Sackett (Adaxa): who can select Suman into it
+[4:52:10 PM] Victor Perez Juarez: yes
+[4:52:20 PM] Victor Perez Juarez: what is Skype user of Jacken
+[4:52:24 PM] * Steven Sackett (Adaxa) ha agregado a jacken73 a este chat
+[4:52:46 PM] Mario Calderón: hi Jacken
+[4:52:52 PM] Jacken Chan: Hi everybody
+[4:53:01 PM] Steven Sackett (Adaxa): Hi Jacken
+[4:53:26 PM] Victor Perez Juarez: Hi Jacken
+[4:53:26 PM] Steven Sackett (Adaxa): I repeat question .. who can allopcate an issue tio Suman .. I cant
+[4:53:44 PM] Victor Perez Juarez: I can
+[4:53:45 PM] Victor Perez Juarez: let me
+[4:53:55 PM] Steven Sackett (Adaxa): then we are agreed you will do so?
+[4:54:05 PM] Victor Perez Juarez: ready
+[4:54:17 PM] Victor Perez Juarez: I assign to Suman
+[4:54:19 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-59
+[4:54:23 PM] Steven Sackett (Adaxa): 59
+[4:54:28 PM] Victor Perez Juarez: We have of support of Mike
+[4:54:38 PM] Victor Perez Juarez: it is issue of ZK I think that would fix
+[4:54:45 PM] Victor Perez Juarez: so that now are migrate to ZK 7
+[4:54:55 PM] Victor Perez Juarez: but I not am sure if he is volunteer
+[4:55:02 PM] Victor Perez Juarez: if not can solve I
+[4:55:20 PM] * Victor Perez Juarez ha agregado a mike.mckay_christine.hodge a este chat
+[4:55:24 PM] Victor Perez Juarez: Hi Mike
+[4:55:46 PM] Victor Perez Juarez: Can you support to solve of issues with ZK
+[4:55:49 PM] Steven Sackett (Adaxa): it says Tony&#39;s patch fixed it .. I say release manager issue
+[4:55:52 PM] Mario Calderón: we should ask Mike. If it can be solved with the newest ZK , then we sould move on...
+[4:55:55 PM] Victor Perez Juarez: for example
+[4:55:58 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-59
+[4:56:09 PM] Mario Calderón: @Steven: let me read...
+[4:56:11 PM] Steven Sackett (Adaxa): Mikes stuff on UI will not be in 380
+[4:56:11 PM] Victor Perez Juarez: yes Steven Tony include patch
+[4:56:22 PM] Victor Perez Juarez: but is necessary test and commit
+[4:56:29 PM] Steven Sackett (Adaxa): so Suman can apply the patch
+[4:56:45 PM] Mario Calderón: the patch apparently works
+[4:56:48 PM] Steven Sackett (Adaxa): the original poster says he tested it
+[4:56:54 PM] Victor Perez Juarez: is necessary apply the patch and test
+[4:56:55 PM] Mario Calderón: ok
+[4:57:04 PM] Victor Perez Juarez: in general only apply patch but not test :-(
+[4:57:07 PM] Steven Sackett (Adaxa): allocate to Suman please
+[4:57:12 PM] Victor Perez Juarez: ok
+[4:57:38 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-60
+[4:57:43 PM] Victor Perez Juarez: ready next
+[4:57:52 PM] Victor Perez Juarez: Wrong price precision with different UOM
+[4:58:38 PM] Victor Perez Juarez: ok I taked this
+[4:58:40 PM] Victor Perez Juarez: I can solve
+[4:58:46 PM] Steven Sackett (Adaxa): thanks
+[4:59:26 PM] Victor Perez Juarez: I also got this https://adempiere.atlassian.net/browse/ADEMPIERE-61
+[4:59:33 PM] Victor Perez Juarez: I have other issue with RMA
+[5:00:26 PM] Steven Sackett (Adaxa): Victor .. can you look at both as they are in same area?
+[5:00:40 PM] Victor Perez Juarez: yes
+[5:00:46 PM] Victor Perez Juarez: I have 60 and 6
+[5:00:48 PM] Victor Perez Juarez: 61
+[5:00:53 PM] Victor Perez Juarez: I found other issues
+[5:01:00 PM] Victor Perez Juarez: when create an credit note
+[5:01:19 PM] Victor Perez Juarez: of reserved qty is damage
+[5:01:33 PM] Victor Perez Juarez: the error is in sing of quantity
+[5:01:44 PM] Victor Perez Juarez: should subtract and current are add
+[5:01:46 PM] Steven Sackett (Adaxa): what number is that?
+[5:01:54 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-61
+[5:02:05 PM] Victor Perez Juarez: next
+[5:02:12 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-62
+[5:02:43 PM] Victor Perez Juarez: Mario can you help with ADEMPIERE-62
+[5:02:49 PM] Victor Perez Juarez: is about of mail
+[5:04:30 PM] Mario Calderón: it states, a CS introduced the error
+[5:05:19 PM] Steven Sackett (Adaxa): Jacken? u were saying?
+[5:06:12 PM] Jacken Chan: I might have seen this error but ignoring it
+[5:06:39 PM] Steven Sackett (Adaxa): do we regard as stopping 380?
+[5:06:40 PM] Jacken Chan: it works ok once ImportAdempiere or db is restored so not a huge issue
+[5:07:09 PM] Victor Perez Juarez: Mario can you take ?
+[5:08:04 PM] Jacken Chan: @victor, when a issue is resolved and commited, will this be reflected on demo1.adaxa.us?
+[5:08:23 PM] Jacken Chan: like a nightly build with testadempiere.com in the past
+[5:09:31 PM] Mario Calderón: @Jacken: this should be, but I haven&#39;t received notifications by Paul; on the oother side, ther haven&#39;t been changes lately
+[5:10:20 PM] Victor Perez Juarez: nop
+[5:10:33 PM] Victor Perez Juarez: it is reflected in demo1.adempiere.us
+[5:10:43 PM] Victor Perez Juarez: in Paul server
+[5:11:29 PM] Jacken Chan: sorry, to clarify dem1.adempiere.us is not built regularly?
+[5:11:34 PM] Victor Perez Juarez: http://demo1.adempiere.us/admin/
+[5:11:49 PM] Michael McKay: Hi guys.  Just arrived.
+[5:11:53 PM] Victor Perez Juarez: Jacken it is are in auto compile and deployment
+[5:11:54 PM] Jacken Chan: Hi Mike
+[5:11:58 PM] Steven Sackett (Adaxa): hi Mike
+[5:12:04 PM] Victor Perez Juarez: Hi Mike
+[5:12:35 PM] Mario Calderón: I can take over 62
+[5:12:41 PM] Victor Perez Juarez: @Jacken you can sent a email to Paul Aviles &lt;paul.aviles@nickelnetworks.com&gt;
+[5:12:48 PM] Jacken Chan: thanks
+[5:12:55 PM] Victor Perez Juarez: this way he can include in notice mail list
+[5:13:17 PM] Mario Calderón: Victor, can you assign https://adempiere.atlassian.net/browse/ADEMPIERE-62 to me please?
+[5:13:33 PM] Victor Perez Juarez: this way you can got each notice of build night
+[5:13:40 PM] Michael McKay: Paul just appeard on-line.
+[5:14:21 PM] Victor Perez Juarez: ready Mario
+[5:14:29 PM] Victor Perez Juarez: I assign of ADEMPIERE-62
+[5:15:07 PM] Victor Perez Juarez: Mike Can you help with this bug and integrate of patch
+[5:15:08 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-59
+[5:15:09 PM] Victor Perez Juarez: ?
+[5:15:47 PM] Steven Sackett (Adaxa): while Mike looks at that lets look at 63
+[5:16:05 PM] Victor Perez Juarez: yes
+[5:16:06 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-63
+[5:16:11 PM] Victor Perez Juarez: this is attribute issue
+[5:16:23 PM] Victor Perez Juarez: and this is VPAttribute
+[5:16:30 PM] Victor Perez Juarez: so that is swing interface
+[5:16:43 PM] Victor Perez Juarez: I remember that Mike move this logic for attribute
+[5:16:53 PM] Victor Perez Juarez: if he not can take I can
+[5:17:22 PM] Victor Perez Juarez: Mike?
+[5:17:58 PM] Steven Sackett (Adaxa): Victor, u had a few already .. u want to allocate to adaxa/me
+[5:18:08 PM] Mario Calderón: I think we had this....
+[5:18:15 PM] Mario Calderón: can you assign it to me?
+[5:18:24 PM] Steven Sackett (Adaxa): ok with me
+[5:18:30 PM] Mario Calderón: I think we went over it with Susanne
+[5:18:52 PM] Victor Perez Juarez: I take https://adempiere.atlassian.net/browse/ADEMPIERE-64 too
+[5:18:56 PM] Mario Calderón: so I have for now 62 + 63
+[5:19:00 PM] Victor Perez Juarez: ok
+[5:19:51 PM] Steven Sackett (Adaxa): 65 - to Suman as there is a patch there already?
+[5:19:52 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-65
+[5:20:05 PM] Victor Perez Juarez: ok set a suman
+[5:20:42 PM] Michael McKay: Sorry - got another call.  Which one should I be looking at first?
+[5:20:46 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-66
+[5:20:56 PM] Victor Perez Juarez: it also have patch
+[5:20:59 PM] Victor Perez Juarez: I can add suman
+[5:21:00 PM] Steven Sackett (Adaxa): 66 also to Suman as there is a patch
+[5:21:17 PM] Victor Perez Juarez: @Steven 65 and 66
+[5:21:31 PM] Mario Calderón: we should remind Suman to do a test before committing...
+[5:21:43 PM] Steven Sackett (Adaxa): 67?
+[5:22:05 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-67
+[5:22:17 PM] Victor Perez Juarez: this is an issue with ZK
+[5:22:41 PM] Steven Sackett (Adaxa): pls allocate to us
+[5:23:22 PM] Victor Perez Juarez: who ?
+[5:23:26 PM] Victor Perez Juarez: what user
+[5:23:28 PM] Victor Perez Juarez: ?
+[5:24:01 PM] Steven Sackett (Adaxa): us = sackett/adaxa
+[5:24:39 PM] Jacken Chan: steven, we can asign to ourselves by clicking &quot;Assign to Me&quot;
+[5:25:05 PM] Victor Perez Juarez: ok
+[5:25:30 PM] Victor Perez Juarez: you have 2 users :-)
+[5:25:41 PM] Victor Perez Juarez: steven1001
+[5:25:49 PM] Steven Sackett (Adaxa): well pls use only one of them
+[5:25:54 PM] Victor Perez Juarez: and other
+[5:26:00 PM] Victor Perez Juarez: steven adaxa
+[5:26:14 PM] Victor Perez Juarez: ok can drop of other user
+[5:26:15 PM] Victor Perez Juarez: ?
+[5:26:47 PM] Steven Sackett (Adaxa): I dont know why 2
+[5:26:53 PM] Jacken Chan: username: adaxa is the one beng used
+[5:27:02 PM] Jacken Chan: the other can probably go, agree steven?
+[5:27:05 PM] Steven Sackett (Adaxa): agree
+[5:27:18 PM] Steven Sackett (Adaxa): yesterday someone said they could not find the adaxa user
+[5:27:30 PM] Jacken Chan: victor, can u fix my permission too
+[5:27:58 PM] Jacken Chan: can&#39;t create issue with my username &#39;jchan&#39;
+[5:28:06 PM] Victor Perez Juarez: ok
+[5:28:08 PM] Victor Perez Juarez: letme
+[5:28:18 PM] Michael McKay: Catching up - yes I can help with ZK.
+[5:29:03 PM] Steven Sackett (Adaxa): 75 sounds like it requires some testing as first step .. Jacken, can u do that?
+[5:29:24 PM] Jacken Chan: ok will take 75
+[5:29:42 PM] Steven Sackett (Adaxa): Victor pls allocate 75 to adaxa
+[5:29:51 PM] Victor Perez Juarez: Steven no can delete
+[5:29:54 PM] Victor Perez Juarez: steven1001
+[5:30:05 PM] Victor Perez Juarez: i got that you have a comment
+[5:30:22 PM] Victor Perez Juarez: so I remove of permission and change name to not used
+[5:30:36 PM] Steven Sackett (Adaxa): thanks
+[5:30:43 PM] Steven Sackett (Adaxa): number 80?
+[5:30:54 PM] Victor Perez Juarez: ok let me fix the permission of Jacken
+[5:31:12 PM] Victor Perez Juarez: and re assign ZK issues
+[5:31:14 PM] Victor Perez Juarez: Mike
+[5:31:44 PM] Victor Perez Juarez: @Jacken your user id is
+[5:31:44 PM] Victor Perez Juarez: Jacken Chan
+[5:31:51 PM] Michael McKay: 59 has been fixed with the info product improvements.  The patch no longer applies and the problem should be solved.  It can be marked resolved/closed refering to feature https://adempiere.atlassian.net/browse/ADEMPIERE-72.
+[5:31:58 PM] Victor Perez Juarez: jchan@adaxa.com
+[5:32:06 PM] Jacken Chan: thanks for that
+[5:32:25 PM] Mario Calderón: @Mike: can you do it? so get rid of it.
+[5:33:44 PM] Michael McKay: OK
+[5:33:48 PM] Jacken Chan: victor, i logged in jira but see no Issue tab
+[5:34:03 PM] Jacken Chan: you can fix that after the session
+[5:34:05 PM] Victor Perez Juarez: Jacken you have now
+[5:34:06 PM] Victor Perez Juarez: Name	Description
+
+access-jira		
+
+developers		
+
+jira-users
+[5:34:56 PM] Steven Sackett (Adaxa): pls leave 80 .. we may have fixed .. asking dev for response
+[5:35:10 PM] Steven Sackett (Adaxa): actually allocate to adaxa
+[5:35:45 PM] Michael McKay: 59 is closed.
+[5:35:48 PM] Victor Perez Juarez: Jaken now you have
+[5:35:49 PM] Victor Perez Juarez: users	ADDED		
+
+access-jira			Remove group
+
+adempiere-technical-team			
+
+developers			
+
+jira-users
+[5:36:49 PM] Victor Perez Juarez: Mike I re assign ADEMPIERE-67
+
+Different behavior with Reports between ZK and Java GUI to you
+[5:36:55 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-67
+[5:37:04 PM] Michael McKay: OK.
+[5:37:15 PM] Steven Sackett (Adaxa): @Victor, pls allocate 80 to adaxa
+[5:37:27 PM] Jacken Chan: it works now Victor
+[5:37:31 PM] Victor Perez Juarez: ok
+[5:37:35 PM] Victor Perez Juarez: perfect
+[5:37:43 PM] Victor Perez Juarez: Can&#39;t print single records using Report Button on swing if PrintFormat has Jasper on filtered tabs
+[5:37:49 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-68
+[5:38:16 PM] Victor Perez Juarez: Steven of 80 have not
+[5:39:11 PM] Michael McKay: I&#39;ll take 153 - a zk issue.
+[5:39:23 PM] Mario Calderón: I can ask Angelo if he wishes to commit his work, because he seems to know a lot of code also
+[5:39:30 PM] Victor Perez Juarez: of 68
+[5:39:33 PM] Victor Perez Juarez: is related with 67
+[5:39:42 PM] Victor Perez Juarez: so assign to Mike
+[5:39:56 PM] Michael McKay: OK
+[5:40:30 PM] Victor Perez Juarez: of https://adempiere.atlassian.net/browse/ADEMPIERE-82
+[5:40:42 PM] Victor Perez Juarez: have patch
+[5:40:50 PM] Victor Perez Juarez: so I assign to suman
+[5:41:33 PM] Steven Sackett (Adaxa): 85 -- we fixed and can take
+[5:42:14 PM] Victor Perez Juarez: ok
+[5:42:20 PM] Steven Sackett (Adaxa): @victor .. this user jtrinidad@adaxa.com is waiting for a password reset by the administrator before they can do stuff
+[5:42:42 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-90
+[5:43:01 PM] Michael McKay: 90 is a bit of a big job.  I can do it, but not for 380.
+[5:43:36 PM] Victor Perez Juarez: read is temp password : adempiere
+[5:43:57 PM] Victor Perez Juarez: please confirm
+[5:44:56 PM] Steven Sackett (Adaxa): re 90 .. is it only a ZK problem?
+[5:45:04 PM] Victor Perez Juarez: mmm not is swing
+[5:45:07 PM] Victor Perez Juarez: is strange
+[5:45:08 PM] Michael McKay: No - that is a swing issue.
+[5:45:24 PM] Victor Perez Juarez: @Steven you solve this in adaxa vesrsion ?
+[5:45:42 PM] Steven Sackett (Adaxa): not aware of us having had the problem
+[5:46:36 PM] Steven Sackett (Adaxa): we have been li\ving wityh the problem .. leave this one unassigned if we are not gonna fix for 380
+[5:47:18 PM] Michael McKay: +1 to leave as a known issue.
+[5:47:45 PM] Victor Perez Juarez: ok
+[5:47:56 PM] Victor Perez Juarez: it no are in idempiere
+[5:48:11 PM] Victor Perez Juarez: haas but idempiere remove swing ui
+[5:48:59 PM] Victor Perez Juarez: of 99 include patched
+[5:49:12 PM] Victor Perez Juarez: so I assign to suman
+[5:49:16 PM] Mario Calderón: +1
+[5:49:17 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-99
+[5:50:05 PM] Victor Perez Juarez: the https://adempiere.atlassian.net/browse/ADEMPIERE-102 is business logic so I take
+[5:51:24 PM] Victor Perez Juarez: ADEMPIERE-103
+
+Attachments on file system: NPE when no path defined for non windows systems
+[5:51:36 PM] Victor Perez Juarez: include patched then is for suman
+[5:52:22 PM] Victor Perez Juarez: Mario  would take this https://adempiere.atlassian.net/browse/ADEMPIERE-104
+[5:52:23 PM] Victor Perez Juarez: ?
+[5:52:40 PM] Mario Calderón: I can...
+
+but I don&#39;t have Oracle!!
+[5:53:53 PM] Michael McKay: Me neither.
+[5:53:59 PM] Mario Calderón: it is not DB related
+[5:54:37 PM] Mario Calderón: it is the costiing engine Victor
+[5:54:55 PM] Victor Perez Juarez: but the problem is with average cost
+[5:54:58 PM] Victor Perez Juarez: not with oracle
+[5:55:07 PM] Victor Perez Juarez: yes
+[5:55:22 PM] Victor Perez Juarez: let me review
+[5:55:22 PM] Victor Perez Juarez: then
+[5:55:57 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-105
+[5:56:06 PM] Victor Perez Juarez: ￼
+
+	.	ADempiereADEMPIERE-105
+
+RUN_DBExport is not working with Oracle 11
+[5:56:09 PM] Victor Perez Juarez: ?
+[5:56:32 PM] Victor Perez Juarez: here need migrate of new command to export and import db in oracle 11
+[5:57:38 PM] Jacken Chan: I can setup Oracle XE locally to review #105
+[5:57:53 PM] Jacken Chan: pls assign to me
+[5:59:45 PM] Steven Sackett (Adaxa): Jacekn, u can probably click on and assign to yourself
+[5:59:53 PM] Jacken Chan: ok
+[6:00:00 PM] Victor Perez Juarez: ok
+[6:00:03 PM] Jacken Chan: moving on
+[6:00:06 PM] Steven Sackett (Adaxa): 106?
+[6:00:24 PM] Mario Calderón: has patch
+[6:00:50 PM] Mario Calderón: same 107, 108, 109, 111,112
+[6:00:59 PM] Steven Sackett (Adaxa): assign to Suman then?
+[6:01:07 PM] Victor Perez Juarez: ok
+[6:01:53 PM] Steven Sackett (Adaxa): and 112?
+[6:02:17 PM] Victor Perez Juarez: ADEMPIERE-108
+[6:03:09 PM] Victor Perez Juarez: Amerio you have a lot of patch
+[6:03:23 PM] Victor Perez Juarez: should commit
+[6:03:45 PM] Victor Perez Juarez: of 112 was suman too
+[6:04:06 PM] Steven Sackett (Adaxa): 113
+[6:04:14 PM] Steven Sackett (Adaxa): Jacken can u test for 113
+[6:04:34 PM] Jacken Chan: ok assigned
+[6:04:59 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-114
+[6:05:17 PM] Steven Sackett (Adaxa): Jacken .. pls take 114 for testing
+[6:05:29 PM] Jacken Chan: ok assigned
+[6:06:21 PM] Steven Sackett (Adaxa): 115 .. does not read like a bug to me
+[6:06:41 PM] Steven Sackett (Adaxa): it should come back into inventory at current cost
+[6:07:27 PM] Steven Sackett (Adaxa): eg .. if using std cost .. will be current cost.
+[6:07:44 PM] Steven Sackett (Adaxa): if using other metjhods then open to interpretation
+[6:08:19 PM] Michael McKay: Steve, Begin Triage, then quick resolve and add your comment.
+[6:08:37 PM] Steven Sackett (Adaxa): do others agree with my view?
+[6:09:18 PM] Michael McKay: +1
+[6:09:32 PM] Jacken Chan: +1
+[6:09:58 PM] Mario Calderón: +1
+[6:11:12 PM] Michael McKay: We can always reopen the issue if things change.
+[6:11:12 PM] Steven Sackett (Adaxa): 116?
+[6:12:10 PM] Victor Perez Juarez: ADEMPIERE-116
+[6:12:17 PM] Victor Perez Juarez: is business logic I take
+[6:12:18 PM] Michael McKay: Wasn&#39;t there a lot of work done in idempiere on this issue?
+[6:12:34 PM] Victor Perez Juarez: Mike idempiere replace all
+[6:12:54 PM] Victor Perez Juarez: of reservation functionality
+[6:12:59 PM] Victor Perez Juarez: then create a new table
+[6:13:05 PM] Victor Perez Juarez: and now are out o M_Storage
+[6:13:16 PM] Steven Sackett (Adaxa): adaxa has also
+[6:13:33 PM] Michael McKay: Is it something we can add to 380?
+[6:13:36 PM] Victor Perez Juarez: I take ADEMPIERE-117
+[6:13:51 PM] Victor Perez Juarez: would but refectory is hard :-(
+[6:14:04 PM] Steven Sackett (Adaxa): I dont think we can add to 380 now
+[6:14:15 PM] Victor Perez Juarez: Workflow - Document Value does not work
+[6:14:21 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-118
+[6:14:29 PM] Michael McKay: Go to go for a bit.
+[6:14:41 PM] Steven Sackett (Adaxa): the work is still in progress..
+[6:15:44 PM] Steven Sackett (Adaxa): looks like Mike and Mario need to stop
+[6:15:55 PM] Steven Sackett (Adaxa): do we continue for a while longer?
+[6:17:11 PM] Steven Sackett (Adaxa): 118 - could be a set up issue by user.
+[6:17:44 PM] Mario Calderón: I have to leave...
+
+I told victor, he can assign bugs to me if they are not too complicated
+[6:18:02 PM] Mario Calderón: I will follow this and publish it
+[6:18:05 PM] Steven Sackett (Adaxa): thats good .. we will just assign all the rest!
+[6:18:10 PM] Mario Calderón: ;)
+[6:18:18 PM] Steven Sackett (Adaxa): bye
+[6:18:21 PM] Steven Sackett (Adaxa): 118?
+[6:19:08 PM] Victor Perez Juarez: mmm
+[6:19:10 PM] Steven Sackett (Adaxa): we have used the approval process on orders and it worked based on value
+[6:19:25 PM] Steven Sackett (Adaxa): why would it be different on invoices?
+[6:19:42 PM] Steven Sackett (Adaxa): leave unassigned for moment
+[6:19:50 PM] Steven Sackett (Adaxa): with a comment?
+[6:21:15 PM] Victor Perez Juarez: I will take
+[6:21:46 PM] Michael McKay: I&#39;m back.
+[6:22:09 PM] Victor Perez Juarez: ADEMPIERE-119
+
+Missing &#39;=&#39; in MAcctSchemaElement.getValueQuery
+[6:22:14 PM] Steven Sackett (Adaxa): we take 119
+[6:22:17 PM] Victor Perez Juarez: I add Suman
+[6:22:23 PM] Victor Perez Juarez: show of solution
+[6:22:39 PM] Steven Sackett (Adaxa): for 119?
+[6:22:52 PM] Steven Sackett (Adaxa): ok .. pls allocate to Suman
+[6:22:54 PM] Steven Sackett (Adaxa): I cant
+[6:23:45 PM] Victor Perez Juarez: yes
+[6:23:48 PM] Victor Perez Juarez: let me review
+[6:23:53 PM] Victor Perez Juarez: your permision
+[6:24:23 PM] Michael McKay: I&#39;ll take 120.  Seems simple.
+[6:25:02 PM] Victor Perez Juarez: @Steven can review again
+[6:25:08 PM] Victor Perez Juarez: I add 2 new group permission
+[6:26:00 PM] Steven Sackett (Adaxa): probably have tyo log out .. and not gonna do that
+[6:26:09 PM] Victor Perez Juarez: Error when customizing UnAllocated Payment report
+[6:26:10 PM] Steven Sackett (Adaxa): can u reallocate 119
+[6:26:13 PM] Steven Sackett (Adaxa): thanjks
+[6:26:24 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-121
+[6:26:49 PM] Victor Perez Juarez: yes I can see
+[6:26:58 PM] Victor Perez Juarez: that 119 was reallocate
+[6:27:39 PM] Michael McKay: 121 is strange.
+[6:27:40 PM] Victor Perez Juarez: I taked https://adempiere.atlassian.net/browse/ADEMPIERE-122
+[6:27:48 PM] Steven Sackett (Adaxa): i refresh screen and 119 still shows allocated to sackett
+[6:27:50 PM] Victor Perez Juarez: I am review any with UM
+[6:28:26 PM] Michael McKay: Who do you want it reallocated to?
+[6:28:31 PM] Victor Perez Juarez: I taked ADEMPIERE-124
+
+MOrder.reserveStock can´t handle M_AttributeSetInstance_ID
+[6:29:28 PM] Steven Sackett (Adaxa): Jacken, I assigned 121 to us .. pls test when logging in wuith english -au and see if problem exists still
+[6:29:44 PM] Victor Perez Juarez: I think that https://adempiere.atlassian.net/browse/ADEMPIERE-125
+[6:29:47 PM] Jacken Chan: that seems simple to test
+[6:29:48 PM] Victor Perez Juarez: we need coluse
+[6:29:50 PM] Victor Perez Juarez: clouse
+[6:30:01 PM] Victor Perez Juarez: current manufacturing not support average cost
+[6:30:05 PM] Victor Perez Juarez: only standard
+[6:30:17 PM] Victor Perez Juarez: I know that Susanne are work in this
+[6:30:22 PM] Steven Sackett (Adaxa): u will close with comment?
+[6:30:29 PM] Victor Perez Juarez: but I not am sure of finish
+[6:30:34 PM] Victor Perez Juarez: yes
+[6:31:09 PM] Steven Sackett (Adaxa): 126 has a fix .. allocate to Suman?
+[6:32:42 PM] Michael McKay: Have to leave now.
+[6:32:52 PM] Steven Sackett (Adaxa): bye
+[6:32:56 PM] Jacken Chan: bye
+[6:33:10 PM] Steven Sackett (Adaxa): Victor, can u pls allocate 126 to Suman.
+[6:33:49 PM] Steven Sackett (Adaxa): 127 has a solution .. allocate to Suman?
+[6:35:14 PM] Victor Perez Juarez: ready
+[6:35:21 PM] Victor Perez Juarez: of https://adempiere.atlassian.net/browse/ADEMPIERE-141
+[6:35:37 PM] Victor Perez Juarez: is in portuges
+[6:35:39 PM] Victor Perez Juarez: :-)
+[6:35:42 PM] Victor Perez Juarez: some know
+[6:35:44 PM] Victor Perez Juarez: ?
+[6:36:35 PM] Victor Perez Juarez: Steven
+[6:36:38 PM] Victor Perez Juarez: do you testing Chart Field Type
+[6:37:02 PM] Victor Perez Juarez: Do you know if it ware work perfectly ?
+[6:37:07 PM] Victor Perez Juarez: if is ok I can close
+[6:37:42 PM] Jacken Chan: is this the chart type on dashboard
+[6:37:49 PM] Steven Sackett (Adaxa): looking at 141
+[6:38:24 PM] Jacken Chan: chart type in CRM works ok as field type
+[6:39:18 PM] Steven Sackett (Adaxa): 141 looks like its zk issue only .. can we allocate to Mike?
+[6:40:05 PM] Steven Sackett (Adaxa): 143?
+[6:40:21 PM] Victor Perez Juarez: ok
+[6:40:25 PM] Victor Perez Juarez: letme coluse
+[6:40:47 PM] Steven Sackett (Adaxa): no detail .. just close .. seems to be working ok in adaxa builds.. can u try to reproduce whatever iot was in 380 RC
+[6:40:59 PM] Victor Perez Juarez: ADEMPIERE-145
+[6:41:02 PM] Victor Perez Juarez: is ready
+[6:41:17 PM] Steven Sackett (Adaxa): you will close?
+[6:42:32 PM] Victor Perez Juarez: ADEMPIERE-145
+[6:42:33 PM] Steven Sackett (Adaxa): 148 .. allocate to Mario .. he reported it .. and we dont see the problem
+[6:42:36 PM] Victor Perez Juarez: was cloose
+[6:42:39 PM] Victor Perez Juarez: close
+[6:43:03 PM] Victor Perez Juarez: I think that he can
+[6:43:07 PM] Victor Perez Juarez: set in trunk
+[6:43:17 PM] Steven Sackett (Adaxa): When doing a Purchase order with a charge line, the assumption at prepareIt(), line 1290 always hits, making it impossible to do Purchase Orders for Charges.
+[6:43:20 PM] Victor Perez Juarez: or set to suman
+[6:43:21 PM] Victor Perez Juarez: ?
+[6:43:31 PM] Steven Sackett (Adaxa): never seen this problem .. create PO for Charges all the time
+[6:44:04 PM] Steven Sackett (Adaxa): well I would not know what to test for .. seems to work already.. Jacken?
+[6:45:16 PM] Jacken Chan: going in to do a quick check in 380
+[6:46:19 PM] Victor Perez Juarez: ok
+[6:46:59 PM] Victor Perez Juarez: Error try apply CRM.xml in oracle for comment column in C_Oportunity
+[6:47:12 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-150
+[6:47:16 PM] Victor Perez Juarez: I solved it
+[6:47:24 PM] Victor Perez Juarez: in oracle not support size 5000
+[6:47:30 PM] Victor Perez Juarez: so I set standard
+[6:47:31 PM] Victor Perez Juarez: 4000
+[6:49:00 PM] Victor Perez Juarez: ADEMPIERE-154
+
+error storage when complete material receipt
+[6:49:04 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-154
+[6:49:05 PM] Jacken Chan: re 150, i seem that in oracle, ended up creating BLOB type
+[6:49:16 PM] Victor Perez Juarez: yes but the issue that xml
+[6:49:23 PM] Victor Perez Juarez: that Generate Paul
+[6:49:33 PM] Victor Perez Juarez: are defined as string not as  BLOB type
+[6:49:51 PM] Jacken Chan: re 148, cannot reproduce, sugges to close for now
+[6:51:35 PM] Victor Perez Juarez: I think that error was in this add tobi
+[6:51:36 PM] Victor Perez Juarez: Util.assume(ol.getQtyReserved().compareTo(ol.getQtyOrdered()) == 0, 
+
+&quot;After prepareIt, reservations have been made&quot;);
+[6:51:43 PM] Victor Perez Juarez: but I think tha Mike solve
+[6:51:46 PM] Victor Perez Juarez: I remember
+[6:51:58 PM] Steven Sackett (Adaxa): closed it.. using the right hand button on the toolbar at top .. quick-traiage or similar
+[6:53:03 PM] Victor Perez Juarez: ADEMPIERE-154
+[6:53:09 PM] Victor Perez Juarez: error storage when complete material receipt?
+[6:53:42 PM] Steven Sackett (Adaxa): allocate to Jacken for testing please
+[6:53:55 PM] Steven Sackett (Adaxa): ok Jacken?
+[6:54:01 PM] Jacken Chan: ok, i have taken
+[6:55:14 PM] Victor Perez Juarez: ADEMPIERE-155
+
+error create payment void when payment on sales order window have status &quot;Complete&quot;
+[6:55:19 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-155
+[6:55:24 PM] Victor Perez Juarez: I think that is more feature
+[6:55:27 PM] Victor Perez Juarez: and not a bug
+[6:55:39 PM] Steven Sackett (Adaxa): comment &quot;left for another time!&quot;
+[6:55:44 PM] Victor Perez Juarez: you can change rule payment from sales order
+[6:55:49 PM] Steven Sackett (Adaxa): and leave unassigned?
+[6:56:22 PM] Victor Perez Juarez: let me assign to mario
+[6:56:48 PM] Steven Sackett (Adaxa): I just added comment .. pls review
+[6:57:05 PM] Victor Perez Juarez: ADEMPIERE-156
+
+Other startup behaviour when User logs out than on ADempieres first startup
+[6:57:11 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-156
+[6:57:15 PM] Victor Perez Juarez: si propuse an solution
+[6:57:22 PM] Victor Perez Juarez: would set to suman
+[6:57:22 PM] Victor Perez Juarez: ?
+[6:57:50 PM] Steven Sackett (Adaxa): +1
+[6:58:23 PM] Victor Perez Juarez: +1
+[6:58:26 PM] Victor Perez Juarez: ok
+[6:58:45 PM] Steven Sackett (Adaxa): 157 .. same?
+[6:58:58 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-156
+[6:59:19 PM] Victor Perez Juarez: yes but Trifon said that was solve in patches 360
+[6:59:29 PM] Victor Perez Juarez: and as I understand Suman apply
+[6:59:34 PM] Victor Perez Juarez: so only need check
+[6:59:51 PM] Steven Sackett (Adaxa): so allocate to someone else?
+[7:00:38 PM] Steven Sackett (Adaxa): 157 -- says still affects 370
+[7:01:01 PM] Victor Perez Juarez: Old FixedAssets code does not work on PostgreSQL
+[7:01:04 PM] Steven Sackett (Adaxa): I say give to Suman for moment
+[7:01:05 PM] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-163
+[7:01:13 PM] Victor Perez Juarez: yes
+[7:02:00 PM] Steven Sackett (Adaxa): 163 has patches for what looks to be uncomplcated change based on the text.  give to Suman?
+[7:02:49 PM] Victor Perez Juarez: yes but
+[7:03:03 PM] Victor Perez Juarez: see that is fixed asset
+[7:03:10 PM] Victor Perez Juarez: and it is unstable avoid
+[7:03:19 PM] Victor Perez Juarez: would I set to suman
+[7:03:28 PM] Victor Perez Juarez: but need fix with detail
+[7:03:31 PM] Steven Sackett (Adaxa): ok .. put comment - left for 390
+[7:03:46 PM] Victor Perez Juarez: because current ROWNUM 1
+[7:03:54 PM] Victor Perez Juarez: not is support in SQL
+[7:04:17 PM] Steven Sackett (Adaxa): saw that ... but if we dont recommend using FA then ignore
+[7:04:23 PM] Steven Sackett (Adaxa): and comment same
+[7:04:31 PM] Steven Sackett (Adaxa): agree?
+[7:05:21 PM] Jacken Chan: leaving my desk for 15mins
+[7:05:32 PM] Steven Sackett (Adaxa): Jacken please take 165 if you can test for it.
+[7:06:40 PM] Steven Sackett (Adaxa): Victor .. I have to go.
+[7:06:51 PM] Victor Perez Juarez: ￼
+
+	.	ADempiereADEMPIERE-165
+
+HTTPS port listens on all available addresses, not just configured one
+[7:06:52 PM] Steven Sackett (Adaxa): next time I can look at this is Friday morning
+[7:07:05 PM] Victor Perez Juarez: is same that saw was pached by trifon
+[7:07:10 PM] Victor Perez Juarez: yes
+[7:07:12 PM] Victor Perez Juarez: is ok
+[7:07:18 PM] Steven Sackett (Adaxa): talk Friday?
+[7:07:40 PM] Victor Perez Juarez: yes
+[7:07:40 PM] Steven Sackett (Adaxa): other may be able to do tomorrow but I am away
+[7:07:46 PM] Victor Perez Juarez: I saw here some of mike
+[7:07:48 PM] Victor Perez Juarez: and me
+[7:07:55 PM] Victor Perez Juarez: so it I assign me
+[7:08:02 PM] Victor Perez Juarez: and Mike would make same
+[7:08:04 PM] Steven Sackett (Adaxa): ok . talk next time
+[7:08:26 PM] Victor Perez Juarez: ok
+[7:08:35 PM] Victor Perez Juarez: thank a lot your time Steven
+[7:23:55 PM] Michael McKay: FYI - won&#39;t be able to do Friday at this time.
+Thursday, June 19, 2014
+[7:35:09 AM] Mario Calderón: I am about to transcript and publish this conversation
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div><!----><footer class="page-meta"><div class="meta-item edit-link"><a href="https://github.com/adempiere/adempiere-site/edit/main/src/community/wiki/meetings/FT-2014/FT-20140617.md" rel="noopener noreferrer" target="_blank" aria-label="Edit this page" class="nav-link label"><!--[--><svg xmlns="http://www.w3.org/2000/svg" class="icon edit-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="edit icon"><path d="M430.818 653.65a60.46 60.46 0 0 1-50.96-93.281l71.69-114.012 7.773-10.365L816.038 80.138A60.46 60.46 0 0 1 859.225 62a60.46 60.46 0 0 1 43.186 18.138l43.186 43.186a60.46 60.46 0 0 1 0 86.373L588.879 565.55l-8.637 8.637-117.466 68.234a60.46 60.46 0 0 1-31.958 11.229z"></path><path d="M728.802 962H252.891A190.883 190.883 0 0 1 62.008 771.98V296.934a190.883 190.883 0 0 1 190.883-192.61h267.754a60.46 60.46 0 0 1 0 120.92H252.891a69.962 69.962 0 0 0-69.098 69.099V771.98a69.962 69.962 0 0 0 69.098 69.098h475.911A69.962 69.962 0 0 0 797.9 771.98V503.363a60.46 60.46 0 1 1 120.922 0V771.98A190.883 190.883 0 0 1 728.802 962z"></path></svg><!--]-->Edit this page<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span><!----></a></div><div class="meta-item update-time"><span class="label">Last update: </span><span class="info">8/29/2023, 10:51:16 PM</span></div><div class="meta-item contributors"><span class="label">Contributors: </span><!--[--><!--[--><span class="contributor" title="email: 134967453+tecnicoerp@users.noreply.github.com">Jesús Albujas</span><!--]--><!--]--></div></footer><nav class="page-nav"><a href="/community/wiki/meetings/FT-2014/FT-20140603.html" class="nav-link prev" aria-label="FT/TT meeting minutes June 03rd 2014"><div class="hint"><span class="arrow left"></span>Prev</div><div class="link"><!---->FT/TT meeting minutes June 03rd 2014</div></a><!----></nav><div class="waline-wrapper" style="display:block;" darkmode="false"><div data-waline provider="Waline"><div class="wl-comment"><!--v-if--><div class="wl-panel"><div class="wl-header item3"><!--[--><div class="wl-header-item"><label for="nick">NickName</label><input id="wl-nick" class="wl-input wl-nick" name="nick" type="text" value></div><div class="wl-header-item"><label for="mail">E-Mail</label><input id="wl-mail" class="wl-input wl-mail" name="mail" type="email" value></div><div class="wl-header-item"><label for="link">Website</label><input id="wl-link" class="wl-input wl-link" name="link" type="text" value></div><!--]--></div><textarea class="wl-editor" id="wl-edit" placeholder="Write a comment here (Fill in the email address to receive an email notification when being replied)"></textarea><div class="wl-preview" style="display:none;"><hr><h4>Preview:</h4><div class="wl-content"></div></div><div class="wl-footer"><div class="wl-actions"><a href="https://guides.github.com/features/mastering-markdown/" title="Markdown Guide" aria-label="Markdown is supported" class="wl-action" target="_blank" rel="noreferrer"><svg width="16" height="16" ariahidden="true"><path d="M14.85 3H1.15C.52 3 0 3.52 0 4.15v7.69C0 12.48.52 13 1.15 13h13.69c.64 0 1.15-.52 1.15-1.15v-7.7C16 3.52 15.48 3 14.85 3zM9 11H7V8L5.5 9.92 4 8v3H2V5h2l1.5 2L7 5h2v6zm2.99.5L9.5 8H11V5h2v3h1.5l-2.51 3.5z" fill="currentColor"></path></svg></a><button class="wl-action" title="Emoji" style="display:none;"><svg viewbox="0 0 1024 1024" width="24" height="24"><path d="M563.2 463.3 677 540c1.7 1.2 3.7 1.8 5.8 1.8.7 0 1.4-.1 2-.2 2.7-.5 5.1-2.1 6.6-4.4l25.3-37.8c1.5-2.3 2.1-5.1 1.6-7.8s-2.1-5.1-4.4-6.6l-73.6-49.1 73.6-49.1c2.3-1.5 3.9-3.9 4.4-6.6.5-2.7 0-5.5-1.6-7.8l-25.3-37.8a10.1 10.1 0 0 0-6.6-4.4c-.7-.1-1.3-.2-2-.2-2.1 0-4.1.6-5.8 1.8l-113.8 76.6c-9.2 6.2-14.7 16.4-14.7 27.5.1 11 5.5 21.3 14.7 27.4zM387 348.8h-45.5c-5.7 0-10.4 4.7-10.4 10.4v153.3c0 5.7 4.7 10.4 10.4 10.4H387c5.7 0 10.4-4.7 10.4-10.4V359.2c0-5.7-4.7-10.4-10.4-10.4zm333.8 241.3-41-20a10.3 10.3 0 0 0-8.1-.5c-2.6.9-4.8 2.9-5.9 5.4-30.1 64.9-93.1 109.1-164.4 115.2-5.7.5-9.9 5.5-9.5 11.2l3.9 45.5c.5 5.3 5 9.5 10.3 9.5h.9c94.8-8 178.5-66.5 218.6-152.7 2.4-5 .3-11.2-4.8-13.6zm186-186.1c-11.9-42-30.5-81.4-55.2-117.1-24.1-34.9-53.5-65.6-87.5-91.2-33.9-25.6-71.5-45.5-111.6-59.2-41.2-14-84.1-21.1-127.8-21.1h-1.2c-75.4 0-148.8 21.4-212.5 61.7-63.7 40.3-114.3 97.6-146.5 165.8-32.2 68.1-44.3 143.6-35.1 218.4 9.3 74.8 39.4 145 87.3 203.3.1.2.3.3.4.5l36.2 38.4c1.1 1.2 2.5 2.1 3.9 2.6 73.3 66.7 168.2 103.5 267.5 103.5 73.3 0 145.2-20.3 207.7-58.7 37.3-22.9 70.3-51.5 98.1-85 27.1-32.7 48.7-69.5 64.2-109.1 15.5-39.7 24.4-81.3 26.6-123.8 2.4-43.6-2.5-87-14.5-129zm-60.5 181.1c-8.3 37-22.8 72-43 104-19.7 31.1-44.3 58.6-73.1 81.7-28.8 23.1-61 41-95.7 53.4-35.6 12.7-72.9 19.1-110.9 19.1-82.6 0-161.7-30.6-222.8-86.2l-34.1-35.8c-23.9-29.3-42.4-62.2-55.1-97.7-12.4-34.7-18.8-71-19.2-107.9-.4-36.9 5.4-73.3 17.1-108.2 12-35.8 30-69.2 53.4-99.1 31.7-40.4 71.1-72 117.2-94.1 44.5-21.3 94-32.6 143.4-32.6 49.3 0 97 10.8 141.8 32 34.3 16.3 65.3 38.1 92 64.8 26.1 26 47.5 56 63.6 89.2 16.2 33.2 26.6 68.5 31 105.1 4.6 37.5 2.7 75.3-5.6 112.3z" fill="currentColor"></path></svg></button><button class="wl-action" title="GIF"><svg width="24" height="24" fill="currentcolor" viewbox="0 0 24 24"><path style="transform: translateY(0.5px)" d="M18.968 10.5H15.968V11.484H17.984V12.984H15.968V15H14.468V9H18.968V10.5V10.5ZM8.984 9C9.26533 9 9.49967 9.09367 9.687 9.281C9.87433 9.46833 9.968 9.70267 9.968 9.984V10.5H6.499V13.5H8.468V12H9.968V14.016C9.968 14.2973 9.87433 14.5317 9.687 14.719C9.49967 14.9063 9.26533 15 8.984 15H5.984C5.70267 15 5.46833 14.9063 5.281 14.719C5.09367 14.5317 5 14.2973 5 14.016V9.985C5 9.70367 5.09367 9.46933 5.281 9.282C5.46833 9.09467 5.70267 9.001 5.984 9.001H8.984V9ZM11.468 9H12.968V15H11.468V9V9Z"></path><path d="M18.5 3H5.75C3.6875 3 2 4.6875 2 6.75V18C2 20.0625 3.6875 21.75 5.75 21.75H18.5C20.5625 21.75 22.25 20.0625 22.25 18V6.75C22.25 4.6875 20.5625 3 18.5 3ZM20.75 18C20.75 19.2375 19.7375 20.25 18.5 20.25H5.75C4.5125 20.25 3.5 19.2375 3.5 18V6.75C3.5 5.5125 4.5125 4.5 5.75 4.5H18.5C19.7375 4.5 20.75 5.5125 20.75 6.75V18Z"></path></svg></button><input class="upload" id="wl-image-upload" type="file" accept=".png,.jpg,.jpeg,.webp,.bmp,.gif"><label for="wl-image-upload" class="wl-action" title="Upload Image"><svg viewbox="0 0 1024 1024" width="24" height="24"><path d="M784 112H240c-88 0-160 72-160 160v480c0 88 72 160 160 160h544c88 0 160-72 160-160V272c0-88-72-160-160-160zm96 640c0 52.8-43.2 96-96 96H240c-52.8 0-96-43.2-96-96V272c0-52.8 43.2-96 96-96h544c52.8 0 96 43.2 96 96v480z" fill="currentColor"></path><path d="M352 480c52.8 0 96-43.2 96-96s-43.2-96-96-96-96 43.2-96 96 43.2 96 96 96zm0-128c17.6 0 32 14.4 32 32s-14.4 32-32 32-32-14.4-32-32 14.4-32 32-32zm462.4 379.2-3.2-3.2-177.6-177.6c-25.6-25.6-65.6-25.6-91.2 0l-80 80-36.8-36.8c-25.6-25.6-65.6-25.6-91.2 0L200 728c-4.8 6.4-8 14.4-8 24 0 17.6 14.4 32 32 32 9.6 0 16-3.2 22.4-9.6L380.8 640l134.4 134.4c6.4 6.4 14.4 9.6 24 9.6 17.6 0 32-14.4 32-32 0-9.6-4.8-17.6-9.6-24l-52.8-52.8 80-80L769.6 776c6.4 4.8 12.8 8 20.8 8 17.6 0 32-14.4 32-32 0-8-3.2-16-8-20.8z" fill="currentColor"></path></svg></label><button class="wl-action" title="Preview"><svg viewbox="0 0 1024 1024" width="24" height="24"><path d="M710.816 654.301c70.323-96.639 61.084-230.578-23.705-314.843-46.098-46.098-107.183-71.109-172.28-71.109-65.008 0-126.092 25.444-172.28 71.109-45.227 46.098-70.756 107.183-70.756 172.106 0 64.923 25.444 126.007 71.194 172.106 46.099 46.098 107.184 71.109 172.28 71.109 51.414 0 100.648-16.212 142.824-47.404l126.53 126.006c7.058 7.06 16.297 10.979 26.406 10.979 10.105 0 19.343-3.919 26.402-10.979 14.467-14.467 14.467-38.172 0-52.723L710.816 654.301zm-315.107-23.265c-65.88-65.88-65.88-172.54 0-238.42 32.069-32.07 74.245-49.149 119.471-49.149 45.227 0 87.407 17.603 119.472 49.149 65.88 65.879 65.88 172.539 0 238.42-63.612 63.178-175.242 63.178-238.943 0zm0 0" fill="currentColor"></path><path d="M703.319 121.603H321.03c-109.8 0-199.469 89.146-199.469 199.38v382.034c0 109.796 89.236 199.38 199.469 199.38h207.397c20.653 0 37.384-16.645 37.384-37.299 0-20.649-16.731-37.296-37.384-37.296H321.03c-68.582 0-124.352-55.77-124.352-124.267V321.421c0-68.496 55.77-124.267 124.352-124.267h382.289c68.582 0 124.352 55.771 124.352 124.267V524.72c0 20.654 16.736 37.299 37.385 37.299 20.654 0 37.384-16.645 37.384-37.299V320.549c-.085-109.8-89.321-198.946-199.121-198.946zm0 0" fill="currentColor"></path></svg></button></div><div class="wl-info"><div class="wl-text-number">0 <!--v-if-->  Words</div><button class="wl-btn">Login</button><button class="wl-btn primary" title="Cmd|Ctrl + Enter"><!--[-->Submit<!--]--></button></div><div class="wl-gif-popup"><input type="text" placeholder="Search GIF"><div class="wl-gallery" style="gap:6px;"><!--[--><!--]--></div><div class="wl-loading"><svg width="30" height="30" viewbox="0 0 100 100" preserveaspectratio="xMidYMid"><circle cx="50" cy="50" fill="none" stroke="currentColor" strokewidth="4" r="40" stroke-dasharray="85 30"><animateTransform attributename="transform" type="rotate" repeatcount="indefinite" dur="1s" values="0 50 50;360 50 50" keytimes="0;1"></animateTransform></circle></svg></div></div><div class="wl-emoji-popup"><!--[--><!--]--><!--v-if--></div></div></div><!--v-if--></div><div class="wl-count"><!--v-if--> Comments</div><div class="wl-cards"><!--[--><!--]--></div><!--[--><div class="wl-loading"><svg width="30" height="30" viewbox="0 0 100 100" preserveaspectratio="xMidYMid"><circle cx="50" cy="50" fill="none" stroke="currentColor" strokewidth="4" r="40" stroke-dasharray="85 30"><animateTransform attributename="transform" type="rotate" repeatcount="indefinite" dur="1s" values="0 50 50;360 50 50" keytimes="0;1"></animateTransform></circle></svg></div><!--]--><!-- Copyright Information --><div class="wl-power"> Powered by <a href="https://github.com/walinejs/waline" target="_blank" rel="noreferrer"> Waline </a> v2.6.1</div></div></div><!----><!--]--></main><!--]--><footer class="footer-wrapper"><div class="footer"></div><div class="copyright">Copyright © 2022-present ADempiere Community</div></footer><!--]--></div><!--]--><!----><!----><!--]--></div>
+    <script src="/assets/js/runtime~app.1ab2fe50.js" defer></script><script src="/assets/js/8095.50afc563.js" defer></script><script src="/assets/js/app.e9f8f974.js" defer></script>
+  </body>
+</html>

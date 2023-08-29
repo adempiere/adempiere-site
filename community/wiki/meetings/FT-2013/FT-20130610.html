@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en-US" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-beta.48" />
+    <meta name="theme" content="VuePress Theme Hope" />
+    <meta property="og:url" content="https://github.com/adempiere/adempiere-site.github.io/community/wiki/meetings/FT-2013/FT-20130610.html"><meta property="og:title" content="FT/TT meeting minutes June 10th 2013"><meta property="og:type" content="article"><meta property="og:updated_time" content="2023-08-29T22:51:16.000Z"><meta property="og:locale" content="en-US"><meta property="og:locale:alternate" content="es-ES"><meta property="article:tag" content="Wiki"><meta property="article:tag" content="Meetings"><meta property="article:modified_time" content="2023-08-29T22:51:16.000Z"><meta name="baidu-site-verification" content="4H7tszevS8"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#5c92d1"><link rel="icon" href="/favicon.ico"><link rel="icon" href="/assets/icon/chrome-192.png" type="image/png" sizes="192x192"><link rel="icon" href="/assets/icon/chrome-512.png" type="image/png" sizes="512x512"><link rel="icon" href="/assets/icon/chrome-mask-192.png" type="image/png" sizes="192x192"><link rel="icon" href="/assets/icon/chrome-mask-512.png" type="image/png" sizes="512x512"><link rel="manifest" href="/manifest.webmanifest" crossorigin="use-credentials"><meta name="theme-color" content="#5c92d1"><link rel="apple-touch-icon" href="/assets/icon/apple-touch-icon.png"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="white"><meta name="msapplication-TileImage" content="/assets/icon/ms-icon-144.png"><meta name="msapplication-TileColor" content="#ffffff"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"><title>FT/TT meeting minutes June 10th 2013 | </title><meta name="description" content="A official page of ADempiere community.">
+    <style>
+      :root {
+        --bg-color: #fff;
+      }
+
+      html[data-theme="dark"] {
+        --bg-color: #1d2025;
+      }
+
+      html,
+      body {
+        background-color: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.querySelector("html").setAttribute("data-theme", "dark");
+      }
+    </script>
+    <link rel="stylesheet" href="/assets/css/styles.752249c8.css">
+    <link rel="preload" href="/assets/js/runtime~app.1ab2fe50.js" as="script"><link rel="preload" href="/assets/css/styles.752249c8.css" as="style"><link rel="preload" href="/assets/js/8095.50afc563.js" as="script"><link rel="preload" href="/assets/js/app.e9f8f974.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="skip-link sr-only">Skip to content</a><!--]--><div class="theme-container has-toc"><!--[--><!--[--><header class="navbar"><div class="navbar-left"><button class="toggle-sidebar-button" title="Toggle Sidebar"><span class="icon"></span></button><!----><a href="/" class="brand"><img class="logo" src="/logo.svg" alt><!----><!----></a><!----></div><div class="navbar-center"><!----><nav class="nav-links"><div class="nav-item hide-in-mobile"><a href="/" class="nav-link" aria-label="Home"><span class="icon iconfont icon-home" style=""></span>Home<!----></a></div><div class="nav-item hide-in-mobile"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="About"><span class="title"><span class="icon iconfont icon-profile" style=""></span>About</span><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a href="/about/" class="nav-link" aria-label="About"><span class="icon iconfont icon-software" style=""></span>About<!----></a></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Some History</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/about/the-beginning.html" class="nav-link" aria-label="The Beginning"><!---->The Beginning<!----></a></li><li class="dropdown-subitem"><a href="/about/branding.html" class="nav-link" aria-label="The Brand"><!---->The Brand<!----></a></li></ul></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Meeting</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/about/meeting/berlin-2009.html" class="nav-link" aria-label="Berlin Conference 2009"><span class="icon iconfont icon-date" style=""></span>Berlin Conference 2009<!----></a></li><li class="dropdown-subitem"><a href="/about/meeting/berlin-2014.html" class="nav-link" aria-label="Berlin Conference 2014"><span class="icon iconfont icon-date" style=""></span>Berlin Conference 2014<!----></a></li></ul></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Articles</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/about/articles/2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system.html" class="nav-link" aria-label="The Future Of ADempiere as a DDD reactive system"><!---->The Future Of ADempiere as a DDD reactive system<!----></a></li><li class="dropdown-subitem"><a href="/about/articles/2015-08-06-world-announcement-for-adempiere.html" class="nav-link" aria-label="World Announcement for ADempiere new and improved content portal"><!---->World Announcement for ADempiere new and improved content portal<!----></a></li></ul></li><li class="dropdown-item"><a href="/about/articles/" class="nav-link" aria-label="About of Announcements"><span class="icon iconfont icon-blog" style=""></span>About of Announcements<!----></a></li></ul></button></div></div><div class="nav-item hide-in-mobile"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="Product"><span class="title"><span class="icon iconfont icon-engine" style=""></span>Product</span><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a href="/product/" class="nav-link" aria-label="Product"><span class="icon iconfont icon-engine" style=""></span>Product<!----></a></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Technology</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/product/technology.html" class="nav-link" aria-label="Technology"><!---->Technology<!----></a></li><li class="dropdown-subitem"><a href="/product/business-process.html" class="nav-link" aria-label="ADempiere Business Process"><!---->ADempiere Business Process<!----></a></li><li class="dropdown-subitem"><a href="/product/benefits.html" class="nav-link" aria-label="Benefits"><!---->Benefits<!----></a></li><li class="dropdown-subitem"><a href="/product/source-code.html" class="nav-link" aria-label="Source Code"><!---->Source Code<!----></a></li><li class="dropdown-subitem"><a href="/product/demo.html" class="nav-link" aria-label="Demo"><!---->Demo<!----></a></li></ul></li></ul></button></div></div><div class="nav-item hide-in-mobile"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="Community"><span class="title"><span class="icon iconfont icon-group" style=""></span>Community</span><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a href="/community/" class="nav-link" aria-label="Community"><span class="icon iconfont icon-group" style=""></span>Community<!----></a></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Community</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/community/code-of-conduct.html" class="nav-link" aria-label="Code of Conduct"><!---->Code of Conduct<!----></a></li><li class="dropdown-subitem"><a href="/community/duties-and-rigths.html" class="nav-link" aria-label="Basic Rules"><!---->Basic Rules<!----></a></li><li class="dropdown-subitem"><a href="/community/community-detail.html" class="nav-link" aria-label="Community Details"><!---->Community Details<!----></a></li></ul></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Wiki</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/community/wiki/developers-guide/" class="nav-link" aria-label="Developer&#39;s Guide"><!---->Developer&#39;s Guide<!----></a></li><li class="dropdown-subitem"><a href="/community/wiki/preface/" class="nav-link" aria-label="Preface"><!---->Preface<!----></a></li><li class="dropdown-subitem"><a href="/community/wiki/meetings/" class="nav-link active" aria-label="Meetings"><!---->Meetings<!----></a></li></ul></li></ul></button></div></div><div class="nav-item hide-in-mobile"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="Documentation"><span class="title"><span class="icon iconfont icon-creative" style=""></span>Documentation</span><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a href="/docs/" class="nav-link" aria-label="Docs"><span class="icon iconfont icon-note" style=""></span>Docs<!----></a></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Develop Guide</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/develop-guide/getting-started/" class="nav-link" aria-label="Getting Started"><!---->Getting Started<!----></a></li></ul></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Material Management</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/material-management/product/" class="nav-link" aria-label="Product Definition"><!---->Product Definition<!----></a></li></ul></li></ul></button></div></div><div class="nav-item hide-in-mobile"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="Downloads"><span class="title"><span class="icon iconfont icon-software" style=""></span>Downloads</span><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a href="/downloads/" class="nav-link" aria-label="Downloads"><span class="icon iconfont icon-software" style=""></span>Downloads<!----></a></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>Binary Files</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/downloads/docker.html" class="nav-link" aria-label="Docker"><span class="icon iconfont icon-docker" style=""></span>Docker<!----></a></li><li class="dropdown-subitem"><a href="/downloads/helm.html" class="nav-link" aria-label="Helm"><span class="icon iconfont icon-download" style=""></span>Helm<!----></a></li><li class="dropdown-subitem"><a href="/downloads/operator.html" class="nav-link" aria-label="Operator"><span class="icon iconfont icon-download" style=""></span>Operator<!----></a></li><li class="dropdown-subitem"><a href="/downloads/binary.html" class="nav-link" aria-label="Binary Download"><span class="icon iconfont icon-github" style=""></span>Binary Download<!----></a></li></ul></li></ul></button></div></div><div class="nav-item hide-in-mobile"><div class="dropdown-wrapper"><button class="dropdown-title" type="button" aria-label="Foundation"><span class="title"><span class="icon iconfont icon-software" style=""></span>Foundation</span><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a href="/foundation/" class="nav-link" aria-label="Foundation"><span class="icon iconfont icon-software" style=""></span>Foundation<!----></a></li><li class="dropdown-item"><h4 class="dropdown-subtitle"><span>How To</span></h4><ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/foundation/how-to-contribute.html" class="nav-link" aria-label="How To Contribute"><!---->How To Contribute<!----></a></li><li class="dropdown-subitem"><a href="/foundation/membership.html" class="nav-link" aria-label="Members"><!---->Members<!----></a></li><li class="dropdown-subitem"><a href="/foundation/board.html" class="nav-link" aria-label="Board"><!---->Board<!----></a></li><li class="dropdown-subitem"><a href="/foundation/statutes.html" class="nav-link" aria-label="Statutes"><!---->Statutes<!----></a></li><li class="dropdown-subitem"><a href="/foundation/sponsors.html" class="nav-link" aria-label="Sponsors"><!---->Sponsors<!----></a></li></ul></li></ul></button></div></div></nav><!----></div><div class="navbar-right"><!----><div class="nav-item"><div class="dropdown-wrapper i18n-dropdown"><button class="dropdown-title" type="button" aria-label="Select language"><!--[--><svg xmlns="http://www.w3.org/2000/svg" class="icon i18n-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="i18n icon" style="width:1rem;height:1rem;vertical-align:middle;"><path d="M379.392 460.8 494.08 575.488l-42.496 102.4L307.2 532.48 138.24 701.44l-71.68-72.704L234.496 460.8l-45.056-45.056c-27.136-27.136-51.2-66.56-66.56-108.544h112.64c7.68 14.336 16.896 27.136 26.112 35.84l45.568 46.08 45.056-45.056C382.976 312.32 409.6 247.808 409.6 204.8H0V102.4h256V0h102.4v102.4h256v102.4H512c0 70.144-37.888 161.28-87.04 210.944L378.88 460.8zM576 870.4 512 1024H409.6l256-614.4H768l256 614.4H921.6l-64-153.6H576zM618.496 768h196.608L716.8 532.48 618.496 768z"></path></svg><!--]--><span class="arrow"></span><ul class="nav-dropdown"><li class="dropdown-item"><a aria-current="page" href="/community/wiki/meetings/FT-2013/FT-20130610.html" class="router-link-active router-link-exact-active nav-link active" aria-label="English"><!---->English<!----></a></li><li class="dropdown-item"><a href="/es/" class="nav-link" aria-label="Español"><!---->Español<!----></a></li></ul></button></div></div><!----><div class="nav-item hide-in-mobile"><button id="appearance-switch"><svg xmlns="http://www.w3.org/2000/svg" class="icon auto-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="auto icon" style="display:block;"><path d="M512 992C246.92 992 32 777.08 32 512S246.92 32 512 32s480 214.92 480 480-214.92 480-480 480zm0-840c-198.78 0-360 161.22-360 360 0 198.84 161.22 360 360 360s360-161.16 360-360c0-198.78-161.22-360-360-360zm0 660V212c165.72 0 300 134.34 300 300 0 165.72-134.28 300-300 300z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon dark-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="dark icon" style="display:none;"><path d="M524.8 938.667h-4.267a439.893 439.893 0 0 1-313.173-134.4 446.293 446.293 0 0 1-11.093-597.334A432.213 432.213 0 0 1 366.933 90.027a42.667 42.667 0 0 1 45.227 9.386 42.667 42.667 0 0 1 10.24 42.667 358.4 358.4 0 0 0 82.773 375.893 361.387 361.387 0 0 0 376.747 82.774 42.667 42.667 0 0 1 54.187 55.04 433.493 433.493 0 0 1-99.84 154.88 438.613 438.613 0 0 1-311.467 128z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon light-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="light icon" style="display:none;"><path d="M952 552h-80a40 40 0 0 1 0-80h80a40 40 0 0 1 0 80zM801.88 280.08a41 41 0 0 1-57.96-57.96l57.96-58a41.04 41.04 0 0 1 58 58l-58 57.96zM512 752a240 240 0 1 1 0-480 240 240 0 0 1 0 480zm0-560a40 40 0 0 1-40-40V72a40 40 0 0 1 80 0v80a40 40 0 0 1-40 40zm-289.88 88.08-58-57.96a41.04 41.04 0 0 1 58-58l57.96 58a41 41 0 0 1-57.96 57.96zM192 512a40 40 0 0 1-40 40H72a40 40 0 0 1 0-80h80a40 40 0 0 1 40 40zm30.12 231.92a41 41 0 0 1 57.96 57.96l-57.96 58a41.04 41.04 0 0 1-58-58l58-57.96zM512 832a40 40 0 0 1 40 40v80a40 40 0 0 1-80 0v-80a40 40 0 0 1 40-40zm289.88-88.08 58 57.96a41.04 41.04 0 0 1-58 58l-57.96-58a41 41 0 0 1 57.96-57.96z"></path></svg></button></div><div id="docsearch-container"></div><!----><button class="toggle-navbar-button" aria-label="Toggle Navbar" aria-expanded="false" aria-controls="nav-screen"><span class="button-container"><span class="button-top"></span><span class="button-middle"></span><span class="button-bottom"></span></span></button></div></header><!----><!--]--><!----><div class="toggle-sidebar-wrapper"><span class="arrow left"></span></div><aside class="sidebar"><!--[--><!----><!--]--><ul class="sidebar-links"><li><!--[--><a href="/" class="nav-link sidebar-link sidebar-page" aria-label="Home"><span class="icon iconfont icon-home" style=""></span>Home<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><span class="icon iconfont icon-interact" style=""></span><span class="title">About the Association</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">ADempiere Features</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">ADempiere® 3.9.4 Official Documentation</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><span class="icon iconfont icon-download" style=""></span><span class="title">Downloads</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">Some History</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable active"><span class="icon iconfont icon-group" style=""></span><span class="title">Who Are We?</span><span class="arrow down"></span></button><ul class="sidebar-links"><li><!--[--><a href="/community/" class="nav-link sidebar-link sidebar-page" aria-label="Who Are We?"><span class="icon iconfont icon-group" style=""></span>Who Are We?<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/duties-and-rigths.html" class="nav-link sidebar-link sidebar-page" aria-label="Basic Rules"><!---->Basic Rules<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">Citizens</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><a href="/community/code-of-conduct.html" class="nav-link sidebar-link sidebar-page" aria-label="Code of Conduct"><!---->Code of Conduct<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">Community Council Team</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><a href="/community/community-detail.html" class="nav-link sidebar-link sidebar-page" aria-label="Community Details"><!---->Community Details<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/apply_for_projects_to_allocate_funds_from_the_foundation.html" class="nav-link sidebar-link sidebar-page" aria-label="How to Apply for Projects?"><!---->How to Apply for Projects?<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">Project Charter</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable active"><!----><span class="title">Wiki</span><span class="arrow down"></span></button><ul class="sidebar-links"><li><!--[--><a href="/community/wiki/" class="nav-link sidebar-link sidebar-page" aria-label="Wiki"><!---->Wiki<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">Developer&#39;s Guide</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable active"><!----><span class="title">Meetings</span><span class="arrow down"></span></button><ul class="sidebar-links"><li><!--[--><a href="/community/wiki/meetings/" class="nav-link sidebar-link sidebar-page" aria-label="Meetings"><!---->Meetings<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">FT-2010</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">FT-2011</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">FT-2012</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable active"><!----><span class="title">FT-2013</span><span class="arrow down"></span></button><ul class="sidebar-links"><li><!--[--><a href="/community/wiki/meetings/FT-2013/" class="nav-link sidebar-link sidebar-page" aria-label="FT-2013"><!---->FT-2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130612.html" class="nav-link sidebar-link sidebar-page" aria-label="FT meeting minutes June 12th 2013"><!---->FT meeting minutes June 12th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130812.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes August 12th 2013"><!---->FT/TT meeting minutes August 12th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130819.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes August 19th 2013"><!---->FT/TT meeting minutes August 19th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130826.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes August 26th 2013"><!---->FT/TT meeting minutes August 26th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130805.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes August 5th 2013"><!---->FT/TT meeting minutes August 5th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131203.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes December 03rd 2013"><!---->FT/TT meeting minutes December 03rd 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131210.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes December 10th 2013"><!---->FT/TT meeting minutes December 10th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131217.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes December 17th 2013"><!---->FT/TT meeting minutes December 17th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130715.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes July 15th 2013"><!---->FT/TT meeting minutes July 15th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130701.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes July 1st 2013"><!---->FT/TT meeting minutes July 1st 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130722.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes July 22nd 2013"><!---->FT/TT meeting minutes July 22nd 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130729.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes July 29th 2013"><!---->FT/TT meeting minutes July 29th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130708.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes July 8th 2013"><!---->FT/TT meeting minutes July 8th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a aria-current="page" href="/community/wiki/meetings/FT-2013/FT-20130610.html" class="router-link-active router-link-exact-active nav-link active sidebar-link sidebar-page active" aria-label="FT/TT meeting minutes June 10th 2013"><!---->FT/TT meeting minutes June 10th 2013<!----></a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a aria-current="page" href="/community/wiki/meetings/FT-2013/FT-20130610.html#log" class="router-link-active router-link-exact-active nav-link sidebar-link heading" aria-label="Log"><!---->Log<!----></a><ul class="sidebar-sub-headers"></ul></li></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130617.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes June 17th 2013"><!---->FT/TT meeting minutes June 17th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130624.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes June 24th 2013"><!---->FT/TT meeting minutes June 24th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130603.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes June 3rd 2013"><!---->FT/TT meeting minutes June 3rd 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130527.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes May 27th 2013"><!---->FT/TT meeting minutes May 27th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131112.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes November 12th 2013"><!---->FT/TT meeting minutes November 12th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131119.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes November 19th 2013"><!---->FT/TT meeting minutes November 19th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131126.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes November 26th 2013"><!---->FT/TT meeting minutes November 26th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131105.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes November 5th 2013"><!---->FT/TT meeting minutes November 5th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131015.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes October 15th 2013"><!---->FT/TT meeting minutes October 15th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131001.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes October 1st 2013"><!---->FT/TT meeting minutes October 1st 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131022.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes October 22nd 2013"><!---->FT/TT meeting minutes October 22nd 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131029.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes October 29th 2013"><!---->FT/TT meeting minutes October 29th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20131008.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes October 8th 2013"><!---->FT/TT meeting minutes October 8th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130903.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes September 03rd 2013"><!---->FT/TT meeting minutes September 03rd 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130910.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes September 10th 2013"><!---->FT/TT meeting minutes September 10th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130917.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes September 17th 2013"><!---->FT/TT meeting minutes September 17th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/FT-20130924.html" class="nav-link sidebar-link sidebar-page" aria-label="FT/TT meeting minutes September 24th 2013"><!---->FT/TT meeting minutes September 24th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li><li><!--[--><a href="/community/wiki/meetings/FT-2013/TT-20130614.html" class="nav-link sidebar-link sidebar-page" aria-label="TT meeting minutes June 14th 2013"><!---->TT meeting minutes June 14th 2013<!----></a><ul class="sidebar-sub-headers"></ul><!--]--></li></ul></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">FT-2014</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">FT-2015</span><span class="arrow right"></span></button><!----></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">FT-2016</span><span class="arrow right"></span></button><!----></section><!--]--></li></ul></section><!--]--></li><li><!--[--><section class="sidebar-group"><button class="sidebar-heading clickable"><!----><span class="title">Preface</span><span class="arrow right"></span></button><!----></section><!--]--></li></ul></section><!--]--></li></ul></section><!--]--></li></ul><!--[--><!----><!--]--></aside><!--[--><main class="page" id="main-content"><!--[--><!----><nav class="breadcrumb disable"></nav><div class="page-title"><h1><!---->FT/TT meeting minutes June 10th 2013</h1><div class="page-info"><span class="author-info" aria-label="Author🖊" data-balloon-pos="down" localizeddate="August 29, 2023" isoriginal="false" pageview="true"><svg xmlns="http://www.w3.org/2000/svg" class="icon author-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="author icon"><path d="M649.6 633.6c86.4-48 147.2-144 147.2-249.6 0-160-128-288-288-288s-288 128-288 288c0 108.8 57.6 201.6 147.2 249.6-121.6 48-214.4 153.6-240 288-3.2 9.6 0 19.2 6.4 25.6 3.2 9.6 12.8 12.8 22.4 12.8h704c9.6 0 19.2-3.2 25.6-12.8 6.4-6.4 9.6-16 6.4-25.6-25.6-134.4-121.6-240-243.2-288z"></path></svg><span><a class="author-item" href="https://adempiere-site.erpya.com" target="_blank" rel="noopener noreferrer">ADempiere</a></span><span property="author" content="ADempiere"></span></span><!----><span class="date-info" aria-label="Writing Date📅" data-balloon-pos="down" isoriginal="false" pageview="true"><svg xmlns="http://www.w3.org/2000/svg" class="icon calendar-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="calendar icon"><path d="M716.4 110.137c0-18.753-14.72-33.473-33.472-33.473-18.753 0-33.473 14.72-33.473 33.473v33.473h66.993v-33.473zm-334.87 0c0-18.753-14.72-33.473-33.473-33.473s-33.52 14.72-33.52 33.473v33.473h66.993v-33.473zm468.81 33.52H716.4v100.465c0 18.753-14.72 33.473-33.472 33.473a33.145 33.145 0 01-33.473-33.473V143.657H381.53v100.465c0 18.753-14.72 33.473-33.473 33.473a33.145 33.145 0 01-33.473-33.473V143.657H180.6A134.314 134.314 0 0046.66 277.595v535.756A134.314 134.314 0 00180.6 947.289h669.74a134.36 134.36 0 00133.94-133.938V277.595a134.314 134.314 0 00-133.94-133.938zm33.473 267.877H147.126a33.145 33.145 0 01-33.473-33.473c0-18.752 14.72-33.473 33.473-33.473h736.687c18.752 0 33.472 14.72 33.472 33.473a33.145 33.145 0 01-33.472 33.473z"></path></svg><span>August 29, 2023</span><meta property="datePublished" content="2023-08-29T22:51:16.000Z"></span><span class="category-info" aria-label="Category🌈" data-balloon-pos="down" localizeddate="August 29, 2023" isoriginal="false" pageview="true"><svg xmlns="http://www.w3.org/2000/svg" class="icon category-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="category icon"><path d="M148.41 106.992h282.176c22.263 0 40.31 18.048 40.31 40.31V429.48c0 22.263-18.047 40.31-40.31 40.31H148.41c-22.263 0-40.311-18.047-40.311-40.31V147.302c0-22.263 18.048-40.31 40.311-40.31zM147.556 553.478H429.73c22.263 0 40.311 18.048 40.311 40.31v282.176c0 22.263-18.048 40.312-40.31 40.312H147.555c-22.263 0-40.311-18.049-40.311-40.312V593.79c0-22.263 18.048-40.311 40.31-40.311zM593.927 106.992h282.176c22.263 0 40.31 18.048 40.31 40.31V429.48c0 22.263-18.047 40.31-40.31 40.31H593.927c-22.263 0-40.311-18.047-40.311-40.31V147.302c0-22.263 18.048-40.31 40.31-40.31zM730.22 920.502H623.926c-40.925 0-74.22-33.388-74.22-74.425V623.992c0-41.038 33.387-74.424 74.425-74.424h222.085c41.038 0 74.424 33.226 74.424 74.067v114.233c0 10.244-8.304 18.548-18.547 18.548s-18.548-8.304-18.548-18.548V623.635c0-20.388-16.746-36.974-37.33-36.974H624.13c-20.585 0-37.331 16.747-37.331 37.33v222.086c0 20.585 16.654 37.331 37.126 37.331H730.22c10.243 0 18.547 8.304 18.547 18.547 0 10.244-8.304 18.547-18.547 18.547z"></path></svg><ul class="categories-wrapper"><li class="category category2" role>Community</li><meta property="articleSection" content="Community"></ul></span><span aria-label="Tag🏷" data-balloon-pos="down" localizeddate="August 29, 2023" isoriginal="false" pageview="true"><svg xmlns="http://www.w3.org/2000/svg" class="icon tag-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="tag icon"><path d="M939.902 458.563L910.17 144.567c-1.507-16.272-14.465-29.13-30.737-30.737L565.438 84.098h-.402c-3.215 0-5.726 1.005-7.634 2.913l-470.39 470.39a10.004 10.004 0 000 14.164l365.423 365.424c1.909 1.908 4.42 2.913 7.132 2.913s5.223-1.005 7.132-2.913l470.39-470.39c2.01-2.11 3.014-5.023 2.813-8.036zm-240.067-72.121c-35.458 0-64.286-28.828-64.286-64.286s28.828-64.285 64.286-64.285 64.286 28.828 64.286 64.285-28.829 64.286-64.286 64.286z"></path></svg><ul class="tags-wrapper"><li class="tag tag3" role>Wiki</li><li class="tag tag5" role>Meetings</li></ul><meta property="keywords" content="Wiki,Meetings"></span><span class="reading-time-info" aria-label="Reading Time⌛" data-balloon-pos="down" localizeddate="August 29, 2023" isoriginal="false" pageview="true"><svg xmlns="http://www.w3.org/2000/svg" class="icon timer-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="timer icon"><path d="M799.387 122.15c4.402-2.978 7.38-7.897 7.38-13.463v-1.165c0-8.933-7.38-16.312-16.312-16.312H256.33c-8.933 0-16.311 7.38-16.311 16.312v1.165c0 5.825 2.977 10.874 7.637 13.592 4.143 194.44 97.22 354.963 220.201 392.763-122.204 37.542-214.893 196.511-220.2 389.397-4.661 5.049-7.638 11.651-7.638 19.03v5.825h566.49v-5.825c0-7.379-2.849-13.981-7.509-18.9-5.049-193.016-97.867-351.985-220.2-389.527 123.24-37.67 216.446-198.453 220.588-392.892zM531.16 450.445v352.632c117.674 1.553 211.787 40.778 211.787 88.676H304.097c0-48.286 95.149-87.382 213.728-88.676V450.445c-93.077-3.107-167.901-81.297-167.901-177.093 0-8.803 6.99-15.793 15.793-15.793 8.803 0 15.794 6.99 15.794 15.793 0 80.261 63.69 145.635 142.01 145.635s142.011-65.374 142.011-145.635c0-8.803 6.99-15.793 15.794-15.793s15.793 6.99 15.793 15.793c0 95.019-73.789 172.82-165.96 177.093z"></path></svg><span>About 25 min</span><meta property="timeRequired" content="PT25M"></span></div><hr></div><div class="toc-place-holder"><aside id="toc"><div class="toc-header">On This Page</div><div class="toc-wrapper"><ul class="toc-list"><!--[--><li class="toc-item"><a aria-current="page" href="/community/wiki/meetings/FT-2013/FT-20130610.html#log" class="router-link-active router-link-exact-active toc-link level2">Log</a></li><!----><!--]--></ul></div></aside></div><!----><div class="theme-hope-content"><h1 id="meeting-minutes" tabindex="-1"><a class="header-anchor" href="#meeting-minutes" aria-hidden="true">#</a> Meeting Minutes</h1><p><strong>General</strong></p><ul><li><strong>Moderator:</strong> Mark Ostermann</li><li><strong>Secretary:</strong> Mario Calderon</li><li><strong>Participants:</strong> Colin Rooney, John Agudelo, Mark Ostermann, Teo Sarca, Paul Aviles, Suman Ravuri, Victor Perez, Mario Calderón, Mike Judd, Tobias Schöneberg, Enrique Ruibal</li><li><strong>Date / Time:</strong> June 10th, 2013 / 12:00 PM - 2:00 PM GMT</li></ul><p><strong>Agenda</strong></p><ol><li>Decision about which functionality will be included</li><li>Setting of a deadline (Release Date 3.8)</li><li>Next meeting</li></ol><p><strong>Discussion</strong></p><ul><li>The decision about which functionality will be included in the release was discussed. Some functional descriptions of contributions were still missing in http://www.adempiere.com/Release_380LTS. Teams were urged to meet ASAP to analyze contributions, and contributors will not review their own contributions technically or functionally.</li><li>Volunteers for functional analysis were determined: Colin Rooney, Mario Calderon, Mike Judd, Mark Ostermann, John Agudelo, Enrique Ruibal, Victor Perez, and Karsten Thiemann (to be asked).</li><li>Volunteers for technical analysis were identified: Tobias Schöneberg, Teo Sarca, Victor Perez, and Trifon (to be asked).</li><li>The setting of a deadline for the release was discussed. It was decided to allocate 3 months for reviews and integration, followed by 1 month of stabilization before the release.</li><li>The suggested release date was October 14th, 2013.</li><li>The next meeting was scheduled for Monday, June 17th, 12:00 GMT.</li></ul><p><strong>Next Meeting</strong></p><ul><li>Monday, June 17th, 12:00 GMT.</li></ul><h2 id="log" tabindex="-1"><a class="header-anchor" href="#log" aria-hidden="true">#</a> Log</h2><p>Following is the meeting log</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>Monday, 10th June 2013
+
+Monday, 10 June 2013
+[06:21:54] * Mario Calderón invited colin.rooney enrique.ruibal jdaison jens.pfeiffer_evenos.de karsten-thiemann metas.mark.ostermann metas_ts metas_tsa michael_judd mike.mckay_christine.hodge paul.aviles plavania ravurisuman trifonnt vpj-cd
+[06:21:56] Conference call, duration 00:00.
+[06:22:04] Mario Calderón: hi
+[06:22:22] Michael Judd: hi mario - how are you ?
+[06:22:56] Victor Perez Juarez: hi
+[06:23:21] Michael Judd: Hi Victor - Hi all
+[06:23:42] Colin Rooney: hi all
+[06:24:17] suman ravuri: Hi
+[06:24:18] Mario Calderón: if there is somebody missing, please add him to the meeting
+[06:25:17] Mario Calderón: anybody else present?
+[06:25:22] Mark Ostermann: hi all
+[06:26:18] Mario Calderón: Steven wrote he wouldn&#39;t attend, because of a business flight
+[06:27:12] Schöneberg, Tobias (metas.de): hi
+[06:27:35] Mario Calderón: do we wait a couple of minutes for people or do we start right now?
+
+I mean, we are almost 30 mins. delayed
+[06:27:49] suman ravuri: Let us start
+[06:27:54] suman ravuri: +1 to start
+[06:28:32] Mark Ostermann: +1 to start
+[06:28:46] Schöneberg, Tobias (metas.de): +1
+[06:28:49] Mario Calderón: +1 to start
+[06:28:58] Mario Calderón: ok then let&#39;s start
+[06:29:10] Mario Calderón: moderator + secretary
+[06:29:18] Mario Calderón: I can be the secretary
+[06:31:48] suman ravuri: May I request Mark to be Moderator?
+[06:33:36] Mark Ostermann: back, sry was on phone
+[06:33:55] Teodor Sarca: hi all, sorry for delay
+[06:34:33] Mark Ostermann: ok, i&#39;ll take part of moderator - for today - if nobody rejects ;-)
+[06:34:41] Mario Calderón: ok
+[06:35:20] Mark Ostermann: so let&#39;s define the agenda:
+[06:35:25] Mark Ostermann: * http://www.adempiere.com/Release_380LTS (Status of filling in contributions)
+[06:36:25] Mark Ostermann: * here&#39;s the MM from last week (thanks Mario) http://www.adempiere.com/FT/TT_meeting_minutes_June_3rd_2013
+[06:38:30] Mark Ostermann: * Decisions to be taken today: 
+
+** Decision about which functionality will be included and release date will be taken on next meeting.
+[06:39:13] Mark Ostermann: ** Setting of a deadline (Release Date 3.8)
+[06:39:16] Mark Ostermann: ...
+[06:39:38] Mark Ostermann: ... any other topics?
+[06:40:31] suman ravuri: we need to dicuss at least few features and decide whthere they are part of 3.8
+[06:40:45] Mario Calderón: that is it Mark
+[06:40:58] Mario Calderón: @suman: agree
+[06:41:49] Mark Ostermann: ok, then lets start with discussion about &quot;features for 3.8&quot;
+[06:43:52] Mark Ostermann: we at metas have startet with filling the pages of  http://www.adempiere.com/Release_380LTS. Besides that we have started integration work for cour contribs, so that we can build them in an adempiere test version for others to test/ decide.
+[06:43:58] Mario Calderón: I see that some pages are documented, some others not
+[06:44:24] Mario Calderón: do we go from top to bottom?
+[06:44:40] Mark Ostermann: yepp
+[06:45:38] Victor Perez Juarez: Mario i have an question is necessary create multiples pages
+[06:46:08] Victor Perez Juarez: in my example i can see
+[06:46:10] Victor Perez Juarez: http://www.adempiere.com/FR3426137_Smart_Browser
+[06:46:16] Victor Perez Juarez: http://www.adempiere.com/Sponsored_Development:_Libero_Smart_Browser
+[06:47:03] Victor Perez Juarez: http://www.adempiere.com/Smart_Browser
+[06:47:47] Mark Ostermann: but first question: what do we want to decide going through this list of contributions http://www.adempiere.com/Release_380LTS ?
+[06:48:04] Mark Ostermann: probably we can discuss this on one entry in that list
+[06:48:37] Mark Ostermann: http://www.adempiere.com/Sales_Management_%28CRM%29
+[06:48:42] Mario Calderón: I would suggest: go over the the list, and decide if it will be included
+[06:49:20] Mark Ostermann: @mario: thats the problem i see. we cannot decide here and now.
+[06:49:33] Mark Ostermann: because in the lists we don&#39;t see any code
+[06:49:46] Mark Ostermann: and haven&#39;t got any community tests
+[06:49:49] Schöneberg, Tobias (metas.de): [14:49:22] Mario Calderón: I would suggest: go over the the list, and decide if it will be included
+
+
+
+&lt;&lt;&lt; maybe instead we can decide about a relative prio, compared to the other contribs
+[06:50:18] Schöneberg, Tobias (metas.de): ..so that we can direct our efforts to the contribs with the highest prios first
+[06:51:30] Mark Ostermann: but why decide? why don&#39;t let the contributors do their work in integrating and asking community for help?
+[06:51:42] Teodor Sarca: why not starting with those that have documentation + code completed
+[06:51:59] Mark Ostermann: for review?
+[06:52:03] Teodor Sarca: exactly
+[06:52:06] Mark Ostermann: ok
+[06:52:43] Teodor Sarca: because at this moment i don&#39;t see which is the list that needs to be prioritized. e.g. what shall be the next package that RM can integrate?
+[06:53:31] Mario Calderón: ok
+[06:53:50] Mark Ostermann: yes, and i believe we don&#39;t need to priotize before review
+[06:54:17] Mark Ostermann: and for release we should take what we get and what is finished at a given date (finished = reviewed and agreed)
+[06:54:48] Mark Ostermann: wdyt?
+[06:55:00] Teodor Sarca: agree
+[06:55:23] Mario Calderón: so, do we go through the documented contribs and &quot;decide&quot; to integrate
+
+Suman would start integrating them?
+[06:55:55] suman ravuri: but this team has to decide what need to be integrated
+[06:56:03] Mark Ostermann: yes
+[06:56:07] Mark Ostermann: FT/ TT
+[06:56:07] Mario Calderón: yes Suman
+[06:56:43] Teodor Sarca: true. but because i am not up2date, i am asking what is ready to be integrated?
+[06:57:01] Mark Ostermann: @teo: agree
+[06:57:22] Mark Ostermann: that&#39;s the question we should answer
+[06:57:53] Mario Calderón: I now some of the Adaxa and eEvolution contribs, because I have them working on clients
+[06:58:14] Mario Calderón: when we go over them, I can give my comments
+[06:58:24] Mario Calderón: Victor, too
+[06:58:25] Mark Ostermann: and the features are included in ADempiere Test Version yet?
+[06:58:38] Mark Ostermann: so that FT/ TT can review?
+[06:58:39] Mario Calderón: Steven also, but he is unluckily on a plane now
+[06:59:14] Mario Calderón: I would say so
+[06:59:21] Mario Calderón: do we start?
+[07:00:17] Mark Ostermann: lets start with first entry
+[07:00:17] Mark Ostermann: [14:49:19] Mark Ostermann: http://www.adempiere.com/Sales_Management_%28CRM%29
+
+
+
+&lt;&lt;&lt; 
+[07:00:54] Mario Calderón: I use this contribution and works well
+[07:00:54] Victor Perez Juarez: i propouse here the procedure
+[07:01:04] Victor Perez Juarez: but never get some comment
+[07:01:17] Victor Perez Juarez: exept by Mike Mckay
+[07:01:25] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-56
+[07:01:34] Victor Perez Juarez: https://adempiere.atlassian.net/browse/ADEMPIERE-57
+[07:01:45] Victor Perez Juarez: https://adempiere.atlassian.net/secure/attachment/10211/ADempiere%20Workflow%20Bugfix.pdf
+[07:02:52] Victor Perez Juarez: https://adempiere.atlassian.net/secure/attachment/10210/ADempiere%20Workflow%20Feature.pdf
+[07:03:18] Teodor Sarca: wow, nice
+[07:03:28] Mark Ostermann: about Sales_Management_CRM. so Mario u could do the FT review?
+[07:03:43] Mark Ostermann: who can do the TT review for that?
+[07:04:27] suman ravuri: I don&#39;t have acceess to these links
+[07:04:40] Mario Calderón: I would say that the review must be done by the teams; here we just decide to include it or not
+[07:04:51] Victor Perez Juarez: do you need link into jiara
+[07:04:53] Victor Perez Juarez: jira
+[07:05:06] Victor Perez Juarez: https://adempiere.atlassian.net
+[07:05:12] suman ravuri: I need access for it
+[07:05:18] suman ravuri: username/password
+[07:05:27] suman ravuri: sorry
+[07:05:35] suman ravuri: I will take this offiline
+[07:05:50] suman ravuri: @Mark, continue
+[07:07:45] Mark Ostermann: [15:05:21] Mario Calderón: I would say that the review must be done by the teams; here we just decide to include it or not
+
+
+
+&lt;&lt;&lt; hmm, i would prefer FT/ TT to distibute review work among their members and discuss the results for integration in release or not
+[07:08:08] Mark Ostermann: because the reviewing will take endless time if has to be done during our meetings
+[07:10:16] Mark Ostermann: and i would like to prefer having at least one opinion of member of FT and TT - which did the review. and these two can suggest it to FT/ TT Meeting for decision
+[07:10:36] Teodor Sarca: @mark, agree... reviews can be done out of the meeting and use mail/skype for communication
+[07:11:57] Mark Ostermann: FT/ TT reviews is about doing work and taking over reponsibility for quality and functionality of ADempiere release
+[07:13:02] Mark Ostermann: and i would suggest that the FT/ TT member that does the review should not be in the same company of the contributor
+[07:13:45] Mark Ostermann: ... we even seperate this in out development work at metas. the developer never tests his own coding.
+[07:13:53] Mario Calderón: @Mark: this would mean, the RM does the integration for all contribs and then we decide?
+[07:13:54] Mark Ostermann: code review same
+[07:15:08] Victor Perez Juarez: if the FT ad TT need review I have some question
+[07:15:12] Victor Perez Juarez: How?
+[07:15:17] Victor Perez Juarez: Who?
+[07:15:21] Victor Perez Juarez: When?
+[07:15:38] Victor Perez Juarez: Where?
+[07:18:02] Mario Calderón: the other way would be to include all this functionality in a branch, and we start testing
+
+the contrib that fails either by functionality, bugs or whatever, is dismissed
+[07:18:28] Mario Calderón: then the analysis can be done as Mark suggests: FT and TT separatedly
+[07:18:41] Mark Ostermann: [15:15:50] Victor Perez Juarez: if the FT ad TT need review I have some question
+
+How?
+
+Who?
+
+When?
+
+Where?
+
+
+
+&lt;&lt;&lt; yes victor, that&#39;s what we are deciding at the moment
+[07:19:27] Schöneberg, Tobias (metas.de): [15:14:34] Mario Calderón: @Mark: this would mean, the RM does the integration for all contribs and then we decide?
+
+
+
+&lt;&lt;&lt; i think there should be a review ( -&gt; TT/TF) prior to integration into development-branch (-&gt; RM) and then testing
+[07:20:14] Schöneberg, Tobias (metas.de): but if the reviews were ok and it was integrated, the decision was more or less made to fix all problems that come up during testing (1 month stabilization phase)
+[07:20:31] Schöneberg, Tobias (metas.de): at least that&#39;S how i understood it
+[07:20:50] Mark Ostermann: @tobi: agree
+[07:22:43] Mark Ostermann: * contributor integrates from his own development into a feature branch an adempiere repo
+
+* FT/ TT member gets the documentation and does the review and suggets to team
+
+* FT/ TT Team decides to integrate or not
+
+* RM integrates into dev branch
+[07:23:15] Mark Ostermann: then from given date ther is a one month stabilisation phase (integration testing)
+[07:23:19] Mark Ostermann: --&gt; release
+[07:23:21] Victor Perez Juarez: I think that we can go
+[07:25:00] Victor Perez Juarez: 1.- Each contributor explant the contribution , code , documentation , etc based on http://www.adempiere.com/Release_380LTS
+[07:25:07] Mario Calderón: @Mark: most contribs have a branch  
+
+the documentation has to be completed
+
+so the point would be now that FT and TT meet ASAP
+
+
+
+but I thought we would do it here
+[07:25:52] Mark Ostermann: [15:25:49] Mario Calderón: so the point would be now that FT and TT meet ASAP
+
+
+
+&lt;&lt;&lt; ... thats what i suggested. let&#39;s distibute the work to members to do the review ;-)
+[07:26:09] Victor Perez Juarez: 2.- Suman make a first revision , if all are good then we can call the TT and FT to review and aprobe based in an schedule
+[07:26:14] Mark Ostermann: because this cannot be done in 1,5 hours of a weekly meeting
+[07:26:25] Mario Calderón: I don&#39;t mind calling a FT meeting again, but we must do it in these days; otherwise we will be delayed -again
+[07:26:51] Victor Perez Juarez: because now all is an disorder
+[07:27:04] Victor Perez Juarez: some code are into repository
+[07:27:14] Victor Perez Juarez: on other repositories
+[07:27:45] Mario Calderón: so, what do we do?
+[07:27:49] Schöneberg, Tobias (metas.de): [15:26:50] Victor Perez Juarez: 2.- Suman make a first revision
+
+
+
+&lt;&lt;&lt; suman as TT member?
+[07:27:53] Mark Ostermann: [15:26:50] Victor Perez Juarez: 2.- Suman make a first revision , if all are good then we can call the TT and FT to review and aprobe based in an schedule
+
+
+
+&lt;&lt;&lt; ?!?
+[07:28:01] Mark Ostermann: i thought suman is rm?
+[07:28:43] Mario Calderón: we must find a simple and effective way so the RM starts working
+[07:28:56] Mario Calderón: now we don&#39;t have any
+[07:29:12] Victor Perez Juarez: yes because the FT and TT never could work :-)
+[07:29:28] Victor Perez Juarez: I see that can happen the same now
+[07:29:30] Mario Calderón: he&#39;s waiting for three weeks now, and we simply cannot tell him what he has to do
+[07:29:37] Victor Perez Juarez: if we try the same fourmula
+[07:30:30] Mark Ostermann: [15:28:26] Mario Calderón: so, what do we do?
+
+
+
+&lt;&lt;&lt; distribute work among FT/ TT members and let those pairings provide decision material for FT/ TT Meeting -&gt; then vote (FT/ TT) -&gt; then integrate (RM)
+[07:30:43] Mario Calderón: so this is a suggestion
+[07:30:57] Victor Perez Juarez: So I would like to work with the RM and prepare everything for FT or TT waiting for this approach to work
+[07:31:03] Mario Calderón: we should vote on Mark&#39;s suggestion
+[07:31:53] Victor Perez Juarez: if this works it should not be a problem, if not then we can go ahead and that the RM did effective work
+[07:33:46] Mark Ostermann: @victor: effectiveness depends on the FT/ TT Member doing the review. don&#39;t blame the RM ;)
+[07:35:03] Mario Calderón: so???
+[07:35:08] suman ravuri: can we decide dates?
+[07:35:22] Mario Calderón: Mark has made a suggestion
+[07:35:34] suman ravuri: 3.8 release date and decide dates for all other dates based on that
+[07:35:44] Schöneberg, Tobias (metas.de): [15:31:44] Mario Calderón: we should vote on Mark&#39;s suggestion
+
+
+
+&lt;&lt;&lt; the suggestion is barely TT/TF&#39;s self appointed job..do we really want to vote on whether we should do it?
+[07:36:19] Victor Perez Juarez: the follwing some workflow
+[07:36:21] Mario Calderón: @Tobi: the reason of the meeting was to decide which contribs are included
+[07:36:23] Victor Perez Juarez: for example https://adempiere.atlassian.net/secure/attachment/10210/ADempiere%20Workflow%20Feature.pdf
+[07:36:41] Victor Perez Juarez: so we can know the what is the stage for each contribution
+[07:37:00] Victor Perez Juarez: and if the in some step we are stop
+[07:37:25] Victor Perez Juarez: if the FT or TT is slow we can measure
+[07:38:45] Mark Ostermann: @all: so let us start with the list again. http://www.adempiere.com/Release_380LTS let&#39;s find volunteers to review FT/ TT. I would suggest one member from each side and not members of same company of contributor. wdyt?
+[07:39:05] Mark Ostermann: 1. http://www.adempiere.com/Sales_Management_%28CRM%29
+[07:39:09] Mark Ostermann: FT? TT?
+[07:39:11] suman ravuri: +1
+[07:39:25] suman ravuri: Can you propose to complete this review?
+[07:39:28] suman ravuri: date
+[07:40:23] Mark Ostermann: [15:40:06] suman ravuri: Can you propose to complete this review?
+
+
+
+&lt;&lt;&lt; nope, i would propose a date and subtract one month for stabilisation
+[07:40:30] Schöneberg, Tobias (metas.de): [15:39:46] Mark Ostermann: 1. http://www.adempiere.com/Sales_Management_%28CRM%29
+
+FT? TT?
+
+
+
+&lt;&lt;&lt; i would volunteer to do technical review
+[07:40:37] Mark Ostermann: thx tobi
+[07:40:49] Mark Ostermann: any FT Member for functional review?
+[07:41:36] Mario Calderón: I&#39;ve done the functional, so I can do it
+
+I will call a FT meeting to go over all cantribs: it is better.
+[07:42:40] suman ravuri: But still one guy should be resposible for it
+[07:42:52] Mark Ostermann: [15:42:18] Mario Calderón: I will call a FT meeting to go over all cantribs: it is better.
+
+
+
+&lt;&lt;&lt; sry, i don&#39;t understand
+[07:43:00] suman ravuri: So sales management FT mario is primary and responsible for it
+[07:43:11] Schöneberg, Tobias (metas.de): [15:43:21] suman ravuri: But still one guy should be resposible for it
+
+
+
+&lt;&lt;&lt; yes, ihmo that&#39;s an important point (guy or girl ;-) )
+[07:43:22] suman ravuri: :)
+[07:43:59] suman ravuri: next item mark?
+[07:44:28] Mario Calderón: may I say something
+[07:44:30] Mario Calderón: ??
+[07:44:52] suman ravuri: yes please
+[07:44:53] Mark Ostermann: @mario: sure
+[07:45:51] Mario Calderón: the FT and TT do not meet regularly
+
+we see that we are 4 people discussing
+
+if we split the work to FT and TT , it can happen taht they don&#39;t meet, or don&#39;t do their work
+
+that is why a joint FT -TT meeting is done
+[07:46:46] Mario Calderón: I would pledge to pospone this discussion, talk over and think over it
+
+and via email we come to a procedure
+[07:46:58] Mario Calderón: because we don&#39;t seem to agree
+[07:47:41] Mark Ostermann: @mario: but we have a procedure
+[07:47:45] Mark Ostermann: voted by community
+[07:48:03] Mark Ostermann: so we cannot just change it ... decided by us
+[07:48:12] Mario Calderón: I know Mark, only it has to be filled with life
+[07:48:24] Mario Calderón: and that is my doubt
+[07:48:27] Mark Ostermann: thats what we are trying to do here i thought
+[07:48:58] Enrique Ruibal: Hi I am here watching the discussion... lets make things simple
+[07:50:17] Michael Judd: I am also watching (and thinking) and I&#39;m happy to share some of the functional review with Mario
+[07:50:25] Victor Perez Juarez: MArk if we need follwing the procedure then need follwing the workflow and are sure that are work
+[07:50:27] Victor Perez Juarez: https://docs.google.com/file/d/0B9QL5-PW36eqNEttdVhsRzN6SDA/edit?usp=sharing
+[07:50:41] Mario Calderón: @Mike: thanks
+[07:50:44] Mark Ostermann: [15:51:07] Victor Perez Juarez: MArk if we need follwing the procedure then need follwing the workflow and are sure that are work
+
+
+
+&lt;&lt;&lt; agree victor
+[07:50:49] Mario Calderón: so
+[07:51:28] Mark Ostermann: that&#39;s why we should find pairings FT/ TT that commit themselves to do certain review and propose to FT/ TT Meeting
+[07:51:59] Mark Ostermann: because it did not work in the past just to say FT/ TT will do the review ... and nobody did
+[07:52:06] Mark Ostermann: so we need names
+[07:53:15] Mario Calderón: @Mark: I would prefer then that the FT and TT meet separately and every team discusses all contribs
+[07:53:20] Mark Ostermann: so lets find out who will do some work (until next week) for FT:
+
+* Mario
+
+* Mike
+
+* Mark
+[07:53:22] Mario Calderón: then we do a merge
+[07:53:34] Mark Ostermann: any other FT member as volunteer?
+[07:53:39] suman ravuri: Sorry to repeat to again
+[07:53:46] Mario Calderón: I can ask John Agudelo
+[07:53:53] suman ravuri: we need tangible goals
+[07:53:54] suman ravuri: dates
+[07:53:55] Mario Calderón: include John Agudelo
+[07:54:08] Mark Ostermann: [15:54:02] Mark Ostermann: * Mario
+
+* Mike
+
+* Mark
+
+
+
+&lt;&lt;&lt; * John
+[07:54:22] Victor Perez Juarez: are very few people require help from those who are interested in this project
+[07:55:07] Victor Perez Juarez: I canare include to Sales_Management CRM
+[07:55:11] Mark Ostermann: now the same for TT.  lets find out who will do some work (until next week).
+
+* Tobi
+[07:55:20] Victor Perez Juarez: but my question is how reivew
+[07:55:32] Victor Perez Juarez: we need first instance an demo
+[07:55:45] Mark Ostermann: [15:56:14] Victor Perez Juarez: we need first instance an demo
+
+
+
+&lt;&lt;&lt; +1
+[07:56:20] Mark Ostermann: [15:55:52] Mark Ostermann: now the same for TT.  lets find out who will do some work (until next week).
+
+* Tobi
+
+
+
+&lt;&lt;&lt; any other TT volunteer?
+[07:56:21] Victor Perez Juarez: to comprobate the fuctionality , for this we need create the branch , include this some place and ask for technical revision and functional
+[07:56:39] Victor Perez Juarez: the revision can not starting only in paper
+[07:56:41] Colin Rooney: As “quasi” outsider can I make observation?    these meetings should (need to be) be a rubber stamping exercise for things discussed and agreed outside – perhaps with the rest of the community in the forums or as was effective in the early days in IRC… chatting and working at the same time.  You have to try and rebuild and use the community to get them to do the real heavy work done!  The FT/TT meetings should really be a tick box affair in most cases
+[07:57:06] Mario Calderón: @Colin : agree
+[07:57:19] Mark Ostermann: @Colin: yepp!
+[07:58:32] Mario Calderón: @all: I must leave
+
+I will make a call for a FT meeting ASAP to dscuss the contribs
+
+deadline: next week
+
+
+
+the TT must do the same
+[07:58:44] Mark Ostermann: [15:57:01] Mark Ostermann: any other TT volunteer?
+
+
+
+&lt;&lt;&lt; 
+[07:58:51] Mark Ostermann: * Teo will volunteer too
+[07:59:05] Schöneberg, Tobias (metas.de): welcome on board, teo :-)
+[07:59:05] Mark Ostermann: [15:59:14] Mario Calderón: I will make a call for a FT meeting ASAP to dscuss the contribs
+
+deadline: next week
+
+
+
+&lt;&lt;&lt; thanks mario
+[07:59:06] Enrique Ruibal: I volunteer
+[07:59:25] Enrique Ruibal: for functional reviews
+[07:59:30] Mark Ostermann: [15:59:47] Enrique Ruibal: I volunteer
+
+
+
+&lt;&lt;&lt; thanks enrique. for TT or FT?
+[07:59:34] Enrique Ruibal: FT
+[07:59:34] Mark Ostermann: ok, thanks
+[07:59:58] Victor Perez Juarez: so we need volunteer committed
+[08:00:11] Teodor Sarca: yes, i am in :)
+[08:00:34] Enrique Ruibal: I want to suggest
+[08:00:35] Mark Ostermann: so FT has now these svolunteers for work until next week:
+
+* Mario
+
+* Mike
+
+* Mark
+
+* John
+
+* Enrique
+[08:00:37] Victor Perez Juarez: then take inventory of this now to know who we
+[08:00:52] Victor Perez Juarez: I can are in functional team too
+[08:00:53] Enrique Ruibal: Is it possible to include fleet management module into the release?
+[08:01:12] Enrique Ruibal: since it is something very useful and I understand it has been tested
+[08:01:28] Mario Calderón: @Enrique: of coure; just include it on http://www.adempiere.com/Release_380LTS
+[08:01:50] Enrique Ruibal: @Mario.
+[08:01:53] Enrique Ruibal: got it ..
+[08:01:57] Victor Perez Juarez: How many volunteers we have here to do technical reviews?
+[08:02:13] Mario Calderón: Tobi and You by now
+[08:02:17] Victor Perez Juarez: I can review as technical people
+[08:02:20] Victor Perez Juarez: some more
+[08:02:21] Victor Perez Juarez: ?
+[08:02:31] Mario Calderón: I will ask Karsten if he joins us
+[08:02:34] Victor Perez Juarez: Teo, Tobi, Trifon?
+[08:02:57] Teodor Sarca: yep
+[08:03:02] Mark Ostermann: so TT has these volunteers for work until next week:
+
+* Tobi
+
+* Teo
+
+* Victor
+[08:03:16] Victor Perez Juarez: How many volunteers we have here to do functional review?
+[08:03:27] Mark Ostermann: * (Karsten to be asked)
+
+* (Trifon to be asked)
+[08:03:35] Mark Ostermann: who will ask them?
+[08:03:44] Mark Ostermann: somebody from TT?
+[08:03:55] Colin Rooney: I have no adempiere isntalltion of development environment setup - it will take me awhile to get organised
+[08:04:09] Michael Judd: Colin - perhaps we could use the nightly build demo ?
+[08:04:13] Victor Perez Juarez: but the ide that the people that I like include , remembe again committed volunteers
+[08:04:18] Mark Ostermann: [16:03:58] Victor Perez Juarez: How many volunteers we have here to do functional review?
+
+
+
+&lt;&lt;&lt; [16:01:17] Mark Ostermann: so FT has now these svolunteers for work until next week:
+
+* Mario
+
+* Mike
+
+* Mark
+
+* John
+
+* Enrique
+
+
+
+&lt;&lt;&lt; 
+[08:04:33] Michael Judd: Colin - if not - you can work off my build....
+[08:05:11] Colin Rooney: ok - if you do the development siode and apply the work I will help with the functional testing
+[08:05:25] Mark Ostermann: great. thanks colin. ;-)
+[08:05:48] Mark Ostermann: FT: 
+
+[16:04:59] Mark Ostermann: * Mario
+
+* Mike
+
+* Mark
+
+* John
+
+* Enrique
+
+
+
+&lt;&lt;&lt; * Colin
+
+* Victor
+[08:05:59] Victor Perez Juarez: Include me in functional
+[08:06:18] Victor Perez Juarez: I implemented some contribution of Adaxa , and I know
+[08:06:30] Victor Perez Juarez: but I like that other review my contribution
+[08:06:52] Mark Ostermann: thx victor. ;-)
+[08:07:04] Mark Ostermann: so u will volunteer in FT and TT?
+[08:07:47] Victor Perez Juarez: I think these people only have
+[08:07:50] Victor Perez Juarez: :-)
+[08:08:25] Victor Perez Juarez: now we  need distribute the work create an schedule or agenda and starting with the meeting ASAP
+[08:08:58] Mark Ostermann: yepp. FT meeting will be called by Mario (as i understood) asap. i would suggest to do this in TT too.
+[08:09:08] Mark Ostermann: who will call TT Meeting?
+[08:09:46] Enrique Ruibal: I like the idea of a weekly mettings like these with FT and TT
+[08:09:47] Victor Perez Juarez: I can convocate the TT
+[08:10:04] Schöneberg, Tobias (metas.de): This message has been removed.
+[08:10:05] Enrique Ruibal: not good to isolate FT and TT
+[08:10:09] Mark Ostermann: ok, thanks
+[08:10:39] Mark Ostermann: [16:10:47] Enrique Ruibal: not good to isolate FT and TT
+
+
+
+&lt;&lt;&lt; its just to organise the work until next FT/TT Meeting next monday
+[08:10:44] Mark Ostermann: and to have results
+[08:10:49] Enrique Ruibal: I get it..
+[08:10:57] Mark Ostermann: the decisions will be take together by FT/TT meeting
+[08:11:03] Enrique Ruibal: @Mark
+[08:11:06] Enrique Ruibal: perfect
+[08:11:23] Mark Ostermann: great ;-)
+[08:11:41] Mark Ostermann: so can we go to next topic?
+[08:12:15] Mark Ostermann: * date for release?
+[08:12:58] Mark Ostermann: release date - 1 month for stabilisation phase - integration time
+[08:13:17] Victor Perez Juarez: I think that can make a open window of 3 months
+[08:13:25] Mark Ostermann: so i believe we have to decide how long we will give us for  integration time
+[08:13:57] Victor Perez Juarez: but can created pre-releases , because we need that the FT have demo version for testing or reviews
+[08:14:36] Mark Ostermann: @victor: would not call this pre-release, lets call it integration testing environment
+[08:14:39] Schöneberg, Tobias (metas.de): [16:14:38] Victor Perez Juarez: but can created pre-releases , because we need that the FT have demo version for testing or reviews
+
+
+
+&lt;&lt;&lt; we can roll out the development-branch to the ADeV servers, e.g. once in 24hrs
+[08:14:40] Mark Ostermann: or something like that#
+[08:15:06] Mark Ostermann: @tobi: agree
+[08:15:48] Victor Perez Juarez: yes the name is not important
+[08:16:02] Mark Ostermann: [16:13:58] Victor Perez Juarez: I think that can make a open window of 3 months
+
+
+
+&lt;&lt;&lt; so shall we say
+
+* 3 months from now for reviews/ integrating
+
+* 1 month stabilisation
+
+*  release
+[08:16:03] Mark Ostermann: ?
+[08:16:12] Victor Perez Juarez: can set any name , but we need , ie how the fuctional team can review the sales management CRM
+[08:16:19] Victor Perez Juarez: how will test, or review
+[08:16:46] Victor Perez Juarez: deployment the branch
+[08:17:10] Victor Perez Juarez: if this is ok then it is include into of development
+[08:17:53] Victor Perez Juarez: and the addon in development cumulative contributions
+[08:18:29] Colin Rooney: does the defined process call for a technical review first?  So once it passes that couldn&#39;t it be deploy to the test env for functional testing?
+[08:19:01] Colin Rooney: that would make it easy for those with no technical expertise to help
+[08:19:10] Colin Rooney: does=doesn&#39;t?
+[08:19:16] Colin Rooney: a retorical question!
+[08:19:20] Colin Rooney: :)
+[08:19:42] Michael Judd: does the nightly build update the demo site ?
+[08:20:01] Victor Perez Juarez: after completing our process development branch the branch should be release
+[08:20:41] Mark Ostermann: yepp. the development branch is for integration testing 1 month stabilisation
+[08:20:47] Mark Ostermann: and release candidate
+[08:21:23] Mark Ostermann: for FT/ TT review i believe we need the feature banch environments for the reviewers
+[08:21:47] Mark Ostermann: and this could be built/ created privatly in own IDE or testing environment
+[08:21:58] Victor Perez Juarez: now the issue is that some contributions are depending the others
+[08:22:24] Schöneberg, Tobias (metas.de): [16:20:24] Michael Judd: does the nightly build update the demo site ?
+
+
+
+&lt;&lt;&lt; yes, there are two ADeV servers for that (one for postgres, one for oracle), it might not be functional currently, but i will check and fix if necesary
+[08:22:33] Mark Ostermann: [16:22:40] Victor Perez Juarez: now the issue is that some contributions are depending the others
+
+
+
+&lt;&lt;&lt; must just be documented by contributor
+[08:22:52] Mark Ostermann: so that reviewers are aware
+[08:22:57] Victor Perez Juarez: it complicate this review by each branch
+[08:23:53] Victor Perez Juarez: then in this case , I think that contributor should work with RM to create an functional branch to deployment and create demo
+[08:23:54] Victor Perez Juarez: ?
+[08:24:32] Victor Perez Juarez: whe I say functional  branch , I try say that can be deplyment as demo
+[08:24:50] Schöneberg, Tobias (metas.de): [16:24:35] Victor Perez Juarez: then in this case , I think that contributor should work with RM to create an functional branch to deployment and create demo
+
+?
+
+
+
+&lt;&lt;&lt; yes, i think those contribs need either be ordered, or bundled.
+[08:24:58] Colin Rooney: opr woth those assigned to review (both TT &amp; FT) but then I would hope that happens always
+[08:25:06] Michael Judd: if the tt pass the module - can we just build it in to the nightly and then functionally test the nightly ?
+[08:25:40] Enrique Ruibal: Hi Guys . I have to leave will read the thread later..good day/night to all
+[08:26:40] Mark Ostermann: thanks alot enrique. bye
+[08:27:11] Victor Perez Juarez: Adios Enrique
+[08:27:27] Victor Perez Juarez: I starting with this work
+[08:27:57] Victor Perez Juarez: some contribution was include in development becasuse are necessary for mayor of contribution
+[08:28:03] Victor Perez Juarez: for example java 7
+[08:28:07] Schöneberg, Tobias (metas.de): [16:25:47] Michael Judd: if the tt pass the module - can we just build it in to the nightly and then functionally test the nightly ?
+
+
+
+&lt;&lt;&lt; basically yes, but: imho, after they have been added to the nightly build, it might be hard to remove them again..so it would be good to have a *detailed* review, maybe also (documentation) from FT before deciding to integrate it into the development branch
+[08:28:14] Colin Rooney: @Mike, that&#39;s what I was thinking but I never really got my head acround Mercurial .. mayhbe it doesn&#39;t work that way
+[08:28:22] Victor Perez Juarez: and migration management from adaxa
+[08:28:29] Victor Perez Juarez: smart browser
+[08:28:38] Colin Rooney: bye Enrique
+[08:28:56] Colin Rooney: @Tobis - I was thinking somethingt like that ok
+[08:29:01] Victor Perez Juarez: this contribution now are into the development branch and can be testing and the reviewion for Teams
+[08:29:07] Colin Rooney: Tobis=Tobias
+[08:32:23] Mark Ostermann: @all. i would like to close the official part of this meeting. last topic about release date: suggestion: 14th oct 2013
+[08:32:25] Mark Ostermann: wdyt?
+[08:32:50] Mark Ostermann: today + 3 months review/ integration + 1 month stabilisation = release
+[08:33:34] Mark Ostermann: and what is integrated/ reviewed/ agreed until 14th sept. 2013 gets in
+[08:33:48] Mark Ostermann: if not has to wait 4 months longer
+[08:35:47] Victor Perez Juarez: I think would be good date
+[08:36:09] Victor Perez Juarez: I like go more fast , but it depend of TT and FT
+[08:36:29] Michael Judd: likewise...
+[08:37:48] Schöneberg, Tobias (metas.de): [16:36:51] Victor Perez Juarez: I like go more fast , but it depend of TT and FT
+
+
+
+&lt;&lt;&lt; i thinks go really great, we still can announce a pre-release or something similar :-)
+[08:38:23] Schöneberg, Tobias (metas.de): early-bird-access (i&#39;m not a marketing guy ;-)  )
+[08:38:37] Mark Ostermann: :D
+[08:40:29] Mark Ostermann: ok, everybody. thanks alot to all of u. have to go now. see u next week same time for next FT/ TT Meeting ... or in FT Meeting called by Mario for one of the next days.
+[08:40:31] Mark Ostermann: bye.
+[08:40:42] Paul Aviles: hello all.
+[08:41:26] Victor Perez Juarez: Tobias, Teo said me that you like scala language
+[08:42:06] Victor Perez Juarez: I will like chat with you about to make some things with ADempiere and Scala
+[08:42:20] Victor Perez Juarez: Hello Paul
+[08:42:37] Schöneberg, Tobias (metas.de): [16:42:08] Victor Perez Juarez: Tobias, Teo said me that you like scala language
+
+
+
+&lt;&lt;&lt; yes, i do (but i never got beyond some tutorials)
+[08:43:01] Victor Perez Juarez: haaaa
+[08:46:32] Victor Perez Juarez: I will like some path migration , bu is only a personal dream
+[08:47:16] Schöneberg, Tobias (metas.de): [16:43:42] Victor Perez Juarez: haaaa
+
+I will like some path migration , bu is only a personal dream
+
+
+
+&lt;&lt;&lt; yes, mine too :-)
+[08:49:17] Victor Perez Juarez: I want add an the layer to Adempiere based on JSON ,using scala
+[08:49:52] Victor Perez Juarez: with Akka and Spray , and using this for connect an UI for adempiere
+[08:50:11] Victor Perez Juarez: When I have some more concrent I will invite
+[08:50:27] Schöneberg, Tobias (metas.de): thanks, that would be great
+[08:52:01] Teodor Sarca: guys, i got to leave, cu
+[08:52:06] Schöneberg, Tobias (metas.de): cu
+[08:52:16] Victor Perez Juarez: cu
+[08:52:38] Paul Aviles: Victor have you seen the amount of issues with scala regarding performance?
+[08:53:48] Victor Perez Juarez: mmm, in compile or runtime
+[08:54:10] Victor Perez Juarez: becasue in complie is more slow that java
+[08:54:28] Victor Perez Juarez: but in run time is the same that java, because work in the same JVM
+[08:54:46] Paul Aviles: the architecture itself is the issue, everything requires round trips to the server has nothing to do with java
+[08:55:14] Victor Perez Juarez: SO is as fast or slow as java ;-)
+[08:56:01] Paul Aviles: it is worse than ZK in perfomance unless you reqrite the entire thing considering how they need to do client side validations
+[08:56:07] Paul Aviles: it is on ther documentation
+[08:56:09] Victor Perez Juarez: what server ?
+[08:56:54] Victor Perez Juarez: Scala only is programing language Paul
+[08:57:17] Victor Perez Juarez: but exist some framkeworks as akka or play
+[08:57:39] Victor Perez Juarez: So I not understan when said the architecture itself is the issue, everything requires round trips to the server has nothing to do with java
+[08:57:46] Paul Aviles: Victor I know what it is and have read the documentation, I guess you have not
+[08:59:03] Victor Perez Juarez: but Scala implement a paradigm that -java no implement
+[08:59:15] Schöneberg, Tobias (metas.de): paul, maybe you mean seaside/smalltalk ?
+[08:59:19] Victor Perez Juarez: they use inmutable datas and actors patters
+[09:00:11] Victor Perez Juarez: vs lock and threads of java that is very inefficient to handle concurrency
+[09:01:32] Victor Perez Juarez: Current Twtter and Linkedin use scala to solve your peroformace and concurrency
+[09:02:53] Victor Perez Juarez: in the case the twiter worked with ruby and failed, but they resolved their issues with Scala
+[09:16:28] Colin Rooney: there was a discussion recently on an irish tech forum re scala and someone metioned that twitter went to scala for performance
+[09:17:13] Colin Rooney: but someone said that they moved just the message queue to scala but more recemtly have moved their search engine to java
+[09:17:28] Victor Perez Juarez: @Colin , I think that was for change the approachs
+[09:17:45] Colin Rooney: I thoght because twitter havethe Eur HQ in Dublin someone might have had some inside info
+[09:17:46] Victor Perez Juarez: the now use actors to management the high concurrency
+[09:18:12] Colin Rooney: https://blog.twitter.com/2011/twitter-search-now-3x-faster
+[09:18:35] Colin Rooney: is their tech blkog might be of interest!?
+[09:20:35] Colin Rooney: re: Squeak/seaside ... BAhman has recently blogged about Pharo
+[09:20:50] Colin Rooney: which is a squeak fork that apparently seaside is developed
+[09:20:52] Colin Rooney: in
+[09:20:55] Colin Rooney: which was news to me
+[09:21:14] Victor Perez Juarez: haaa
+[09:21:16] Colin Rooney: seems Pharo want to move squeak out ofthe academic into the real world
+[09:24:26] Victor Perez Juarez: they explant here your issues and business case
+[09:25:51] Victor Perez Juarez: http://www.artima.com/scalazine/articles/twitter_on_scala.html
+[09:28:36] Colin Rooney: thx -  I looked at scalka in 2008 looks like some tasks were well suited but I don&#39;t think I&#39;d like to build an ERP, for example, with it! :)
+[09:29:25] Michael McKay: Hi guys.  Just reading the thread and can help but I have limited time.
+[09:29:45] Victor Perez Juarez: @Colin Why?
+[09:30:21] Victor Perez Juarez: Is  as build in java but in scala , with all your adventages
+[09:30:34] Victor Perez Juarez: Adempiere now have issue to scale
+[09:30:36] Victor Perez Juarez: :-(
+[09:31:37] Victor Perez Juarez: out adempiere is design with approach client /server
+[09:31:40] Colin Rooney: it&#39;s scaling issues is architecture tough?
+[09:31:47] Colin Rooney: yes agreed
+[09:31:49] Victor Perez Juarez: with a lot the codign hith compling
+[09:31:54] Colin Rooney: but that&#39;s not java&#39;s fault
+[09:32:13] Victor Perez Juarez: highly coupled
+[09:32:39] Victor Perez Juarez: yes but if I need buid again I prefered try with scala ;-)
+[09:34:14] John Agudelo: Hi all, I had problems with the internet I am out of town, I finished reading all the meeting, I am sad because I feel like ls today things are slower and do not know what is then the role of RM
+[09:35:50] Victor Perez Juarez: So I had 2 option rewrite bason in JEE or Spring frameworkor in java  or some scala frameworks as (Akka)
+[09:36:04] Victor Perez Juarez: so we need units test  for all system
+[09:37:42] Colin Rooney: my pref is still java/spring - but that there are some tasks that might be more suite dto a functional language and then scala might be a better fit - and luckily it&#39;ds all in teh JVM so we should be able to mix all in thje JVM
+[09:37:55] Colin Rooney: @John - I was thinking that too
+[09:38:18] Victor Perez Juarez: the problem is not java Colin, Scala just preference and how others have solved the problem of concurrency and scalabilidad using Scala and explain why they were not with java, which is very interesting
+[09:41:02] Colin Rooney: yes it is always intersting - but they are solving a very specific problem but j2ee is a whole architecture not just a language so I would think java/spring is better to implement the core of the enterprise system
+[09:41:05] Colin Rooney: that might use scala
+[09:41:39] Victor Perez Juarez: is curious to know that Rob Johnson the creator of Spring VMware to leave the company , and now he join typesafe the company creator of scala
+[09:42:19] Colin Rooney: that is interesting ok - Rob is my hero! :)
+[09:42:27] John Agudelo: @colin:  I will wait and see what happens
+
+see you guys
+[09:42:58] Victor Perez Juarez: mee too
+[09:43:12] Colin Rooney: :)
+[09:43:15] Colin Rooney: I have to run too
+[09:43:19] Victor Perez Juarez: but if he move to typesafe and leave VMware
+[09:43:27] Colin Rooney: I had a great chat with Rob back in 2006
+[09:43:37] Victor Perez Juarez: I think is becasue he will make big things for scala
+[09:43:42] Colin Rooney: we drank some guiness - ate some food and ha da nice chat
+[09:44:05] Colin Rooney: it certainly has a lot of people interested
+[09:44:13] Colin Rooney: and he really dislikes j2ee
+[09:44:41] Colin Rooney: more the slowness that is developes I think
+[09:44:47] Colin Rooney: he hated EJBs
+[09:45:02] Colin Rooney: anyweay I have to leave before the traffic
+[09:45:29] Colin Rooney: that he is on board certainly makes me pause and look again!
+[09:45:41] Victor Perez Juarez: theoretical implementation to solve a practical problem
+[09:45:55] Colin Rooney: he probably make a whole lot of money selling springsource to VMware though
+[09:46:00] Colin Rooney: so can do things just for fun
+[09:46:39] Colin Rooney: by eall
+[09:46:53] Colin Rooney: godo to chat Victor - as always!
+[09:49:33] Victor Perez Juarez: yes , I think that people as Rob Johshon or Martin Odersky want to create the next development platform for the next decades
+[09:50:07] Victor Perez Juarez: are restless minds, who are not satisfied with what they have
+[09:50:21] Victor Perez Juarez: it happen with Rob and EJB
+[09:50:49] Victor Perez Juarez: and with Martin Odersky  when create the main core for Java  1.5 and generics
+[09:51:43] Victor Perez Juarez: see you Colin goo caht with you
+[09:51:50] Victor Perez Juarez: see you later
+[11:29:06] Paul Aviles: Victor de scalabilty issues with adempiere has nothing to do with the GUI, it has everything to do with poor design in a flat client
+[11:33:58] Victor Perez Juarez: yes Paul it was of conclution
+[11:34:09] Victor Perez Juarez: Colin said same , the issue not is java
+[11:34:25] Victor Perez Juarez: the issue is the disaign architecture
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div><!----><footer class="page-meta"><div class="meta-item edit-link"><a href="https://github.com/adempiere/adempiere-site/edit/main/src/community/wiki/meetings/FT-2013/FT-20130610.md" rel="noopener noreferrer" target="_blank" aria-label="Edit this page" class="nav-link label"><!--[--><svg xmlns="http://www.w3.org/2000/svg" class="icon edit-icon" viewbox="0 0 1024 1024" fill="currentColor" aria-label="edit icon"><path d="M430.818 653.65a60.46 60.46 0 0 1-50.96-93.281l71.69-114.012 7.773-10.365L816.038 80.138A60.46 60.46 0 0 1 859.225 62a60.46 60.46 0 0 1 43.186 18.138l43.186 43.186a60.46 60.46 0 0 1 0 86.373L588.879 565.55l-8.637 8.637-117.466 68.234a60.46 60.46 0 0 1-31.958 11.229z"></path><path d="M728.802 962H252.891A190.883 190.883 0 0 1 62.008 771.98V296.934a190.883 190.883 0 0 1 190.883-192.61h267.754a60.46 60.46 0 0 1 0 120.92H252.891a69.962 69.962 0 0 0-69.098 69.099V771.98a69.962 69.962 0 0 0 69.098 69.098h475.911A69.962 69.962 0 0 0 797.9 771.98V503.363a60.46 60.46 0 1 1 120.922 0V771.98A190.883 190.883 0 0 1 728.802 962z"></path></svg><!--]-->Edit this page<span><svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewbox="0 0 100 100" width="15" height="15"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg><span class="external-link-icon-sr-only">open in new window</span></span><!----></a></div><div class="meta-item update-time"><span class="label">Last update: </span><span class="info">8/29/2023, 10:51:16 PM</span></div><div class="meta-item contributors"><span class="label">Contributors: </span><!--[--><!--[--><span class="contributor" title="email: 134967453+tecnicoerp@users.noreply.github.com">Jesús Albujas</span><!--]--><!--]--></div></footer><nav class="page-nav"><a href="/community/wiki/meetings/FT-2013/FT-20130708.html" class="nav-link prev" aria-label="FT/TT meeting minutes July 8th 2013"><div class="hint"><span class="arrow left"></span>Prev</div><div class="link"><!---->FT/TT meeting minutes July 8th 2013</div></a><a href="/community/wiki/meetings/FT-2013/FT-20130617.html" class="nav-link next" aria-label="FT/TT meeting minutes June 17th 2013"><div class="hint">Next<span class="arrow right"></span></div><div class="link">FT/TT meeting minutes June 17th 2013<!----></div></a></nav><div class="waline-wrapper" style="display:block;" darkmode="false"><div data-waline provider="Waline"><div class="wl-comment"><!--v-if--><div class="wl-panel"><div class="wl-header item3"><!--[--><div class="wl-header-item"><label for="nick">NickName</label><input id="wl-nick" class="wl-input wl-nick" name="nick" type="text" value></div><div class="wl-header-item"><label for="mail">E-Mail</label><input id="wl-mail" class="wl-input wl-mail" name="mail" type="email" value></div><div class="wl-header-item"><label for="link">Website</label><input id="wl-link" class="wl-input wl-link" name="link" type="text" value></div><!--]--></div><textarea class="wl-editor" id="wl-edit" placeholder="Write a comment here (Fill in the email address to receive an email notification when being replied)"></textarea><div class="wl-preview" style="display:none;"><hr><h4>Preview:</h4><div class="wl-content"></div></div><div class="wl-footer"><div class="wl-actions"><a href="https://guides.github.com/features/mastering-markdown/" title="Markdown Guide" aria-label="Markdown is supported" class="wl-action" target="_blank" rel="noreferrer"><svg width="16" height="16" ariahidden="true"><path d="M14.85 3H1.15C.52 3 0 3.52 0 4.15v7.69C0 12.48.52 13 1.15 13h13.69c.64 0 1.15-.52 1.15-1.15v-7.7C16 3.52 15.48 3 14.85 3zM9 11H7V8L5.5 9.92 4 8v3H2V5h2l1.5 2L7 5h2v6zm2.99.5L9.5 8H11V5h2v3h1.5l-2.51 3.5z" fill="currentColor"></path></svg></a><button class="wl-action" title="Emoji" style="display:none;"><svg viewbox="0 0 1024 1024" width="24" height="24"><path d="M563.2 463.3 677 540c1.7 1.2 3.7 1.8 5.8 1.8.7 0 1.4-.1 2-.2 2.7-.5 5.1-2.1 6.6-4.4l25.3-37.8c1.5-2.3 2.1-5.1 1.6-7.8s-2.1-5.1-4.4-6.6l-73.6-49.1 73.6-49.1c2.3-1.5 3.9-3.9 4.4-6.6.5-2.7 0-5.5-1.6-7.8l-25.3-37.8a10.1 10.1 0 0 0-6.6-4.4c-.7-.1-1.3-.2-2-.2-2.1 0-4.1.6-5.8 1.8l-113.8 76.6c-9.2 6.2-14.7 16.4-14.7 27.5.1 11 5.5 21.3 14.7 27.4zM387 348.8h-45.5c-5.7 0-10.4 4.7-10.4 10.4v153.3c0 5.7 4.7 10.4 10.4 10.4H387c5.7 0 10.4-4.7 10.4-10.4V359.2c0-5.7-4.7-10.4-10.4-10.4zm333.8 241.3-41-20a10.3 10.3 0 0 0-8.1-.5c-2.6.9-4.8 2.9-5.9 5.4-30.1 64.9-93.1 109.1-164.4 115.2-5.7.5-9.9 5.5-9.5 11.2l3.9 45.5c.5 5.3 5 9.5 10.3 9.5h.9c94.8-8 178.5-66.5 218.6-152.7 2.4-5 .3-11.2-4.8-13.6zm186-186.1c-11.9-42-30.5-81.4-55.2-117.1-24.1-34.9-53.5-65.6-87.5-91.2-33.9-25.6-71.5-45.5-111.6-59.2-41.2-14-84.1-21.1-127.8-21.1h-1.2c-75.4 0-148.8 21.4-212.5 61.7-63.7 40.3-114.3 97.6-146.5 165.8-32.2 68.1-44.3 143.6-35.1 218.4 9.3 74.8 39.4 145 87.3 203.3.1.2.3.3.4.5l36.2 38.4c1.1 1.2 2.5 2.1 3.9 2.6 73.3 66.7 168.2 103.5 267.5 103.5 73.3 0 145.2-20.3 207.7-58.7 37.3-22.9 70.3-51.5 98.1-85 27.1-32.7 48.7-69.5 64.2-109.1 15.5-39.7 24.4-81.3 26.6-123.8 2.4-43.6-2.5-87-14.5-129zm-60.5 181.1c-8.3 37-22.8 72-43 104-19.7 31.1-44.3 58.6-73.1 81.7-28.8 23.1-61 41-95.7 53.4-35.6 12.7-72.9 19.1-110.9 19.1-82.6 0-161.7-30.6-222.8-86.2l-34.1-35.8c-23.9-29.3-42.4-62.2-55.1-97.7-12.4-34.7-18.8-71-19.2-107.9-.4-36.9 5.4-73.3 17.1-108.2 12-35.8 30-69.2 53.4-99.1 31.7-40.4 71.1-72 117.2-94.1 44.5-21.3 94-32.6 143.4-32.6 49.3 0 97 10.8 141.8 32 34.3 16.3 65.3 38.1 92 64.8 26.1 26 47.5 56 63.6 89.2 16.2 33.2 26.6 68.5 31 105.1 4.6 37.5 2.7 75.3-5.6 112.3z" fill="currentColor"></path></svg></button><button class="wl-action" title="GIF"><svg width="24" height="24" fill="currentcolor" viewbox="0 0 24 24"><path style="transform: translateY(0.5px)" d="M18.968 10.5H15.968V11.484H17.984V12.984H15.968V15H14.468V9H18.968V10.5V10.5ZM8.984 9C9.26533 9 9.49967 9.09367 9.687 9.281C9.87433 9.46833 9.968 9.70267 9.968 9.984V10.5H6.499V13.5H8.468V12H9.968V14.016C9.968 14.2973 9.87433 14.5317 9.687 14.719C9.49967 14.9063 9.26533 15 8.984 15H5.984C5.70267 15 5.46833 14.9063 5.281 14.719C5.09367 14.5317 5 14.2973 5 14.016V9.985C5 9.70367 5.09367 9.46933 5.281 9.282C5.46833 9.09467 5.70267 9.001 5.984 9.001H8.984V9ZM11.468 9H12.968V15H11.468V9V9Z"></path><path d="M18.5 3H5.75C3.6875 3 2 4.6875 2 6.75V18C2 20.0625 3.6875 21.75 5.75 21.75H18.5C20.5625 21.75 22.25 20.0625 22.25 18V6.75C22.25 4.6875 20.5625 3 18.5 3ZM20.75 18C20.75 19.2375 19.7375 20.25 18.5 20.25H5.75C4.5125 20.25 3.5 19.2375 3.5 18V6.75C3.5 5.5125 4.5125 4.5 5.75 4.5H18.5C19.7375 4.5 20.75 5.5125 20.75 6.75V18Z"></path></svg></button><input class="upload" id="wl-image-upload" type="file" accept=".png,.jpg,.jpeg,.webp,.bmp,.gif"><label for="wl-image-upload" class="wl-action" title="Upload Image"><svg viewbox="0 0 1024 1024" width="24" height="24"><path d="M784 112H240c-88 0-160 72-160 160v480c0 88 72 160 160 160h544c88 0 160-72 160-160V272c0-88-72-160-160-160zm96 640c0 52.8-43.2 96-96 96H240c-52.8 0-96-43.2-96-96V272c0-52.8 43.2-96 96-96h544c52.8 0 96 43.2 96 96v480z" fill="currentColor"></path><path d="M352 480c52.8 0 96-43.2 96-96s-43.2-96-96-96-96 43.2-96 96 43.2 96 96 96zm0-128c17.6 0 32 14.4 32 32s-14.4 32-32 32-32-14.4-32-32 14.4-32 32-32zm462.4 379.2-3.2-3.2-177.6-177.6c-25.6-25.6-65.6-25.6-91.2 0l-80 80-36.8-36.8c-25.6-25.6-65.6-25.6-91.2 0L200 728c-4.8 6.4-8 14.4-8 24 0 17.6 14.4 32 32 32 9.6 0 16-3.2 22.4-9.6L380.8 640l134.4 134.4c6.4 6.4 14.4 9.6 24 9.6 17.6 0 32-14.4 32-32 0-9.6-4.8-17.6-9.6-24l-52.8-52.8 80-80L769.6 776c6.4 4.8 12.8 8 20.8 8 17.6 0 32-14.4 32-32 0-8-3.2-16-8-20.8z" fill="currentColor"></path></svg></label><button class="wl-action" title="Preview"><svg viewbox="0 0 1024 1024" width="24" height="24"><path d="M710.816 654.301c70.323-96.639 61.084-230.578-23.705-314.843-46.098-46.098-107.183-71.109-172.28-71.109-65.008 0-126.092 25.444-172.28 71.109-45.227 46.098-70.756 107.183-70.756 172.106 0 64.923 25.444 126.007 71.194 172.106 46.099 46.098 107.184 71.109 172.28 71.109 51.414 0 100.648-16.212 142.824-47.404l126.53 126.006c7.058 7.06 16.297 10.979 26.406 10.979 10.105 0 19.343-3.919 26.402-10.979 14.467-14.467 14.467-38.172 0-52.723L710.816 654.301zm-315.107-23.265c-65.88-65.88-65.88-172.54 0-238.42 32.069-32.07 74.245-49.149 119.471-49.149 45.227 0 87.407 17.603 119.472 49.149 65.88 65.879 65.88 172.539 0 238.42-63.612 63.178-175.242 63.178-238.943 0zm0 0" fill="currentColor"></path><path d="M703.319 121.603H321.03c-109.8 0-199.469 89.146-199.469 199.38v382.034c0 109.796 89.236 199.38 199.469 199.38h207.397c20.653 0 37.384-16.645 37.384-37.299 0-20.649-16.731-37.296-37.384-37.296H321.03c-68.582 0-124.352-55.77-124.352-124.267V321.421c0-68.496 55.77-124.267 124.352-124.267h382.289c68.582 0 124.352 55.771 124.352 124.267V524.72c0 20.654 16.736 37.299 37.385 37.299 20.654 0 37.384-16.645 37.384-37.299V320.549c-.085-109.8-89.321-198.946-199.121-198.946zm0 0" fill="currentColor"></path></svg></button></div><div class="wl-info"><div class="wl-text-number">0 <!--v-if-->  Words</div><button class="wl-btn">Login</button><button class="wl-btn primary" title="Cmd|Ctrl + Enter"><!--[-->Submit<!--]--></button></div><div class="wl-gif-popup"><input type="text" placeholder="Search GIF"><div class="wl-gallery" style="gap:6px;"><!--[--><!--]--></div><div class="wl-loading"><svg width="30" height="30" viewbox="0 0 100 100" preserveaspectratio="xMidYMid"><circle cx="50" cy="50" fill="none" stroke="currentColor" strokewidth="4" r="40" stroke-dasharray="85 30"><animateTransform attributename="transform" type="rotate" repeatcount="indefinite" dur="1s" values="0 50 50;360 50 50" keytimes="0;1"></animateTransform></circle></svg></div></div><div class="wl-emoji-popup"><!--[--><!--]--><!--v-if--></div></div></div><!--v-if--></div><div class="wl-count"><!--v-if--> Comments</div><div class="wl-cards"><!--[--><!--]--></div><!--[--><div class="wl-loading"><svg width="30" height="30" viewbox="0 0 100 100" preserveaspectratio="xMidYMid"><circle cx="50" cy="50" fill="none" stroke="currentColor" strokewidth="4" r="40" stroke-dasharray="85 30"><animateTransform attributename="transform" type="rotate" repeatcount="indefinite" dur="1s" values="0 50 50;360 50 50" keytimes="0;1"></animateTransform></circle></svg></div><!--]--><!-- Copyright Information --><div class="wl-power"> Powered by <a href="https://github.com/walinejs/waline" target="_blank" rel="noreferrer"> Waline </a> v2.6.1</div></div></div><!----><!--]--></main><!--]--><footer class="footer-wrapper"><div class="footer"></div><div class="copyright">Copyright © 2022-present ADempiere Community</div></footer><!--]--></div><!--]--><!----><!----><!--]--></div>
+    <script src="/assets/js/runtime~app.1ab2fe50.js" defer></script><script src="/assets/js/8095.50afc563.js" defer></script><script src="/assets/js/app.e9f8f974.js" defer></script>
+  </body>
+</html>
