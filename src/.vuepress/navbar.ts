@@ -59,7 +59,15 @@ export const enNavbarConfig = navbar([
       },
       {
         text: "Community",
-        children: ["code-of-conduct", "duties-and-rigths", "community-detail" , "wiki" ],
+        children: ["code-of-conduct", "duties-and-rigths", "community-detail" ],
+      },
+      {
+        text: "Wiki",
+        children: [
+          "wiki/developers-guide/",
+          "wiki/preface/",
+          "wiki/meetings/",
+        ],
       },
     ],
   },
