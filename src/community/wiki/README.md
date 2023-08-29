@@ -18,4 +18,4 @@ A work in progress. This page will become the table of contents of the ADempiere
 4. [System Administrator's Guide](a)
 5. [User Guide](./user-guide/README.md)
 6. [Appendices](a)
-
+7. [Meetings](./meetings/README.md)
