@@ -46,8 +46,8 @@ The ADempiere scripts rely on the existence of a system environment variable JAV
 
 Following the instructions for your system, add a new System Variable JAVA_HOME for your new JDK directory:
 
-JAVA_HOME use C:\Program Files\Java\jdk1.7.0_25 (or whatever your JDK directory is called)
-Append the following JDK path to the system path: %JAVA_HOME%\bin or $JAVA_HOME/bin
+`JAVA_HOME use C:\Program Files\Java\jdk1.7.0_25 (or whatever your JDK directory is called)
+Append the following JDK path to the system path: %JAVA_HOME%\bin or $JAVA_HOME/bin`
 
 ### Database
 
@@ -99,7 +99,7 @@ The setup utility will need to make changes to environment variables. Execute th
 
 :::
 
-Navigate to $ADEMPIERE_HOME and execute RUN_setup.[sh|bat].
+Navigate to `$ADEMPIERE_HOME and execute RUN_setup.[sh|bat]`.
 
 ::: info Note:
 In linux systems you may need to change the executable rights of the *.sh files in the $ADEMPIERE_HOME directory.
@@ -120,7 +120,7 @@ You will need to change:
 
 You may also need to change the following:
 
-- Change Adempiere Home to $ADEMPIERE_HOME (e.g., C:\Adempiere) if it has been set to the wrong location.
+- Change Adempiere Home to `$ADEMPIERE_HOME (e.g., C:\Adempiere) if it has been set to the wrong location`.
 - Set Application Server Web Port to 8080 and SSL to 8443 (instead of 443). Access to ports 80 and 443 is often restricted to system administrators. If these ports are already in use, you can choose other open ports. Check your system documentation for how to find open/available ports.
 
 ### Press the Test button
@@ -132,10 +132,10 @@ The database does not have a user adempiere or a database adempiere at this poin
 
 :::
 
-If you are having problems, see the detailed instructions on this dialog in the pages [InstallServer](a) and [ServerSetupHelp](a)
+If you are having problems, see the detailed instructions on this dialog in the pages [InstallServer](application-server-installation-setup.md) and [ServerSetupHelp](a)
 
 ::: info Note:
-The setup process will have created several files in the $ADEMPIERE_HOME and $ADEMPIERE_HOME\utils directories with names like adempiere.properties, adempiereEnv.properties and myEnvironment.bat. The adempiere.properties file can be copied to a new name and a different properties file created to, for example, create a sandbox version of the database with a database name like adempiere_sandbox.
+`The setup process will have created several files in the $ADEMPIERE_HOME and $ADEMPIERE_HOME\utils directories with names like adempiere.properties, adempiereEnv.properties and myEnvironment.bat. The adempiere.properties file can be copied to a new name and a different properties file created to, for example, create a sandbox version of the database with a database name like adempiere_sandbox`.
 
 :::
 
@@ -146,7 +146,7 @@ The following script will DROP any existing adempiere database. Do not run this 
 
 :::
 
-In a shell, navigate to $ADEMPIERE_HOME\utils and execute 'RUN_ImportAdempiere.[sh|bat]'.
+`In a shell, navigate to $ADEMPIERE_HOME\utils and execute RUN_ImportAdempiere.[sh|bat]`
 
 See [CreateDatabase](a) for more information.
 
@@ -161,17 +161,17 @@ If you are not installing patches, skip this step.
 The migration scripts can be found in the *_migra_*.[zip|tar] file downloaded above. Unzip the contents to a convenient directory. The scripts can be applied in a number of ways, using database tools or the command line. Refer to the documentation for your database.
 
 ### XML - Since Release 3.8.0
-The XML migration scripts to apply should be saved in the $ADEMPIERE_HOME\migrations directory. These scripts will be included in *_migra_*.zip file. Unzip the contents to $ADEMPIERE_HOME\migrations. To apply the scripts, execute the command $ADEMPIERE_HOME\utils\RUN_MigrateXML.[sh|bat] from a shell.
+`The XML migration scripts to apply should be saved in the $ADEMPIERE_HOME\migrations directory. These scripts will be included in *_migra_*.zip file. Unzip the contents to $ADEMPIERE_HOME\migrations. To apply the scripts, execute the command $ADEMPIERE_HOME\utils\RUN_MigrateXML.[sh|bat] from a shell.`
 
 ## Run ADempiere
 
 ### Start the Application Server
 
-In a shell, navigate to $ADEMPIERE_HOME\utils. Execute 'RUN_Server2.[sh|bat]' and wait for the server to fully start - it will end this phase with "INFO [Server] JBoss .... Started in xx:xx:xx ms", which will take around 30 seconds to 3 minutes depending on your computer.
+In a shell, navigate to `$ADEMPIERE_HOME\utils. Execute RUN_Server2.[sh|bat]` and wait for the server to fully start - it will end this phase with "INFO [Server] JBoss .... Started in xx:xx:xx ms", which will take around 30 seconds to 3 minutes depending on your computer.
 
 ### Starting the Application Server Automatically
 
-In Windows, if you would like to run the server as a service, in a shell, navigate to $ADEMPIERE_HOME\utils\windows and run Adempiere_Service_Install.bat. You will need to open the Services Window (Control Panel{{#if: Administrative Tools | →Administrative Tools }}{{#if: Services | →Services }}{{#if: | → }}) to set the properties so the service starts automatically or manually. Note that this won't work Windows Server 2013 until the ADempiere software is upgraded.
+In Windows, if you would like to run the server as a service, in a shell, navigate to `$ADEMPIERE_HOME\utils\windows` and run Adempiere_Service_Install.bat. You will need to open the Services Window `(Control Panel{{#if: Administrative Tools | →Administrative Tools }}{{#if: Services | →Services }}{{#if: | → }})` to set the properties so the service starts automatically or manually. Note that this won't work Windows Server 2013 until the ADempiere software is upgraded.
 
 In linux, you can use nohup or an equivalent tool.
 
@@ -185,7 +185,7 @@ At this point, your installation is complete and you can move on to [Launching t
 
 To uninstall the software, simple delete the $ADEMPIERE_HOME directory. To delete the database, use the database administrator to drop the adempiere database and user.
 
-To revert to the previous version, delete the $ADEMPIERE_HOME directory and copy the previous version to $ADEMPIERE_HOME. Restore the backed-up copy of the database using $ADEMPIER_HOME\utils\RUN_DBRestore.[sh|bat].
+To revert to the previous version, delete the $ADEMPIERE_HOME directory and copy the previous version to $ADEMPIERE_HOME. Restore the backed-up copy of the database using `$ADEMPIER_HOME\utils\RUN_DBRestore.[sh|bat]`.
 
 ## System Specific Installations
 
