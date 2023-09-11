@@ -67,6 +67,7 @@ export const enNavbarConfig = navbar([
           "wiki/developers-guide/",
           "wiki/preface/",
           "wiki/meetings/",
+          "wiki/user-guide/",
         ],
       },
     ],
