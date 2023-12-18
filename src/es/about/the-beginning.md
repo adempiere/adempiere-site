@@ -1,6 +1,7 @@
 ---
-title: El Comienzo
+title: El inicio
 category: Historia
+icon: article
 star: 9
 sticky: 9
 tag:

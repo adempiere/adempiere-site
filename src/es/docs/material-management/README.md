@@ -1,8 +1,7 @@
 ---
 title: Gestión de Materiales
-
-category:
-  - Gestión de materiales
+icon: box
+category: Materiales
 star: 9
 sticky: 9
 article: false
@@ -13,4 +12,4 @@ Los datos maestros incluyen registros que dan lugar a transacciones, por lo tant
 
 Vaya al siguiente contenido para obtener más información al respecto:
 
-[Definición de Producto](producto)
+[Definición de Producto](./product)

@@ -1,6 +1,6 @@
 ---
 title: Estibador
-icon: estibador
+icon: install
 category: Descarga
 star: 9
 sticky: 9
@@ -10,9 +10,8 @@ tag:
 article: false
 ---
 
-Sustituya este texto por [ADempiere ERP](http://adempiere.net/) tip
+Sustituya este texto por [ADempiere ERP](http://adempiere.net/)
 
-:::
 
 ## Reemplace esto por una nueva sección
 

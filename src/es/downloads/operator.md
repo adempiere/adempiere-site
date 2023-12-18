@@ -1,6 +1,6 @@
 ---
-title: Operator
-icon: descarga
+title: Operador
+icon: install
 category: Descarga
 star: 9
 sticky: 9
