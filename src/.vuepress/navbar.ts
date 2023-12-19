@@ -359,7 +359,7 @@ export const esNavbarConfig = navbar([
   
   {
     text: "Descargas",
-    icon: "software",
+    icon: "cache",
     prefix: "/es/downloads/",
     children: [
       {
@@ -377,21 +377,20 @@ export const esNavbarConfig = navbar([
 
   {
     text: "Fundación",
-    icon: "software",
+    icon: "interact",
     prefix: "/es/foundation/",
     children: [
       {
         text: "Fundación",
-        icon: "software",
+        icon: "interact",
         link: "",
         activeMatch: "^/es/foundation/$",
       },
       {
-        text: "Como",
+        text: "Cómo",
         children: [
           "how-to-contribute",
           "membership",
-          "board",
           "statutes",
           "sponsors",
         ],

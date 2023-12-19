@@ -1,6 +1,6 @@
 ---
 title: Miembros
-category: Foundación
+category: group
 star: 9
 sticky: 9
 tag:
@@ -8,7 +8,17 @@ tag:
 article: false
 ---
 
+## Miembros de la Junta 2016
+
+- Michael McKay, Presidente y Relaciones Públicas, [mckayERP, canadiense](http://www.mckayerp.com/)
+- Michael Judd, vicepresidente, [Kimberly-Clark, británica](http://www.kimberly-clark.com/)
+- Susanne Calderon, Vicepresidenta y Tesorera, [Systemhaus Westfalia, Alemania](http://www.westfalia-it.com/)
+- Mario Calderon, Vicepresidente, [Systemhaus Westfalia, salvadoreño](http://www.westfalia-it.com/)
+- Víctor Pérez, Vicepresidente, [e-Evolution, Mexicano](http://www.e-evolution.com/)
+
 Como asociación sin ánimo de lucro, la Fundación ADempiere está controlada por sus miembros. Los miembros pueden participar en las asambleas de la Fundación, votar sobre los asuntos de la Fundación, seleccionar la Junta Directiva y servir en la Junta.
+
+---
 
 ## ¿Quién puede convertirse en miembro y qué tipos de membresías están disponibles?
 
