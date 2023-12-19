@@ -3,7 +3,7 @@
   <id>https://github.com/adempiere/adempiere-site.github.io/es/</id>
   <title/>
   <subtitle>Página oficial de la comunidad de ADempiere</subtitle>
-  <updated>2023-09-22T20:42:07.389Z</updated>
+  <updated>2023-12-19T13:44:18.378Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://github.com/adempiere/adempiere-site.github.io/atom.xml"/>
   <link rel="alternate" href="https://github.com/adempiere/adempiere-site.github.io/es/"/>
@@ -136,7 +136,7 @@ On the other hand we are in the process of migrating information from the old so
     <title type="html">Conferencia Berlin 2009</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/es/about/meeting/berlin-2009.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/es/about/meeting/berlin-2009.html"/>
-    <updated>2022-08-26T17:59:34.000Z</updated>
+    <updated>2023-12-19T13:42:25.000Z</updated>
     <content type="html"><![CDATA[<h2 id="_2do-conferencia-europea-adempiere-en-berlin" tabindex="-1"> 2do. Conferencia europea ADempiere en Berlín</h2>
 <p><strong>21 al 23 de junio de 2009</strong></p>
 <p>Por primera vez en mayo de 2007, desarrolladores de todo el mundo, involucrados en el proyecto de código abierto ADempiere, se reunieron para la primera conferencia europea ADempiere en el FHTW de Berlín.</p>
