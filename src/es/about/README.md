@@ -1,6 +1,7 @@
 ---
 title: Algo de Historia
 category: Historia
+icon: about
 star: 9
 sticky: 9
 tag:

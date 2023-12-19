@@ -1,10 +1,10 @@
 ---
-title: Como Contribuir?
+title: ¿Cómo Contribuir?
 category: Fundación
 star: 9
 sticky: 9
 tag:
-  - Contribucion
+  - Contribución
 article: false
 ---
 

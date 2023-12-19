@@ -1,6 +1,6 @@
 ---
 title: Conferencia Berlin 2009
-icon: fecha
+icon: date
 category: Base
 star: 9
 sticky: 9

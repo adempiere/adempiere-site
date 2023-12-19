@@ -61,4 +61,3 @@ Verifica si la fundación tiene un interés particular en proyectos relacionados
 1.- La fundación puede promover proyectos de interés para Adempiere, estos proyectos son para el desarrollo de características puntuales y por los cuales un desarrollador recibirá un premio monetario estimulado al momento de la publicación del proyecto, si el desarrollador realiza la tarea y cumple con los requisitos del proyecto.
 
 2.- Los proyectos promovidos por la fundación deben seguir los requisitos técnicos  de los proyectos postulados
-

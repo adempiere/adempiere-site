@@ -4,14 +4,12 @@ icon: interact
 category: Fundación
 star: 9
 sticky: 9
-tag:
-  - Fundación
 article: false
 ---
 
-## Acerca de la Asociación
+::: tip
 
-::: consejo ¿Quién es ADempiere Deutschland e.V.?
+¿Quién es ADempiere Deutschland e.V.?
 
 La asociación ADempiere (ADempiere Deutschland e.V.) representa el proyecto de software de código abierto "ADempiere" en Alemania. Nos entendemos como socio desarrollador formado por personas que trabajan con ADempiere.
 

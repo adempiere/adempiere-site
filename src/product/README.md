@@ -11,6 +11,8 @@ tag:
 article: false
 ---
 
+## [How to install](./how-to-install/README.md)
+
 ## Business Processes
 
 - Product Cost
