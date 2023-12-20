@@ -11,3 +11,5 @@ article: false
 ---
 
 - [How to install JDK 8](./installing-jdk8.md)
+
+- [How to Document](./)
