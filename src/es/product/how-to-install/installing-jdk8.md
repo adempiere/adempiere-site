@@ -1,4 +1,15 @@
-## Como instalar JDK 8 
+---
+title: ¿Cómo instalar JDK 8?
+icon: list
+star: 9
+sticky: 9
+tag:
+  - Producto
+  - ADempiere
+  - JDK 8
+article: false
+author: Jesús Albujas
+---
 
 1. Descargar el JDK 8
 
