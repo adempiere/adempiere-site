@@ -11,6 +11,13 @@ export default hopeTheme({
     url: "https://adempiere-site.erpya.com",
   },
 
+  themeColor: {
+    blue: "#933e95",
+    red: "#f26d6d",
+    green: "#3eaf7c",
+    orange: "#fb9b5f",
+  },
+
   iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
   iconPrefix: "iconfont icon-",
 

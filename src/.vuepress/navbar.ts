@@ -100,10 +100,23 @@ export const enNavbarConfig = navbar([
       //   ],
       // },
       {
-        text: "Develop Guide",
+        text: "How to Contribute",
         children: [
-          "develop-guide/getting-started/",
+          "how-to-contribute/getting-started.md",
+          //"material-management/warehouse/",
+        ],
+      },
+      {
+        text: "Developer Guide",
+        children: [
+          "developer-guide/",
           // "material-management/warehouse/",
+        ],
+      },
+      {
+        text: "System Administration",
+        children: [
+          "system-administration/",
         ],
       },
       {
@@ -191,6 +204,7 @@ export const enNavbarConfig = navbar([
     ],
   },
 ]);
+
 
 export const zhNavbarConfig = navbar([
   "/zh/",
@@ -306,10 +320,23 @@ export const esNavbarConfig = navbar([
       //   ],
       // },
       {
-        text: "Guía de Desarrollo",
+        text: "Cómo contribuir",
         children: [
-          "develop-guide/getting-started/",
+          "how-to-contribute/getting-started.md",
           // "material-management/warehouse/",
+        ],
+      },
+      {
+        text: "Guía del Desarrollador",
+        children: [
+          "developer-guide/",
+          // "material-management/warehouse/",
+        ],
+      },
+      {
+        text: "Administración del Sistema",
+        children: [
+          "system-administration/",
         ],
       },
       {
