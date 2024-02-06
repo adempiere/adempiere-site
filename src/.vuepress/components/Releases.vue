@@ -13,6 +13,12 @@
   </div>
 </template>
 
+<style>
+.search-box input {
+  width: 200px; /* You can adjust the size according to your needs. */
+}
+</style>
+
 <script>
 import axios from "axios";
 export default {
