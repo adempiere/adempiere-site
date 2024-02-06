@@ -12,7 +12,8 @@ article: false
 
 **ESTADO:** No ratificado explícitamente por los ciudadanos, pero en uso práctico desde la conferencia de 2009. Última actualización: Nwessel 14:32, 23 de mayo de 2012 (UTC)
 :::
-___
+
+---
 
 ## Resumen
 
@@ -20,7 +21,7 @@ ADempiere siempre ha sido una comunidad abierta. Si piensas en ADempiere como un
 
 En la [Conferencia de Berlín 2007](https://www.adempiere.io/about/meeting/berlin-2009.html), reconocimos que el proceso de toma de decisiones podría mejorarse en la comunidad, y esto nos llevó a pensar quiénes formaban parte de la comunidad. Reconocemos que hay muchas personas: usuarios finales, integradores de sistemas, estudiantes, entusiastas de la tecnología, expertos de la industria y técnicos. Para mejorar el proceso de toma de decisiones, consideramos importante definir y acordar cómo se deben tomar las decisiones.
 
-___
+---
 
 ## Definición de Comunidad
 
@@ -28,14 +29,14 @@ Proponemos que la comunidad incluya a personas más activas y a personas menos a
 
 Reconocemos a todas las personas como parte de la comunidad; solo necesitas tomar tu propia decisión para unirte. Hemos propuesto reconocer a las personas más activas otorgándoles el privilegio de ser [ciudadano de ADempiere](../community/citizens/README.md). Un ciudadano de ADempiere recibirá ciertos derechos pero también aceptará ciertas obligaciones. Las personas son libres de solicitar la ciudadanía siempre que estén de acuerdo con estos derechos y obligaciones.
 
-___
+---
 
 ## Derechos del Ciudadano
 
 - Tienes derecho a votar en todas las elecciones.
 - Tienes derecho a renunciar o renunciar a tu ciudadanía.
 
-___
+---
 
 ## Obligaciones del Ciudadano
 
@@ -43,7 +44,7 @@ ___
 - Los ciudadanos deben leer y estar de acuerdo con la Carta del Proyecto.
 - Los ciudadanos deben suscribirse y leer regularmente la Lista de Correo de Ciudadanos.
 
-___
+---
 
 ## Cómo Convertirse en Ciudadano
 
@@ -64,7 +65,7 @@ Estos son solo algunos ejemplos, y esperamos expandir y definir esto con el tiem
 
 - Una vez que haya concluido el período de votación, alguien resumirá el resultado de la votación y declarará el resultado de la elección. Si el ciudadano potencial obtiene más del 50% de los votos (excluyendo los =0), entonces la persona se convierte en ciudadano de ADempiere.
 
-___
+---
 
 ## Votación
 
@@ -76,7 +77,7 @@ Puedes votar con un +1, lo que significa que estás de acuerdo, un -1, lo que si
 
 Cuando termine la semana o se alcance un resultado claro (por ejemplo, > 50% de votos +1), se contará el resultado y se enviará con el número de votos sí y no a la lista.
 
-___
+---
 
 ## ¿Cómo Renunciar a tu Ciudadanía?
 
@@ -84,7 +85,7 @@ ___
 
 Una declaración propuesta sería: "Yo [Insertar Nombre] renuncio a mi ciudadanía en la comunidad de Adempiere". Debes ser ciudadano para renunciar a tu ciudadanía.
 
-___
+---
 
 ## ¿Cómo Podrías Perder tu Ciudadanía?
 
