@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://github.com/adempiere/adempiere-site.github.io/es/atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-ES">
   <id>https://github.com/adempiere/adempiere-site.github.io/es/</id>
   <title/>
   <subtitle>Página oficial de la comunidad de ADempiere</subtitle>
-  <updated>2023-12-26T20:12:26.735Z</updated>
+  <updated>2024-02-06T18:28:47.107Z</updated>
   <generator>vuepress-plugin-feed2</generator>
-  <link rel="self" href="https://github.com/adempiere/adempiere-site.github.io/atom.xml"/>
+  <link rel="self" href="https://github.com/adempiere/adempiere-site.github.io/es/atom.xml"/>
   <link rel="alternate" href="https://github.com/adempiere/adempiere-site.github.io/es/"/>
   <category term="Articulos"/>
   <category term="Base"/>
@@ -13,10 +13,12 @@
     <name>Victor Pérez</name>
   </contributor>
   <entry>
-    <title type="html">El futuro de ADempiere como sistema reactivo DDD</title>
+    <title type="text">El futuro de ADempiere como sistema reactivo DDD</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/es/about/articles/2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/es/about/articles/2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system.html"/>
     <updated>2022-12-20T15:55:05.000Z</updated>
+    <summary type="html"><![CDATA[<p>Antes de empezar a hablar de modularidad, me gustaría describir el camino para definir la arquitectura más adecuada para un software como ADempiere.</p>
+<p>Durante los últimos años he estado leyendo y analizando los diferentes enfoques y arquitecturas para el desarrollo de software y al mismo tiempo descifrar cuál sería la mejor para ADempiere.</p>]]></summary>
     <content type="html"><![CDATA[<p>Antes de empezar a hablar de modularidad, me gustaría describir el camino para definir la arquitectura más adecuada para un software como ADempiere.</p>
 <p>Durante los últimos años he estado leyendo y analizando los diferentes enfoques y arquitecturas para el desarrollo de software y al mismo tiempo descifrar cuál sería la mejor para ADempiere.</p>
 <p>Como todos sabemos muy bien, el diseño de nuestro programa se basa en una combinación de dos capas <a href="http://en.wikipedia.org/wiki/Cliente" target="_blank" rel="noopener noreferrer">Cliente/servido</a> (1) Swing, que en los años noventa del el siglo pasado fue uno de los que mejor se adoptó porque utilizó la red y las PC de manera que el servidor principal se liberó de la carga pesada al dejar ciertas tareas en el cliente. El objetivo principal era que el núcleo del software se ejecutara en un servidor central mientras los clientes se conectaban a él para acceder a los datos y realizar la lógica comercial localmente.</p>
@@ -95,14 +97,16 @@ victor.perez@e-evolution.com</p>
 <li>(11) <a href="http://www.reactivemanifesto.org" target="_blank" rel="noopener noreferrer">http://www.reactivemanifesto.org</a></li>
 </ul>
 ]]></content>
-    <category term="Articulos" scheme=""/>
+    <category term="Articulos"/>
     <published>2022-07-19T23:06:56.000Z</published>
   </entry>
   <entry>
-    <title type="html">Anuncio mundial del nuevo y mejorado portal de contenido de ADempiere</title>
+    <title type="text">Anuncio mundial del nuevo y mejorado portal de contenido de ADempiere</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/es/about/articles/2015-08-06-world-announcement-for-adempiere.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/es/about/articles/2015-08-06-world-announcement-for-adempiere.html"/>
     <updated>2022-11-09T12:27:08.000Z</updated>
+    <summary type="html"><![CDATA[<p>Nos complace anunciar el lanzamiento de un nuevo y mejorado portal de contenido para ADempiere alcanzando así otro hito tras el lanzamiento de la versión 380, lo que confirma la tracción y el compromiso de nuestra comunidad y de todos los que están detrás de este gran proyecto Bazaar.</p>
+<p>Un grupo de personas comprometidas trabajó arduamente durante varios meses para crear un sitio profesional e informativo para nuestra solución comercial, un lugar donde las personas encontrarán toda la información necesaria para evaluar nuestras herramientas de gestión de procesos, rompiendo la dependencia de un proveedor de software en particular y evitando licencias altas. costos y, lo que es más importante, no requerir compromisos a largo plazo de terceros para instalarlo, ampliarlo y/o personalizarlo.</p>]]></summary>
     <content type="html"><![CDATA[<p>Nos complace anunciar el lanzamiento de un nuevo y mejorado portal de contenido para ADempiere alcanzando así otro hito tras el lanzamiento de la versión 380, lo que confirma la tracción y el compromiso de nuestra comunidad y de todos los que están detrás de este gran proyecto Bazaar.</p>
 <p>Un grupo de personas comprometidas trabajó arduamente durante varios meses para crear un sitio profesional e informativo para nuestra solución comercial, un lugar donde las personas encontrarán toda la información necesaria para evaluar nuestras herramientas de gestión de procesos, rompiendo la dependencia de un proveedor de software en particular y evitando licencias altas. costos y, lo que es más importante, no requerir compromisos a largo plazo de terceros para instalarlo, ampliarlo y/o personalizarlo.</p>
 <p>El portal ofrece una descripción general de la historia, la funcionalidad, las características, los beneficios y las historias de éxito de ADempiere, pero también permite descargar rápidamente un instalador, acceder rápidamente al código fuente, rastrear errores y explorar los foros para aprender de otras organizaciones que utilizan Adempiere en todo el mundo.</p>
@@ -125,7 +129,7 @@ On the other hand we are in the process of migrating information from the old so
     <author>
       <name>Victor Pérez</name>
     </author>
-    <category term="Articulos" scheme=""/>
+    <category term="Articulos"/>
     <contributor>
       <name>Victor Pérez</name>
     </contributor>
@@ -133,37 +137,44 @@ On the other hand we are in the process of migrating information from the old so
     <rights>Copyright by Victor Pérez</rights>
   </entry>
   <entry>
-    <title type="html">Conferencia Berlin 2009</title>
+    <title type="text">Conferencia Berlin 2009</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/es/about/meeting/berlin-2009.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/es/about/meeting/berlin-2009.html"/>
     <updated>2023-12-19T13:42:25.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="_2do-conferencia-europea-adempiere-en-berlin" tabindex="-1"> 2do. Conferencia europea ADempiere en Berlín</h2>
+    <summary type="html"><![CDATA[<h2> 2do. Conferencia europea ADempiere en Berlín</h2>
+<p><strong>21 al 23 de junio de 2009</strong></p>
+<p>Por primera vez en mayo de 2007, desarrolladores de todo el mundo, involucrados en el proyecto de código abierto ADempiere, se reunieron para la primera conferencia europea ADempiere en el FHTW de Berlín.</p>]]></summary>
+    <content type="html"><![CDATA[<h2> 2do. Conferencia europea ADempiere en Berlín</h2>
 <p><strong>21 al 23 de junio de 2009</strong></p>
 <p>Por primera vez en mayo de 2007, desarrolladores de todo el mundo, involucrados en el proyecto de código abierto ADempiere, se reunieron para la primera conferencia europea ADempiere en el FHTW de Berlín.</p>
 <p>Aunque el líder del proyecto Red1 es de la opinión de que las posibilidades que uno tiene con Internet hoy en día son suficientes para conectar a los miembros del equipo y tener éxito en proyectos como ADempiere, Internet sigue siendo un lugar virtual con una comunidad virtual.</p>
-<p>Con esta primera conferencia, cada miembro de la comunidad &quot;ADempiere Bazaar&quot; pasó de ser una persona virtual a una persona real para todos los demás; los apodos se convirtieron en nombres reales y rostros reales. Este intercambio personal entre los miembros de la comunidad conduce a una buena aceleración en el desarrollo del proyecto.</p>
+<p>Con esta primera conferencia, cada miembro de la comunidad "ADempiere Bazaar" pasó de ser una persona virtual a una persona real para todos los demás; los apodos se convirtieron en nombres reales y rostros reales. Este intercambio personal entre los miembros de la comunidad conduce a una buena aceleración en el desarrollo del proyecto.</p>
 <p>Para involucrar a todos en otro encuentro personal, la 2ª conferencia europea ADempiere tendrá lugar en Berlín del 21 al 23 de junio.</p>
 <p>La conferencia se centrará en las mejoras técnicas de ADempiere y en la optimización de la estructura social de la comunidad de ADempiere para tener aún más éxito en términos de desarrollo y distribución.</p>
 <p>En total, utilizaremos el fin de semana para intercambiar experiencias personales con el software, así como para mejorar la documentación, el código y la localización, ¡y por supuesto para divertirnos mucho!</p>
 ]]></content>
-    <category term="Base" scheme=""/>
+    <category term="Base"/>
     <published>2022-07-19T23:06:56.000Z</published>
   </entry>
   <entry>
-    <title type="html">Conferencia Mundial ADempiere en Berlín</title>
+    <title type="text">Conferencia Mundial ADempiere en Berlín</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/es/about/meeting/berlin-2014.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/es/about/meeting/berlin-2014.html"/>
     <updated>2022-08-26T18:04:32.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="conferencia-mundial-adempiere-en-berlin" tabindex="-1"> Conferencia Mundial ADempiere en Berlín</h1>
+    <summary type="html"><![CDATA[<h1> Conferencia Mundial ADempiere en Berlín</h1>
 <p><strong>2 al 4 de septiembre de 2014</strong></p>
 <p>En mayo de 2007, la primera conferencia europea ADempiere en Berlín, organizada por la asociación alemana ADempiere, reunió a desarrolladores de todo el mundo.</p>
-<p>Aprovechando esta exitosa primera conferencia, la comunidad &quot;ADempiere Bazaar&quot; se reunió nuevamente para la segunda conferencia europea en 2009; paso a paso transformándose de una comunidad virtual a una comunidad real.</p>
-<p>Comenzando como solo la asociación alemana ADempiere, estas convincentes conferencias trajeron progreso y nuevos miembros a la comunidad, de modo que la asociación tuvo la oportunidad de abrirse y cambiar su nombre para convertirse en la &quot;asociación ADempiere&quot; con orientación internacional. El siguiente paso para reunir a desarrolladores de todo el mundo no es la Conferencia Europea, sino la Conferencia Mundial.</p>
+<p>Aprovechando esta exitosa primera conferencia, la comunidad "ADempiere Bazaar" se reunió nuevamente para la segunda conferencia europea en 2009; paso a paso transformándose de una comunidad virtual a una comunidad real.</p>]]></summary>
+    <content type="html"><![CDATA[<h1> Conferencia Mundial ADempiere en Berlín</h1>
+<p><strong>2 al 4 de septiembre de 2014</strong></p>
+<p>En mayo de 2007, la primera conferencia europea ADempiere en Berlín, organizada por la asociación alemana ADempiere, reunió a desarrolladores de todo el mundo.</p>
+<p>Aprovechando esta exitosa primera conferencia, la comunidad "ADempiere Bazaar" se reunió nuevamente para la segunda conferencia europea en 2009; paso a paso transformándose de una comunidad virtual a una comunidad real.</p>
+<p>Comenzando como solo la asociación alemana ADempiere, estas convincentes conferencias trajeron progreso y nuevos miembros a la comunidad, de modo que la asociación tuvo la oportunidad de abrirse y cambiar su nombre para convertirse en la "asociación ADempiere" con orientación internacional. El siguiente paso para reunir a desarrolladores de todo el mundo no es la Conferencia Europea, sino la Conferencia Mundial.</p>
 <p>Ahora, por primera vez en septiembre de 2011, la Conferencia Mundial ADempiere se lleva a cabo en la Universidad Técnica de Beuth en Berlín.</p>
 <p>La conferencia intenta reunir a todas las partes interesadas en ADempiere: miembros de la comunidad, proveedores de servicios, usuarios o personas interesadas únicamente en ADempiere.</p>
 <p>Los desarrolladores notables de ADempiere compartirán su conocimiento de ADempiere en charlas o talleres con valiosos consejos de mejores prácticas y casos de uso del mundo real.</p>
 <p>Podemos decir por el rápido aumento del número de participantes internacionales en la conferencia que la comunidad estaba esperando desesperadamente un evento como este.</p>
-<p>&quot;El interés y los comentarios que recibimos por la conferencia mundial son solo una prueba más de la colaboración global de los miembros de la comunidad y la creciente red en torno a ADempiere. Espero con ansias otra gran experiencia con este espíritu positivo y progresista que rodea a la comunidad&quot;. – Kai Schaeffer, presidente de la asociación ADempiere.</p>
+<p>"El interés y los comentarios que recibimos por la conferencia mundial son solo una prueba más de la colaboración global de los miembros de la comunidad y la creciente red en torno a ADempiere. Espero con ansias otra gran experiencia con este espíritu positivo y progresista que rodea a la comunidad". – Kai Schaeffer, presidente de la asociación ADempiere.</p>
 <p>Otro punto de la agenda de la Conferencia Mundial es la asamblea general de la asociación y la elección de un nuevo presidente.</p>
 <p>Por supuesto, el fin de semana también se utilizará para incorporar eventos sociales para conocernos más e intercambiar conocimientos y experiencias.</p>
 ]]></content>

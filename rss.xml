@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="https://github.com/adempiere/adempiere-site.github.io/rss.xsl"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <atom:link href="https://github.com/adempiere/adempiere-site.github.io/rss.xml" rel="self" type="application/rss+xml"/>
@@ -6,8 +6,8 @@
     <link>https://github.com/adempiere/adempiere-site.github.io/</link>
     <description>A official page of ADempiere community.</description>
     <language>en-US</language>
-    <pubDate>Tue, 26 Dec 2023 20:12:26 GMT</pubDate>
-    <lastBuildDate>Tue, 26 Dec 2023 20:12:26 GMT</lastBuildDate>
+    <pubDate>Tue, 06 Feb 2024 18:28:47 GMT</pubDate>
+    <lastBuildDate>Tue, 06 Feb 2024 18:28:47 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>Articles</category>
@@ -17,6 +17,7 @@
       <link>https://github.com/adempiere/adempiere-site.github.io/about/articles/2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system.html</link>
       <guid>https://github.com/adempiere/adempiere-site.github.io/about/articles/2015-06-22-the-future-of-adempiere-as-a-ddd-reactive-system.html</guid>
       <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">The Future Of ADempiere as a DDD reactive system</source>
+      <description>Before I start talking about modularity, I’d like to describe the path to define the most suitable architecture for a software like ADempiere. During the last years I’ve been reading and analyzing the different approaches and architectures for software development and at the same time figure out which would be the best for ADempiere.</description>
       <category>Articles</category>
       <pubDate>Mon, 22 Jun 2015 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>Before I start talking about modularity, I’d like to describe the path to define the most suitable architecture for a software like ADempiere.</p>
@@ -103,6 +104,7 @@ victor.perez@e-evolution.com</p>
       <link>https://github.com/adempiere/adempiere-site.github.io/about/articles/2015-08-06-world-announcement-for-adempiere.html</link>
       <guid>https://github.com/adempiere/adempiere-site.github.io/about/articles/2015-08-06-world-announcement-for-adempiere.html</guid>
       <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">World Announcement for ADempiere new and improved content portal</source>
+      <description>We are pleased to announce the launch of a new and improved content portal for ADempiere thus reaching another milestone following the release of version 380, which confirms the traction and commitment from our community and all those behind this great Bazaar project. A group of committed people worked hard for several months to build a professional and informative site for our business solution, a place where people will find all the required information to evaluate our process management tools, breaking dependence from a particular software provider and avoiding high license costs and more important not requiring long term commitments from third parties to install, extend and/or customize it.</description>
       <category>Articles</category>
       <pubDate>Thu, 06 Aug 2015 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[<p>We are pleased to announce the launch of a new and improved content portal for ADempiere thus reaching another milestone following the release of version 380, which confirms the traction and commitment from our community and all those behind this great Bazaar project.</p>
@@ -130,13 +132,14 @@ victor.perez@e-evolution.com</p>
       <link>https://github.com/adempiere/adempiere-site.github.io/about/meeting/berlin-2009.html</link>
       <guid>https://github.com/adempiere/adempiere-site.github.io/about/meeting/berlin-2009.html</guid>
       <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Berlin Conference 2009</source>
+      <description>2nd. European ADempiere conference in Berlin June 21st – 23rd 2009 For the first time in May 2007, developers from all over the world, involved in the open-source project ADempiere, met up for the first European ADempiere conference at the FHTW in Berlin. Though the project leader Red1 is of the opinion that the possibilities one has with the internet today are sufficient to connect team members and be successful on projectslike ADempiere, the internet still a virtual place with a virtual community.</description>
       <category>Foundation</category>
       <pubDate>Sun, 21 Jun 2009 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h2 id="_2nd-european-adempiere-conference-in-berlin" tabindex="-1"> 2nd. European ADempiere conference in Berlin</h2>
+      <content:encoded><![CDATA[<h2> 2nd. European ADempiere conference in Berlin</h2>
 <p><strong>June 21st – 23rd 2009</strong></p>
 <p>For the first time in May 2007, developers from all over the world, involved in the open-source project ADempiere, met up for the first European ADempiere conference at the FHTW in Berlin.</p>
 <p>Though the project leader Red1 is of the opinion that the possibilities one has with the internet today are sufficient to connect team members and be successful on projectslike ADempiere, the internet still a virtual place with a virtual community.</p>
-<p>With this first conference every member of the &quot;ADempiere Bazaar&quot; community turned from a virtual to a real person for everyone else; nicknames became real names and real faces. This personal exchange between community members lead to a good speed-up in the project development.</p>
+<p>With this first conference every member of the "ADempiere Bazaar" community turned from a virtual to a real person for everyone else; nicknames became real names and real faces. This personal exchange between community members lead to a good speed-up in the project development.</p>
 <p>To engage everyone in another personal meeting, the 2nd European ADempiere conference will take place in Berlin from June 21st till 23rd.</p>
 <p>The conference will focus on technical improvements in ADempiere and on optimizing the social structure of the ADempiere community to be even more successful in terms of development and distribution.</p>
 <p>Altogether we'll use the weekend to exchange personal experiences with the software as well as to improve documentation, code and localization – and of course to have a bunch of fun!</p>
@@ -147,18 +150,19 @@ victor.perez@e-evolution.com</p>
       <link>https://github.com/adempiere/adempiere-site.github.io/about/meeting/berlin-2014.html</link>
       <guid>https://github.com/adempiere/adempiere-site.github.io/about/meeting/berlin-2014.html</guid>
       <source url="https://github.com/adempiere/adempiere-site.github.io/rss.xml">Berlin Conference 2014</source>
+      <description>ADempiere World Conference in Berlin September 2nd till 4th of 2014 In May 2007 the 1st European ADempiere conference in Berlin – organized by the German ADempiere association – brought together developers from all over the world. Gaining from this successful first conference, the &amp;quot;ADempiere Bazaar&amp;quot; community met again for the 2nd European conference in 2009; step by step transforming from a virtual community into a real community.</description>
       <category>Foundation</category>
       <pubDate>Thu, 04 Sep 2014 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<h1 id="adempiere-world-conference-in-berlin" tabindex="-1"> ADempiere World Conference in Berlin</h1>
+      <content:encoded><![CDATA[<h1> ADempiere World Conference in Berlin</h1>
 <p><strong>September 2nd till 4th of 2014</strong></p>
 <p>In May 2007 the 1st European ADempiere conference in Berlin – organized by the German ADempiere association – brought together developers from all over the world.</p>
-<p>Gaining from this successful first conference, the &quot;ADempiere Bazaar&quot; community met again for the 2nd European conference in 2009; step by step transforming from a virtual community into a real community.</p>
-<p>Starting as only the German ADempiere association, these compelling conferences brought progress, and new members into the community, so that the association got the opportunity to open up and rename to be the &quot;ADempiere association&quot; with international orientation. The next step in bringing together developers from all over the world is not the European Conference, but the World Conference.</p>
+<p>Gaining from this successful first conference, the "ADempiere Bazaar" community met again for the 2nd European conference in 2009; step by step transforming from a virtual community into a real community.</p>
+<p>Starting as only the German ADempiere association, these compelling conferences brought progress, and new members into the community, so that the association got the opportunity to open up and rename to be the "ADempiere association" with international orientation. The next step in bringing together developers from all over the world is not the European Conference, but the World Conference.</p>
 <p>Now for the first time in September 2011 the ADempiere World Conference takes place at the Beuth Technical University in Berlin.</p>
 <p>The conference tries to bring together every party interested in ADempiere: Community members, service providers, users or people solely interested in ADempiere.</p>
 <p>Notable ADempiere developers will be sharing their ADempiere know how in talks or workshops with valuable best practice advice and real world use cases.</p>
 <p>We can tell from the quickly increasing number of international participants at the conference that the community was desperately waiting for an event like this.</p>
-<p>&quot;The interest and feedback we get for the world conference is just more proof for the global collaboration of community members and the growing network around ADempiere. I'm looking forward to another great experience with this positive and progressive spirit surrounding the community.&quot; – Kai Schaeffer, chairman of the ADempiere association.</p>
+<p>"The interest and feedback we get for the world conference is just more proof for the global collaboration of community members and the growing network around ADempiere. I'm looking forward to another great experience with this positive and progressive spirit surrounding the community." – Kai Schaeffer, chairman of the ADempiere association.</p>
 <p>Another item on the World Conference agenda is the general assembly of the association and the election of a new chairman.</p>
 <p>Of course the weekend will also be used to incorporate social events to get to know each other further and to exchange know how and experiences.</p>
 ]]></content:encoded>
