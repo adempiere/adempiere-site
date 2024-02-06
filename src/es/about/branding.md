@@ -28,4 +28,4 @@ El logo refleja los cuatro conceptos clave detrás de nuestra Comunidad:
 
 :::
 
-Para proteger el uso y la comunicación de nuestra marca, la comunidad ha desarrollado un conjunto de [Reglas de uso de la marca] (https://wiki.adempiere.net/Brand_Usage_Rules). Estas reglas describen cómo los miembros de la comunidad pueden usar la marca.
+Para proteger el uso y la comunicación de nuestra marca, la comunidad ha desarrollado un conjunto de [Reglas de uso de la marca](https://wiki.adempiere.net/Brand_Usage_Rules). Estas reglas describen cómo los miembros de la comunidad pueden usar la marca.
