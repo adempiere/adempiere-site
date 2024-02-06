@@ -24,12 +24,12 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 7
+          version: 8.6.5
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 20
           cache: pnpm
 
       - name: Install Deps
@@ -52,12 +52,12 @@ jobs:
       - name: Install pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 7
+          version: 8.6.5
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 20
           cache: pnpm
 
       - name: Install Deps
