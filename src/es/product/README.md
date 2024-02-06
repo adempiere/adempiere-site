@@ -59,9 +59,9 @@ article: false
 
 ## Informes
 
-:::
+::: tip Tip
 
-    ADempiere proporciona capacidades integrales de generación de informes.
+  ADempiere proporciona capacidades integrales de generación de informes.
 
 :::
 
@@ -137,4 +137,4 @@ El soporte de software representa una parte sustancial de los costos de por vida
 - Capacidad de expansión
 - Portabilidad
 
-todos los cuales son necesarios para el software que puede soportarse de manera eficiente y rentable. Muchos problemas asociados con el soporte de software pueden atribuirse a deficiencias en la forma en que se diseñó el producto de software original. La falta de atención al diseño de arquitecturas de software modulares durante el desarrollo puede causar problemas y costos de soporte de software excesivos. ADempiere está diseñado para ser lo más flexible posible y adaptarse al cambio. A menos que la arquitectura del sistema permita el cambio, es probable que las modificaciones al software sean difíciles y propensas a fallas. La arquitectura de software de ADempiere aborda cuidadosamente la abstracción, la encapsulación y la ocultación de información para minimizar las dependencias. Al maximizar el uso del diseño orientado a objetos, el software se puede modificar fácilmente. Active Data Dictionary de ADempiere garantiza que el soporte de software se pueda simplificar al garantizar que los cambios se realicen en una ubicación con un impacto constante en toda la aplicación. Además, ADempiere no utiliza conjuntos de herramientas de terceros que puedan dejar de ser compatibles debido a la falta de interés de sus respectivos proveedores. Aparte de la propia base de datos de Oracle, el código fuente de todos los aspectos del sistema está abierto y disponible, lo que garantiza que la comunidad de usuarios siempre podrá brindar soporte para todos los aspectos del sistema.
+Todos los cuales son necesarios para el software que puede soportarse de manera eficiente y rentable. Muchos problemas asociados con el soporte de software pueden atribuirse a deficiencias en la forma en que se diseñó el producto de software original. La falta de atención al diseño de arquitecturas de software modulares durante el desarrollo puede causar problemas y costos de soporte de software excesivos. ADempiere está diseñado para ser lo más flexible posible y adaptarse al cambio. A menos que la arquitectura del sistema permita el cambio, es probable que las modificaciones al software sean difíciles y propensas a fallas. La arquitectura de software de ADempiere aborda cuidadosamente la abstracción, la encapsulación y la ocultación de información para minimizar las dependencias. Al maximizar el uso del diseño orientado a objetos, el software se puede modificar fácilmente. Active Data Dictionary de ADempiere garantiza que el soporte de software se pueda simplificar al garantizar que los cambios se realicen en una ubicación con un impacto constante en toda la aplicación. Además, ADempiere no utiliza conjuntos de herramientas de terceros que puedan dejar de ser compatibles debido a la falta de interés de sus respectivos proveedores. Aparte de la propia base de datos de Oracle, el código fuente de todos los aspectos del sistema está abierto y disponible, lo que garantiza que la comunidad de usuarios siempre podrá brindar soporte para todos los aspectos del sistema.

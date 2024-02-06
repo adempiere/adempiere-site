@@ -9,12 +9,11 @@ tag:
 article: false
 ---
 
-
 # Procedimiento para Postular Proyectos para asignar fondos de la fundación
 
-## Requisitos Generales: 
+## Requisitos Generales
 
-1.- **Investigación de la fundación y sus criterios de selección**: Comienza investigando la fundación que organiza el concurso y comprende sus objetivos y requisitos para la asignación de fondos. 
+1.- **Investigación de la fundación y sus criterios de selección**: Comienza investigando la fundación que organiza el concurso y comprende sus objetivos y requisitos para la asignación de fondos.
 
 Verifica si la fundación tiene un interés particular en proyectos relacionados con Adempiere.
 
@@ -36,17 +35,17 @@ Verifica si la fundación tiene un interés particular en proyectos relacionados
 
 10.- **Seguimiento**: Después de enviar la solicitud, mantén una comunicación activa con la fundación, ofreciéndote a responder cualquier pregunta adicional que puedan tener.
 
-## Requisitos Técnicos 
+## Requisitos Técnicos
 
 1.- El proyecto deben ser ejecutados y desarrollados dentro de los repositorios del proyecto github.com/adempiere
 
-2.- El proyecto debe seguir la metodología, mejores prácticas y procedimientos de desarrollo vigentes estipulados por el proyecto siendo aprobado por el equipo técnico y funcional 
+2.- El proyecto debe seguir la metodología, mejores prácticas y procedimientos de desarrollo vigentes estipulados por el proyecto siendo aprobado por el equipo técnico y funcional
 
 3.- El proyecto debe ser liberado bajo una licencia aprobada por la fundación (GPL2, GPL3, Apache2)
 
 4.- Los desarrolladores que participen en el proyecto deben firmar el Acuerdo de Contribución de Adempiere (importante definir) el objetivo es que cualquier contribución no tenga problemas para cualquier propiedad intelectual o uso de patentes
 
-5.- El proyecto debe estar documentado para poder ser evaluado y probado por cualquier interesado 
+5.- El proyecto debe estar documentado para poder ser evaluado y probado por cualquier interesado
 
 6.- El proyecto una vez postulado debe ser votado por los ciudadanos, los recursos se asignan en base a su porcentaje de participación en las votaciones para los tres proyectos más votados, si existe un empate en la votación los recursos se asignan dividiendo entre los proyectos con la misma votación
 
@@ -54,7 +53,7 @@ Verifica si la fundación tiene un interés particular en proyectos relacionados
 
 9.- La fundación dará el reconocimiento públicamente de los contribuidores del proyecto
 
-8.- Anunciar y publicar el proyecto oficialmente 
+8.- Anunciar y publicar el proyecto oficialmente
 
 ## Proyectos Promovidos por la Fundación
 
