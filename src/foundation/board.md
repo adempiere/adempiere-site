@@ -8,11 +8,11 @@ tag:
 article: false
 ---
 
-## Consejeros 2016
+## Board Members Since 2016
 
-- Víctor Pérez, Vicepresidente, [e-Evolution, Mexicano](http://www.e-evolution.com/)
-- Michael Judd, vicepresidente, [Kimberly-Clark, británico] (http://www.kimberly-clark.com/)
-- Susanne Calderon, Vicepresidenta y Tesorera, [Systemhaus Westfalia, Alemana](http://www.westfalia-it.com/)
-- Mario Calderon, Vicepresidente, [Systemhaus Westfalia, Salvadoreño](http://www.westfalia-it.com/)
-- Yamel Senih , Vicepresidente, [ERPYa, Venezolano](https://erpya.com)
+- Víctor Pérez, President, [e-Evolution, Mexicano](http://www.e-evolution.com/)
+- Michael Judd, Board Member, [Augur, United Kingdom](http://www.augurinsight.com/)
+- Susanne Calderon, Board Member & Treasurer, [Systemhaus Westfalia, Alemana](http://www.westfalia-it.com/)
+- Mario Calderon, Board Member, [Systemhaus Westfalia, Salvadoreño](http://www.westfalia-it.com/)
+- Yamel Senih , Board Member, [ERPYa, Venezolano](https://erpya.com)
 
