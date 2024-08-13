@@ -47,7 +47,7 @@
     "markdownlint-cli": "0.31.1",
     "prettier": "2.6.2"
   },
-  "packageManager": "pnpm@8.6.5",
+  "packageManager": "pnpm@9.1.1",
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [

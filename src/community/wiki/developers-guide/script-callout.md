@@ -9,98 +9,142 @@ tag:
 article: false
 ---
 
-## Creating the Rule
+A Script Callout (also known as Callout) is a mechanism that allows developers and advanced users to customize and extend the system's functionality.
 
-Within the script you can use:
+A Script Callout is a piece of code that executes in response to a specific event in ADempiere, such as:
 
-- Window context variables start with a W_ prefix
-- Login context variables start with G_ prefix
-- Parameters for callout start with A_ prefix
-  - A_WindowNo
-  - A_Tab
-  - A_Field
-  - A_Value
-  - A_OldValue
-  - A_Ctx
+- When saving a record
+- When validating a field
+- When processing a document
+- When performing a specific action in a window
 
-![BeanShell](/assets/img/community/developers-guide/01_BeanShell.png)
+Script Callouts are a powerful way to customize ADempiere without the need to modify the system's source code, making it easier to implement specific user requirements.
 
-## Configure Callout from Table/Column
+## Variables and Parameters
 
-![BeanShell2](/assets/img/community/developers-guide/02_BeanShellCallout.png)
+Within the script, you can use:
 
-- This Callout can also be called from the [Report & Process Window](script-process.md). Just remember to set in the Rule window from which Event Type are you calling this Rule Script.
+- Window context variables start with the prefix `W_`.
+- Login context variables start with the prefix `G_`.
+- Parameters for callouts start with the prefix `A_`:
+  - `A_WindowNo`: The number of the window from which the callout is invoked.
+  - `A_Tab`: The current tab.
+  - `A_Field`: The field being interacted with.
+  - `A_Value`: The current value of the field.
+  - `A_OldValue`: The previous value of the field.
+  - `A_Ctx`: The current context of the callout.
 
-## Sample Code provided for copy/paste testing
+## Scripting Languages and Syntax
 
-On the Table and Column, callout reference:
+ADempiere now supports JARs for working with [Groovy](https://groovy-lang.org/index.html), [Jython](https://www.jython.org/), and [Beanshell](https://beanshell.github.io/manual/contents.html).
 
-~~~
-@script:beanshell:BP_fillDescriptionFromName
-~~~
+When creating the rule, you must set the **Code** field as follows, depending on the language you are using:
 
-On the Rule Search Key:
+```sh
+beanshell:YourCalloutName
+groovy:YourCalloutName
+jython:YourCalloutName
+```
 
-~~~
-if (A_Tab.getValue("Name") != null) {
-    A_Tab.setValue("Description", A_Tab.getValue("Name"));
-}
+To call a script from a Callout, use the following example syntax:
+
+```sh
+@script:beanshell:YourCalloutName
+@script:groovy:YourCalloutName
+@script:jython:YourCalloutName
+```
+
+- Set the Event Type to Callout and the Rule Type to JSR 223 Scripting APIs.
+
+## Create Rule
+
+For this example, we will create a "Hello World" that will be printed to the console.
+
+![Create a Rule](/assets/img/community/developers-guide/CreateRule.png)
+
+Format provided for copy and paste:
+
+- Code: `beanshell:HelloWorld`
+- Name: `HelloWorldInCallout`
+- Event Type: `Callout`
+- Rule Type: `JSR 223 Scripting APIs`
+- Script:
+
+```java
+System.out.println("Hello World ADempiere");
 result = "";
-~~~
+```
 
-## Sample Code for Setting Payment Bank Account
+## Configure Callout from `Table and Column`
 
-This script will set the bank account on the Payment window based on the Tender Type and Credit Card Type.
+To call the callout, go to the **Table and Column** window, find the desired table, go to the **Column** tab, and fill in the **Callout** field at the end.
 
-On the Payment Table and Column, callout reference for Tender Type and Credit Card Type:
+For this example, the callout will be placed in the **A_Asset** table (Fixed Asset), in the **M_Product_ID** column (Product).
 
-~~~
-@script:beanshell:payment_setpaymentprocessor
-~~~
+![Callout In Column](/assets/img/community/developers-guide/CalloutInColumn.png)
 
-On the Rule Search Key:
+::: note
 
-~~~
-beanshell:payment_setpaymentprocessor
-~~~
+To call the **Callout**, follow the structure previously explained in [Scripting Languages and Syntax](https://www.adempiere.io/community/wiki/developers-guide/script-callout.html#lenguajes-de-scripting).
 
-On the Rule Script:
+:::
 
-~~~
-import org.compiere.model.MPayment;
+This Callout will be triggered when a product is selected in the **Fixed Assets** window:
 
-if(A_Tab.getValue("TenderType") != null && A_Tab.getValue("CreditCardType") != null && A_Tab.getValue("CreditCardType") != "")
-{
-   MPayment pmt = new MPayment(A_Ctx, 0,null);
-   pmt.setTenderType(A_Tab.getValue("TenderType"));
-   pmt.setC_Currency_ID(A_Tab.getValue("C_Currency_ID"));
-   pmt.setCreditCardType(A_Tab.getValue("CreditCardType"));
-   pmt.setPaymentProcessor();
-   A_Tab.setValue("C_BankAccount_ID", pmt.getC_BankAccount_ID());
-   pmt = null;
+
+![Product in Asset](/assets/img/community/developers-guide/SelectProductInAsset.png)
+
+In the console, we will see our "Hello World"
+
+![Hello World](/assets/img/community/developers-guide/HelloWorld.png)
+
+- This **Callout** can also be called from the [Report and Processes](script-process.md) window. Just remember to set in the **Rules** window which **Event Type** you are using to call this Rule Script.
+
+## Variable Result
+
+The **result** variable must be assigned within the Callout context to define the message or result that will be returned after executing the Callout logic. This variable is used to indicate error messages, warnings, or information that should be displayed to the user.
+
+The line `result = "";` in the script:
+
+```java
+System.out.println("Hello World ADempiere");
+result = "";
+```
+
+Is assigning an empty value to **result**. This means that no error or warning message is being returned to the user. If you need to return a specific message, you should assign it to result as shown:
+
+```java
+result = "Custom message for the user";
+```
+
+When the Callout is triggered, it shows the message:
+
+![Message to the User](/assets/img/community/developers-guide/CustomMessage.png)
+
+## Example
+
+- When selecting a **Product** in the **Fixed Asset** window, the content of the **Code** field in the **Product** window should be automatically copied to the **Code** field in the **Fixed Asset** window.
+
+```java
+import org.compiere.util.DB;
+String value = "";
+String productType= "";
+
+if (A_Tab.getValue("M_Product_ID") != null) {
+    int productId = (int) A_Tab.getValue("M_Product_ID");
+    String sql = "SELECT Value FROM M_Product WHERE M_Product_ID = ?";
+    value = DB.getSQLValueString(null, sql, productId);
 }
-else
-{
-   A_Tab.setValue("C_BankAccount_ID", 0);
-}    
-result="";
-~~~
+if (value != null && value != "") {
+    A_Tab.setValue("Value", value);
+}
 
-## Scripting Languages
+result = "";
+```
 
-- Now standard Adempiere has uploaded jars to work with [groovy](http://groovy.codehaus.org/), [jython](http://www.jython.org/Project/index.html) and [beanshell](http://www.beanshell.org/)
-- to call a script from a Callout follow these sample syntax:
-
-  - @script:beanshell:ValidateQtyOnHand
-  - @script:groovy:ValidateQtyOnHand
-  - @script:jython:ValidateQtyOnHand
-
-- When you create the rule, you have to set in the Search Key such as:
-  - Search Key : beanshell:ValidateQtyOnHand
-  - Search Key : groovy:ValidateQtyOnHand
-  - Search Key : jython:ValidateQtyOnHand
-
-- Set the Event Type as Callout and Rule Type as JSR 223 Scripting APIs
+<video width="640" height="360" controls>
+  <source src="/assets/img/community/developers-guide/CalloutInProduct.mp4" type="video/mp4">
+</video>
 
 ## See Also
 
