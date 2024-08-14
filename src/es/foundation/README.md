@@ -1,6 +1,6 @@
 ---
 title: Sobre la Asociación
-icon: interact
+icon: user-plus
 category: Fundación
 star: 9
 sticky: 9

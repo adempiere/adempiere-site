@@ -1,6 +1,6 @@
 ---
 title: How to Install JDK 8
-icon: install
+icon: fa-brands fa-java
 star: 9
 sticky: 9
 tag:

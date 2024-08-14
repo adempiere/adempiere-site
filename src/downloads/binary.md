@@ -1,6 +1,6 @@
 ---
 title: Binary Download
-icon: github
+icon: fa-brands fa-github
 category: Download
 star: 9
 sticky: 9

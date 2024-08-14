@@ -1,7 +1,7 @@
 ---
 title: La Marca
 category: Marca
-icon: angular
+icon: rectangle-ad
 star: 9
 sticky: 9
 tag:

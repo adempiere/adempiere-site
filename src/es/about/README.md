@@ -1,7 +1,7 @@
 ---
-title: Algo de Historia
+title: Acerca de ADempiere
 category: Historia
-icon: about
+icon: info
 star: 9
 sticky: 9
 tag:

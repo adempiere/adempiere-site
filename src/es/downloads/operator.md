@@ -1,6 +1,6 @@
 ---
 title: Operador
-icon: install
+icon: download
 category: Descarga
 star: 9
 sticky: 9
@@ -11,7 +11,7 @@ article: false
 
 Reemplazar este texto por resumen del índice
 
-::: consejo Introducción
+::: tip Introducción
 
 Sustituya este texto por [ADempiere ERP](http://adempiere.net/) tip
 

@@ -12,4 +12,4 @@ Master data includes records that give rise to transactions, therefore they are 
 
 Go to the follow content for learn more about it:
 
-[Product Definition](product)
+- [Product Definition](product/)

@@ -1,6 +1,6 @@
 ---
 title: Who Are We?
-icon: group
+icon: people-group
 category: Community
 star: 9
 sticky: 9

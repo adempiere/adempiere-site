@@ -22,11 +22,11 @@ Currently it only describes the ADempiere Project.
 
 ### Discussion
 
-- This page and the [Best Practice](https://wiki.adempiere.net/ADempiere_Best_Practices) page is under live discussion by the [Round Table](https://wiki.adempiere.net/2nd_European_ADempiere_Conference#Round_table).
+- This page and the [Best Practice](/community/wiki/developers-guide/adempiere-best-practices.md) page is under live discussion by the [Round Table](https://wiki.adempiere.net/2nd_European_ADempiere_Conference#Round_table).
 
 - If you wish to edit anything here, please wait for official resolution from the [2nd European ADempiere Conference](https://wiki.adempiere.net/2nd_European_ADempiere_Conference) now in session.
 
-- However you may continue discussion over any points here at the [Talk:Project_Charter](https://wiki.adempiere.net/Talk:Project_Charter).
+- However you may continue discussion over any points here at the Project Charter.
 
 ### Introduction
 
