@@ -1,6 +1,6 @@
 ---
 title: Docker
-icon: docker
+icon: fa-brands fa-docker
 category: Download
 star: 9
 sticky: 9

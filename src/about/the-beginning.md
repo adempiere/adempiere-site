@@ -1,6 +1,7 @@
 ---
 title: The Beginning
 category: History
+icon: scroll
 star: 9
 sticky: 9
 tag:

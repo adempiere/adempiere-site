@@ -1,6 +1,6 @@
 ---
 title: Descargas
-icon: install
+icon: download
 category: Descarga
 star: 9
 sticky: 9
@@ -18,7 +18,7 @@ article: false
 
 El ERP, CRM y SCM de código abierto que impulsa a millones de empresas en todo el mundo. Obtenga todas las características de este gran ERP para su organización o negocio.
 
-::: sugerencia
+::: tip
 
 Obtenga más información sobre ADempiere ERP [aquí](../docs)
 

@@ -1,6 +1,6 @@
 ---
 titulo: Conferencia Berlin 2014
-icon: date
+icon: handshake
 categoria: Base
 star: 9
 sticky: 9

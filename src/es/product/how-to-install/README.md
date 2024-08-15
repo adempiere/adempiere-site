@@ -1,7 +1,7 @@
 ---
 title: ¿Cómo instalar?
 category: Install
-icon: install
+icon: download
 star: 9
 sticky: 9
 tag:

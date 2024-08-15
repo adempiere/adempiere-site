@@ -12,7 +12,6 @@ This is the archive for this page: [Citizen Elections](../citizens/citizen-elect
 
 Name | SF nick | application form received | Nominater | Supporter#1 | Supporter#2 | Status
 -- | -- | -- | -- | -- | -- | --
-`<Name>` | `<SF-Nick>` | `<Yes/No>` | Link | Link#1 | Link#2 | result: accepted/rejected
 Ricardo Santana | ralexsander | Yes | [1](https://sourceforge.net/projects/adempiere/forums/forum/611167/topic/4850865) | [2](https://sourceforge.net/projects/adempiere/forums/forum/611167/topic/4850865) | [3](https://sourceforge.net/projects/adempiere/forums/forum/611167/topic/4850865) | accepted 16.07.2012
 Silvano Trinchero | freepath | Yes | [1](https://sourceforge.net/projects/adempiere/forums/forum/611167/topic/4850865) | [2](https://sourceforge.net/projects/adempiere/forums/forum/611167/topic/4850865) | [3](https://sourceforge.net/projects/adempiere/forums/forum/611167/topic/4850865) | accepted 16.07.2012
 Azzam Othman | azzamahmad | Yes | [1](https://sourceforge.net/projects/adempiere/forums/forum/611167/topic/4838257) | [1](https://sourceforge.net/projects/adempiere/forums/forum/611167/topic/4838257) | [1](https://sourceforge.net/projects/adempiere/forums/forum/611167/topic/4838257) | accepted 16.07.2012

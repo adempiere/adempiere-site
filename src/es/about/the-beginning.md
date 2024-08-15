@@ -1,7 +1,7 @@
 ---
 title: El inicio
 category: Historia
-icon: article
+icon: scroll
 star: 9
 sticky: 9
 tag:

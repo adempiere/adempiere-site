@@ -1,7 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-
-import { enNavbarConfig, esNavbarConfig } from "./navbar";
-// import { esSidebarConfig, enSidebarConig } from "./sidebar";
+import { enNavbarConfig, esNavbarConfig } from "./navbar/index.ts";
+import { esSidebarConfig, enSidebarConfig } from "./sidebar/index.ts";
 
 export default hopeTheme({
   hostname: "https://github.com/adempiere/adempiere-site.github.io",
@@ -11,15 +10,9 @@ export default hopeTheme({
     url: "https://adempiere-site.erpya.com",
   },
 
-  themeColor: {
-    blue: "#933e95",
-    red: "#f26d6d",
-    green: "#3eaf7c",
-    orange: "#fb9b5f",
-  },
+  themeColor: true,
 
-  iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
-  iconPrefix: "iconfont icon-",
+  iconAssets: "fontawesome-with-brands",
 
   logo: "/logo.svg",
 
@@ -32,7 +25,7 @@ export default hopeTheme({
   locales: {
     "/": {
       navbar: enNavbarConfig,
-      // sidebar: enSidebarConig,
+      sidebar: enSidebarConfig,
 
       blog: {
         description: "ADempiere ERP Community",
@@ -45,7 +38,7 @@ export default hopeTheme({
     },
     "/es/": {
       navbar: esNavbarConfig,
-      // sidebar: esSidebarConfig,
+      sidebar: esSidebarConfig,
 
       blog: {
         description:
@@ -84,12 +77,9 @@ export default hopeTheme({
       demo: true,
       flowchart: true,
       footnote: true,
-      imageMark: true,
       presentation: true,
       sub: true,
       sup: true,
-      tex: true,
-      vpre: true,
     },
 
     pwa: {

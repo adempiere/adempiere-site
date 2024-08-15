@@ -1,6 +1,7 @@
 ---
 title: The Brand
 category: Branding
+icon: rectangle-ad
 star: 9
 sticky: 9
 tag:

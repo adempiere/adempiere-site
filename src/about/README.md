@@ -1,6 +1,7 @@
 ---
-title: Some History
+title: About ADempiere
 category: History
+icon: info
 star: 9
 sticky: 9
 tag:

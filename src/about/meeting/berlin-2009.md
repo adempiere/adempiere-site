@@ -1,6 +1,6 @@
 ---
 title: Berlin Conference 2009
-icon: date
+icon: handshake
 category: Foundation
 star: 9
 sticky: 9

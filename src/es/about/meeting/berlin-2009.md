@@ -1,6 +1,6 @@
 ---
 title: Conferencia Berlin 2009
-icon: date
+icon: handshake
 category: Base
 star: 9
 sticky: 9
