@@ -3,7 +3,7 @@
   <id>https://github.com/adempiere/adempiere-site.github.io/es/</id>
   <title/>
   <subtitle>Página oficial de la comunidad de ADempiere</subtitle>
-  <updated>2024-08-13T16:45:39.691Z</updated>
+  <updated>2024-08-15T12:20:33.118Z</updated>
   <generator>vuepress-plugin-feed2</generator>
   <link rel="self" href="https://github.com/adempiere/adempiere-site.github.io/es/atom.xml"/>
   <link rel="alternate" href="https://github.com/adempiere/adempiere-site.github.io/es/"/>
@@ -140,7 +140,7 @@ On the other hand we are in the process of migrating information from the old so
     <title type="text">Conferencia Berlin 2009</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/es/about/meeting/berlin-2009.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/es/about/meeting/berlin-2009.html"/>
-    <updated>2023-12-19T13:42:25.000Z</updated>
+    <updated>2024-08-15T12:18:56.000Z</updated>
     <summary type="html"><![CDATA[<h2> 2do. Conferencia europea ADempiere en Berlín</h2>
 <p><strong>21 al 23 de junio de 2009</strong></p>
 <p>Por primera vez en mayo de 2007, desarrolladores de todo el mundo, involucrados en el proyecto de código abierto ADempiere, se reunieron para la primera conferencia europea ADempiere en el FHTW de Berlín.</p>]]></summary>
@@ -160,7 +160,7 @@ On the other hand we are in the process of migrating information from the old so
     <title type="text">Conferencia Mundial ADempiere en Berlín</title>
     <id>https://github.com/adempiere/adempiere-site.github.io/es/about/meeting/berlin-2014.html</id>
     <link href="https://github.com/adempiere/adempiere-site.github.io/es/about/meeting/berlin-2014.html"/>
-    <updated>2022-08-26T18:04:32.000Z</updated>
+    <updated>2024-08-15T12:18:56.000Z</updated>
     <summary type="html"><![CDATA[<h1> Conferencia Mundial ADempiere en Berlín</h1>
 <p><strong>2 al 4 de septiembre de 2014</strong></p>
 <p>En mayo de 2007, la primera conferencia europea ADempiere en Berlín, organizada por la asociación alemana ADempiere, reunió a desarrolladores de todo el mundo.</p>
